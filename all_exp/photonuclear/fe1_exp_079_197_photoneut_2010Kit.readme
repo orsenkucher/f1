@@ -1,0 +1,77 @@
+#  fe1_exp_079_197_photoneut_2010Kit_K2199003.readme      
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2199003
+#  Element = Au      Z = 79    A =197
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2199   20100816   20100915   20100816       K008                                  
+#  SUBENT        K2199001   20100816   20100915   20100816       K008                                  
+#  BIB                 12         39                                                                   
+#  TITLE      Measurement of the 80Se(g,n) cross section using                                         
+#             laser-Compton scattering gamma-rays                                                      
+#  AUTHOR     (F.Kitatani, H.Harada, S.Goko, H.Utsunomiya, H.Akimune,                                  
+#             T.Kaihori, H.Toyokawa, K.Yamada)                                                         
+#  INSTITUTE  (2JPNJAE)                                                                                
+#             (2JPNKON)                                                                                
+#             (2JPNAIS)                                                                                
+#  REFERENCE  (J,NST,47,(4),367,201004)                                                                
+#  PART-DET   (N,G)                                                                                    
+#  INC-SOURCE Beam intensity is 80 to 230 mA.                                                          
+#             (LCS) Wave length of the laser beam is 532nm.                                            
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#  METHOD     (RINGR) To determine average neutron energies. 20 3He                                    
+#                     proportional counters coaxially embedded in                                      
+#                     polyethylene moderator at distance of 3.8, 7.0                                   
+#                     and 10.0 cm from beam axis.                                                      
+#  FACILITY   (SRING,2JPNAIS) To store electron beam from 547.6 to                                     
+#                             677.4 MeV at Tsukuba Electron Ring for                                   
+#                             Accelerating and Storage (TERAS)                                         
+#  DETECTOR   (PROPC) To detect neutron                                                                
+#             (HPGE,BGO) To measure the energy distribution of the                                     
+#                        LCS gamma-ray.Two 334 cm**3 high-purity Ge                                    
+#                        detectors shielded with an array of 23                                        
+#                        pieces of BGO crystals (HHS)                                                  
+#             (NAICR) To measure the photon flux                                                       
+#  ERR-ANALYS (ERR-T) Total uncertainty. Difference between total                                      
+#                     uncertainties and quadratic sum of 7 partial                                     
+#                     uncertainties) attribute to total gamma                                          
+#                     counting                                                                         
+#             (ERR-1) Systematic error of NaI detector                                                 
+#             (ERR-2) Systematic error of correcting zero point                                        
+#             (ERR-3) Errors of the fraction of the gamma flux                                         
+#             (ERR-4) Errors of neutron detector efficiency                                            
+#             (ERR-5) Systematic error of fitting                                                      
+#             (ERR-6) Errors of LCS energy distribution                                                
+#             (ERR-S) Errors of neutron counts                                                         
+#  HISTORY    (20100602R) Received by e-mail from F.Kitatani                                           
+#             (20100603C) Ayano Makinaga                                                               
+#  ENDBIB              39                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.0        2.0                                                                                     
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           46                                                                              
+#  SUBENT        K2199003   20100816   20100915   20100816       K008                                  
+#  BIB                  3          5                                                                   
+#  REACTION   (79-AU-197(G,N)79-AU-196,,SIG)                                                           
+#  SAMPLE     Target-thickness: 4.00 mm in thickness, and 10.0 mm in                                   
+#             diameter                                                                                 
+#             (79-AU-197,ENR=0.9999)                                                                   
+#  STATUS     (TABLE) Plotted in Fig.10 of J,NST,47,367,2010                                           
+#  ENDBIB               5                                                                              
+#  NOCOMMON             0          0                                                                   

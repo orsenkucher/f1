@@ -1,0 +1,63 @@
+#  fe1_exp_079_197_photoneut_1970Ve1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0021010
+#  Element = Au   Z =  79   A = 197
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0021   20030312   20031002   20050926       0000
+#SUBENT        L0021001   20030312   20031002   20050926       0000
+#BIB                  8         25
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,159,561,197012)
+#AUTHOR     (A.VEYSSIERE,H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE)
+#TITLE      Photoneutron cross sections of 208Pb and 197Au.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#STATUS     208Pb(gamma,4n) data not on Berman file
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB Updated
+#           (19950330A) BIB Updated
+#           (20030312A) CORRECTED BY V.VARLAMOV:
+#            Dates corrected from two to four digits including
+#            that in REFERENCE and HISTORY,
+#            NOSUBENT records L0021002 and L0021006 added,
+#            L0021010 substituted: L0021003+L0021004+L0021005 -
+#            Au(G,SN)=Au((G,N)+(G,NP)+(G,2N)+(G,2NP)+(G,3N)),
+#            L0021011 added: L0021011=L0021007+L0021008+
+#            L0021009 - Pb(G,SN)=Pb((G,N)+(G,NP)+(G,2N)+(G,2NP)+
+#            (G,3N)),
+#            L0021012 added as sum L0021003+2xL0021004+
+#            3xL0021005 - Au(G,XN)=Au((G,N)+(G,NP)+2(G,2N)+
+#            2(G,2NP)+3(G,3N)),
+#            L0021013 added as sum L0021007+2xL0021008+
+#            3xL0021009 - Pb(G,XN)=Pb((G,N)+(G,NP)+2(G,2N)+
+#            2(G,2NP)+3(G,3N)).
+#ENDBIB              25
+#NOCOMMON             0          0
+#ENDSUBENT           28
+#SUBENT        L0021010   20030312   20031002   20050926       0000
+#BIB                  2          5
+#REACTION   (79-AU-197(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P)+(G,3N).
+#STATUS     (DEP,L0021003) (G,N) + (G,NP)
+#           (DEP,L0021004) (G,2N) +(G,2NP)
+#           (DEP,L0021005) (G,3N)
+#ENDBIB               5
+# E1 PSF were not given in the data file at E <  8.37 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.080     0.000    0.119E-06    0.792E-07

@@ -1,0 +1,22 @@
+# f1_exp_073_180_OM_3He4He_rec.dat                                              
+#                                                                               
+# Z = 73, A = 180                                                               
+# No. of entries: 12                                                            
+# Col 1: photon energy E in MeV                                                 
+# Col 2: bin width dE in MeV                                                    
+# Col 3: dipole strength f1 in MeV^-3                                           
+# Col 4: uncertainty df1 in MeV^-3                                              
+# Format: 2f10.3, 2e12.3                                                        
+# Author: K.L. Malatji (iThemba LABS/ Stellenbosch University)    #    E        
+     1.695	    0.390    2.062E-08    4.884E-09                                  
+     2.085     0.390    0.224E-07    0.469E-08
+     2.475     0.390    0.245E-07    0.666E-08
+     2.865     0.390    0.376E-07    0.957E-08
+     3.255     0.390    0.510E-07    0.162E-07
+     3.645     0.390    0.664E-07    0.209E-07
+     4.035     0.390    0.714E-07    0.276E-07
+     4.425     0.390    0.138E-06    0.506E-07
+     4.815     0.390    0.166E-06    0.735E-07
+     5.205     0.390    0.182E-06    0.128E-06
+     5.595     0.390    0.195E-06    0.171E-06
+     5.985     0.390    0.311E-06    0.371E-06

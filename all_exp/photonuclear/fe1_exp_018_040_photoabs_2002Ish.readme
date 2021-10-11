@@ -1,0 +1,106 @@
+#  fe1_exp_018_040_photoabs_2002Ish.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0648021
+#  Element = Ar   Z =  18   A =  40
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0648   20040322   20040506   20050926       0000
+#SUBENT        M0648001   20040322   20040506   20050926       0000
+#BIB                 10         31
+#TITLE      Cross sections of photon absorption  by  nuclei  with
+#            nucleon numbers 12 - 65.
+#AUTHOR     (B.S.ISHKHANOV,I.M.KAPITONOV,E.I.LILEEVA,
+#            E.V.SHIROKOV,V.A.EROKHOVA,M.A.ELKIN,A.V.IZOTOVA)
+#REFERENCE  (R,MSU-INP-2002-27/711,2002)
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   The total   photoabsorption   cross   sections   were
+#            evaluated using the  partial  photonuclear  reaction
+#            cross  sections  summation:  SIG(g,abs) = SIG(g,p) +
+#            SIG(g,n) + SIG(g,np) + SIG(g,2n).
+#           For photoabsorption cross section high-energy  (30  -
+#            40 MeV)  tail  the  special  normalization was used.
+#            Evaluated cross sections for 26 nuclei were obtained
+#            multiplying one   (nearest)   of  5  standard  cross
+#            sections for 12C,  16O,  27Al, 28Si, 40Ca by special
+#            coefficients  (k = [NZ/A]-evaluated/[NZ/A]-standard)
+#            calculated   using   classical   dipole   sum   rule
+#            (SIG-integrated = 60NZ/A MeV*mb).
+#ERR-ANALYS NO DATA.
+#COMMENT    Total photoabsorption  cross   sections   have   been
+#            evaluated for 31  nuclides  from  12C  to  65Cu  for
+#            energy  range till 40 MeV.  For most nuclides photon
+#            absorptoon cross  sections  have  been  obtained  by
+#            summation  of  partial  photonuclear  reaction cross
+#            sections,  for some of them  (12C,  14N,  16O,  19F,
+#            27Al,  28Si,  and 40Ca experimrntally measured cross
+#            sections have been used).
+#STATUS     (APRVD) BY M.A.Elkin.
+#            Data have been compiled at the Russia MSU SINP CDFE.
+#HISTORY    (20040213C)
+#ENDBIB              31
+#NOCOMMON             0          0
+#ENDSUBENT           34
+#SUBENT        M0648021   20040322   20040506   20050926       0000
+#BIB                  3          8
+#REACTION   (18-AR-40(G,ABS),,SIG,,,EVAL)
+#STATUS     (DEP,M0648022)
+#REL-REF    (E,M0648022,J.AHRENS+,J,NP/A,251,479,1975)
+#           40Ca(g,abs) reaction  experimental  cross section was
+#            used as standard.
+#           40Ar(g,p), (g,n)  and  (g,2n) reaction cross sections
+#            from R.A.Suton  et  al,  University  of   Melbourne,
+#            Preprint UM-P-82/74, 1974.
+#ENDBIB               8
+#NOCOMMON             0          0
+#ENDSUBENT           34
+#SUBENT        M0648021   20040322   20040506   20050926       0000
+#BIB                  3          8
+#REACTION   (18-AR-40(G,ABS),,SIG,,,EVAL)
+#STATUS     (DEP,M0648022)
+#REL-REF    (E,M0648022,J.AHRENS+,J,NP/A,251,479,1975)
+#           40Ca(g,abs) reaction  experimental  cross section was
+#            used as standard.
+#           40Ar(g,p), (g,n)  and  (g,2n) reaction cross sections
+#            from R.A.Suton  et  al,  University  of   Melbourne,
+#            Preprint UM-P-82/74, 1974.
+#ENDBIB               8
+# E1 PSF were not given in the data file at E < 10.63 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.000     0.000    0.147E-07    0.000E+00
+#     10.500     0.000    0.388E-07    0.000E+00
+# E1 PSF were not given in the data file at E > 32.33 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     32.500     0.000    0.440E-07    0.000E+00
+#     33.000     0.000    0.426E-07    0.000E+00
+#     33.500     0.000    0.412E-07    0.000E+00
+#     34.000     0.000    0.401E-07    0.000E+00
+#     34.500     0.000    0.387E-07    0.000E+00
+#     35.000     0.000    0.377E-07    0.000E+00
+#     35.500     0.000    0.366E-07    0.000E+00
+#     36.000     0.000    0.357E-07    0.000E+00
+#     36.500     0.000    0.345E-07    0.000E+00
+#     37.000     0.000    0.333E-07    0.000E+00
+#     37.500     0.000    0.324E-07    0.000E+00
+#     38.000     0.000    0.315E-07    0.000E+00
+#     38.500     0.000    0.306E-07    0.000E+00
+#     39.000     0.000    0.300E-07    0.000E+00
+#     39.500     0.000    0.292E-07    0.000E+00
+#     40.000     0.000    0.286E-07    0.000E+00

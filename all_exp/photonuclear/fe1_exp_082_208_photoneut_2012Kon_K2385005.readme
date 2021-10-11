@@ -1,0 +1,78 @@
+#  fe1_exp_082_208_photoneut_2012Kon_K2385005.readme      
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2385005
+#  Element = Pb      Z = 82    A =208
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2385   20150519   20150701   20150624       K015                                  
+#  SUBENT        K2385001   20150519   20150701   20150624       K015                                  
+#  BIB                 12         30                                                                   
+#  TITLE      Total and partial photoneutron cross sections for Pb                                     
+#             isotopes                                                                                 
+#  AUTHOR     (T.Kondo, H.Utsunomiya, S.Goriely, I.Daoutidis,                                          
+#              C.Iwamoto, H.Akimune, A.Okamoto, T.Yamagata, M.Kamata,                                  
+#              O.Itoh, H.Toyokawa, Y.-W.Lui, H.Harada, F.Kitatani,                                     
+#              S.Hilaire, A.J.Koning)                                                                  
+#  INSTITUTE  (2JPNKON) Department of Physics                                                          
+#             (2BLGBRU) Institut di Astronomie et di Astrophysique                                     
+#             (2JPNAIS)                                                                                
+#             (1USATAM) Cyclotron Institute                                                            
+#             (2JPNJAE)                                                                                
+#             (2FR BRC)                                                                                
+#             (2NEDNRG)                                                                                
+#  REFERENCE  (J,PR/C,86,014316,2012)                                                                  
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS) Lambda=532 nm photons at 24W and 1064 nm photons                                   
+#                   at 40W.                                                                            
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#  METHOD     (RINGR) The average neutron energy was determined.                                       
+#  FACILITY   (ESTRG,2JPNAIS) Tsukuba Electron Ring for Acceleration                                   
+#                             and Storage (TERAS) storage ring.                                        
+#  DETECTOR   Efficiency: The detection efficiency was 60-74% in the                                   
+#             energy range less than 1 MeV.                                                            
+#  ERR-ANALYS (ERR-1) neutron detection efficiency                                                     
+#             (ERR-2) number of incident gamma rays                                                    
+#  HISTORY    (20120820C) M.O. & A.Makinaga                                                            
+#             (20141025R) Received by e-mail from H. Utsunomiya                                        
+#             (20150519A) MA: HISTORY: information of author's                                         
+#                         contribution added.                                                          
+#  ENDBIB              30                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.2        3.0                                                                                     
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           37                                                                              
+#  SUBENT        K2385005   20130906   20130927   20130906       K013                                  
+#  BIB                  6         11                                                                   
+#  REACTION   (82-PB-208(G,N)82-PB-207,EP,SIG)                                                         
+#  INC-SOURCE (POLIS)                                                                                  
+#  SAMPLE     Target-thickness: 9587 mg                                                                
+#             (82-PB-208,ENR=0.985)                                                                    
+#  DETECTOR   (LONGC) Five 3He proportional counters, polyethylene                                     
+#                     moderator, and twelve neutron-guiding holes.                                     
+#  ERR-ANALYS (ERR-SYS) from polarization and neutron detection                                        
+#                       efficiency and number of gamma rays                                            
+#             (ERR-S) from neutron yields for vertical and                                             
+#                     horizontal detectors                                                             
+#  STATUS     (TABLE) Presented in Table I of PRC, 86, 014316(2012)                                    
+#  ENDBIB              11                                                                              
+#  COMMON               3          3                                                                   
+#  POL-BM     POL-BM-ERR POLAR                                                                         
+#  NO-DIM     NO-DIM     NO-DIM                                                                        
+#   0.934      0.007      1.                                                                           
+#  ENDCOMMON            3                                                                              

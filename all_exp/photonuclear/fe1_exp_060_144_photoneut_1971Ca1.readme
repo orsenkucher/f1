@@ -1,0 +1,47 @@
+#  fe1_exp_060_144_photoneut_1971Ca1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0025025
+#  Element = Nd   Z =  60   A = 144
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0025     970129              20050926       0000
+#SUBENT        L0025001     970129              20050926       0000
+#BIB                  7         10
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,172,437,7109)
+#AUTHOR     (P.CARLOS,H.BEIL,R.BERGERE,A.LEPRETRE,A.VEYSSIERE)
+#TITLE      The giant dipole resonance in the transition region
+#            for the neodymium isotopes.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891205A) BIB UPDATE
+#           (950331A) BIB UPDATE
+#ENDBIB              10
+#NOCOMMON             0          0
+#ENDSUBENT           13
+#SUBENT        L0025025     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (60-ND-144(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (950331C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E <  8.31 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.952     0.000    0.153E-06    0.436E-07
+#      8.224     0.000    0.131E-06    0.431E-07

@@ -1,0 +1,10 @@
+ # Sm-155 2keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from BNL/ECN data base and K. Schreckenbach et al., Nucl.Phys. A376(1982) 149
+ # The  p-wave correction: taken from the RACA code and applied in the Ig/Eg**3 BNL/ECN data base
+ # Normalization of 4E1 (<Eg = 5.39>) to <f(E1)> = 7.85E-08  from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.32 applied
+ # p-wawe contribution calculated (RACA) as 0.21 E1 in M1 (applied)
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.50
+ # RN SYS18 F = 1.09 from systematic equation [INDC(NED)-0772]
+ # 

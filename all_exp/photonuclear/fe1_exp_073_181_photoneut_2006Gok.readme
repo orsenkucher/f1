@@ -1,0 +1,109 @@
+#  fe1_exp_073_181_photoneut_2006Gok.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0690002
+#  Element = Ta      Z = 73    A =181
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0690   20170330   20170607   20170607       M088                                  
+#  SUBENT        M0690001   20170330   20170607   20170607       M088                                  
+#  BIB                 15         71                                                                   
+#  TITLE      Partial photoneutron cross sections for  the  isomeric                                   
+#              state 180Ta-m.                                                                          
+#  AUTHOR     (S.Goko,H.Utsunomiya,S.Goriely,A.Makinaga,T.Kaihori,                                     
+#             S.Hohara,H.Akimune,T.Yamagata,Y.-W.Lui,H.Toyokawa,                                       
+#             A.J.Koning,S.Hilaire)                                                                    
+#  REFERENCE  (J,PRL,96,192501,2006)                                                                   
+#  INSTITUTE  (2JPNKON,2BLGBRU,1USATAM,2JPNAIS,2NEDNRG,2FR BRC)                                        
+#  FACILITY   (ESTRG,2JPNAIS) Electron storage ring Tsukuba Electron                                   
+#              Ring for Accelerating and  Storage  at  the  National                                   
+#              Institute   of   Advanced   Industrial   Science  and                                   
+#              Technology.                                                                             
+#  INC-SOURCE (LCS) Quasimonochromatic   gamma-rays    produced   by                                   
+#              means of laser Compton backscattering (LCS), lambda =                                   
+#              532 nm laser photons were used.  The energy spread of                                   
+#              the LCS gamma-ray beam was 0.8  -  1.6  MeV  in  full                                   
+#              width at half maximum.                                                                  
+#  SAMPLE     Ten 1 cm x 1 cm 100  micron-thick  Ta  and  Au  foils,                                   
+#              99.95 %.                                                                                
+#  METHOD    T(RINGR) Direct neutron counting measurement  of  total                                   
+#              photoneutron  cross section using 20 3He proportional                                   
+#              counters (three concentric  rings  of  4,  8,  and  8                                   
+#              detectors)   embedded   at   38,   70   and  100  mm,                                   
+#              respectively  from  the  axis   in   a   polyethylene                                   
+#              moderator.                                                                              
+#            G(ACTIV) Photoactivation  measurement  of partial cross                                   
+#              section for the ground state in 181Ta.                                                  
+#  DETECTOR  T(PROPC) 3He proportional counters to detect neutron.                                     
+#             (NAICR) to   measure   the   intensity   of   the  LCS                                   
+#              gamma-rays.                                                                             
+#            G(HPGE) Hyperpure Germanium  detector  of  planer  type                                   
+#              with active volume of 114 cm**3 to measure the energy                                   
+#              distribution of the LCS gamma-rays.                                                     
+#  ANALYSIS  TDirect measurement.                                                                      
+#            GDirect measurement.                                                                      
+#            M(DIFFR) 180Ta  is  the one and only naturally occuring                                   
+#              isomer.  It is present in nature in an isomeric state                                   
+#              at excitation energy of 75.3 keV with the spin-parity                                   
+#              9-.  The isomer has the half-life greater than 1.2  x                                   
+#              10**15  yr,  in  contrast  to  the short-lived ground                                   
+#              state  (1+;  8.152  h)  in   180Ta.   Therefore   the                                   
+#              subtracting procedure was used: SIG-m = (SIG-tot) -                                     
+#               (SIG-gs).                                                                              
+#  ERR-ANALYS (ERR-S) Statistical errors.                                                              
+#            T(ERR-SYS) The systematic uncertainty is 4.4 % (3 % for                                   
+#              initial photon  flux and 3.2 %  for neutron detection                                   
+#              efficiency).                                                                            
+#            G(ERR-SYS) The  systematic  uncertainty  for the ground                                   
+#              state cross section is 4.6 %.                                                           
+#            M(ERR-SYS) The  systematic  uncertainties were obtained                                   
+#              using the procedure specially described in text.                                        
+#  COMMENT    Photoneutron cross sections for 181Ta(g,n)180Ta-m were                                   
+#              determined from simultaneous  measurements  of  total                                   
+#              cross   sections  (SIG-tot)  and  ground-state  cross                                   
+#              sections (SIG-gs) for 180Ta in photodisintegration of                                   
+#              181Ta  with  laser Compton backscattering gamma-rays.                                   
+#              Techniques   of   direct   neutron    counting    and                                   
+#              photoactivation  were used for measurement of SIG-tot                                   
+#              and SIG-gs,  respectively. The partial cross sections                                   
+#              for  the isomeric  state  serves  as a novel probe of                                   
+#              nuclear level density of 180Ta.  Implications for the                                   
+#              p-  and  s-  processes nucleosynthesis of 180Ta-m are                                   
+#              given.                                                                                  
+#  STATUS     (TABLE) The data from Table 2 have been  compiled  at                                    
+#              the MSU SINP CDFE by V.Varlamov.                                                        
+#             (APRVD) The date were approved by A.Makinaga.                                            
+#  CRITIQUE   There is  mistake  in the data head of first column of                                   
+#              the Table 2: Eg(MeV) must be, not Eg(mb).                                               
+#  HISTORY    (20060901C)                                                                              
+#             (20100209A) Corrected:     INC-SOURCE,     ERR-ANALYS,                                   
+#              CRITIQUE, COMMON deleted, DATA substituted.                                             
+#             (20170330A) Corrected by V.Varlamov: INC-SOURCE.                                         
+#  ENDBIB              71                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           74                                                                              
+#  SUBENT        M0690002   20100209   20100405   20100331       M052                                  
+#  BIB                  3          9                                                                   
+#  REACTION  T(73-TA-181(G,N)73-TA-180,,SIG)                                                           
+#            G(73-TA-181(G,N)73-TA-180-G,,SIG)                                                         
+#            M(73-TA-181(G,N)73-TA-180-M,,SIG)                                                         
+#  DECAY-DATA (73-TA-180-G,8.152HR)                                                                    
+#             (73-TA-180-M,1.2E15YR)                                                                   
+#  COMMENT    Systematical uncertainties T(ERR-SYS)  and  G(ERR-SYS)                                   
+#              in  mb  were  calculated  from correspondent data in                                    
+#              percents from  text  and  cross section data from the                                   
+#              table by compiler.                                                                      
+#  ENDBIB               9                                                                              
+#  NOCOMMON             0          0                                                                   

@@ -1,0 +1,58 @@
+#  fe1_exp_093_237_photoneut_1973Ve1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0031017
+#  Element = Np   Z =  93   A = 237
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0031   20071109   20080131   20080124       M044
+#SUBENT        L0031001   20071109   20080131   20080124       M044
+#BIB                  9         25
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,199,45,1973)
+#AUTHOR     (A.VEYSSIERE,H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE)
+#TITLE      A study of the photofission and photoneutron processes
+#            in the giant dipole resonance of 232Th, 238U and
+#            237Np.
+#FACILITY   (LINAC)
+#INC-SOURCE (QMPH) Positron annihilation
+#DETECTOR   (STANK) GD-loaded liquid scintillator tank
+#ERR-ANALYS (ERR-S) Statistical uncertainty
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB UPDATED
+#           (19950403A) BIB UPDATED
+#           (20030109A) Corrected  by  V.Varlamov:
+#            dates corrected  from  two  to four digits including
+#            those in reference and history,
+#            NOSUBENT L0031010 record added,
+#            L0031016 added as sum: L0031016=L0031015+L0031012
+#            +L0031013 ((G,XN)=(G,SN)+(G,2N)+(G,F)).
+#           (20030409A) Corrected by V.VARLAMOV: title corrected,
+#            some   DATA   and   DATA-ERR   values   in  L0031016
+#            substituted.
+#           (20070914A) Corrected  by  V.VARLAMOV:  BIB  and DATA
+#            sections in SUBENT 016 substituted, DATA-ERR changed
+#            to ERR-S, SUBENT 017 added, INC-SOURCE, lowercase.
+#ENDBIB              25
+#NOCOMMON             0          0
+#ENDSUBENT           28
+#SUBENT        L0031017   20071109   20080131   20080124       M044
+#BIB                  4          5
+#REACTION   (93-NP-237(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N)+(G,F)
+#HISTORY    (20070914C)
+#STATUS     (CURVE) Digitized figure.
+#REL-REF    (R,,S.S.DIETRICH+,J,AND,38,199,1988)
+#ENDBIB               5

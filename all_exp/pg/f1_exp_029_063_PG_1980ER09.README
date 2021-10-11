@@ -1,0 +1,12 @@
+# f1_exp_029_063_pg_e1980.readme
+# 
+# Data published by B. Erlandsson Nuclear Physics A348, 1 (1980).
+#
+# Reaction 62Ni(p,g)63Cu with beam energy between 1.9-2.4 MeV was measured at  # University of Lund. Primary transitions from different initial proton energies in 4 # keV steps are averaged over resonances to the ground and excited states # were measured.  
+# 
+# Gamma decays were measured with a pair spectrometer consisting of a Ge(Li) and # an annular 25cm x 30cm NaI(Tl) detectors.  
+# Cross sections of primary gamma-rays to low-lying discrete states from the Average # Resonance Proton Capture technique were extracted from measured intensities. The # absolute value of PSF is obtained from this cross section via analysis within the # Hauser-Feshbach theory. General description of the determination of absolute PSF # value can be found in G. Szeflinska et al., Nucl. Phys. A323, 253 (1979). Some # details on the parameters are given in the original paper but exact normalization is # difficult to track.
+#
+# The error in the relative efficiency of the detector has been estimated to be about
+# 5 %. Other sources of error are summing effects (5%), multipole mixing and angular
+# distribution effects (10%) nd peak area determination (l-20 %). The estimated # uncertainty from width fluctuations does notexceed 10%.

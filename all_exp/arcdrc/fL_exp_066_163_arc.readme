@@ -1,0 +1,8 @@
+ # Dy-163 2keV data  from BNL
+ # Ig/Eg**3 data in arbitrary units taken from H.H Schmidt et al., Nucl.Phys. A504 (1989) 1
+ # Normalization of 5 E1 (<Eg = 5.69>) transitions <f(E1)> = 7.26 E-08 normalization from DRC <f(E1)> table [INDC(NED)-013]
+ # M1 corrected for 0.14 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.37
+ # RN SYS18 F = 1.27   from systematic equation [INDC(NED)-0772]; EXP16  disregarded
+ # 

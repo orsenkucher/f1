@@ -1,0 +1,140 @@
+#  fe1_exp_008_nat_photoabs_1985Ahr.readme                                                  
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0188015
+#  Element = O    Z =   8   A = nat
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0188   20110126   20110323   20110311       M056
+#SUBENT        M0188001   20110126   20110323   20110311       M056
+#BIB                 10         26
+#TITLE      The total absorption of photons by nuclei.
+#AUTHOR     (J.AHRENS)
+#REFERENCE  (J,NP/A,446,229C,1985)
+#           #doi:10.1016/0375-9474(85)90591-3
+#INSTITUTE  (2GERMPM)
+#INC-SOURCE (QMPH) Annihilation in flight of fast positrons.
+#           (MPH,TAGD) Tagged photons.
+#ANALYSIS   The data averaging over available informatioN.
+#ERR-ANALYS (DATA-ERR) Mean root-square errors.
+#COMMENT    The  total  absorption cross sections for real photons
+#            by nuclei from deuteron to uranium are discussed. The
+#            absorption of photons by nuclei is compared with that
+#            of  free  proton.  Integrated  cross   sections   are
+#            discussed  on the basis of dispersion relations.  The
+#            data for cross sections per nucleon are given.
+#STATUS     (TABLE,APRVD)   The  data  have  been  received   from
+#           J.Ahrens in form of digital data files.
+#HISTORY    (19920116C)
+#           (20021113A) Corrected by V.Varlamov:
+#            Dates are   corrected   from   two  to  four  digits
+#            including that in reference and  history,  new  data
+#            for cross  sections in units mb are added in subents
+#            M0188011 - M0188019 with correspondent comments.
+#           (20110126A) Corrected    by   V.Varlamov:   REFERENCE,
+#            STATUS,  REACTION  in  SUBENTs 011 - 019, ERR-ANALYS,
+#            INSTITUTE, lowercase.
+#ENDBIB              26
+#NOCOMMON             0          0
+#ENDSUBENT           29
+#SUBENT        M0188015   20110126   20110323   20110311       M056
+#BIB                  3          8
+#REACTION   (8-O-0(G,ABS),,SIG,,,EVAL)
+#           Data published in units millibarn/nucleon are
+#            multiplied by 16.0044
+#STATUS     (DEP,M0188806)
+#REL-REF    (E,,B.L.BERMAN+,J,RMP,47,713,1975)     Data for photon
+#            energies 7 - 31 MeV.
+#           (E,,J.AHRENS+,J,NP/A,251,479,1975)     Data for photon
+#            energies 10 - 140 MeV.
+#ENDBIB               8
+# E1 PSF were not given in the data file at E < 15.67 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      9.390     0.000    0.105E-07    0.942E-08
+#      9.600     0.000    0.651E-08    0.949E-08
+#      9.890     0.000    0.498E-08    0.558E-08
+#     10.200     0.000    0.144E-08    0.588E-08
+#     10.500     0.000    0.157E-09    0.700E-08
+#     11.510     0.000    0.821E-08    0.639E-08
+#     11.800     0.000    0.131E-07    0.479E-08
+#     12.190     0.000    0.107E-07    0.423E-08
+#     12.560     0.000    0.189E-07    0.447E-08
+#     12.850     0.000    0.216E-07    0.535E-08
+#     13.210     0.000    0.322E-07    0.394E-08
+#     13.600     0.000    0.177E-07    0.473E-08
+#     14.020     0.000    0.513E-08    0.386E-08
+#     14.500     0.000    0.173E-07    0.392E-08
+#     14.910     0.000    0.206E-07    0.605E-08
+#     15.390     0.000    0.110E-07    0.396E-08
+# E1 PSF were not given in the data file at E > 30.50 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     31.390     0.000    0.253E-07    0.153E-08
+#     32.390     0.000    0.215E-07    0.155E-08
+#     33.200     0.000    0.179E-07    0.190E-08
+#     34.080     0.000    0.174E-07    0.147E-08
+#     35.100     0.000    0.121E-07    0.141E-08
+#     36.310     0.000    0.115E-07    0.116E-08
+#     37.390     0.000    0.109E-07    0.159E-08
+#     38.350     0.000    0.149E-07    0.129E-08
+#     39.490     0.000    0.105E-07    0.123E-08
+#     40.710     0.000    0.103E-07    0.121E-08
+#     41.900     0.000    0.950E-08    0.119E-08
+#     43.180     0.000    0.797E-08    0.130E-08
+#     44.540     0.000    0.411E-08    0.134E-08
+#     46.090     0.000    0.542E-08    0.119E-08
+#     47.430     0.000    0.737E-08    0.149E-08
+#     48.610     0.000    0.551E-08    0.115E-08
+#     50.090     0.000    0.656E-08    0.112E-08
+#     51.640     0.000    0.650E-08    0.115E-08
+#     53.260     0.000    0.394E-08    0.116E-08
+#     54.930     0.000    0.324E-08    0.118E-08
+#     56.630     0.000    0.181E-08    0.124E-08
+#     58.210     0.000    0.180E-08    0.137E-08
+#     59.740     0.000    0.287E-08    0.155E-08
+#     61.690     0.000    0.297E-08    0.111E-08
+#     63.800     0.000    0.604E-09    0.101E-08
+#     65.730     0.000    0.300E-08    0.847E-09
+#     67.590     0.000    0.376E-08    0.588E-09
+#     69.650     0.000    0.217E-08    0.493E-09
+#     71.670     0.000    0.229E-08    0.449E-09
+#     73.770     0.000    0.101E-08    0.395E-09
+#     76.100     0.000    0.174E-08    0.422E-09
+#     78.390     0.000    0.102E-08    0.434E-09
+#     80.730     0.000    0.116E-08    0.404E-09
+#     83.250     0.000    0.166E-08    0.378E-09
+#     85.840     0.000    0.109E-08    0.347E-09
+#     88.430     0.000    0.478E-09    0.340E-09
+#     90.990     0.000    0.422E-09    0.325E-09
+#     93.770     0.000    0.377E-09    0.306E-09
+#     96.600     0.000    0.115E-08    0.281E-09
+#     99.500     0.000    0.119E-08    0.271E-09
+#    102.400     0.000    0.121E-08    0.259E-09
+#    105.480     0.000    0.712E-09    0.257E-09
+#    108.830     0.000    0.116E-08    0.253E-09
+#    111.520     0.000    0.127E-08    0.285E-09
+#    114.430     0.000    0.781E-09    0.234E-09
+#    117.970     0.000    0.779E-09    0.221E-09
+#    121.530     0.000    0.482E-09    0.217E-09
+#    125.160     0.000    0.582E-09    0.194E-09
+#    128.910     0.000    0.794E-09    0.177E-09
+#    132.890     0.000    0.855E-09    0.156E-09
+#    136.960     0.000    0.199E-09    0.142E-09
+#    141.160     0.000    0.694E-09    0.126E-09
+#    145.380     0.000    0.533E-09    0.103E-09
+#    149.870     0.000    0.723E-09    0.914E-10

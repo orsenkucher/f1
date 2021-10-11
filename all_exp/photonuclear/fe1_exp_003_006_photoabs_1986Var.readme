@@ -1,0 +1,132 @@
+#  fe1_exp_003_006_photoabs_1986Var.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0140016
+#  Element = Li   Z =   3   A =   6
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0140   19990429   19990429   20050926       0000
+#SUBENT        M0140001   19990429   19990429   20050926       0000
+#BIB                  8         59
+#TITLE      PHOTONUCLEAR DATA. PHOTODISINTEGRATION OF LITHIUM.
+#           EVALUATED CROSS SECTIONS OF CHANNELS AND REACTIONS.
+#AUTHOR     (V.V.VARLAMOV,V.V.SURGUTANOV,A.P.CHERNYAEV,N.G.EFIMKIN)
+#INSTITUTE  (4CCPMOS)
+#REFERENCE  (B,CDFE/LI2,,1986)
+#ANALYSIS   THE STATISTICAL EVALUATION WAS USED.
+#           THE MAIN CRITERIUM USED WAS SIMILARITY OF THE
+#            GENERALIZED FEATURES OF INITIAL CROSS SECTIONS, SUCH
+#            AS INTEGRATED CROSS SECTIONS AND CENTRES OF GRAVITY,
+#            TO THEIR WEIGHTED-MEAN VALUES.  THE MAIN PRINCIPLE
+#            USED FOR ANALYZING AND REDUCING OF SYSTEMATIC
+#            DISCREPANCES BETWEEN THE RESULTS OF DIFFERENT
+#            EXPERIMENTS WAS SOME TRANSFORMATION (RECALIBRATION-
+#            CORRECTION OF THE SCALE IN ENERGY AXIS,
+#            RENORMALIZATION-CORRECTON OF THE SCALE IN CROSS
+#            SECTION AXIS) OF INITIAL CROSS SECTIONS WITH THAT AIM
+#            OF FORMING THE BEST AGREEMENT OF GENERALIZED
+#            CHARACTERISTICS.
+#           INITIAL CROSS SECTIONS WHOSE GENERALIZED
+#            CHARACTERISTICS WERE TOO DIFFERENT FROM THE WEIGHTED-
+#            MEAN VALUES (THE SYSTEMATIC ERRORS WERE TOO HIGH)
+#            WERE REJECTED AND THE ENTIRE PROCEDURE WAS REPEATED.
+#           THE SET OF CROSS SECTION VALUES THAT HAVE SATISFIED ALL
+#            THE SELECTION CRITERIA, WAS USED TO EVALUATE THE CROSS
+#            SECTIONS AND THEIR ERRORS BY MEANS OF REDUCTION
+#            METHOD.  THE MAIN PRINCIPLES USED IN THE ANALYSIS,
+#            AIMED AT FINDING OUT THE ROLE OF ONE OR ANOTHER
+#            CHANNELS IN THE NUCLEAR PHOTODISINTEGRATION PROCESSES
+#            WITHIN DEFINITE ENERGY RANGES, WERE AS FOLLOWS.
+#           TO DETERMINE THE KINEMATIC CONDITIONS FOR EMISSION OF
+#            PARTICLES OF VARIOUS TYPES ALLOWANCE WAS MADE FOR:
+#           -REACTION THRESHOLDS;
+#           -THRESHOLDS OF PARTICLE DETECTION;
+#           -PARTICLE ENERGY SPECTRA;
+#           THE PHOTONUCLEAR REACTION DATA WERE SPECIFIED WRONG:
+#           -EXPERIMENTAL PARTIAL CROSS SECTIONS;
+#           -ANGULAR DISTRIBUTIONS OF THE REACTION PRODUCTS;
+#           -CROSS SECTIONS OF INVERSE REACTIONS OF RADIATIVE
+#            CAPTURE.
+#           CERTAIN THEORETICAL CONCEPTS WERE USED TO EVALUATE THE
+#            RELATIVE CONTRIBUITONS TO THE PHOTODISINTEGRATION
+#            CROSS SECTIONS FROM THE PROCESSES OF EMISSION OF
+#            PARTICLES OF VARIOUS TYPES:
+#            -THE RELATION OF THE (G,P) AND (G,N) CHANNELS IN SELF-
+#             CONJUGATE NUCLEI;
+#            -THE RELATION OF VARIOUS DEUTERON CHANNELS.
+#           THE AGREEMENT OF THE SUMS OF PARTIAL CROSS SECTIONS
+#            WITH THE TOTAL CROSS SECTIONS WAS CONTROLLED BY
+#            CHI**2.
+#ERR-ANALYS ROOT-MEAN-SQUARE ERRORS.
+#STATUS     (APRVD) BY V.V.VARLAMOV.
+#HISTORY    (19870727R)
+#           (19890228T)
+#           (19910202A) CORRECTED BY V.VARLAMOV, V.MCLANE.
+#           (19981116A) CORRECTED BY V.VARLAMOV.
+#            SF7 IN SUBENT 11 REACTION DELETED, E DEFINED UNDER
+#            EN-SEC.
+#            SF7 IN SUBENT 12 REACTION DELETED, E1-MIN AND E2-MIN
+#            DEFINED UNDER EN-SEC.
+#ENDBIB              59
+#NOCOMMON             0          0
+#ENDSUBENT           67
+#SUBENT        M0140016   20180216   20180516   20180516       M095
+#BIB                  4          9
+#REACTION   (3-LI-6(G,ABS),,SIG,,,EVAL)
+#ANALYSIS   The evaluated   photoabsorption   cross  section  was
+#            obtained as a  sum  of  low-energy  and  high-energy
+#            component cross sections.
+#STATUS     (DEP,M0140014)
+#           (DEP,M0140015)
+#           (TABLE) Data received from author.
+#            Data presented in Fig. on page 46.
+#HISTORY    (20180216U) Corrected by SD and VV: STATUS.
+#ENDBIB               9
+# E1 PSF were not given in the data file at E <  5.67 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      4.500     0.000    0.713E-08    0.193E-09
+#      5.500     0.000    0.615E-08    0.158E-09
+# E1 PSF were not given in the data file at E > 26.59 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     27.000     0.000    0.697E-08    0.135E-08
+#     27.500     0.000    0.710E-08    0.129E-08
+#     28.000     0.000    0.682E-08    0.112E-08
+#     28.500     0.000    0.660E-08    0.103E-08
+#     29.000     0.000    0.634E-08    0.987E-09
+#     29.500     0.000    0.550E-08    0.100E-08
+#     30.000     0.000    0.518E-08    0.983E-09
+#     30.500     0.000    0.472E-08    0.967E-09
+#     31.000     0.000    0.428E-08    0.951E-09
+#     31.500     0.000    0.408E-08    0.936E-09
+#     32.000     0.000    0.409E-08    0.922E-09
+#     33.000     0.000    0.331E-08    0.631E-09
+#     34.000     0.000    0.278E-08    0.587E-09
+#     35.000     0.000    0.223E-08    0.570E-09
+#     37.000     0.000    0.234E-08    0.422E-09
+#     38.000     0.000    0.224E-08    0.365E-09
+#     40.000     0.000    0.236E-08    0.325E-09
+#     41.000     0.000    0.235E-08    0.296E-09
+#     42.000     0.000    0.204E-08    0.289E-09
+#     43.000     0.000    0.182E-08    0.282E-09
+#     44.000     0.000    0.132E-08    0.296E-09
+#     45.000     0.000    0.121E-08    0.289E-09
+#     46.000     0.000    0.102E-08    0.283E-09
+#     47.000     0.000    0.904E-09    0.277E-09
+#     49.000     0.000    0.814E-09    0.266E-09
+#     50.000     0.000    0.729E-09    0.260E-09

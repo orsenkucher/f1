@@ -1,0 +1,61 @@
+#  fe1_exp_065_159_photoneut_1962Bog.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0769014
+#  Element = Tb   Z =  65   A = 159
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0769   20131127   20140129   20140122       M069
+#SUBENT        M0769001   20131127   20140129   20140122       M069
+#BIB                  9         13
+#TITLE      Splitting of    the   giant   dipole   resonance   in
+#            medium-heavy nuclei.
+#AUTHOR     (O.V.Bogdankevich,B.I.Goryachev,V.A.Zapevalov)
+#REFERENCE  (J,ZET,42,1502,1962)
+#           (J,JET,15,1044,1962) English translation of
+#            ZET,42,1502,1962.
+#INSTITUTE  (4RUSLEB)
+#INC-SOURCE (BRST)
+#FACILITY   (SYNCH,4RUSLEB)
+#METHOD     (EXTB,SITA)
+#DETECTOR   (BF3)
+#HISTORY    (20090409C)
+#           (20131127A) Corrected by V.Varlamov: REFERENCE.
+#ENDBIB              13
+#NOCOMMON             0          0
+#ENDSUBENT           16
+#SUBENT        M0769014   20090505   20090508   20090508       M048
+#BIB                  5         11
+#REACTION   (65-TB-159(G,X)0-NN-1,UNW,SIG,,BRS)
+#            Sum (g,n) + (g,np) + (g,2n).
+#ANALYSIS   Neutron multiplicity correction for  (g,xn)  reaction
+#            cross section using  experimental  data  for  (g,2n)
+#            reaction cross section.
+#REL-REF    (R,,J.H.CARVER,J,PPS,71,613,1958)
+#            Experimental data for (g,2n) reaction cross section.
+#ERR-ANALYS (DATA-ERR) Mean-root-square errors.
+#STATUS     (CURVE) Data from Fig. 10 were compiled at the Russia
+#            MSU SINP CDFE by V.Varlamov.
+#           (DEP,M0769013) Cross section for (g,xn) reaction.
+#ENDBIB              11
+# E1 PSF were not given in the data file at E <  8.53 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.000     0.000    0.414E-06    0.000E+00
+#      8.125     0.000    0.436E-06    0.000E+00
+#      8.250     0.000    0.492E-06    0.000E+00
+#      8.375     0.000    0.548E-06    0.000E+00
+#      8.500     0.000    0.673E-06    0.000E+00

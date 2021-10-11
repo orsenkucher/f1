@@ -1,0 +1,117 @@
+#  fe1_exp_032_072_photoneutr_1976Ca1_L0043011.readme             
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0043011,L0043012
+#  Element = Ge   Z =  32   A =  72
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#ENTRY            L0043     970129              20050926       0000
+#SUBENT        L0043001     970129              20050926       0000
+#BIB                 12         28
+#INSTITUTE  (2FR SAC,4RUSJIA)
+#REFERENCE  (J,NP/A,258,365,76)
+#AUTHOR     (P.CARLOS,H.BEIL,R.BERGERE,J.FAGOT,A.LEPRETRE,
+#           A.VEYSSIERE,G.V.SOLODUKHOV)
+#TITLE      A study of the photoneutron contribution to the giant
+#            dipole resonance of nuclei in the 64<=A<=86 mass
+#            region.
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+#           The quasimonocromatic photon beam energy resolution
+#            (FWHM) varies slowly from about 250 keV at 10 MeV to
+#            roughly 350 keV at 30 MeV.
+#DETECTOR   (STANK) 250 l Gd-loaded liquid scintillator.
+#METHOD     (EXTB,STATD) Statistically determined neutron
+#            multiplicity.
+#ANALYSIS   Since the (gamma,p) contribution of medium and heavy
+#            nuclei can be neglected one obtains the total
+#            photonuclear absorption cross section: (gamma,abs) =
+#            (gamma,n) + (gamma,n+p) + (gamma,2n).
+#ERR-ANALYS (DATA-ERR1) Statistical errors only.
+#           (DATA-ERR2) Systematic error due to photon intensity
+#            calibration uncertainty estimated to be about 7%.
+#COMMENT    The evolution of the GDR as observed through the
+#            neutron exit channel only, is tentatively interpreted
+#            either in terms of isospin splitting or in terms of
+#            the dynamic collective model.
+#HISTORY    (891206C)
+#           (950410A) BIB Updated
+#ENDBIB              28
+#COMMON               1          3
+#DATA-ERR2
+#PER-CENT
+#  7.
+#ENDCOMMON            3
+#ENDSUBENT           35
+#SUBENT        L0043011     970129              20050926       0000
+#BIB                  3          6
+#REACTION   ((32-GE-72(G,N)32-GE-71,,SIG)+
+#           (32-GE-72(G,N+P)31-GA-70,,SIG))
+#           Threshold of the reaction (gamma,n+p) is 19.0 MeV.
+#SAMPLE     50 gram Ge metal sample, 98% 72Ge.
+#           Principle impurity: 74Ge (1%)
+#STATUS     Converted from Berman compilation.
+#ENDBIB               6
+#ENTRY            L0043     970129              20050926       0000
+#SUBENT        L0043001     970129              20050926       0000
+#BIB                 12         28
+#INSTITUTE  (2FR SAC,4RUSJIA)
+#REFERENCE  (J,NP/A,258,365,76)
+#AUTHOR     (P.CARLOS,H.BEIL,R.BERGERE,J.FAGOT,A.LEPRETRE,
+#           A.VEYSSIERE,G.V.SOLODUKHOV)
+#TITLE      A study of the photoneutron contribution to the giant
+#            dipole resonance of nuclei in the 64<=A<=86 mass
+#            region.
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+#           The quasimonocromatic photon beam energy resolution
+#            (FWHM) varies slowly from about 250 keV at 10 MeV to
+#            roughly 350 keV at 30 MeV.
+#DETECTOR   (STANK) 250 l Gd-loaded liquid scintillator.
+#METHOD     (EXTB,STATD) Statistically determined neutron
+#            multiplicity.
+#ANALYSIS   Since the (gamma,p) contribution of medium and heavy
+#            nuclei can be neglected one obtains the total
+#            photonuclear absorption cross section: (gamma,abs) =
+#            (gamma,n) + (gamma,n+p) + (gamma,2n).
+#ERR-ANALYS (DATA-ERR1) Statistical errors only.
+#           (DATA-ERR2) Systematic error due to photon intensity
+#            calibration uncertainty estimated to be about 7%.
+#COMMENT    The evolution of the GDR as observed through the
+#            neutron exit channel only, is tentatively interpreted
+#            either in terms of isospin splitting or in terms of
+#            the dynamic collective model.
+#HISTORY    (891206C)
+#           (950410A) BIB Updated
+#ENDBIB              28
+#COMMON               1          3
+#DATA-ERR2
+#PER-CENT
+#  7.
+#ENDCOMMON            3
+#ENDSUBENT           35
+#SUBENT        L0043012     970129              20050926       0000
+#BIB                  3          4
+#REACTION   (32-GE-72(G,2N)32-GE-70,,SIG)
+#SAMPLE     50 gram Ge metal sample, 98% 72Ge.
+#           Principle impurity: 74Ge (1%)
+#STATUS     Converted from Berman compilation.
+#ENDBIB               4
+# E1 PSF were not given in the data file at E < 10.80 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.470     0.000    0.414E-07    0.300E-07
+#     10.740     0.000    0.590E-07    0.295E-07

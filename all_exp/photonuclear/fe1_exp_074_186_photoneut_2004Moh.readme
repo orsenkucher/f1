@@ -1,0 +1,91 @@
+#  fe1_exp_074_186_photoneut_2004Moh.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0663002
+#  Element = W       Z = 74    A =186
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0663   20120405   20120906   20120709       M063                                  
+#  SUBENT        M0663001   20120405   20120906   20120709       M063                                  
+#  BIB                 15         56                                                                   
+#  TITLE      s-process branching at 185W revised.                                                     
+#  AUTHOR     (P.Mohr,T.Shizuma,H.Ueda,S.Goko,A.Makinaga,K.Y.Hara,                                     
+#             T.Hayakawa,Y.-W.Lui,H.Ohgaki,H.Utsunomiya)                                               
+#  INSTITUTE  (2GERTHD,2JPNJAE,2JPNKON,1USATAM,2JPNKTO,2JPNJPN)                                        
+#  REFERENCE  (J,PR/C,69,032801,2004)                                                                  
+#  FACILITY   (ESTRG,2JPNAIS) Electron  storage  ring TERAS at AIST                                    
+#              (Tsukuba, Japan).                                                                       
+#  INC-SOURCE (MPH,LCS)   Tunable  monochromatic photon source from                                    
+#              laser Compton scattering - Laser Compton  Scattering                                    
+#              photons, LCS.                                                                           
+#  DETECTOR   (HE3SP) Improved neutron  detector  consisted  of  16                                    
+#              individual  3He  counters embedded in two rings in a                                    
+#              polyethylene moderator.                                                                 
+#  METHOD     (RINGR) Direct measurement of photoneutrons using the                                    
+#              ring-ratio method: ring-ratio (rr) between the count                                    
+#              rates  of the inner and outer detector rings depends                                    
+#              on the neutron energy,  and hence  rr  be  used  to                                     
+#              estimate the neutron energy. That varied between 2.5                                    
+#              and 4.4 leading to average neutron energies of about                                    
+#              1.2  MeV at highest photon energies and of about 0.3                                    
+#              MeV at lower photon energies.                                                           
+#  SAMPLE     The target  consisted  of  1246  mg metallic tungsten                                    
+#              powder highly enriched in 186W to 99.79 % The powder                                    
+#              was pressed to a small self-supporting tablet with a                                    
+#              diameter of 8 mm.                                                                       
+#  ANALYSIS   (UNFLD) For  estimation of the reaction cross section                                    
+#              from the experimental reaction yield  the  unfolding                                    
+#              procedure using the replacement of integral equation                                    
+#              by Taylor series (because the difference (low-energy                                    
+#              tail)  of  realistic  photon  spectrum from ideal is                                    
+#              relatively small) was used.                                                             
+#  ERR-ANALYS (ERR-S) Statistical errors.                                                              
+#             (ERR-SYS) Systematical  uncertainties  are  dominated                                    
+#              by the efficiency  of the neutron detector (5 %) and                                    
+#              the gamma-ray flux (3%).                                                                
+#  STATUS     (TABLE)  Data of Table 1 of Phys.Rev.,C72(2005)025808                                    
+#              were  compiled  at  the  Russia  MSU  SINP  CDFE  by                                    
+#               V.V.Varlamov.                                                                          
+#             (DEP,M0676002)                                                                           
+#  REL-REF    (R,,T.SHIZUMA+,J,PR/C,72,025808,2005)                                                    
+#  COMMENT    The neutron capture cross  section  of  the  unstable                                    
+#              s-process  branching  nucleus  185W has been derived                                    
+#              from  experimental  data  of  inverse  186W(g,n)185W                                    
+#              photodisintegration  taken with monochromatic photon                                    
+#              beams from laser Compton scattering.  The result  of                                    
+#              SIG  =  553  (60)  mb  at  kT  =  30  keV leads to a                                    
+#              relatively high effective  neutron  density  in  the                                    
+#              classical  s-process  of Nn = 4.7 x 10**8 sm**-3.  A                                    
+#              realistic  model  for  the  s-process  in  thermally                                    
+#              pulsing  asymptotic giant branch stars overestimates                                    
+#              the abundance of 186Os significantly because of  the                                    
+#              relatively  small  neutron  capture cross section of                                    
+#              185W.                                                                                   
+#  HISTORY    (20050118C)                                                                              
+#             (20120405A) Corrected by V.Varlamov: data                                                
+#              substituted.                                                                            
+#  ENDBIB              56                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           59                                                                              
+#  SUBENT        M0663002   20120405   20120906   20120709       M063                                  
+#  BIB                  1          1                                                                   
+#  REACTION   (74-W-186(G,N)74-W-185,,SIG)                                                             
+#  ENDBIB               1                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  7.27 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.260     0.000    0.884E-07    0.169E-07

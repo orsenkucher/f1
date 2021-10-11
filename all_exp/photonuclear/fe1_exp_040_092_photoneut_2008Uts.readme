@@ -1,0 +1,86 @@
+#  fe1_exp_040_092_photoneut_2008Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2115003
+#  Element = Zr      Z = 40    A = 92
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2115   20120523   20120530   20120524       K011                                  
+#  SUBENT        K2115001   20120523   20120530   20120524       K011                                  
+#  BIB                 11         40                                                                   
+#  TITLE      M1 gamma strength for zirconium nuclei in the                                            
+#             photoneutron channel                                                                     
+#  AUTHOR     (H.Utsunomiya, S.Goriely, T.Kondo, T.Kaihori,                                            
+#              A.Makinaga, S.Goko, H.Akimune, T.Yamagata, H.Toyokawa,                                  
+#              T.Matsumoto, H.Harano, S.Hohara, Y.W.Lui, S.Hilaire,                                    
+#              S.Peru, A.J.Koning)                                                                     
+#  INSTITUTE  (2JPNKON) Department of Physics                                                          
+#             (2BLGBRU) Institut d'Astronomie et d'Astrophysique                                       
+#             (2JPNJAE)                                                                                
+#             (2JPNAIS)                                                                                
+#             (2JPNKNK) Atomic Energy Research Institute                                               
+#             (1USATAM) Cyclotron Institute                                                            
+#             (2FR BRC) Department de Physique Theorique et                                            
+#                       Appliquee, Service de Physique Nucleaire,                                      
+#                       Bruyeres-le-Chatel                                                             
+#             (2NEDNRG)                                                                                
+#  REFERENCE  (J,PRL,100,(16),162502,2008)                                                             
+#             Main reference. See also TITLE and AUTHOR.                                               
+#             (S,AIP-1120,183,200905)                                                                  
+#             H.Utsunomiya+, Conf. Proc. of ASR2008                                                    
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS) lambda=532 nm laser photons used                                                   
+#  SAMPLE     - Chemical-form of target: ZrO2                                                          
+#             - Physical-form of target is solid.                                                      
+#  FACILITY   (SRING,2JPNAIS) To store electron beam                                                   
+#  ERR-ANALYS (ERR-SYS,4.8,9.1) Total systematic uncertainty due to                                    
+#                               the target impurities, neutron                                         
+#                               detection efficiency, number of                                        
+#                               incident gamma rays and a few                                          
+#                               percent for the beam size effect                                       
+#                               (4.8-9.1%)                                                             
+#             (ERR-1) Uncertainty due to neutron detection                                             
+#                     efficiency                                                                       
+#             (ERR-2) Uncertainty due to number of incident gamma                                      
+#                     rays                                                                             
+#             (ERR-S) Statistical uncertainty                                                          
+#  STATUS     (APRVD) Proofread by Hiroaki Utsunomiya (2008.05.17)                                     
+#  HISTORY    (20080430R) Received by e-mail from H.Utsunomiya                                         
+#             (20080503C)                                                                              
+#             (20101018A) Nf. REFERENCE: AIP-1120 added                                                
+#  ENDBIB              40                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.2        3.                                                                                      
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           47                                                                              
+#  SUBENT        K2115003   20120523   20120530   20120524       K011                                  
+#  BIB                  5          7                                                                   
+#  REACTION   (40-ZR-92(G,N)40-ZR-91,,SIG)                                                             
+#  SAMPLE     (40-ZR-92,ENR=0.914)                                                                     
+#  ERR-ANALYS (ERR-3,1.7,6.2) the uncertainty of the present                                           
+#                             photoneutron cross section (1.7-6.2%)                                    
+#  REL-REF    (A,L0011011,B.L.Berman+,J,PR,162,1098,1967)                                              
+#             Disagree below 11 MeV                                                                    
+#  STATUS     (TABLE) Plotted in Fig.1 of J,PRL,100,162502,2008                                        
+#  ENDBIB               7                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  8.73 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.660     0.000    0.746E-07    0.308E-07
+#      8.700     0.000    0.120E-06    0.286E-07

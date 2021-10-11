@@ -1,0 +1,24 @@
+# f1_exp_042_095_RM.readme
+#
+# Data published M. Wiedeking et. al, Phys. Rev. Lett. 108, 162503 (2012) 
+# and M. Krticka, M. Wiedeking, F. Becvar, and S. Valenta, 
+# Phys. Rev. C 93, 054311 (2016).
+#
+# Reaction 94Mo(d,p)95Mo using 11 MeV deuteron beam at the 88-inch
+# cyclotron at Lawrence Berkeley National Laboratory.
+#
+# The emitted gamma rays were measured with 5 Clover-type HPGe 
+# detectors placed at a distance of 20 cm from the target. Two 
+# identical E-E telescopes were placed on opposite sides of the target 
+# with 150 um thick dE and 1000 um thick E detectors. The telescopes 
+# were mounted downstream and upstream of the target with the E 
+# detectors covering an angular range of 28 to 56 and 118 to 145 # degrees.
+#
+# Assuming validity of the Brink Hypothesis, the relative photon # strength function was extracted from particle-gamma   
+# coincidence events, below the neutron separation energy using the # Chi squared aspect of the Ratio Method [M. Wiedeking et. al, Phys. # Rev. Lett. 108, 162503 (2012)]. 
+#
+# The primary transitions from excitation energy bins 400keV wide # to individual low-lying states were extracted and for statistical # reasons collected in 1-MeV-wide bins. The intensities of primary # transitions for discrete levels with the same spin is exploited to # determine the gamma-energy dependence of the PSF. To get this # dependence data are fitted independently from different # excitation energy bins and low-lying spin states with a quadratic # function [M. Krticka, et al., Phys. Rev. C 93, 054311 (2016)].
+#
+# Absolute normalization of the photon strength function is not # possible from the data. The normalization is made by matching to # the total gamma absorption cross section. The gamma absorption # data is corrected for the (g,g') channel above the neutron # separation energy.
+# 
+# The error bars are obtained statistical uncertainties and from # standard error propagation techniques.

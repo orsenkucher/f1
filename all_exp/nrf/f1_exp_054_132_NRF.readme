@@ -1,0 +1,39 @@
+# f1_exp_054_132_NRF.readme
+#
+# Data were published by R. Massarczyk et al., 
+# Phys. Rev. Lett. 112, 072501 (2014). 
+#
+# Reaction 132Xe(gamma,gamma') using bremsstrahlung produced with 12.0 MeV
+# electrons at the ELBE accelerator of HZDR.
+#
+# Gamma rays were measured with two shielded HPGe detectors at 90 deg to the
+# beam and two at 127 deg to the beam. 
+# Spectra were response and efficiency corrected.
+#
+# The photon flux was determined by using known level widths in 11B.
+# Background due to atomic processes in the target was determined in GEANT4 
+# simulations and subtracted from the spectra. Subtracted spectra contain
+# resolved peaks and nuclear quasicontinuum.
+#
+# Spectra ere corrected for feeding and branching intensities obtained from
+# simulations of statistical gamma-ray cascades using the code gDEX. 
+# The Wigner distribution is used for the fluctuation of the nearest-neighbor
+# spacings of levels with the same spin.
+#
+# Input for the simulations: 
+# (i)  E1 strength function: three-Lorentz function (TLO) 
+#      [A.R. Junghans et al., Phys. Lett. B 670, 200 (2008)].
+#      M1 and E2 strength functions: parametrizations given in RIPL
+#      [R. Capote et al., Nucl. Data Sheets 110, 3107 (2009)].
+#      Partial level widths were varied using the Porter-Thomas distribution.
+# (ii) Level density: back-shifted Fermi-gas model with parameters from 
+#      [T. von Egidy and D. Bucurescu, Phys. Rev. C 80, 054310 (2009)].
+#      Parameters were randomly varied within the given uncertainties.
+#
+# The absorption cross sections were obtained from scattering cross sections by
+# using average branching ratios of ground-state transitions obtained from
+# the simulations.
+#
+# Uncertainties of the absorption cross sections include statistical
+# uncertainties, 5% uncertainties each for efficiency, photon flux and atomic
+# background.

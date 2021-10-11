@@ -1,0 +1,23 @@
+# fe1_exp_060_145_photoneut_2015Nyh.dat                  
+#
+# Z = 60, A =145
+# No. of entries:   12
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e13.3
+# Author:    (H.-T.Nyhus, T.Renstrom, H.Utsunomiya, S.Goriely,      (J,PR/C,91,015808,2015)                                                                      
+#    E         dE       f1           df1
+     7.330     0.000    0.155E-06    0.119E-07
+     7.800     0.000    0.163E-06    0.120E-07
+     8.080     0.000    0.175E-06    0.125E-07
+     8.770     0.000    0.220E-06    0.169E-07
+     9.260     0.000    0.275E-06    0.203E-07
+     9.730     0.000    0.281E-06    0.209E-07
+    10.210     0.000    0.350E-06    0.254E-07
+    10.680     0.000    0.421E-06    0.305E-07
+    11.180     0.000    0.554E-06    0.401E-07
+    11.670     0.000    0.651E-06    0.457E-07
+    12.140     0.000    0.816E-06    0.568E-07
+    12.650     0.000    0.983E-06    0.671E-07

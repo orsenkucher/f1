@@ -1,0 +1,20 @@
+# fe1_exp_032_072_photoabs_1975Mcc.dat                   
+#
+# Z = 32, A = 72
+# No. of entries:    9
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e13.3
+# Author:   1975Mcc  J.J.McCarthy, R.C.Morrison, H.J.Vander-Molen; Phys.Rev. C11, 772(1975).                                                                     
+#    E         dE       f1           df1
+    12.000     0.000    0.123E-06    0.361E-07
+    14.000     0.000    0.217E-06    0.620E-07
+    16.000     0.000    0.667E-06    0.379E-07
+    18.000     0.000    0.723E-06    0.626E-07
+    20.000     0.000    0.564E-06    0.651E-07
+    22.000     0.000    0.264E-06    0.276E-07
+    24.000     0.000    0.126E-06    0.361E-07
+    26.000     0.000    0.434E-07    0.400E-07
+    28.000     0.000    0.774E-07    0.372E-07

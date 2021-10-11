@@ -1,0 +1,9 @@
+ # Np-238  2keV data BNL
+ # Ig/Eg**5 taken from D.L. R.W Hoff et al., Phys.Rev. C41 (1990) 484 and converted to Ig/Eg**3
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied for red Jpi
+ # Normalization of 4E1 transitions  (<Eg> = 5.29 MeV)  compared to <f(E1)> =15.71 E-08 from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.36 applied
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.04
+ # The data dispersion is larger as PT predicts, no fission competition applied (?)
+ # RN SYS18 F = 1.04 from systematic equation [INDC(NED)-0772]
+ # 

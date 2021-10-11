@@ -1,0 +1,61 @@
+#  fe1_exp_003_006_photoneut_1965Be1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0008005
+#  Element = Li   Z =   3   A =   6
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0008     970129              20050926       0000
+#SUBENT        L0008001     970129              20050926       0000
+#BIB                 10         14
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PRL,15,727,6511)
+#AUTHOR     (B.L.BERMAN,R.L.BRAMBLETT,J.T.CALDWELL,R.R.HARVEY,
+#           S.C.FULTZ)
+#TITLE      Photoneutron cross sections of Li6.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#SAMPLE     95% pure 6Li samples
+#MONITOR    Absolute cross section determined for 11.7 to 21.4 MeV
+#            region
+#DETECTOR   (PROPC) Paraffin moderator with BF3 counters
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950329A) BIB Updated
+#ENDBIB              14
+#NOCOMMON             0          0
+#ENDSUBENT           17
+#SUBENT        L0008005     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (3-LI-6(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P).
+#HISTORY    (950329C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E > 26.59 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     26.980     0.000    0.272E-08    0.289E-09
+#     27.440     0.000    0.200E-08    0.284E-09
+#     27.910     0.000    0.265E-08    0.311E-09
+#     28.360     0.000    0.181E-08    0.336E-09
+#     28.820     0.000    0.226E-08    0.301E-09
+#     29.280     0.000    0.227E-08    0.267E-09
+#     29.740     0.000    0.245E-08    0.233E-09
+#     30.210     0.000    0.281E-08    0.287E-09
+#     30.670     0.000    0.230E-08    0.255E-09
+#     31.130     0.000    0.257E-08    0.279E-09
+#     31.590     0.000    0.214E-08    0.329E-09
+#     32.020     0.000    0.209E-08    0.406E-09

@@ -1,0 +1,189 @@
+#  fe1_exp_008_016_photoabs_1975Ahr.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0372005
+#  Element = O    Z =   8   A =  16
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0372   20030512   20031002   20050926       0000
+#SUBENT        M0372001   20030512   20031002   20050926       0000
+#BIB                 16        109
+#TITLE      Total nuclear photon absorption cross sections for
+#           some light elements.
+#AUTHOR     (J.Ahrens,H.Borchert,K.H.Czock,H.B.Eppler,H.Gimm,
+#            H.Gundrum,M.Kroning,P.Riehn,G.Sita Ram,A.Zieger,
+#            B.Ziegler)
+#REFERENCE  (J,NP/A,251,479,1975)
+#INSTITUTE  (2GERMNZ)
+#FACILITY   (LINAC,2GERMNZ)
+#INC-SOURCE (BRST)
+#PART-DET   (G) The numbers  of photons  N0  and  N  were measured
+#            without and with the absorber in the beam.
+#METHOD     (EXTB,SITA) The ratio of photon numbers N0(e) and N(e)
+#            was obtained  by  measuring  the  number  of  compton
+#            electrons from the target of  the  main  spectrometer
+#            without and with the absorber in the beam. The number
+#            of compton electrons was  determined  by  subtracting
+#            the number  of  pair  positrons,  which  was measured
+#            separately with reversed magnetic  fields,  from  the
+#            measured number of negatons.
+#DETECTOR   (BPAIR,MAGSP)  The  experimental  set-up consisted  of
+#            two identical     11-channel     magnetic     compton
+#            spectrometers in the photon beam.
+#SAMPLE     All samples were of natural isotopic composition.  The
+#            attenuation properties are:
+#            elem  density  lenght  diameter   weight   condition
+#                  g/cm**3    cm       cm         g
+#             Li   0.53618   200.1  1.983(2)  331.40(15)  metal
+#             be   1.843     120.72 2.029(1)  718.34(3)   metal
+#             C    1.7653    60.135
+#                  1.7670    80.178
+#                  1.7666    100.22                      graphite
+#                  2.0694    71.955
+#             O    0.9882(2) 119.50(5)                    water
+#             Al   2.6981(1) 42.008(4)                    metal
+#             Si   2.3290(1) 41.264(4)                    metal
+#                                                      mono-cryst
+#             Ca   1.5215    49.99  3.389(1)  342.78(3)   metal
+#                                   4.915(1)  722.02(3)
+#ANALYSIS   The  total  nuclear  photon  absorption  cross section
+#            (sig-abs) was determined using  substraction  procrdu
+#            (sig-abs) = (sig-tot) - (sig-el),  where (sig-tot) is
+#            the total attenuation cross section and  (sig-el)  is
+#            the non-nuclear (electronic) cross section. The total
+#            attenuation cross section (sig-tot) as a function  of
+#            the  photon  energy e was deduced from the absorption
+#            law:  N(e) = N0(e) exp(-(N-nucl))(sig-tot)(e),  where
+#            N0  and  N  are  the  numbers of photons in a certain
+#            energy   bin   without    and    with    attenuation,
+#            respectively,  and  (N-nucl)  is the number of nuclei
+#            per cm**2 in  the  absorber.  The  non-nuclear  cross
+#            section  (sig-el) was calculated.  This cross section
+#            is the sum of:
+#            - atomic  photoeffect  cross section (negligible  for
+#              the low-z elements);
+#            - compton  scattering  cross  section:  klein-nishina
+#              formula with radiative corrections  include  double
+#              compton effect;
+#            - cross section of pair production in  the  field  of
+#              the nucleus;
+#            - cross section of pair production in  the  field  of
+#              the electron (triplet production).
+#            In summary it was estimated that the error of the sum
+#            of all non-nuclear cross sections be smaller than 0.1
+#            percent for the element and energy ranges considered.
+#          1En resolution 0.7 percent.
+#          2En resolution 1.1 percent.
+#ERR-ANALYS Mean-root-square errors are given.
+#CORRECTION Several corrections were made for:
+#            - the errors  due  to  counting  statistics  for  two
+#            compton spectrometers have been treated separately;
+#            - systematic  errors  due  to  uncertainties  in  the
+#            attenuator properties;
+#            - systematic errors that arise from uncertainties  in
+#            the correction  for  dead  time losses in the counter
+#            systems of the spectrometers;
+#            - systematic   errors   that   arise  from  non-ideal
+#            geometry;
+#            - an error on spectrometer energy calibration;
+#            - energy fluctuations of the  electrons  passing  the
+#            energy slits of the detecting systems;
+#            - incomplete  knowledge  of  the  non-nuclear   cross
+#            sections.
+#COMMENT    Absolute nuclear photon absorption cross sections have
+#            been measured for the elements Li,  be, C, O, Si, and
+#            Ca from 10 MeV up to photon energies beyond the meson
+#            production threshold.  Magnetic compton spectrometers
+#            and a bremsstrahlung spectrum  with  fixed  end-point
+#            energy were  used.  The cross sections show structure
+#            in the region of the giant  resonance  and  fall  off
+#            smoothly towards   higher   energies.  In  the  giant
+#            resonance region recent  1P-1H  calculations  are  in
+#            poor agreement with these measurements except for one
+#            calculation for  carbon6  which  included  low  lying
+#            excited states  of  the residual mass-11 system.  The
+#            cross section in the intermediate region (40  to  140
+#            MeV) can be described by the quasideuteron model with
+#            the density  of  deuteron-like  structures  taken  as
+#            8nz/a.The moments  of the measured cross sections are
+#            compared with  sum  rule  predictions.  The  integral
+#            cross sections from 10 MeV up to the meson production
+#            threshold (140 MeV) exceeded the classical dipole sum
+#            by a factor of 1.4 to 2.
+#STATUS     (CURVE)
+#HISTORY    (19951011C)
+#           (20030306A) Corrected by V.Varlamov:
+#            dates are   corrected   from   two  to  four  digits
+#            including that in reference and history,
+#            commons and poiners are changed.
+#           (20030512U) Last checking has been done.
+#ENDBIB             109
+#COMMON               2          3
+#EN-RSL    1EN-RSL    2
+#PER-CENT   PER-CENT
+#        0.7        1.1
+#ENDCOMMON            3
+#ENDSUBENT          117
+#SUBENT        M0372005   20180213   20180406   20180406       M094
+#BIB                  4          7
+#REACTION  1(8-O-16(G,TOT),,SIG)
+#          2(8-O-16(G,TOT),,SIG)
+#COMMENT    The target of natural isotopic composition.
+#            The  abundance  of  the main isotope  O-16  is 99.76%
+#STATUS     (CURVE) Data from Fig. 5.
+#HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP  deleted
+#            from REACTION code, ABS -> TOT, STATUS.
+#ENDBIB               7
+# E1 PSF were not given in the data file at E < 15.67 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.150     0.000    0.555E-08    0.598E-08
+#     10.500     0.000    0.859E-08    0.578E-08
+#     11.150     0.000    0.708E-08    0.622E-08
+#     11.350     0.000    0.497E-08    0.611E-08
+#     11.500     0.000    0.187E-07    0.603E-08
+#     11.650     0.000    0.350E-07    0.596E-08
+#     11.850     0.000    0.476E-08    0.586E-08
+#     12.000     0.000    0.353E-07    0.578E-08
+#     12.150     0.000    0.928E-08    0.571E-08
+#     12.350     0.000    0.265E-07    0.562E-08
+#     12.500     0.000    0.244E-07    0.555E-08
+#     12.650     0.000    0.313E-07    0.549E-08
+#     12.850     0.000    0.260E-07    0.540E-08
+#     13.000     0.000    0.235E-07    0.534E-08
+#     13.150     0.000    0.421E-07    0.528E-08
+#     13.350     0.000    0.508E-07    0.520E-08
+#     13.500     0.000    0.260E-07    0.514E-08
+#     13.650     0.000    0.257E-07    0.508E-08
+#     13.850     0.000    0.245E-07    0.501E-08
+#     14.000     0.000    0.170E-07    0.558E-08
+#     14.150     0.000    0.239E-08    0.552E-08
+#     14.350     0.000    0.142E-07    0.544E-08
+#     14.500     0.000    0.172E-07    0.538E-08
+#     14.650     0.000    0.231E-07    0.533E-08
+#     14.850     0.000    0.759E-08    0.526E-08
+#     15.000     0.000    0.302E-07    0.520E-08
+#     15.150     0.000    0.149E-07    0.515E-08
+#     15.350     0.000    0.243E-07    0.509E-08
+#     15.500     0.000    0.146E-07    0.504E-08
+#     15.650     0.000    0.360E-08    0.499E-08
+# E1 PSF were not given in the data file at E > 30.50 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     30.650     0.000    0.294E-07    0.311E-08
+#     30.850     0.000    0.249E-07    0.309E-08
+#     31.000     0.000    0.245E-07    0.308E-08

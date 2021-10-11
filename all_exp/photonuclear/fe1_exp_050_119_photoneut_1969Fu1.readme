@@ -1,0 +1,84 @@
+#  fe1_exp_050_119_photoneut_1969Fu1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0017033
+#  Element = Sn   Z =  50   A = 119
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0017     970129              20050926       0000
+#SUBENT        L0017001     970129              20050926       0000
+#BIB                  8         12
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR,186,1255,6910)
+#AUTHOR     (S.C.FULTZ,B.L.BERMAN,J.T.CALDWELL,R.L.BRAMBLETT,
+#           M.A.KELLY)
+#TITLE      Photoneutron cross sections for Sn116, Sn117, Sn118,
+#            Sn119, Sn120, Sn-124, and indium.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (PROPC) Paraffin moderator with BF3 counters
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950410A) BIB Updated
+#ENDBIB              12
+#NOCOMMON             0          0
+#ENDSUBENT           15
+#SUBENT        L0017033     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (50-SN-119(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P)+(G,3N).
+#HISTORY    (950410C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E > 25.39 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.511     0.000    0.178E-06    0.384E-07
+#     25.666     0.000    0.244E-06    0.389E-07
+#     25.821     0.000    0.202E-06    0.393E-07
+#     25.976     0.000    0.152E-06    0.367E-07
+#     26.131     0.000    0.154E-06    0.385E-07
+#     26.286     0.000    0.128E-06    0.389E-07
+#     26.441     0.000    0.167E-06    0.397E-07
+#     26.595     0.000    0.208E-06    0.401E-07
+#     26.750     0.000    0.155E-06    0.399E-07
+#     26.905     0.000    0.130E-06    0.400E-07
+#     27.060     0.000    0.171E-06    0.404E-07
+#     27.215     0.000    0.109E-06    0.398E-07
+#     27.370     0.000    0.125E-06    0.399E-07
+#     27.524     0.000    0.838E-07    0.394E-07
+#     27.679     0.000    0.834E-07    0.280E-07
+#     27.834     0.000    0.866E-07    0.399E-07
+#     27.989     0.000    0.809E-07    0.284E-07
+#     28.144     0.000    0.872E-07    0.285E-07
+#     28.299     0.000    0.121E-06    0.289E-07
+#     28.454     0.000    0.866E-07    0.288E-07
+#     28.608     0.000    0.591E-07    0.287E-07
+#     28.763     0.000    0.853E-07    0.289E-07
+#     28.918     0.000    0.810E-07    0.291E-07
+#     29.073     0.000    0.949E-07    0.291E-07
+#     29.228     0.000    0.819E-07    0.297E-07
+#     29.383     0.000    0.132E-06    0.298E-07
+#     29.538     0.000    0.102E-06    0.297E-07
+#     29.692     0.000    0.103E-06    0.301E-07
+#     29.847     0.000    0.758E-07    0.253E-07
+#     30.002     0.000    0.133E-06    0.292E-07
+#     30.157     0.000    0.125E-06    0.319E-07
+#     30.312     0.000    0.107E-06    0.318E-07
+#     30.467     0.000    0.791E-07    0.322E-07
+#     30.621     0.000    0.158E-06    0.331E-07
+#     30.776     0.000    0.141E-06    0.318E-07
+#     30.931     0.000    0.164E-06    0.314E-07
+#     31.086     0.000    0.868E-07    0.377E-07

@@ -1,0 +1,76 @@
+#  fe1_exp_057_139_photoneut_2006Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0696002
+#  Element = La      Z = 57    A =139
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0696   20061204   20070306   20070214       M041                                  
+#  SUBENT        M0696001   20061204   20070306   20070214       M041                                  
+#  BIB                 14         36                                                                   
+#  TITLE      Photoneutron cross section measurements on the N = 82                                    
+#              nuclei  139La and 141Pr:  Implications for p-process                                    
+#              nucleosynthesis.                                                                        
+#  AUTHOR     (H.Utsunomiya,A.Makinaga,S.Goko,T.Kaihori,H.Akimune,                                     
+#             T.Yamagata,M.Ohta,H.Toyokawa,S.Muller,Y.-W.Lui,                                          
+#             S.Goriely)                                                                               
+#  REFERENCE  (J,PR/C,74,025806,2006)                                                                  
+#  INSTITUTE  (2JPNKON,2JPNAIS,2GERTHD,1USATAM,2BLGBRU)                                                
+#  FACILITY   (ESTRG,2JPNAIS) Electron storage ring  TERAS  at  the                                    
+#              National  Institute  of  Advanced Industrial Science                                    
+#              and Technology (AIST).                                                                  
+#  INC-SOURCE (QMPH,COMPT) Laser Compton scattering (LCS).                                             
+#  DETECTOR   (PROPC) 3He  proportional  counters.                                                     
+#  METHOD     (RINGR) 16 3He  proportional  counters  embeded  in a                                    
+#              polyethilene; 8 of those located as inner ring.                                         
+#  SAMPLE     Metallic 139La (99.9 %) and 141Pr (99.9 %) targets 20                                    
+#              mm in diameter and 4 mm in thickness.                                                   
+#  ANALYSIS   Direct measurement.     Correction    for    g-quanta                                    
+#              nonmonocromativity   using   the    Taylor    series                                    
+#              presentation                                                                            
+#  ERR-ANALYS (ERR-S) Statistical    errors.                                                           
+#             (ERR-SYS) The systematic uncertainty is  between  5.8                                    
+#              and  7.2  %,  as determined by the neutron detection                                    
+#              efficiency (5%), the number of incident LCS gamma-rays                                  
+#              (3 %), and the electron beam size effect (< 4.2 %).                                     
+#  COMMENT    Cross sections   of the   139La(g,n)  and  141Pr(g,n)                                    
+#              reactions were  measured  using  quasi-monochromatic                                    
+#              g-ray beams   from   laser  Compton  scattering.  No                                    
+#              evidence  for  sufficient  thermonuclear   p-process                                    
+#              contribution to  the  rare odd-odd nuclide 138La was                                    
+#              found.                                                                                  
+#  STATUS     (TABLE) The data from Fig. 3  have been compilled  at                                    
+#              the Russia   MSU   SINP  CDFE  by  V.Varlamov  using                                    
+#              tabulated  data  obtained  from   Dr.   H.Utsunomiya                                    
+#              through Dr. N.Otsuka.                                                                   
+#  HISTORY    (20061030C)                                                                              
+#  ENDBIB              36                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           39                                                                              
+#  SUBENT        M0696002   20061204   20070306   20070214       M041                                  
+#  BIB                  2          5                                                                   
+#  REACTION   (57-LA-139(G,N)57-LA-138,,SIG)                                                           
+#  FLAG       (1.) The  result   of   separate   measurement.   The                                    
+#              difference comes  from  a  little different shape of                                    
+#              gamma  energy  spectrum  due  to  the  difference in                                    
+#              electron beam size.                                                                     
+#  ENDBIB               5                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  8.99 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.900     0.000    0.175E-06    0.180E-07
+#      8.900     0.000    0.156E-06    0.168E-07

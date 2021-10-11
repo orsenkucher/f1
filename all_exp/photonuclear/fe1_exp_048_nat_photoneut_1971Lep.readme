@@ -1,0 +1,43 @@
+#  fe1_exp_048_nat_photoneut_1971Lep.readme                                                  
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0035044
+#  Element = Cd   Z =  48   A = nat
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0035     970129              20050926       0000
+#SUBENT        L0035001     970129              20050926       0000
+#BIB                  8         12
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,219,39,7401)
+#AUTHOR     (A.LEPRETRE,H.BEIL,R.BERGERE,P.CARLOS,A.DEMINIAC,
+#           A.VEYSSIERE)
+#TITLE      A study of the giant dipole resonance of vibrational
+#            nuclei in the A=103-133 mass region
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#ERR-ANALYS (DATA-ERR) Statistical uncertainty
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950410A) BIB Updated
+#ENDBIB              12
+#NOCOMMON             0          0
+#ENDSUBENT           15
+#SUBENT        L0035044     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (48-CD-0(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (950410C)
+#ENDBIB               3

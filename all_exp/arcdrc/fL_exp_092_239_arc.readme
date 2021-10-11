@@ -1,0 +1,9 @@
+ # U-239 boron data (thick target) from ANL
+ # Ig/Eg**3 taken from BNL/ECN data base and R.L. Bollinger et al., Phys.Rev. C6 (1972) 1322
+ # The Q(JiJf) correction: taken from the RACA code and applied in the Ig/Eg**3 BNL/ECN data base
+ # Normalization of 7E1 (<Eg = 3.96 MeV >) transitions to  f(E1) = 10.29 E-08 from DRC <f(E1)> table [INDC(NED)-013]
+ # p-wave contribution assumed negligible
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.19
+ # RN EXP18 = 7.8E-08  F = 0.74
+ # 

@@ -1,0 +1,65 @@
+#  fe1_exp_062_150_photoneut_1969Vas.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0816007
+#  Element = Sm   Z =  62   A = 150
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0816   20150306   20150604   20150519       M078
+#SUBENT        M0816001   20150306   20150604   20150519       M078
+#BIB                 11         24
+#TITLE      Giant resonance in the energy  region  of  transition
+#            from spherical nuclei to deformed ones.
+#AUTHOR     (O.V.Vasilyev,G.N.Zalesnyy,S.F.Semenko,V.A.Semenov)
+#INSTITUTE  (4RUSSGU)
+#REFERENCE  (J,YF,10,460,1969)
+#           (J,SNP,10,263,1969)
+#            English translation of YF,10,460,1969.
+#FACILITY   (BETAT,4RUSSGU) Saratov   State  University  betatron
+#            with maximum energy 25 MeV.
+#SAMPLE     Monoisotopic oxides (X-2,O-3):
+#             Isotope        Enrichment, %        Height, g
+#               148Nd             89.4              4.31
+#               150Nd             90.3              4.43
+#               150Sm             89.               1.89
+#               152Sm             96.9              1.56
+#               154Sm             98.2              4.51
+#INC-SOURCE (BRST)
+#DETECTOR   (PROPC) 6 proportional counters.
+#METHOD     (EXTB,SITA)
+#STATUS     (CURVE,APRVD) Data  from  Fig. 2, by S.F.Semenko.
+#HISTORY    (20110614C) Data were compiled at the Russia MSU SIMP
+#            CDFE by V.Varlamov.
+#           (20150306A) Corrected by V.Varlamov: AUTHOR, SAMPLE
+#            in SUBENTs 002, 004, 006, 008, 010.
+#ENDBIB              24
+#NOCOMMON             0          0
+#ENDSUBENT           27
+#SUBENT        M0816007   20110614   20111003   20110921       M059
+#BIB                  4          7
+#REACTION   (62-SM-150(G,X)0-NN-1,UNW,SIG,,BRS,DERIV)
+#ANALYSIS   The  (g,sn)  =  (g,n) + (g,2n) + ...  reaction  cross
+#            section   was  obtained  from   the (g,xn)  reaction
+#            cross section unfolded from reaction yield  measured
+#            using statistical theory.
+#STATUS     (DEP,M0816006)
+#ERR-ANALYS (DATA-ERR) Root-mean-squared errors.
+#ENDBIB               7
+# E1 PSF were not given in the data file at E <  8.35 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.000     0.000    0.213E-06    0.619E-07
+#      8.250     0.000    0.417E-06    0.592E-07

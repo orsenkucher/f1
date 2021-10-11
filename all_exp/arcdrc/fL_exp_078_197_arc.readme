@@ -1,0 +1,9 @@
+ # Pt-197 2 keV data BNL
+ # Ig/Eg**5 extracted from R.F. Casten et al., Phys.Rev C27 (1983) 1310 converted in Ig/Eg**3 in arbitrary units
+ # Normalization of 5 E1 (<Eg>=5.6 MeV) transitions with  f(E1) = 11.6 E-08  from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.22 applied
+ # M1 corrected for 0.14 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.69
+ # RN SYS18 F = 1.07 from systematic equation [INDC(NED)-0772]
+ # 

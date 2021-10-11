@@ -1,0 +1,19 @@
+# f1_exp_042_096_PP_2017MA67.readme
+#
+# Data were published in Martin et al. PRL119, 182503 (2017)
+#
+#The gamma strength function and level density of 1- states in 96Mo have been extracted from a high-resolution study of the (p,p')
+# reaction at 295 MeV and extreme forward angles.
+#
+# The 96Mo (p,p')  was studied at RCNP, Osaka, Japan. Details of the experimental techniques can be found in 
+# A. Tamii et al., Nucl. Instrum. Methods Phys. Res., Sect. A 605, 326 (2009)
+
+# A proton beam of 295 MeV with intensities of about 2 nA at 0° up to 6 nA at larger spectrometer angles and with an average polarization 
+# P0 = 0.67 impinged on a 96Mo foil isotopically enriched to 96.7% with an areal density of 3 mg/cm2. 
+# Data were taken with the GRAND RAIDEN magnetic spectrometer placed at 0° covering an angular acceptance of +/-2.6° and 
+# excitation energies Ex=5-23MeV.The energy resolution varied between 25 and 40 keV.
+
+# The error bars include statistical (dominating the polarization transfer analysis) and 
+# systematic (dominating the multipole decomposition analysis) uncertainties
+
+# The total dipole PSF was digitized from Fig.3 of Martin et al. (2017) 

@@ -1,0 +1,19 @@
+# f1_exp_073_181_OMdt.readme
+# 
+# Data will be published in peer-reviewed journal in 2019.
+#
+# Reaction 181Ta(d,t)180Ta using 15 MeV deuteron beam at the Oslo cyclotron # laboratory of the University of Oslo.
+#
+# The emitted gamma rays from the reaction were measured with 26 NaI(Tl) # detectors positioned spherically around the target chamber.
+# Particle energies where measured using the silicon ring particle # telescopes (SiRi) consisting of 8 segmented thin front Si detectors and 8 # thick back Si detectors.
+#
+# The nuclear level density and photon strength function were simultaneously # extracted using the Oslo method, from the particle-gamma coincidence # events, below the neutron separation energy S_n.
+#
+# The s-wave average neutron resonance spacing (D0) and the experimental # average total radiative width (Gg) do not exist for 180Ta. The total level # density at S_n was estimated by normalizing the experimental level density # of 180Ta to that of neighboring isotopes 181,182Ta from 181Ta(d,d')181Ta # and 181Ta(d,p)182Ta reactions. # It has been shown that level density and gamma-ray transmission coefficient # of neighboring isotopes have the same slope in various nuclei that have # been studied with the Oslo method [for example see Refs. [A. C. Larsen et # al., Phys. Rev. C. 87, 014319 (2013)], [S. Siem et al., Phys. Rev. C 65, # 044318 (2002)] and [H. T. Nyhus et al., Phys. Rev. C 85, 014323 (2012)]. # The estimated total level density at S_n was then used to calculated D0. # The value of Gg was estimated using the spline fit function as implemented # in TALYS reaction code [A. Koning, D. Rochman, Modern nuclear data evaluation
+with the TALYS code system, Nucl. Data Sheets 113 (2012) 2841–2934. (see also # http://www.talys.eu) (version 1.9)].
+#
+# dD0 is the uncertainty of D0 and dGg that of Gg and these uncertainties # were assumed to be 3 times more as those of # neighboring isotope 181Ta, to be inclusive. There estimated s-wave average neutron resonance spacing D0 ± dD0 and #the average total radiative width <Gg(Sn)> ± <dGg(Sn)> values are 0.8±0.23 eV and 62±5.77 meV, respectively. 
+# 
+# The nuclear level density is normalised at low energies by counting the # levels from the evaluated nuclear database [Brookhaven National Laboratory. # A database of nuclear levels. http://www.nndc.bnl.gov/chart, retrieved # 2015]. At high energies, the experimental nuclear level density is # interpolated to the estimated total level density at S_n. The photon # strength function is normalised from the estimated average total radiative # width (Gg).
+# 
+# The error bars obtained using the Oslo method only provide statistical and # systematic uncertainties of the unfolding and first generation methods, # and do not account for the possible contribution of the uncertainties of # the D0 and Gg parameters. To account for the uncertainties of the photon # strength function, the estimated normalisation parameters D0 and Gg, are # now given by D0 = D0 +/- dD0 and Gg = Gg -/+ dGg for the extreme lower and # upper uncertainties, respectively.

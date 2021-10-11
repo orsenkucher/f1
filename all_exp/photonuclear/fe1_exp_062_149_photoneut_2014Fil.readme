@@ -1,0 +1,89 @@
+#  fe1_exp_062_149_photoneut_2014Fil.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2472005
+#  Element = Sm      Z = 62    A =149
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2472   20150624   20150701   20150624       K015                                  
+#  SUBENT        K2472001   20150624   20150701   20150624       K015                                  
+#  BIB                 12         42                                                                   
+#  TITLE      Photoneutron cross sections for samarium isotopes:                                       
+#             Toward a unified understanding of (gamma,n) and                                          
+#              (n,gamma) reactions in the rare earth region                                            
+#  AUTHOR     (D.M.Filipescu, I.Gheorghe, H.Utsunomiya, S.Goriely,                                     
+#              T.Renstrom, H.-T.Nyhus, O.Tesileanu, T.Glodariu,                                        
+#              T.Shima, K.Takahisa, S.Miyamoto, Y.-W.Lu, S.Hilaire,                                    
+#              S.Peru, M.Martini, A.J.Koning)                                                          
+#  INSTITUTE  (3RUMBUC) Extreme Light Infrastructure Nuclear Physics                                   
+#             (3RUMBUC)                                                                                
+#             (3RUMBUU) Faculty of Physics                                                             
+#             (2JPNKON) Department of Physics                                                          
+#             (2JPNTOK) Center for Nuclear Study                                                       
+#             (2BLGBRU) Institut d'Astronomie et d'Astrophysique                                       
+#             (2NOROSL) Department of Physics                                                          
+#             (2JPNOSA) Research Center for Nuclear Physics                                            
+#             (2JPNJPN) Laboratory of Advanced Science and                                             
+#                       Technology for Industry, University of                                         
+#                       Hyogo, Kamigori                                                                
+#             (1USATAM) Cyclotron Institute                                                            
+#             (2FR BRC)                                                                                
+#             (2BLGGHT) Department of Physics and Astronomy                                            
+#             (2NEDNRG)                                                                                
+#  REFERENCE  (J,PR/C,90,064616,2014)                                                                  
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS)                                                                                    
+#  SAMPLE     - Chemical-form of target: Sm2O3                                                         
+#             - Physical-form of target: powder                                                        
+#  FACILITY   (SYNCH,2JPNJSR) NewSUBARU                                                                
+#  DETECTOR   (PROPC) To detect neutron                                                                
+#             (HPGE) To measure the energy distribution of the LCS                                     
+#                    gamma-ray with LaBr3: Ce detector                                                 
+#             (NAICR) To monitor gamma-ray flux                                                        
+#  ERR-ANALYS (ERR-SYS) Total systematic uncertainty                                                   
+#             (ERR-1) the number of incident gamma photons                                             
+#             (ERR-2) the neutron detection efficiency                                                 
+#             (ERR-3,0.5,0.7) the number of target nuclei (0.5-0.7%)                                   
+#             (ERR-4,0.2,0.9) the total attenuation coefficient                                        
+#                             (0.2-0.9%)                                                               
+#             (ERR-S) Statistical uncertainty                                                          
+#  STATUS     (APRVD) Proofread by H.Utsunomiya (2015.04.21)                                           
+#  HISTORY    (20150315C) Ichiko                                                                       
+#             (20150421R) Received by e-mail from H.Utsunomiya                                         
+#  ENDBIB              42                                                                              
+#  COMMON               3          3                                                                   
+#  ERR-SYS    ERR-1      ERR-2                                                                         
+#  PER-CENT   PER-CENT   PER-CENT                                                                      
+#   4.5        3.         3.2                                                                          
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           49                                                                              
+#  SUBENT        K2472005   20150624   20150701   20150624       K015                                  
+#  BIB                  3          5                                                                   
+#  REACTION   (62-SM-149(G,N)62-SM-148,,SIG)                                                           
+#  SAMPLE     Target-thickness is 2242 mg/cm2.                                                         
+#             (62-SM-149,ENR=0.9772)                                                                   
+#  STATUS     (TABLE) Plotted in Fig.11 of Phys. Rev. C. 90 (2014)                                     
+#                     064616                                                                           
+#  ENDBIB               5                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  7.06 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      5.950     0.000    0.379E-08    0.379E-08
+#      6.190     0.000    0.154E-07    0.620E-08
+#      6.340     0.000    0.179E-07    0.418E-08
+#      6.590     0.000    0.409E-07    0.533E-08
+#      6.840     0.000    0.682E-07    0.582E-08

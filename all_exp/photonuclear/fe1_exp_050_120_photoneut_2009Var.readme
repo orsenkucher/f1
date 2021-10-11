@@ -1,0 +1,107 @@
+#  fe1_exp_050_120_photoneut_2009Var.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0768044
+#  Element = Sn   Z =  50   A = 120
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0768   20101115   20110216   20110117       M055
+#SUBENT        M0768001   20101115   20110216   20110117       M055
+#BIB                  8         26
+#TITLE      Analysis and  evaluation of cross sections of partial
+#            photoneutron reactions for Sn isotopes.
+#AUTHOR     (V.V.VARLAMOV,B.S.ISHKHANOV,V.N.ORLIN,
+#            V.A.TCHETVERTKOVA)
+#REFERENCE  (R,MSU-INP-2009-3/847,2009) On Russian.
+#           (J,IZV,74,875,2010)
+#           (J,BAS,74,833,2010)
+#           #doi:10.3103/S1062873810060225
+#           Evaluated Cross Sections of the (gamma,nX) and
+#            (gamma,2nX) reactions on
+#            112,114,116,117,118,119,122,124Sn isotopes.
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (BRST)
+#           (QMPH,ARAD)
+#COMMENT    Using the   various   experiments   data   for  total
+#            photoneutron yield reaction cross  sections  s(g,xn)
+#            and  the modern model of photonuclear reaction based
+#            on the Fermi gas densities equations  the  evaluated
+#            data for (g,n) and (g,2n)  reaction  cross  sections
+#            were  obtained.  With  those  the total photoneutron
+#            reaction cross  sections (g,sn) were evaluated for 9
+#            isotopes 112,114,116,117,118,119,120,122,124Sn also.
+#STATUS     (TABLE,APRVD) by V.V.Varlamov.
+#HISTORY    (20090311C) Data were compiled  at  Russia  MSU  SINP
+#            CDFE by V.Varlamov.
+#           (20101115A) Corrected by V.Varlamov - REFERENCE.
+#ENDBIB              26
+#NOCOMMON             0          0
+#ENDSUBENT           29
+#SUBENT        M0768044   20090515   20090724   20090722       M049
+#BIB                  4         15
+#REACTION   (50-SN-120(G,X)0-NN-1,UNW,SIG,,,EVAL)
+#            Sum of cross sections for reactions (g,n) and (g,2n).
+#ANALYSIS   Sum of  the  partial reactions (g,n) and (g,2n) cross
+#            sections  evaluated   before   using   theoretically
+#            calculated ratio
+#                  (F-theor =    SIG-theor(g,2n)/SIG-theor(g,xn))
+#            by the ways:
+#                      SIG-eval(g,2n) = F*SIG-exp(g,xn)
+#                      and
+#                      SIG-eval(g,n) = (1-2F)*SIG-exp(g,xn).
+#ERR-ANALYS (DATA-ERR) Root-mean-square errors.
+#STATUS     (DEP,M0768026) Evaluated    (g,2n)   reaction   cross
+#            section.
+#           (DEP,M0768035) Evaluated    (g,n)    reaction   cross
+#            section.
+#ENDBIB              15
+# E1 PSF were not given in the data file at E > 26.40 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     26.500     0.000    0.128E-06    0.130E-07
+#     26.600     0.000    0.121E-06    0.147E-07
+#     26.700     0.000    0.121E-06    0.137E-07
+#     26.800     0.000    0.120E-06    0.123E-07
+#     26.900     0.000    0.119E-06    0.127E-07
+#     27.000     0.000    0.117E-06    0.136E-07
+#     27.100     0.000    0.113E-06    0.131E-07
+#     27.200     0.000    0.109E-06    0.201E-07
+#     27.300     0.000    0.110E-06    0.206E-07
+#     27.400     0.000    0.110E-06    0.211E-07
+#     27.500     0.000    0.110E-06    0.220E-07
+#     27.600     0.000    0.109E-06    0.218E-07
+#     27.700     0.000    0.111E-06    0.214E-07
+#     27.800     0.000    0.112E-06    0.210E-07
+#     27.900     0.000    0.107E-06    0.208E-07
+#     28.000     0.000    0.957E-07    0.208E-07
+#     28.100     0.000    0.102E-06    0.216E-07
+#     28.200     0.000    0.997E-07    0.224E-07
+#     28.300     0.000    0.101E-06    0.232E-07
+#     28.400     0.000    0.104E-06    0.229E-07
+#     28.500     0.000    0.107E-06    0.228E-07
+#     28.600     0.000    0.115E-06    0.230E-07
+#     28.700     0.000    0.109E-06    0.225E-07
+#     28.800     0.000    0.107E-06    0.226E-07
+#     28.900     0.000    0.109E-06    0.235E-07
+#     29.000     0.000    0.993E-07    0.235E-07
+#     29.100     0.000    0.867E-07    0.232E-07
+#     29.200     0.000    0.740E-07    0.230E-07
+#     29.300     0.000    0.103E-06    0.233E-07
+#     29.400     0.000    0.136E-06    0.235E-07
+#     29.500     0.000    0.118E-06    0.222E-07
+#     29.600     0.000    0.124E-06    0.226E-07
+#     29.700     0.000    0.140E-06    0.241E-07
+#     29.800     0.000    0.116E-06    0.251E-07

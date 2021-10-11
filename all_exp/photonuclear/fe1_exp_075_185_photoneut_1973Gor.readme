@@ -1,0 +1,76 @@
+#  fe1_exp_075_185_photoneut_1973Gor.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0645009
+#  Element = Re   Z =  75   A = 185
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0645   20150306   20150604   20150519       M078
+#SUBENT        M0645001   20150306   20150604   20150519       M078
+#BIB                 14         42
+#TITLE      Giant dipole resonance on nuclei of transition region
+#            A about 190.
+#AUTHOR     (A.M.Goryachev,G.N.Zalesnyy,S.F.Semenko,B.A.Tulupov)
+#INSTITUTE  (4RUSSGU)
+#REFERENCE  (J,YF,17,463,1973)
+#           (J,SNP,17,236,1974)
+#            English translation of YF,17,463,1973.
+#INC-SOURCE (BRST)
+#FACILITY   (BETAT,4RUSSGU)
+#SAMPLE     Metal powder targets:
+#            Isotope  Weight (g)  Enrichment (%)  Main admixture
+#             184W     9.01          90.3           183W  -  4 %
+#             186W     3.54          92.0           184W  -  5 %
+#             190Os    2.95          78.5           192Os - 13 %
+#             185Re    9.6           94.8           187Re -  5 %
+#             187Re   10.            98.7           185Re -  1 %
+#METHOD     (EXTB,SITA) The reaction yield curve measurement.
+#DETECTOR   (BF3) 4PI neutron detector: CHMO-5A, 1 atm. pressure,
+#            10B - 95%.  21 (2) % efficiency for neutrons with En
+#            = 2.2 MeV from 252Cf fission.
+#           Ring-ratio measurement.
+#ANALYSIS   (PLA) The variable bin Penfold-Leiss method for cross
+#            section unfolding from the yield curve measured.
+#ERR-ANALYS (DATA-ERR) Root-mean-squared errors are
+#            given.
+#STATUS     (CURVE) Data from Fig.2.
+#COMMENT    Cross sections  for  photoneutron reactions have been
+#            measured in  the region of giant dipole resonance on
+#            184,186W,  190Os   and   185,187Re   isotopes.   The
+#            measurements  were made in the photon energy range 7
+#            - 20 MeV with 0.2 MeV step.  Neutrons were  detected
+#            by  detectors  with 21 %  efficiency for neutrons of
+#            252Cf fission.  A correction was made for dependence
+#            of  detection  efficiency  upon neutron energy.
+#HISTORY    (20040202C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#           (20101124A) Corrected   by   V.Varlamov:   REFERENCE,
+#            ERR-ANALYS, EXP,  REACTION  (explanation) in SUBENTs
+#            007 - 011 substituted ((G,XN) -> (G,SN)), STATUS
+#            added in SUBENTs 007 - 009.
+#           (20150306A) Corrected by V.Varlamov:  AUTHOR, SAMPLE,
+#            REACTION in SUBENTs 006 and 011.
+#ENDBIB              42
+#NOCOMMON             0          0
+#ENDSUBENT           45
+#SUBENT        M0645009   20101124   20110216   20110117       M055
+#BIB                  3          6
+#REACTION   (75-RE-185(G,X)0-NN-1,UNW,SIG,,BRS,DERIV)
+#            The (G,SN) = (G,N) + (G,NP) + (G,2N) reaction.
+#CORRECTION Above the (g,2n) reaction thresholds the photoneutron
+#            multiplicity   was   taken   into   account    using
+#            statistical theory.
+#STATUS     (DEP,M0645004) (g,xn) reaction cross section.
+#ENDBIB               6#

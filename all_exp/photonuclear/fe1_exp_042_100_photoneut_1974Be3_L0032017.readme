@@ -1,0 +1,105 @@
+#  fe1_exp_042_100_photoneutr_1974Be3_L0032017.readme         
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0032017,L0032018,L0032019
+#  Element = Mo   Z =  42   A =  100
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#ENTRY            L0032   20100216   20100405   20100331       M052
+#SUBENT        L0032001   20100216   20100405   20100331       M052
+#BIB                  9         16
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,227,427,1974)
+#           (J,NP/A,219,61,197402)
+#AUTHOR     (H.Beil,R.Bergere,P.Carlos,A.Lepretre,A.De Miniac,
+#           A.Veyssiere)
+#TITLE      A study of the photoneutron contribution to the giant
+#            dipole resonance in doubly even Mo isotopes
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (STANK) Gd-loaded liquid scintillator tank
+#ERR-ANALYS (ERR-S) Statistical uncertainty
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB Updated
+#           (19950403A) BIB Updated
+#           (20100216A) DATES, ERR-S, REACTION in SUBENT 005
+#            corrected at the Russia MSU SINP CDFE by V.Varlamov.
+#ENDBIB              16
+#NOCOMMON             0          0
+#ENDSUBENT           19
+#SUBENT        L0032017   20100216   20100405   20100331       M052
+#BIB                  2          4
+#REACTION   ((42-MO-100(G,N)42-MO-99,,SIG)+
+#           (42-MO-100(G,N+P)41-NB-98,,SIG))
+#            Threshold of (gamma,n+p) reaction is 18.0 MeV.
+#HISTORY    (19950403A) REACTION corrected.
+#ENDBIB               4
+#ENTRY            L0032   20100216   20100405   20100331       M052
+#SUBENT        L0032001   20100216   20100405   20100331       M052
+#BIB                  9         16
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,227,427,1974)
+#           (J,NP/A,219,61,197402)
+#AUTHOR     (H.Beil,R.Bergere,P.Carlos,A.Lepretre,A.De Miniac,
+#           A.Veyssiere)
+#TITLE      A study of the photoneutron contribution to the giant
+#            dipole resonance in doubly even Mo isotopes
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (STANK) Gd-loaded liquid scintillator tank
+#ERR-ANALYS (ERR-S) Statistical uncertainty
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB Updated
+#           (19950403A) BIB Updated
+#           (20100216A) DATES, ERR-S, REACTION in SUBENT 005
+#            corrected at the Russia MSU SINP CDFE by V.Varlamov.
+#ENDBIB              16
+#NOCOMMON             0          0
+#ENDSUBENT           19
+#SUBENT        L0032018   20100216   20100405   20100331       M052
+#BIB                  2          4
+#REACTION   ((42-MO-100(G,2N)42-MO-98,,SIG)+
+#           (42-MO-100(G,2N+P)41-NB-97,,SIG))
+#            Threshold of (gamma,2n+p) reaction is 24.0 MeV.
+#HISTORY    (19950403A) REACTION corrected.
+#ENDBIB               4
+#ENTRY            L0032   20100216   20100405   20100331       M052
+#SUBENT        L0032001   20100216   20100405   20100331       M052
+#BIB                  9         16
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,227,427,1974)
+#           (J,NP/A,219,61,197402)
+#AUTHOR     (H.Beil,R.Bergere,P.Carlos,A.Lepretre,A.De Miniac,
+#           A.Veyssiere)
+#TITLE      A study of the photoneutron contribution to the giant
+#            dipole resonance in doubly even Mo isotopes
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (STANK) Gd-loaded liquid scintillator tank
+#ERR-ANALYS (ERR-S) Statistical uncertainty
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB Updated
+#           (19950403A) BIB Updated
+#           (20100216A) DATES, ERR-S, REACTION in SUBENT 005
+#            corrected at the Russia MSU SINP CDFE by V.Varlamov.
+#ENDBIB              16
+#NOCOMMON             0          0
+#ENDSUBENT           19
+#SUBENT        L0032019   20100216   20100405   20100331       M052
+#BIB                  3          3
+#REACTION   (42-MO-100(G,3N)42-MO-97,,SIG)
+#SAMPLE     MoO3, 87.6% 100Mo
+#HISTORY    (19891205A) Data replaced
+#ENDBIB               3

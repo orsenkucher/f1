@@ -1,0 +1,129 @@
+#  fe1_exp_020_nat_photoabs_1985Ahr.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0188017
+#  Element = Ca      Z = 20    A =  0
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0188   20110126   20110323   20110311       M056                                  
+#  SUBENT        M0188001   20110126   20110323   20110311       M056                                  
+#  BIB                 10         26                                                                   
+#  TITLE      The total absorption of photons by nuclei.                                               
+#  AUTHOR     (J.AHRENS)                                                                               
+#  REFERENCE  (J,NP/A,446,229C,1985)                                                                   
+#             #doi:10.1016/0375-9474(85)90591-3                                                        
+#  INSTITUTE  (2GERMPM)                                                                                
+#  INC-SOURCE (QMPH) Annihilation in flight of fast positrons.                                         
+#             (MPH,TAGD) Tagged photons.                                                               
+#  ANALYSIS   The data averaging over available informatioN.                                           
+#  ERR-ANALYS (DATA-ERR) Mean root-square errors.                                                      
+#  COMMENT    The  total  absorption cross sections for real photons                                   
+#              by nuclei from deuteron to uranium are discussed. The                                   
+#              absorption of photons by nuclei is compared with that                                   
+#              of  free  proton.  Integrated  cross   sections   are                                   
+#              discussed  on the basis of dispersion relations.  The                                   
+#              data for cross sections per nucleon are given.                                          
+#  STATUS     (TABLE,APRVD)   The  data  have  been  received   from                                   
+#             J.Ahrens in form of digital data files.                                                  
+#  HISTORY    (19920116C)                                                                              
+#             (20021113A) Corrected by V.Varlamov:                                                     
+#              Dates are   corrected   from   two  to  four  digits                                    
+#              including that in reference and  history,  new  data                                    
+#              for cross  sections in units mb are added in subents                                    
+#              M0188011 - M0188019 with correspondent comments.                                        
+#             (20110126A) Corrected    by   V.Varlamov:   REFERENCE,                                   
+#              STATUS,  REACTION  in  SUBENTs 011 - 019, ERR-ANALYS,                                   
+#              INSTITUTE, lowercase.                                                                   
+#  ENDBIB              26                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           29                                                                              
+#  SUBENT        M0188017   20110126   20110323   20110311       M056                                  
+#  BIB                  3          6                                                                   
+#  REACTION   (20-CA-0(G,ABS),,SIG,,,EVAL)                                                             
+#             Data published    in   units   millibarn/nucleon   are                                   
+#              multiplied by 40.059                                                                    
+#  STATUS     (DEP,M0188808)                                                                           
+#  REL-REF    (E,,J.AHRENS+,J,NP/A,251,479,1975)     Data for photon                                   
+#              energies 10 - 140 MeV.                                                                  
+#  ENDBIB               6                                                                              
+#  NOCOMMON             0          0                                                                   
+
+# E1 PSF were not given in the data file at E < 15.64 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      9.400     0.000    0.266E-06    0.299E-07
+#      9.610     0.000    0.155E-06    0.257E-07
+#      9.910     0.000    0.115E-06    0.135E-07
+#     10.230     0.000    0.873E-07    0.142E-07
+#     10.490     0.000    0.689E-07    0.171E-07
+#     10.800     0.000    0.647E-07    0.124E-07
+#     11.180     0.000    0.687E-07    0.145E-07
+#     11.510     0.000    0.652E-07    0.132E-07
+#     11.800     0.000    0.580E-07    0.169E-07
+#     12.110     0.000    0.456E-07    0.142E-07
+#     12.470     0.000    0.468E-07    0.131E-07
+#     12.850     0.000    0.411E-07    0.139E-07
+#     13.260     0.000    0.553E-07    0.130E-07
+#     13.640     0.000    0.319E-07    0.124E-07
+#     14.060     0.000    0.717E-07    0.119E-07
+#     14.500     0.000    0.446E-07    0.108E-07
+#     14.920     0.000    0.825E-07    0.115E-07
+#     15.370     0.000    0.821E-07    0.967E-08
+# E1 PSF were not given in the data file at E > 31.79 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     32.100     0.000    0.434E-07    0.773E-08
+#     33.080     0.000    0.301E-07    0.766E-08
+#     34.100     0.000    0.332E-07    0.620E-08
+#     35.130     0.000    0.422E-07    0.604E-08
+#     36.180     0.000    0.294E-07    0.565E-08
+#     37.270     0.000    0.437E-07    0.535E-08
+#     38.430     0.000    0.323E-07    0.497E-08
+#     39.540     0.000    0.322E-07    0.507E-08
+#     40.740     0.000    0.270E-07    0.484E-08
+#     41.990     0.000    0.181E-07    0.471E-08
+#     43.320     0.000    0.152E-07    0.489E-08
+#     44.600     0.000    0.181E-07    0.525E-08
+#     45.910     0.000    0.171E-07    0.496E-08
+#     47.270     0.000    0.108E-07    0.543E-08
+#     48.720     0.000    0.999E-08    0.472E-08
+#     50.150     0.000    0.880E-08    0.432E-08
+#     63.820     0.000    0.765E-09    0.322E-08
+#     67.650     0.000    0.366E-08    0.363E-08
+#     71.760     0.000    0.804E-08    0.471E-08
+#     74.010     0.000    0.136E-08    0.474E-08
+#     76.000     0.000    0.608E-08    0.590E-08
+#     83.050     0.000    0.628E-08    0.379E-08
+#     85.530     0.000    0.267E-08    0.451E-08
+#     88.120     0.000    0.367E-09    0.297E-08
+#     91.140     0.000    0.114E-08    0.324E-08
+#     98.780     0.000    0.131E-08    0.325E-08
+#    101.760     0.000    0.434E-08    0.342E-08
+#    104.690     0.000    0.291E-08    0.369E-08
+#    108.010     0.000    0.547E-08    0.386E-08
+#    111.310     0.000    0.439E-09    0.397E-08
+#    114.850     0.000    0.844E-08    0.393E-08
+#    118.230     0.000    0.553E-08    0.368E-08
+#    121.660     0.000    0.998E-11    0.354E-08
+#    125.160     0.000    0.364E-08    0.333E-08
+#    137.210     0.000    0.189E-08    0.261E-08
+#    141.470     0.000    0.232E-08    0.239E-08
+#    145.920     0.000    0.376E-08    0.198E-08
+#    150.540     0.000    0.169E-08    0.178E-08
+#    155.070     0.000    0.217E-08    0.187E-08
+#    159.490     0.000    0.159E-08    0.199E-08
+#    163.280     0.000    0.249E-08    0.311E-08

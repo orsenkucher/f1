@@ -1,0 +1,21 @@
+# fm1_exp_054_134_NRF.dat                                                       
+#                                                                               
+# Z = 54, A = 134                                                               
+# No. of entries: 10                                                            
+# Col 1: photon energy E in MeV                                                 
+# Col 2: bin width dE in MeV                                                    
+# Col 3: magnetic dipole strength fm1 in MeV^-3                                 
+# Col 4: uncertainty df1 in MeV^-3                                              
+# Format: 2f10.3, 2e12.3                                                        
+# Author: R. Schwengner HZDR                                                    
+#    E         dE       f1           df1                                        
+     6.000     0.100    0.723E-09    0.289E-09
+     6.300     0.100    0.262E-08    0.124E-08
+     6.600     0.100    0.644E-08    0.315E-08
+     6.900     0.100    0.130E-07    0.628E-08
+     7.200     0.100    0.263E-07    0.928E-08
+     7.500     0.100    0.111E-07    0.532E-08
+     7.800     0.100    0.530E-07    0.188E-07
+     8.100     0.100    0.427E-07    0.204E-07
+     8.400     0.100    0.359E-07    0.184E-07
+     8.700     0.100    0.389E-07    0.189E-07

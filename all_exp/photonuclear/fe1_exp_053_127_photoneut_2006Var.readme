@@ -1,0 +1,93 @@
+#  fe1_exp_053_127_photoneut_2006Var.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0693003
+#  Element = I    Z =  53   A = 127
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0693   20061114   20070306   20070214       M041
+#SUBENT        M0693001   20061114   20070306   20070214       M041
+#BIB                  8         20
+#TITLE      Evaluation of  127I   photoneutron   reaction   cross
+#            sections.
+#AUTHOR     (V.V.VARLAMOV,B.S.ISHKHANOV,I.V.MAKARENKO,V.N.ORLIN,
+#            N.N.PESKOV)
+#REFERENCE  (R,MSU-INP-2006-9/808,2006)
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (BRST)
+#           (QMPH,ARAD)
+#COMMENT    Joint combined evaluation of total (g,xn) and  (g,sn)
+#            and  partial  (g,n),  (g,2n) and (g,3n) photoneutron
+#            reactions cross sections for 127I  was  carried  out
+#            based  on  the  results of investigation of those in
+#            experiments    used    the    bremsstrahlung     and
+#            quasimonoenergetic  annihilation  photon beams.  The
+#            reasons of data  disagreements  were  analyzed,  the
+#            values of normalization factors for putting all data
+#            in consistency to  each  other  were  obtained.
+#STATUS     (APRVD) by V.V.Varlamov.
+#HISTORY    (20060712C) Data were compiled  at  Russia  MSU  SINP
+#            CDFE by V.Varlamov.
+#ENDBIB              20
+#NOCOMMON             0          0
+#ENDSUBENT           23
+#SUBENT        M0693003   20061114   20070306   20070214       M041
+#BIB                  5         13
+#REACTION   (53-I-127(G,X)0-NN-1,UNW,SIG,,,EVAL)
+#ANALYSIS   The procedure  analogue  to  that  used  for combined
+#            analysis of  photoneutron  reaction  cross  sections
+#            obtained using beams of quasimonoenergerical photons
+#            at Saclay (France) and Livermore (USA) was used.
+#REL-REF    (E,M0635001,V.V.VARLAMOV,J,YK,1-2,48,2003).       The
+#            method of data analysis.
+#           (E,L0009009,R.L.BRAMBLETT+,J,PR,148,1198,1966). Total
+#            photoneutron reaction (g,sn) cross section  obtained
+#            using quasimonoenergetical  annihilation  photons at
+#            Livermore.
+#ERR-ANALYS (DATA-ERR) Root-mean-square errors.
+#STATUS     (DEP,L0009009) Livermore data multiplied by 1.2.
+#ENDBIB              13
+# E1 PSF were not given in the data file at E <  9.48 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      9.090     0.000    0.130E-07    0.372E-08
+#      9.170     0.000    0.668E-07    0.201E-07
+#      9.250     0.000    0.855E-07    0.825E-08
+#      9.330     0.000    0.756E-07    0.419E-07
+#      9.400     0.000    0.163E-06    0.113E-07
+#      9.480     0.000    0.188E-06    0.147E-07
+# E1 PSF were not given in the data file at E > 24.10 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     24.270     0.000    0.252E-06    0.665E-07
+#     24.580     0.000    0.212E-06    0.649E-07
+#     24.890     0.000    0.276E-06    0.659E-07
+#     25.200     0.000    0.230E-06    0.706E-07
+#     25.510     0.000    0.226E-06    0.656E-07
+#     25.820     0.000    0.203E-06    0.658E-07
+#     26.130     0.000    0.205E-06    0.568E-07
+#     26.440     0.000    0.176E-06    0.738E-07
+#     26.750     0.000    0.189E-06    0.730E-07
+#     27.060     0.000    0.237E-06    0.734E-07
+#     27.370     0.000    0.202E-06    0.574E-07
+#     27.680     0.000    0.226E-06    0.714E-07
+#     27.990     0.000    0.135E-06    0.561E-07
+#     28.300     0.000    0.236E-06    0.778E-07
+#     28.610     0.000    0.107E-06    0.643E-07
+#     28.920     0.000    0.164E-06    0.861E-07
+#     29.230     0.000    0.887E-07    0.866E-07
+#     29.540     0.000    0.617E-07    0.769E-07

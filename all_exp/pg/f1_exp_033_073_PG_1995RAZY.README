@@ -1,0 +1,11 @@
+# f1_exp_033_073_PG_1995RAZY.readme
+# 
+# Data were published by S.S. Ratkevich et al., Proc. 45th Ann. Conf. Nucl. Spectr., p. # 354
+#
+# Reaction 72Ge(p,g)73As with beam energy of 1.8-3.2 MeV was performed at ESU facility # in Kharkov. The PSF data correspond to proton energies 2.9 MeV with energy spread of # 250 keV.
+# 
+# No details of experiment are available but the authors typically measured gamma # decays were measured with a pair spectrometer consisting of 70cm^3 or 63cm^2 Ge(Li) # and surrounding NaI(Tl) detectors.  
+# Cross sections of primary gamma-rays to three low-lying discrete states from the # Average Resonance Proton Capture technique were extracted from measured intensities. #The absolute value of PSF is obtained from this cross section via analysis within the # Hauser-Feshbach theory. General description of the determination of absolute PSF # value can be found in G. Szeflinska et al., Nucl. Phys. A323, 253 (1979). No details # on the parameters used in normalization are given in the original paper and the # normalization is thus difficult to track.
+#
+# Experimental PSFs values were obtained from the figure.
+# There is no information on uncertainties in the paper. However, other papers of the # same authors typically reported estimates of experimental intensities to be about # 20%. They consisted of the sum of squares of statistical uncertainties - about 10% - # and systematic uncertainties that are dominated by the detector efficiency and target # thickness. No error from absolute normalization of the cross section to PSF as well # as from expected Porter-Thomas fluctuations was never added. The estimated # uncertainty from the Porter-Thomas fluctuations is estimated to be up to about 10-15%.

@@ -1,0 +1,90 @@
+#  fe1_exp_034_080_photoneut_2009Mak.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2111002
+#  Element = Se      Z = 34    A = 80
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2111   20100514   20100610   20100514       K006                                  
+#  SUBENT        K2111001   20100514   20100610   20100514       K006                                  
+#  BIB                 14         48                                                                   
+#  TITLE      Photodisintegration of 80Se: Implications for the                                        
+#             s-process branching at 79Se                                                              
+#  AUTHOR     (A.Makinaga, H.Utsunomiya, S.Goriely, T.Kaihori,                                         
+#             S.Goko, H.Akimune, T.Yamagata, H.Toyokawa,                                               
+#             T.Matsumoto, H.Harano, H.Harada, F.Kitatani, Y.K.Hara,                                   
+#             S.Hohara, Y.W.Lui)                                                                       
+#  INSTITUTE  (2JPNKON) Department of Physics                                                          
+#             (2BLGBRU) Institut d'Astrophysique                                                       
+#             (2JPNJAE)                                                                                
+#             (2JPNAIS)                                                                                
+#             (2JPNKNK) Atomic Energy Research Institute                                               
+#             (1USATAM) Cyclotron Institute                                                            
+#  REFERENCE  (J,PR/C,79,(2),025801,2009)                                                              
+#             Main reference. See also TITLE and AUTHOR.                                               
+#             (S,AIP-1016,134,200805) A.Makinaga+, Same SIG given                                      
+#             (C,2007TOKYO,2,564,200706) A.Makinaga+, Same SIG given                                   
+#             (C,2006CERN,,(239),200606)                                                               
+#             A.Makinaga+, a few per-cent different from final data                                    
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS) lambda=532 and 1064 nm laser photons used                                          
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#             - Target-thickness is 1996.0 mg/cm**2.                                                   
+#             (34-SE-80,ENR=0.9995)                                                                    
+#  METHOD     (RINGR) To determine average neutron energies. 20 3He                                    
+#                     proportional counters coaxially embedded in                                      
+#                     polyethylene moderator at distance of 3.8, 7.0                                   
+#                     and 10.0 cm from beam axis.                                                      
+#  FACILITY   (ESTRG,2JPNAIS) To storage electron beam from 547.8 -                                    
+#                             603.2 MeV for 532 nm laser photons and                                   
+#                             754.4 - 770.4 MeV for 1064 nm photons                                    
+#                             at Tsukuba Electron Ring for                                             
+#                             Accelerating and Storage (TERAS)                                         
+#  DETECTOR   (PROPC) To detect neutron                                                                
+#  CORRECTION Corrected for energy spread of LCS beam based on the                                     
+#             Taylor expansion method                                                                  
+#  ERR-ANALYS - Total systematic uncertainty: 4.5 - 5.3%                                               
+#             - Uncertainty to beam-size effect (a few percentages)                                    
+#             (ERR-1) Due to neutron detection efficiency                                              
+#             (ERR-2) Due to number of incident gamma rays                                             
+#             (ERR-S) Statistical uncertainty                                                          
+#  STATUS     (APRVD) Proofread by Hiroaki Utsunomiya (2009.03.05)                                     
+#             (APRVD) Proofread by Ayano Makinaga (2010.01.08)                                         
+#  HISTORY    (20081124C)                                                                              
+#             (20090303R) Received by e-mail from A.Makinaga                                           
+#             (20090804A) Nf. REFERENCE updated (correction and                                        
+#                         addition)                                                                    
+#             (20100107A) Nf. REFERENCE: 2007TOKYO and PR/C added                                      
+#  ENDBIB              48                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.2        3.                                                                                      
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           55                                                                              
+#  SUBENT        K2111002   20090707   20090724   20090724       K005                                  
+#  BIB                  3          4                                                                   
+#  REACTION   (34-SE-80(G,N)34-SE-79,,SIG)                                                             
+#  REL-REF    (D,M0070016,A.M.Goryachev+,J,IZV,39,134,1975)                                            
+#             (D,L0043029,P.Carlos+,J,NP/A,258,365,1976)                                               
+#  STATUS     (TABLE)                                                                                  
+#  ENDBIB               4                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E < 10.05 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      9.980     0.000    0.453E-07    0.342E-08

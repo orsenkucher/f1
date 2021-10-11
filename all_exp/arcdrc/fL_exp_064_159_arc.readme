@@ -1,0 +1,9 @@
+ # Gd-159 2keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from  C. Granja et al., Nucl.Phys. A279 (2003) 679
+ # Data with Eg >  5 MeV accepted only for unique J = 1/2,3/2 and 5/2 groups
+ # Normalization of 9E1 (<Eg = 5.38 MeV>) transitions to < f(E1)> = 8.8 E-08  from DRC <f(E1)> table [INDC(NED)-013]
+ # M1 corrected for 0.19 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.43
+ # RN EXP18 = 9.21E-08MeV-3 F = 1.04
+ # 

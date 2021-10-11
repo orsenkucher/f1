@@ -1,0 +1,11 @@
+ # Dy-164 2keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from BNL/ECN data base and D.D. Warner et al., Phys.Rev C27 (1983) 2292
+ # The Q(JiJf) and/or p-wave correction: taken from the RACA code and applied in the Ig/Eg**3 BNL/ECN data base
+ # no Q - recent Jf disregarded
+ # Normalization of 5E1 (<Eg = 7.17>)  <f(E1)> =8.60 E-08 from <f(E1)> systematic equation INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.34 applied
+ # p-wawe contribution calculated (RACA) as 0.18 E1 in M1 (applied)
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.13
+ # RN SYS18 F=1.09 from systematic equation [INDC(NED)-0772]
+ # 

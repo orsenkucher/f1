@@ -1,0 +1,11 @@
+ # Eu-154 2 keV data BNL
+ # Ig extracted from M.A. Balodis et al., Nucl.Phys. A 472 (1987) 445 and converted in Ig/Eg**3
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # no Q - recent Jf disregarded
+ # Normalization with 6E1  (<Eg = 7.88 MeV>) to  <f(E1)> =7.76 E-08 from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # corrected by (<Eg>/6.2)**2 = 1.62
+ # M1 corrected for 0.24 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.05
+ # RN SYS18 F=1.09 from systematic equation [INDC(NED)-0772]
+ # 

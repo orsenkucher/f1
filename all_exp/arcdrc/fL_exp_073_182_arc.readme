@@ -1,0 +1,10 @@
+ # Ta-182 2 keV data IDAHO
+ # Ig extracted from R.G. Helmers et al., Nucl.Phys. A 168 (1971) 449 and converted in Ig/Eg**3
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # no Q - recent Jf disregarded
+ # Normalization with 12E1  (<Eg = 5.78 MeV>) to  <f(E1)> =11.3 E-08 from DRC <f(E1)> table [INDC(NED)-013]
+ # M1 corrected for 0.14 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.10
+ # RN EXP18 = 9.2E-08  F = 0.81
+ # 

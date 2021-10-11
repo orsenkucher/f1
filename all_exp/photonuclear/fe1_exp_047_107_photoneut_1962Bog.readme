@@ -1,0 +1,50 @@
+#  fe1_exp_047_107_photoneut_1962Bog.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0769011
+#  Element = Ag   Z =  47   A = 107
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0769   20131127   20140129   20140122       M069
+#SUBENT        M0769001   20131127   20140129   20140122       M069
+#BIB                  9         13
+#TITLE      Splitting of    the   giant   dipole   resonance   in
+#            medium-heavy nuclei.
+#AUTHOR     (O.V.Bogdankevich,B.I.Goryachev,V.A.Zapevalov)
+#REFERENCE  (J,ZET,42,1502,1962)
+#           (J,JET,15,1044,1962) English translation of
+#            ZET,42,1502,1962.
+#INSTITUTE  (4RUSLEB)
+#INC-SOURCE (BRST)
+#FACILITY   (SYNCH,4RUSLEB)
+#METHOD     (EXTB,SITA)
+#DETECTOR   (BF3)
+#HISTORY    (20090409C)
+#           (20131127A) Corrected by V.Varlamov: REFERENCE.
+#ENDBIB              13
+#NOCOMMON             0          0
+#ENDSUBENT           16
+#SUBENT        M0769011   20090505   20090508   20090508       M048
+#BIB                  4          9
+#REACTION   (47-AG-107(G,X)0-NN-1,UNW,SIG,,BRS,DERIV)
+#            Sum (g,n) + (g,np) + (g,2n).
+#ANALYSIS   Neutron multiplicity correction for  (g,xn)  reaction
+#            cross section    using    J.M.BLATT,   V.F.WEISSKOPF
+#            statistical theory.
+#ERR-ANALYS (DATA-ERR) Mean-root-square errors.
+#STATUS     (CURVE) Data from Fig.  8 (line) were compiled at the
+#            Russia MSU SINP CDFE by V.Varlamov.
+#           (DEP,M0769010) Cross section for (g,xn) reaction.
+#ENDBIB               9

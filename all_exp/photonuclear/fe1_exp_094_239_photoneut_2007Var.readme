@@ -1,0 +1,87 @@
+#  fe1_exp_094_239_photoneut_2007Var.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0722018
+#  Element = Pu   Z =  94   A = 239
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0722   20071113   20080131   20080124       M044
+#SUBENT        M0722001   20071113   20080131   20080124       M044
+#BIB                 11         46
+#TITLE      Evaluation of   (gamma,xn),   (gamma,sn),  (gamma,n),
+#            (gamma,2n),  and (gamma,f) reactions cross  sections
+#            for actinides nuclei 232Th,  238U, 237Np, and 239Pu:
+#            consistency    between    data    obtained     using
+#            quasimonoenergetic  annihilation  and bremsstrahlung
+#            photons.
+#AUTHOR     (V.V.VARLAMOV,N.N.PESKOV)
+#REFERENCE  (R,MSU-INP-2007-8/829,2007)
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,BRST)
+#ANALYSIS   Using the special method for putting into consistency
+#            the  results  of  various  experiments   the   cross
+#            sections  for several  most  important  photonuclear
+#            reactions    (gamma,xn),    gamma,sn),    (gamma,n),
+#            (gamma,2n,)  and  (gamma,f)  were evaluated for four
+#            actinide isotopes 232Th, 238U, 237Np, and 239Pu.
+#           Two sources  of  experimental  data were used - cross
+#            sections    obtained    using     quasiminornergetic
+#            annihilation  photons  at Livermore (USA) and Saclay
+#            (France).
+#           For renormalization  of  those  experimental data for
+#            total  photoabsorption  (gamma,abs)  reaction  cross
+#            sections obtained using bremsstrahlung were used.
+#REL-REF    (N,,V.V.VARLAMOV+,R,MSU-INP-2003-2/715,2003)
+#           (N,,V.V.VARLAMOV+,J,YK,1-2,48,2003)
+#           (N,,V.V.VARLAMOV+,R,INDC(CCP)-440,37,2004)
+#           The method  for  putting  the  results   of   various
+#            experiments  into  consistency  to  each other - the
+#            method for correction of  (gamma,n)  and  (gamma,2n)
+#            reaction cross section data caused by the difference
+#            in the analysis that separates the total  counts  of
+#            neutrons  into (gamma,n) and (gamma,2n) events.  Its
+#            idea is that correspondent "false" part of (gamma,n)
+#            reaction   cross   section   is   recalculated   and
+#            transmitted  back  into  (gamma,2n)  reaction  cross
+#            section.
+#ERR-ANALYS (DATA-ERR) Mean root-square errors.
+#COMMENT    The Livermore  data  evaluation really was the simple
+#            renormalization to the correspondent  data  obtained
+#            using bremsstrahlung, but Saclay data evaluation was
+#            complicated recalculation taking  into  account  not
+#            correct    Saclay   neutron   multiplicity   sorting
+#            procedure.
+#STATUS     (APRVD) by V.V.Varlamov.
+#            Data have been compiled at the RUSSIA MSU SINP CDFE.
+#HISTORY    (20071113C)
+#ENDBIB              46
+#NOCOMMON             0          0
+#ENDSUBENT           49
+#SUBENT        M0722018   20071113   20080131   20080124       M044
+#BIB                  4         13
+#REACTION   (94-PU-239(G,X)0-NN-1,UNW,SIG,,,EVAL)
+#ANALYSIS   The Livermore (gamma,sn) reaction cross section  data
+#            evaluation using  renormalization  coefficient  0.92
+#            obtained by  comparison  with  that  of  (gamma,abs)
+#            reaction cross section obtained by bremsstrahlung.
+#STATUS     (DEP,L0058015) Livermore (gamma,sn) data.
+#           (DEP,L0090005) Moscow (gamma,abs)  data.
+#REL-REF    (E,L0058015,B.L.BERMAN+,J,PR/C,34,2201,1986)
+#            239Pu(gamma,sn)  reaction cross section, obtained at
+#            Livermore.
+#           (E,M0090005,G.M.GUREVICH+,J,NP/A,273,326,1976)
+#            239Pu(gamma,abs) reaction  cross  section,  obtained
+#            at Moscow using bremsstrahlung.
+#ENDBIB              13

@@ -1,0 +1,72 @@
+#  fe1_exp_059_141_photoneut_1966Br1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0009010
+#  Element = Pr   Z =  59   A = 141
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0009     970129              20050926       0000
+#SUBENT        L0009001     970129              20050926       0000
+#BIB                  9         13
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR,148,1198,6608)
+#AUTHOR     (R.L.BRAMBLETT,J.T.CALDWELL,B.L.BERMAN,R.R.HARVEY,
+#           S.C.FULTZ)
+#TITLE      Photoneutron cross sections of Pr141 and I127 from
+#            threshold to 33 MeV.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (PROPC) Paraffin moderator with BF3 counters
+#ERR-ANALYS (DATA-ERR) Statistical uncertainty
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950330A) BIB Updated
+#ENDBIB              13
+#NOCOMMON             0          0
+#ENDSUBENT           16
+#SUBENT        L0009010     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (59-PR-141(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P)+(G,3N).
+#HISTORY    (950330C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E < 10.02 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.788     0.000    0.416E-07    0.661E-08
+#      9.097     0.000    0.601E-08    0.410E-08
+#      9.407     0.000    0.146E-06    0.950E-08
+#      9.717     0.000    0.286E-06    0.139E-07
+# E1 PSF were not given in the data file at E > 24.89 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.202     0.000    0.126E-06    0.406E-07
+#     25.511     0.000    0.133E-06    0.408E-07
+#     25.821     0.000    0.211E-06    0.417E-07
+#     26.131     0.000    0.138E-06    0.418E-07
+#     26.441     0.000    0.135E-06    0.413E-07
+#     26.750     0.000    0.163E-06    0.428E-07
+#     27.060     0.000    0.145E-06    0.426E-07
+#     27.370     0.000    0.145E-06    0.447E-07
+#     27.679     0.000    0.843E-07    0.451E-07
+#     27.989     0.000    0.118E-06    0.459E-07
+#     28.299     0.000    0.708E-07    0.460E-07
+#     28.608     0.000    0.755E-07    0.464E-07
+#     28.918     0.000    0.552E-07    0.459E-07
+#     29.228     0.000    0.272E-07    0.490E-07
+#     29.538     0.000    0.449E-07    0.561E-07
+#     29.847     0.000    0.930E-07    0.683E-07

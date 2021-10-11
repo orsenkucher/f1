@@ -1,0 +1,127 @@
+#  fe1_exp_020_042_photoabs_2003Ero.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0653003
+#  Element = Ca   Z =  20   A =  42
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0653   20140722   20141103   20141027       M074
+#SUBENT        M0653001   20140722   20141103   20141027       M074
+#BIB                 10         34
+#TITLE      Giant dipole resonance for calcium isotopes.
+#AUTHOR     (V.A.Erokhova,M.A.Elkin,A.V.Izotova,B.S.Ishkhanov,
+#            I.M.Kapitonov,E.I.Lileeva,E.V.Shirokov)
+#REFERENCE  (J,IZV,67,1479,2003)
+#           (J,BAS,67,1636,2003)
+#            English translation of IZV,67,1479,2003.
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   The total  photoabsorption cross sections for calcium
+#            isotopes  40,42,44,48Ca  were  evaluated  using  the
+#            partial   photonuclear   reaction   cross   sections
+#            summation:  SIG(g,abs)  =  SIG(g,p)  +  SIG(g,n)   +
+#            SIG(g,np) + SIG(g,2n).
+#           For 40Ca  experimental photoabsorption cross  section
+#            was  used  as evaluated one but for other 3 isotopes
+#            high-energy  (30  -  40  MeV)   tail   the   special
+#            normalization  was  used.  Evaluated  cross sections
+#            were obtained multiplying standard cross section for
+#            40Ca     by     special     coefficient     (k     =
+#            [NZ/A]-evaluated/[NZ/A]-standard)  calculated  using
+#            classical  dipole  sum rule (SIG-integrated = 60NZ/A
+#            MeV*mb).
+#ERR-ANALYS No data.
+#COMMENT    Total photoabsorption  cross   sections   have   been
+#            evaluated for  calcium isotopes 42,44,48Ca  using as
+#            a standard 40Ca(g,abs) experimental  reaction  cross
+#            section.
+#STATUS     (TABLE,APRVD) By I.M.Kapitonov.
+#           The data in form of the tables were received
+#            from the authors.
+#HISTORY    (20040511C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.V.Varlamov.
+#           (20140722A)  Corrected   by   V.Varlamov:  REFERENCE,
+#            STATUS.
+#ENDBIB              34
+#NOCOMMON             0          0
+#ENDSUBENT           37
+#SUBENT        M0653003   20140722   20141103   20141027       M074
+#BIB                  3         10
+#REACTION   (20-CA-42(G,ABS),,SIG,,,EVAL)
+#STATUS     (DEP,M0653002)
+#REL-REF    (E,M0653002,J.Ahrens+,J,NP/A,251,479,1975)
+#           40Ca(g,abs) reaction  experimental  cross section was
+#            used as standard.
+#           42Ca(g,p) reaction cross section from
+#            M.N.Thompson et al, Res.Rep. of lab of Nucl.Sci,
+#            Tohoku University, 8,266,1975.
+#           42Ca(g,n) and 42Ca(g,2n) reaction cross sections from
+#            Y.I.Assafiri et al, NP/A,357,429,1981.
+#ENDBIB              10
+# E1 PSF were not given in the data file at E < 11.87 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.000     0.000    0.199E-07    0.000E+00
+#     10.200     0.000    0.221E-07    0.000E+00
+#     10.400     0.000    0.242E-07    0.000E+00
+#     10.600     0.000    0.262E-07    0.000E+00
+#     10.800     0.000    0.281E-07    0.000E+00
+#     11.000     0.000    0.300E-07    0.000E+00
+#     11.200     0.000    0.325E-07    0.000E+00
+#     11.400     0.000    0.350E-07    0.000E+00
+#     11.600     0.000    0.374E-07    0.000E+00
+#     11.800     0.000    0.397E-07    0.000E+00
+# E1 PSF were not given in the data file at E > 32.62 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     32.800     0.000    0.402E-07    0.000E+00
+#     33.000     0.000    0.394E-07    0.000E+00
+#     33.200     0.000    0.389E-07    0.000E+00
+#     33.400     0.000    0.384E-07    0.000E+00
+#     33.600     0.000    0.379E-07    0.000E+00
+#     33.800     0.000    0.375E-07    0.000E+00
+#     34.000     0.000    0.372E-07    0.000E+00
+#     34.200     0.000    0.368E-07    0.000E+00
+#     34.400     0.000    0.366E-07    0.000E+00
+#     34.600     0.000    0.363E-07    0.000E+00
+#     34.800     0.000    0.359E-07    0.000E+00
+#     35.000     0.000    0.357E-07    0.000E+00
+#     35.200     0.000    0.355E-07    0.000E+00
+#     35.400     0.000    0.350E-07    0.000E+00
+#     35.600     0.000    0.348E-07    0.000E+00
+#     35.800     0.000    0.346E-07    0.000E+00
+#     36.000     0.000    0.342E-07    0.000E+00
+#     36.200     0.000    0.340E-07    0.000E+00
+#     36.400     0.000    0.338E-07    0.000E+00
+#     36.600     0.000    0.334E-07    0.000E+00
+#     36.800     0.000    0.332E-07    0.000E+00
+#     37.000     0.000    0.328E-07    0.000E+00
+#     37.200     0.000    0.326E-07    0.000E+00
+#     37.400     0.000    0.322E-07    0.000E+00
+#     37.600     0.000    0.321E-07    0.000E+00
+#     37.800     0.000    0.317E-07    0.000E+00
+#     38.000     0.000    0.315E-07    0.000E+00
+#     38.200     0.000    0.313E-07    0.000E+00
+#     38.400     0.000    0.309E-07    0.000E+00
+#     38.600     0.000    0.308E-07    0.000E+00
+#     38.800     0.000    0.304E-07    0.000E+00
+#     39.000     0.000    0.302E-07    0.000E+00
+#     39.200     0.000    0.301E-07    0.000E+00
+#     39.400     0.000    0.297E-07    0.000E+00
+#     39.600     0.000    0.296E-07    0.000E+00
+#     39.800     0.000    0.292E-07    0.000E+00
+#     40.000     0.000    0.291E-07    0.000E+00

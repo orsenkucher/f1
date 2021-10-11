@@ -1,0 +1,69 @@
+#  fe1_exp_079_197_photoneut_2010Var.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0798003
+#  Element = Au   Z =  79   A = 197
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0798   20170321   20170607   20170607       M088
+#SUBENT        M0798001   20170321   20170607   20170607       M088
+#BIB                  9         23
+#TITLE      New data for 197Au(gamma,nx) and 197Au(g,2nx) reaction
+#            cross sections.
+#AUTHOR     (V.V.Varlamov,B.S.Ishkhanov,V.N.Orlin,S.Yu.Troshchiev)
+#REFERENCE  (J,IZV,74,874,2010)
+#           (J,BAS,74,842,2010)
+#           #doi:10.3103/S1062873810060237
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (BRST,QMPH)
+#COMMENT    Using the various (Livermore and Saclay)  experiments
+#            data  for  total  photoneutron  yield reaction cross
+#            sections  SIG(g,xn)  and   the   modern   model   of
+#            photonuclear   reaction   based  on  the  Fermi  gas
+#            densities equations the evaluated data for (g,n) and
+#            (g,2n) reaction cross sections were obtained.
+#           Evaluated cross   sections   are   consistent    with
+#            experimental Livermore data and contradict to Saclay
+#            ones.
+#ERR-ANALYS No information.
+#STATUS     (TABLE,APRVD) by S.Yu.Troshchiev.
+#HISTORY    (20101115C) Data were compiled  at  Russia  MSU  SINP
+#            CDFE by V.Varlamov.
+#           (20170321A)  Corrected   by   V.Varlamov:   REFERENCE
+#            (IZV,74,874,2010), INC-SOURCE, lowecase
+#ENDBIB              23
+#NOCOMMON             0          0
+#ENDSUBENT           26
+#SUBENT        M0798003   20170321   20170607   20170607       M088
+#BIB                  5         18
+#REACTION   ((79-AU-197(G,2N)79-AU-195,,SIG,,,EVAL)+
+#           (79-AU-197(G,2N+P)78-PT-194,,SIG,,,EVAL))
+#ANALYSIS   The contribution  of  partial  reaction  (g,2n) cross
+#            section into the experimental total reaction  (g,xn)
+#            cross section  for  experiment carried out at Saclay
+#            was   evaluated   using   specially    theoretically
+#            calculated ratio
+#                  F-theor = SIG-theor(g,2n)/SIG-theor(g,xn)
+#            by the way:
+#                      SIG-eval(g,2n) = F*SIG-exp(g,xn).
+#REL-REF    (R,L0021012,A.Veyssiere+,J,NP/A,159,561,1970)
+#            Experimental (g,xn) reaction cross section data
+#            obtained at Saclay.
+#           (E,,B.S.Ishkhanov+,J,YF,71,517,2008)
+#            Theoretical preequilibrium  model  of   photonuclear
+#            reactions based on the Fermi gas densities.
+#STATUS     (DEP,L0021012)
+#HISTORY    (20170321A) Corrected by V.Varlamov: lowercase.
+#ENDBIB              18

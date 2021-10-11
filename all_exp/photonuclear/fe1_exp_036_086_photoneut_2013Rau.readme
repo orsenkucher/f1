@@ -1,0 +1,90 @@
+#  fe1_exp_036_086_photoneut_2013Rau.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0174002
+#  Element = Kr      Z = 36    A = 86
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            L0174   20170530   20170904   20170807       L032                                  
+#  SUBENT        L0174001   20170530   20170904   20170807       L032                                  
+#  BIB                 11         37                                                                   
+#  TITLE      Cross-Section Measurements of the 86Kr(g,n) Reaction                                     
+#             to Probe the s-Process Branching at 85Kr                                                 
+#  AUTHOR     (R.Raut,A.P.Tonchev,G.Rusev,W.Tornow,C.Iliadis,                                          
+#             M.Lugaro,J.Buntain,S.Goriely,J.H.Kelley,R.Schwengner,                                    
+#             A.Banu,N.Tsoneva)                                                                        
+#  INSTITUTE  (1USADKE,1USANCA,2BLGBRU,1USANCS,2GERZFK,2GERJLU,                                        
+#             3BULBLA,3AULMOU)                                                                         
+#             (1USAUSA) James Madison University, Harrisonburg,                                        
+#             Virginia                                                                                 
+#  REFERENCE  (J,PRL,111,112501,2013) Main reference                                                   
+#             (J,JP/CS,337,012048,2012) Preliminary data                                               
+#             Authors of JP/CS paper                                                                   
+#             R.Raut,A.Banu,C.Iliadis,J.H.Kelley,G.Rusev,                                              
+#             R.Schwengner,A.P.Tonchev,W.Tornow                                                        
+#  FACILITY   (SRING,1USATNL) Measurements were carried out at the                                     
+#             High Intensity Gamma- Ray Source (HIgS) facility                                         
+#             located on the campus of Duke University                                                 
+#  SAMPLE     (36-KR-86,ENR=0.994) The target was 1012 mg of                                           
+#             enriched Kr gas contained in a spherical stainless                                       
+#             steel cell                                                                               
+#  INC-SOURCE (LCS) The facility has a 0.24-1.2 GeV storage ring                                       
+#             where quasi-monoenergetic gamma-beam is produced by                                      
+#             the intracavity Compton back-scattering of the free                                      
+#             electron laser photons from the electron bunches.                                        
+#  HISTORY    (20120508C) Compiled by S.H.                                                             
+#             (20170319A) S.H. Updated subentries 1,2,                                                 
+#                         Added - main reference PRL                                                   
+#                               - MONITOR, MONIT-REF                                                   
+#                               - ERR-ANALYS                                                           
+#                         included subentry 3 from main reference                                      
+#  MONITOR    (79-AU-197(G,N)79-AU-196,,SIG)                                                           
+#  MONIT-REF  (M0736001,K.Vogt+,J,NP/A,707,241,2002)                                                   
+#  ERR-ANALYS (ERR-S) Statistical uncertainty                                                          
+#             (ERR-1)Systematic uncertainty in flux detemination                                       
+#             (ERR-2)Systematic uncertainty in monitor cross section                                   
+#             (ERR-T) Total uncertainty obtained by adding all                                         
+#                    uncertainties in quadrature                                                       
+#  ENDBIB              37                                                                              
+#  COMMON               3          3                                                                   
+#  ERR-1      ERR-2      ERR-S                                                                         
+#  PER-CENT   PER-CENT   PER-CENT                                                                      
+#  3.         5.         1.                                                                            
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           44                                                                              
+#  SUBENT        L0174002   20170530   20170904   20170807       L032                                  
+#  BIB                  4         14                                                                   
+#  REACTION   (36-KR-86(G,N)36-KR-85,,SIG)                                                             
+#  DETECTOR   (PROPC) Emitted neutrons from the (g,n) reaction were                                    
+#             detected using a 4Pi assembly of 3He proportional                                        
+#             counters, fabricated into a single unit. The assembly                                    
+#             consists of 18 individual counters, arranged in two                                      
+#             concentric rings. Each counter was filled with 3He                                       
+#             gas at 6 atm pressure. The space around the counters                                     
+#             was stuffed with polyethelene that thermalizes the                                       
+#             emitted neutrons before they are captured (detected)                                     
+#             in the 3He counters.                                                                     
+#  STATUS     (CURVE) Data taken from fig.3 of Phys.Rev.Lett.111,                                      
+#                 112501. Waiting for data from author                                                 
+#             (COREL,L0174003) Activation measurement                                                  
+#  HISTORY    (20170319A) S.H. Data replaced from the main reference                                   
+#  ENDBIB              14                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E < 10.17 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.000     0.200    0.243E-08    0.989E-08
+#     10.100     0.200    0.300E-07    0.103E-07

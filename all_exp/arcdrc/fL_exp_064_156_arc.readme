@@ -1,0 +1,11 @@
+ # Gd-156 boron data ANL
+ # Ig/Eg**3 data in arbitrary units taken from L.M. Bollinger et al., Phys.Rev C2(1970) 1951
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # no Q - recent Jf disregarded
+ # Normalization of 5E1 (<Eg = 7.93>) to f(E1) = 7.93E-08  from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.42 applied
+ # p-wave conhtribution assumed negligible
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.06
+ # RN SYS18 F = 1.09 from systematic equation [INDC(NED)-0772]
+ # 

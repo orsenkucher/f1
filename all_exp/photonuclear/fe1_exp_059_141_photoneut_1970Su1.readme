@@ -1,0 +1,85 @@
+#  fe1_exp_059_141_photoneut_1970Su1.readme
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0020002
+#  Element = Pr   Z =  59   A = 141
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0020     970129              20050926       0000
+#SUBENT        L0020001     970129              20050926       0000
+#BIB                 10         11
+#INSTITUTE  (1USAGGA)
+#REFERENCE  (J,PR/C,2,1129,7009)
+#AUTHOR     (R.E.SUND,V.V.VERBINSKI,H.WEBER,L.A.KULL)
+#TITLE      141Pr (gamma,n) cross section from threshold to 24 MeV
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#METHOD     (ACTIV)
+#DETECTOR   (NAICR)
+#DECAY-DATA (59-PR-140,3.4MIN,AR)
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#ENDBIB              11
+#NOCOMMON             0          0
+#ENDSUBENT           14
+#SUBENT        L0020002     970129              20050926       0000
+#BIB                  2          2
+#REACTION   (59-PR-141(G,N)59-PR-140,,SIG)
+#HISTORY    (891205A)
+#ENDBIB               2
+# E1 PSF were not given in the data file at E < 10.02 MeV;
+# where gamma-gamma scattering is over 10 %
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.890     0.000    0.117E-06    0.166E-06
+#      9.210     0.000    0.942E-08    0.170E-06
+#      9.420     0.000    0.129E-06    0.129E-06
+#      9.610     0.000    0.812E-07    0.993E-07
+#      9.770     0.000    0.231E-06    0.621E-07
+#      9.860     0.000    0.255E-06    0.528E-07
+#      9.960     0.000    0.218E-06    0.523E-07
+# E1 PSF were discarded from data file at E > S_2n= 17.34 MeV
+# and placed below
+#      E         dE       f1           df1
+#    17.390     0.000    0.908E-06    0.399E-07
+#    17.490     0.000    0.848E-06    0.446E-07
+#    17.560     0.000    0.746E-06    0.445E-07
+#    17.700     0.000    0.745E-06    0.392E-07
+#    17.880     0.000    0.660E-06    0.388E-07
+#    18.050     0.000    0.553E-06    0.384E-07
+#    18.200     0.000    0.477E-06    0.381E-07
+#    18.350     0.000    0.430E-06    0.378E-07
+#    18.500     0.000    0.427E-06    0.328E-07
+#    18.670     0.000    0.418E-06    0.325E-07
+#    18.810     0.000    0.350E-06    0.277E-07
+#    18.980     0.000    0.356E-06    0.274E-07
+#    19.150     0.000    0.313E-06    0.317E-07
+#    19.300     0.000    0.310E-06    0.315E-07
+#    19.480     0.000    0.267E-06    0.312E-07
+#    19.690     0.000    0.255E-06    0.308E-07
+#    19.910     0.000    0.218E-06    0.305E-07
+#    20.100     0.000    0.164E-06    0.302E-07
+#    20.290     0.000    0.205E-06    0.299E-07
+#    20.510     0.000    0.178E-06    0.296E-07
+#    20.670     0.000    0.130E-06    0.294E-07
+#    20.870     0.000    0.121E-06    0.332E-07
+#    21.110     0.000    0.115E-06    0.329E-07
+#    21.330     0.000    0.146E-06    0.325E-07
+#    21.550     0.000    0.604E-07    0.322E-07
+#    22.020     0.000    0.945E-07    0.315E-07
+#    22.600     0.000    0.883E-07    0.307E-07
+#    23.120     0.000    0.101E-06    0.300E-07
+#    23.690     0.000    0.769E-07    0.293E-07
+# 

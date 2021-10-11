@@ -1,0 +1,70 @@
+#  fe1_exp_034_077_photoneut_2016Kit.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2497002
+#  Element = Se      Z = 34    A = 77
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2497   20160704   20160902   20160704       K016                                  
+#  SUBENT        K2497001   20160704   20160902   20160704       K016                                  
+#  BIB                 11         35                                                                   
+#  TITLE      Measurement of the 77Se(g,n) cross section and                                           
+#             uncertainty evaluation of the 79Se(n,g) cross section                                    
+#  AUTHOR     (F.Kitatani, H.Harada, S.Goko, N.Iwamoto, H.Utsunomiya,                                  
+#              H.Akimune, H.Toyokawa, K.Yamada, M.Igashira)                                            
+#  INSTITUTE  (2JPNJAE)                                                                                
+#             (2JPNKON)                                                                                
+#             (2JPNAIS)                                                                                
+#             (2JPNTIT) Research Laboratory for Nuclear Reactors                                       
+#  REFERENCE  (J,NST,53,475,2016)                                                                      
+#  PART-DET   (N,G)                                                                                    
+#  INC-SOURCE (LCS)                                                                                    
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#             - Target-thickness: Thickness is 0.450 +- 0.001 cm,                                      
+#               Density is 4.47 g/cm3                                                                  
+#             - Backing is aluminium.                                                                  
+#             (34-SE-77,ENR=0.9966)                                                                    
+#  FACILITY   (ESTRG,2JPNAIS) Tsukuba Electron Ring for Acceleration                                   
+#                             and Storage (TERAS)                                                      
+#  DETECTOR   (PROPC) To detect neutrons                                                               
+#             (HPGE,BGO) To measure the energy distribution of the                                     
+#                        LCS gamma-ray. Two 334 cm3 high-purity Ge                                     
+#                        detectors shielded with an array of 23                                        
+#                        pieces of BGO crystals (HHS)                                                  
+#             (NAICR) To measure photon flux                                                           
+#  ERR-ANALYS (ERR-T) Total uncertainty                                                                
+#             (ERR-1) Systematic uncertainty of NaI detector                                           
+#             (ERR-2) Systematic uncertainty of fitting                                                
+#             (ERR-3) Uncertainties of total gamma counts                                              
+#             (ERR-4) Uncertainties of the gamma flux fraction                                         
+#             (ERR-5) Uncertainties of neutron detection efficiency                                    
+#             (ERR-6) Uncertainties of the change of LCS energy                                        
+#                     distribution                                                                     
+#             (ERR-S) Uncertainties of neutron counts                                                  
+#  HISTORY    (20160420C) S.Ebata                                                                      
+#  ENDBIB              35                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.0        3.0                                                                                     
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           42                                                                              
+#  SUBENT        K2497002   20160704   20160902   20160704       K016                                  
+#  BIB                  2          2                                                                   
+#  REACTION   (34-SE-77(G,N)34-SE-76,,SIG)                                                             
+#  STATUS     (TABLE) Data taken from Table 2 of J,NST,53,475,2016.                                    
+#  ENDBIB               2                                                                              
+#  NOCOMMON             0          0                                                                   

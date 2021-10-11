@@ -1,0 +1,14 @@
+# fE2_exp_064_156_ARC.dat                         
+#                                                 
+# Z = 64, A = 156                                 
+# No. of entries:             3                   
+# Col 1: photon energy E in MeV                   
+# Col 2: bin width dE in MeV                      
+# Col 3: dipole strength f1 in MeV^-3             
+# Col 4: uncertainty df1 in MeV^-3                
+# Format: 2f10.3, 2e12.3                          
+# Author: J. Kopecky                              
+#    E         dE       fE2           dfE2        
+     7.024     0.000   0.390E-08   0.230E-08
+     7.495     0.000   0.170E-08   0.900E-09
+     8.247     0.000   0.900E-09   0.400E-09

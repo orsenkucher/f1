@@ -1,0 +1,9 @@
+ # Cd-114  2 KeV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from BNL/ECN data base
+ # The Q(JiJf) and/or p-wave correction: taken from the RACA code and applied in the Ig/Eg**3 BNL/ECN data base
+ # Normalization  of 6E1 <Eg=6.24 MeV>)t ransitions to <f(E1)> = 4.75E-08 normalization from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # p-wawe contribution calculated (RACA) as 0.24 E1 in M1 (applied)
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.23
+ # RN SYS18 F=1.13 from systematic equation [INDC(NED)-0772]
+ # 

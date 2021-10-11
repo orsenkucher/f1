@@ -1,0 +1,104 @@
+#  fe1_exp_023_051_photoabs_2003Var.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0656007
+#  Element = V    Z =  23   A =  51
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0656   20120405   20120906   20120709       M063
+#SUBENT        M0656001   20120405   20120906   20120709       M063
+#BIB                 10         35
+#TITLE      New data on photoabsorption reaction cross sections.
+#AUTHOR     (V.V.Varlamov,M.E.Stepanov,V.V.Chesnokov)
+#REFERENCE  (J,IZV,67,656,2003)
+#           (J,BAS,67,724,2003)
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   Total photoabsorption   reaction   sig(g,abs)   cross
+#            section  data for 19 (for 15 new) nuclei from 12C to
+#            208Pb were evaluated using the partial  photonuclear
+#            reaction cross section sums sig(g,abs) = sig(g,sn) +
+#            sig(g,p) = sig (g,1n) + sig(g,np) + sig(g,2n) +  ...
+#            + sig(g,p),  sig(g,sn) = sig(g,xn) - sig(g,2n),  sig
+#            (g,n) = sig(g,1n) + sig(g,np), etc.
+#ERR-ANALYS No data
+#COMMENT    With the   aim   of   new   information   for   total
+#            photoabsorption reaction  sig(g,abs)  = sig (g,1n) +
+#            sig(g,np) + sig(g,2n) + ... + sig(g,p) cross section
+#            obtaining the  published experimental data for total
+#            and partial    photonuclear    (photoneutron     and
+#            photoproton) reaction  cross sections were analyzed.
+#            Using linear combinations of partial reaction  cross
+#            sections, 19   (15   new)  photoabsorption  reaction
+#            (g,abs) cross sections  were  evaluated  for  nuclei
+#            from 12C to 208Pb.
+#STATUS     (APRVD) By V.V.Varlamov.
+#            Data have  been compiled at the Russia MSU SINP CDFE
+#            by V.V.Varlamov.
+#HISTORY    (20040512C)
+#           (20070122A) Corrected  by  V.Varlamov:  data  set  in
+#            SUBENT M0656009 substituted.
+#           (20080616A) Corrected  by  V.Varlamov:  data  set  in
+#            SUBENT M0656004 substituted.
+#           (20101130A) Corrected  by  V.Varlamov: TITLE changed,
+#            data set in SUBENT 009 substituted.
+#           (20120405A) Corrected  by  V.Varlamov: STATUS.
+#ENDBIB              35
+#NOCOMMON             0          0
+#ENDSUBENT           38
+#SUBENT        M0656007   20040514              20050926       0000
+#BIB                  4         17
+#REACTION   (23-V-51(G,ABS),,SIG,,,EVAL)
+#COMMENT    51V(g,sn) =  51V(g,n)  +  51V(g,np)  reaction   cross
+#            section  was  used  multiplied by systematics factor
+#            1.122.
+#STATUS     (DEP,L0001002) Cross   section   for   the   reaction
+#            51V(g,sn) = 51V(g,n) + 51V(g,np).
+#           (DEP,M0610002) Cross   section   for   the   reaction
+#            51V(g,p).
+#REL-REF    (E,L0001002,S.C.FULTZ+,J,PR,128,2345,1962)
+#            51V(g,sn) =  51V(g,n)  +  51V(g,np)  reaction  cross
+#            section.
+#           (E,M0610002,H.TSUBOTA+,J,NP/A,303,333,1978)
+#            51V(g,p) reaction cross section.
+#           (E,,V.V.VARLAMOV+,R,INDC(CCP)-432,200208)
+#            Systematical analysis  of  the  total   photoneutron
+#            reaction  (g,xn)  cross  section  values obtained at
+#            various laboratories using different methods.
+#ENDBIB              17
+# E1 PSF were not given in the data file at E > 25.68 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.700     0.000    0.194E-06    0.000E+00
+#     25.800     0.000    0.188E-06    0.000E+00
+#     25.900     0.000    0.184E-06    0.000E+00
+#     26.000     0.000    0.179E-06    0.000E+00
+#     26.100     0.000    0.174E-06    0.000E+00
+#     26.200     0.000    0.171E-06    0.000E+00
+#     26.300     0.000    0.168E-06    0.000E+00
+#     26.400     0.000    0.166E-06    0.000E+00
+#     26.500     0.000    0.164E-06    0.000E+00
+#     26.600     0.000    0.162E-06    0.000E+00
+#     26.700     0.000    0.161E-06    0.000E+00
+#     26.800     0.000    0.159E-06    0.000E+00
+#     26.900     0.000    0.156E-06    0.000E+00
+#     27.000     0.000    0.154E-06    0.000E+00
+#     27.100     0.000    0.150E-06    0.000E+00
+#     27.200     0.000    0.146E-06    0.000E+00
+#     27.300     0.000    0.143E-06    0.000E+00
+#     27.400     0.000    0.139E-06    0.000E+00
+#     27.500     0.000    0.135E-06    0.000E+00
+#     27.600     0.000    0.132E-06    0.000E+00

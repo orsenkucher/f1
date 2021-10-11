@@ -1,0 +1,22 @@
+# fe1_exp_059_141_photoneut_1987Ber.dat                  
+#
+# Z = 59, A =141
+# No. of entries:   11
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e13.3
+# Author:   1987Ber  B.L.Berman, R.E.Pywell, S.S.Dietrich, et al.,; Phys.Rev. C36, 1286(1987).                                                                   
+#    E         dE       f1           df1
+    13.710     0.000    0.142E-05    0.474E-06
+    13.950     0.000    0.158E-05    0.000E+00
+    14.200     0.000    0.167E-05    0.000E+00
+    14.440     0.000    0.183E-05    0.150E-06
+    14.690     0.000    0.190E-05    0.148E-06
+    14.930     0.000    0.199E-05    0.290E-06
+    15.120     0.000    0.201E-05    0.143E-06
+    15.420     0.000    0.188E-05    0.281E-06
+    15.670     0.000    0.184E-05    0.277E-06
+    15.910     0.000    0.167E-05    0.000E+00
+    16.160     0.000    0.157E-05    0.268E-06

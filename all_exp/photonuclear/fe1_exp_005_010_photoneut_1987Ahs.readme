@@ -1,0 +1,101 @@
+#  fe1_exp_005_010_photoneut_1987Ahs.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0207002
+#  Element = B    Z =   5   A =  10
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0207   20130606   20130823   20130819       M067
+#SUBENT        M0207001   20130606   20130823   20130819       M067
+#BIB                 19         65
+#TITLE      The photoneutron cross section of B-10.
+#AUTHOR     (M.H.Ahsan,S.A.Siddiqui,H.H.Thies)
+#INSTITUTE  (3AULUWA)
+#REFERENCE  (J,NP/A,469,381,1987)
+#           #doi:10.1016/0375-9474(87)90027-3
+#FACILITY   (SYNCH,3AULUWA)
+#INC-SOURCE (BRST)
+#DETECTOR   (BF3)
+#PART-DET   (N)
+#METHOD     (EXTB)
+#SAMPLE     The  target  consisted  of 500 g  of boron enriched in
+#            B-10 to  93 %  and was in the form of a cylinder 9 cm
+#            in diameter by 12.5 cm long.
+#ANALYSIS   (PLA)  Penfold-Leiss  analysis  using  various  steps.
+#            yield scanning   technique   have   been   used    in
+#            experiment.  Yield ordinates were measured at 110 keV
+#            intervals and deconvoluted with  analysis bin widths:
+#            440 and 330 keV.
+#           Additionally 'three point method' of Thies et al. was
+#            used  for  second  stage  experiment  for  12-18 MeV
+#            photon energy region with improved by  30  %  higher
+#            resolution (about 230 keV). The negative correlation
+#            of  Penfold-Leiss  method  was  removed  using   the
+#            decorrelation technique of Crawford et al.
+#CORRECTION  Yield ordinates  were  corrected for background.  To
+#             allow for the 7 %  content of B-11 in  the  target,
+#             cross   section  ordinates  were  corrected,  using
+#             previously obtained cross section data for  natural
+#             boron target,  containing 80.4 % of B-11 and 19.6 %
+#             of B-10:
+#               sig(b-10) = 1.0954 x sig-enr.- 0.0954 x sig-nat.
+#            Also cross  section  ordinates  were  corrected  for
+#             gamma absorption on the  way  to  and  inside  B-10
+#             target,  neutron capture within target,  truncation
+#             errors due to the penfold-leiss analysis,  and  for
+#             variation   of   neutron  detection  efficiency  as
+#             function  of  target  coordinates.  Absolute  cross
+#             section values are correct to about 10 %.
+#ERR-ANALYS Mean-root-square errors are given.
+#MONITOR    (1-H-2(G,N)1-H-1,,SIG)
+#MONIT-REF  (,L.Hulthen+,J,PR,90,62,1953)
+#           (,F.Partovi,J,AP,27,79,1964) Both    the   data   for
+#            deuteron photoneutron reaction cross section.
+#REL-REF    (N,,H.Thies+,J,NIM,100,45,1972)
+#           (N,,H.H.Thies+,J,NIM,178,181,1980) Both on the 'three
+#            point method' of yield scanning technique.
+#           (N,,D.M.Crawford+,J,NIM,109,573,1973)   Decorrelation
+#            technique.
+#           (N,,H.Dahmen+,J,NIM,107,329,1973)
+#           (N,,M.H.Ahsan+,J,NIM,212,333,1983) Both   on Penfold-
+#            Leiss analysis.
+#STATUS     (TABLE) The data have been digitized in usa  LLNL  by
+#            S.I.Warshaw and obtained by cdfe in the form of data
+#            tables.
+#COMMENT    The photoneutron  cross  section of B-10 was measured
+#            from threshold to 24.5 MeV with bremsstrahlung  from
+#            30  MeV  electron  synchrotron  using yield scanning
+#            techniques.  Neutrons  were  detected  by   a   high
+#            efficiency   (BF-3)-counter  detection  system.  The
+#            cross  section  shows  a  split  E1-giant  resonance
+#            region  with major maxima at 20.2 and 23.0 MeV and a
+#            very minor resonance at 17.0 MeV.
+#HISTORY    (19920420C)
+#           (20130606A) Corrected   by   V.Varlamov:    REACTION,
+#            STATUS, COMMENT, dates.
+#ENDBIB              65
+#COMMON               1          3
+#DATA-ERR
+#PER-CENT
+#   10.
+#ENDCOMMON            3
+#ENDSUBENT           72
+#SUBENT        M0207002   20130606   20130823   20130819       M067
+#BIB                  3          4
+#REACTION   ((5-B-10(G,N)5-B-9,,SIG,,BRS)+
+#           (5-B-10(G,N+P)4-BE-8,,SIG,,BRS))
+#STATUS     Data from Fig 3.
+#HISTORY    (20130604A) Corrected by V.Varlamov: BRA -> BRS.
+#ENDBIB               4

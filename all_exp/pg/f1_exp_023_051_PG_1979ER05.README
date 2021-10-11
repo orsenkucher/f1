@@ -1,0 +1,27 @@
+﻿# f1_exp_023_051_pg_e.readme
+
+# 
+
+# Data were published by B.Erlandsson, K. Nielson and A. # Marcinkowski, Nucl. Phys. A329, 1 (1979)
+
+#
+
+# Reaction 50Ti(p,g)51V with beam energies between 2.1 and # 3.1 MeV in 15 keV steps
+# at Pelletron Tandem Accelerator at the # University of Lund
+# 
+# gamma decays were measured with a 40cm^3 Ge# (Li) detectors 30 mm from target at 90 and 55 degrees 
+#
+
+# data of primary gamma-rays to low-lying discrete states were 
+# extracted using the Average Resonance Proton Capture technique 
+#
+# The intensity of primary gamma-rays from the summed spectrum is 
+# used and analysed with the Hasuer-Feshbach theory
+#
+# From this the # absolute value of PSF is obtained by introduding 
+# a model dependent # coefficient which allows for feeding to states # of different spin # and parity different to the ground state # values. 
+#
+# The error of the experimental intensities is the quadrat sum of 
+# the following estimated errors 1) relative detector efficiency 5%, # 2) summing effects 5% 3) multipole mixing and angular distribution # effects 10% and peak area determination.# 
+# 
+

@@ -1,0 +1,58 @@
+#  fe1_exp_078_198_photoneut_1978Go1.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0008007
+#  Element = Pt   Z =  78   A = 198
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0008   20121029   20130328   20130315       M065
+#SUBENT        M0008001   20121029   20130328   20130315       M065
+#BIB                 13         23
+#TITLE      The shape of the stable transitional nuclei Ir and Pt.
+#AUTHOR     (A.M.Goryachev,G.N.Zalesnyy)
+#INSTITUTE  (4RUSSGU)
+#REFERENCE  (J,ZEP,26,107,1978)
+#           (J,JEL,26,99,1978) - Eng.trans.of ZEP,26,107,1978
+#FACILITY   (BETAT,4RUSSGU)
+#INC-SOURCE (BRST)
+#METHOD     (EXTB,SITA)
+#DETECTOR   (BF3)
+#PART-DET   (N)
+#ANALYSIS   (PLA) Cross sections were calculated from experimental
+#           yields by Penfold-Leiss method with 1.0-MeV step.
+#ERR-ANALYS (ERR-S) Statistical errors only
+#STATUS     (APRVD) by G.N.Zalesnyy.
+#           (TABLE) The data in form of the tables were obtained
+#            from the authors.
+#HISTORY    (19800627C)
+#           (19910202A) Corrected by V.Varlamov, V.Mclane
+#           (20121029A) SD: Updated to new date formats,lower case.
+#                Corrected according last EXFOR rules and Dict.
+#                Ref. on transl. was added.
+#                       VV: STATUS in SUBENT 1 and REACTION code
+#                       in SUBENTs 002 - 007 were corrected.
+#ENDBIB              23
+#COMMON               1          3
+#ANAL-STEP
+#MEV
+# 1.0
+#ENDCOMMON            3
+#ENDSUBENT           30
+#SUBENT        M0008007   20121029   20130328   20130315       M065
+#BIB                  2          3
+#REACTION   ((78-PT-198(G,N)78-PT-197,,SIG,,BRS)+
+#           (78-PT-198(G,2N)78-PT-196,,SIG,,BRS))
+#HISTORY    (20121029A) VV: REACTION code: BRA -> BRS.
+#ENDBIB               3

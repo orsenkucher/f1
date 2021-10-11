@@ -1,0 +1,40 @@
+# f1_exp_056_136_NRF.readme
+#
+# Data were published by R. Massarczyk et al., Phys. Rev. C 86, 014319 (2012).
+#
+# Reaction 136Ba(gamma,gamma') using bremsstrahlung produced with 7.0 and
+# 11.4 MeV electrons at the ELBE accelerator of HZDR and using
+# quasi-monoenergetic gamma beams of 4.7, 5.1, 5.6, 6.1, 6.5, 7.0, 7.5, 8.0,
+# 8.4, 8.7, 9.0 and 9.3 MeV at the HIgS facility of TUNL - Duke University.
+#
+# Gamma rays were measured with two shielded HPGe detectors at 90 deg to the
+# beam and two at 127 deg to the beam at gELBE and with four HPGe detectors
+# at polar angles of 90 degrees and azimuthal angles of 0, 90, 180 and 270
+# degrees. Spectra were response and efficiency corrected.
+#
+# The photon flux was determined by using known level widths in 11B.
+# Background due to atomic processes in the target was determined in GEANT4 
+# simulations and subtracted from the spectra. Subtracted spectra contain
+# resolved peaks and nuclear quasicontinuum.
+#
+# Spectra from gELBE were corrected for feeding and branching intensities
+# obtained from simulations of statistical gamma-ray cascades using the code
+# gDEX. The Wigner distribution is used for the fluctuation of the
+# nearest-neighbor spacings of levels with the same spin.
+#
+# Input for the simulations: 
+# (i)  E1 strength function: Lorentz curve with parameters from RIPL for 138Ba.
+#      M1 and E2 strength functions: parametrizations given in RIPL
+#      [http://www-nds.iaea.org/RIPL-2/].
+#      Partial level widths were varied using the Porter-Thomas distribution.
+# (ii) Level density: back-shifted Fermi-gas model with parameters from 
+#      [T. von Egidy and D. Bucurescu, Phys. Rev. C 80, 054310 (2009)].
+#      Parameters were randomly varied within the given uncertainties.
+#
+# The absorption cross sections were obtained from scattering cross sections by
+# using average branching ratios of ground-state transitions obtained from
+# the simulations.
+#
+# Uncertainties of the absorption cross sections include statistical
+# uncertainties, 5% uncertainties each for efficiency, photon flux and atomic
+# background.

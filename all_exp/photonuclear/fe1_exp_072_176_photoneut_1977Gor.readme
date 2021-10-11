@@ -1,0 +1,60 @@
+#  fe1_exp_072_176_photoneut_1977Gor.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0007002
+#  Element = Hf   Z =  72   A = 176
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0007   20121029   20130328   20130315       M065
+#SUBENT        M0007001   20121029   20130328   20130315       M065
+#BIB                 13         23
+#TITLE      Giant dipole resonance on Hf isotopes.
+#AUTHOR     (A.M.Goryachev,G.N.Zalesnyy)
+#INSTITUTE  (4RUSSGU)
+#REFERENCE  (J,YF,26,465,1977)
+#           (J,SNP,26,246,1977) - Eng.trans.of YF,26,465,1977
+#FACILITY   (BETAT,4RUSSGU)
+#INC-SOURCE (BRST)
+#METHOD     (EXTB,SITA)
+#DETECTOR   (BF3)
+#PART-DET   (N)
+#ANALYSIS   (PLA) Cross sections were calculated from experimental
+#            yields by Penfold-Leiss method with 1.0-MeV step.
+#ERR-ANALYS (DATA-ERR) Root-mean-squared errors.
+#STATUS     (APRVD) by G.N.Zalesnyy.
+#           (TABLE) Data from authors.
+#HISTORY    (19800516C)
+#           (19910202A) Corrected by V.Varlamov, V.Mclane
+#           (20121029A) SD: Updated to new date formats,lower case.
+#                Corrected according last EXFOR rules and Dict.
+#                Ref. of transl. was added.
+#                       VV: STATUS in SUBENT 001, REACTION code
+#                in SUBENTs 002-004 were corrected , SUBENTs
+#                005 - 010 were added.
+#ENDBIB              23
+#COMMON               1          3
+#ANAL-STEP
+#MEV
+# 1.0
+#ENDCOMMON            3
+#ENDSUBENT           30
+#SUBENT        M0007002   20121029   20130328   20130315       M065
+#BIB                  3          5
+#REACTION   ((72-HF-176(G,N)72-HF-175,,SIG,,BRS)+
+#           (72-HF-176(G,2N)72-HF-174,,SIG,,BRS))
+#SAMPLE     (72-HF-176,ENR=0.65) Thick target Hf-176 (purity:
+#                                               65.0%, 21.6 g)
+#HISTORY    (20121029A) VV: REACTION code: BRA -> BRS.
+#ENDBIB               5

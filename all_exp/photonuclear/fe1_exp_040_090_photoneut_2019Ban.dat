@@ -1,0 +1,14 @@
+# fe1_exp_040_090_photoneut_2019Ban.dat                  
+#
+# Z = 40, A = 90
+# No. of entries:    3
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e13.3
+# Author:    (A.Banu, E.G.Meekins, J.A.Silano, H.J.Karwowski)       (Phys.Rev.C 99, 025802,2019)                                                                 
+#    E         dE       f1           df1
+    12.800     0.230    0.655E-07    0.352E-08
+    13.000     0.220    0.845E-07    0.454E-08
+    13.500     0.240    0.135E-06    0.726E-08

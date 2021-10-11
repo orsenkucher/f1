@@ -1,0 +1,9 @@
+ # Sm-150 boron data ANL
+ # Ig/Eg**5 taken from D.J. Buss et al., Phys.Rev. C2 (1970) 1513 and converted to Ig/Eg**
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # Normalization with 13E1 (<Eg = 6.3 MeV>) to <f(E1)> = 7.83 E-08  from DRC <f(E1)> table [INDC(NED)-013]
+ # p-waves contribution assumed negligible
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.07
+ # RN ARC18 F = 1.0
+ # 

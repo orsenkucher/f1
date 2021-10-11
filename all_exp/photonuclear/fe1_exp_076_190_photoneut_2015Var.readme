@@ -1,0 +1,98 @@
+#  fe1_exp_076_190_photoneut_2015Var.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0915007
+#  Element = Os      Z = 76    A =190
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0915   20150901   20151006   20150922       M080                                  
+#  SUBENT        M0915001   20150901   20151006   20150922       M080                                  
+#  BIB                  9         38                                                                   
+#  TITLE      Photodesintegration of the isotopes                                                      
+#              186,188,189,190,192Os: similarities and                                                 
+#              distinctions.                                                                           
+#  AUTHOR     (V.V.Varlamov,M.A.Makarov,N.N.Peskov,M.E.Stepanov)                                       
+#  REFERENCE  (J,YF,78,(9),797,2015)                                                                   
+#             #doi:10.7868/S0044002715090160                                                           
+#             (J,PAN,78,(6),746,2015)                                                                  
+#             #doi:10.1134/S1063778815060150                                                           
+#             English translation of J,YF,78,(9),746,2015.                                             
+#             (R,MSU-INP-2013-1/884,2013) In Russian.                                                  
+#             (J,IZV,78,(5),599,2014)                                                                  
+#             #doi:10.7868/S0367676514050263                                                           
+#             (J,BAS,78,(5),412,2014)                                                                  
+#             #doi:10.3103/S1062873814050207                                                           
+#             English translation of IZV,78,(5),599,2014.                                              
+#  INSTITUTE  (4RUSMOS)                                                                                
+#  INC-SOURCE (QMPH,ARAD)                                                                              
+#  ANALYSIS   The joint analysis  of  data  for  total  (g,xn)  and                                    
+#              partial (g,n),  (g,2n) and (g,3n) reactions obtained                                    
+#              in various experiments  was  carried  out.  The  new                                    
+#              approach  to  analysis  of  systematic disagreements                                    
+#              between  data  was  proposed  on  the  base  of  new                                    
+#              criteria  of  systematic  uncertainties  presence  -                                    
+#              specially   proposed    transitional    multiplicity                                    
+#              functions                                                                               
+#                          Fi-theor = SIG(g,in)/SIG(g,xn).                                             
+#              Using  these functions calculated in  the  frame  of                                    
+#              combined photonuclear  reaction  model  new reliable                                    
+#              and free from problems of   neutron   multiplicity                                      
+#              sorting data for photoneutron   partial  reactions                                      
+#              cross  sections                                                                         
+#                   SIG-eval(g,in) = Fi-theor x SIG-exp(g,xn)                                          
+#              were  evaluated  using   experimental  neutron yield                                    
+#              reaction cross sections SIG-exp(g,xn).                                                  
+#  ERR-ANALYS (DATA-ERR) Root-mean-square errors.                                                      
+#  STATUS     (TABLE,APRVD) Approved by V.Varlamov.                                                    
+#  HISTORY    (20150813C) Data were compiled at the Russia MSU SINP                                    
+#              CDFE by V.Varlamov.                                                                     
+#  ENDBIB              38                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           41                                                                              
+#  SUBENT        M0915007   20150901   20151006   20150922       M080                                  
+#  BIB                  3         10                                                                   
+#  REACTION   (76-OS-190(G,X)0-NN-1,UNW,SIG,,,EVAL)                                                    
+#  ANALYSIS   The total neutron reaction cross section obtained                                        
+#              as sum: SIG(g,sn) = SIG(g,n) + SIG(g,2n) + SIG(g,3n).                                   
+#  STATUS     Data plotted in Fig. 8.                                                                  
+#             (DEP,M0864017)                                                                           
+#              Evaluated (g,n) reaction cross section.                                                 
+#             (DEP,M0864018)                                                                           
+#              Evaluated (g,2n) reaction cross section.                                                
+#             (DEP,M0864019)                                                                           
+#              Evaluated (g,3n) reaction cross section.                                                
+#  ENDBIB              10                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E > 23.41 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     23.570     0.000    0.242E-06    0.321E-07
+#     23.820     0.000    0.208E-06    0.236E-07
+#     24.060     0.000    0.194E-06    0.223E-07
+#     24.310     0.000    0.215E-06    0.279E-07
+#     24.550     0.000    0.224E-06    0.281E-07
+#     25.040     0.000    0.160E-06    0.246E-07
+#     25.530     0.000    0.131E-06    0.238E-07
+#     26.020     0.000    0.994E-07    0.234E-07
+#     26.510     0.000    0.886E-07    0.245E-07
+#     27.000     0.000    0.778E-07    0.241E-07
+#     27.480     0.000    0.892E-07    0.257E-07
+#     27.970     0.000    0.652E-07    0.250E-07
+#     28.460     0.000    0.541E-07    0.255E-07
+#     28.950     0.000    0.402E-07    0.259E-07
+#     29.440     0.000    0.658E-07    0.328E-07
+#     29.930     0.000    0.740E-07    0.339E-07
+#     30.420     0.000    0.835E-07    0.310E-07

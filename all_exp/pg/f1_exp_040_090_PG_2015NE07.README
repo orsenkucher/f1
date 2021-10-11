@@ -1,0 +1,11 @@
+# f1_exp_040_090_PG_2015NE07.readme
+# 
+# Data published by Netterdon et al.,Phys.Lett. B 744, 358 (2015)    
+#
+# Reaction 89Y(p,g)90Zr with beam energy between 3.55 - 4.70 MeV was measured 10MV FN # tandem ion accelerator at the Institute for Nuclear Physics at the University of # Cologne. Primary transitions from different # initial proton energies in steps of 15-18 # keV and are averaged over resonances to the # ground and excited states were measured.  
+# 
+# Gamma decays were measured with the high-purity germanium detector array HORUS with 14 detectors.
+# Partial cross sections of primary gamma-rays to low-lying states are measured. # Absolute partial cross sections were obtained through angular distribution measurements.
+# The reaction cody TALYS was used to adjust the photon strength function until it # reproduced the cross sections. Above and below the measured data microscopic D1M+QRPA # E1 strength based on the finite-range D1M Gogny interaction was used. The final E1-# strength distribution extracted to reproduce the experimental partial cross sections # is shown in Fig.5 from which the data were extracted. Since the PSF band is shown without # individual data points the data file contains a photon strength function which was # extracted in 500 keV intervals.
+#
+# The experimental uncertainties are composed of the uncertainties in target thickness # (~4%), accumulated charge (~5%), full-energy peak efficiency (~8%), and statistical # errors (~4–7%).

@@ -1,0 +1,15 @@
+# f1_exp_040_090_PG_2011FE09.readme
+# 
+# Data were published by I.D. Fedorets S.S. Ratkevich, Journal of Kharkiv University #969, 16 (2011);  Vis.Khar.Nat.Univ. 969, 16 (2011)
+
+# Analyzed experimental data were likely published in:
+# 1. Rippl W., Rauch F., Seim B. Intermediate structure in 89Y(p,??)90Zr excitation # functions,  Second International Symposium on Neutron capture Gamma-ray Spectroscopy # and Related Topics,  Pattern, the Netherlands, P.163-164 (1974).
+# 2. Rauch F., Seim B. Compound contribution to the radiative width of the ground-state # analog in 90Zr, Phys. Rev. Lett. 48B, 33 (1974)
+
+# Data from 89Y(p,g)90Zr were obtained for proton beam energies 2.17-5.0 MeV. # Individual points specifically correspond to data for proton energies of 2.77 and # 3.75 MeV averaged over 1.2 MeV wide interval.
+# No details of experiment are available in article of Fedorets and Ratkevich. Some # details can be found in Rauch F., Seim B. Compound contribution to the radiative # width of the ground-state analog in 90Zr, Phys. Rev. Lett. 48B, 33 (1974)
+
+# Cross sections of primary gamma-rays to three low-lying discrete states from the # Average Resonance Proton Capture technique were extracted from measured intensities. # The absolute value of PSF is obtained from this cross section via analysis within the # Hauser-Feshbach theory. General description of the determination of absolute PSF # value can be found in G. Szeflinska et al., Nucl. Phys. A323, 253 (1979). Some details # on the parameters are given in the original paper but exact normalization is # difficult to track.
+#
+# Experimental PSFs values were obtained from the figure.
+# There is no information on uncertainties in the paper of Fedorets and Ratkevich. The # Rauch and Seim paper says that the errors quoted are mainly due to the error in the # detector efficiency and reach about 20%.

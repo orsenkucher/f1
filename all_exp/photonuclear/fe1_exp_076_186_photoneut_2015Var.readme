@@ -1,0 +1,74 @@
+#  fe1_exp_076_186_photoneut_2015Var.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0915002
+#  Element = Os   Z =  76   A = 186
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#ENTRY            M0915   20150901   20151006   20150922       M080
+#SUBENT        M0915001   20150901   20151006   20150922       M080
+#BIB                  9         38
+#TITLE      Photodesintegration of the isotopes
+#            186,188,189,190,192Os: similarities and
+#            distinctions.
+#AUTHOR     (V.V.Varlamov,M.A.Makarov,N.N.Peskov,M.E.Stepanov)
+#REFERENCE  (J,YF,78,(9),797,2015)
+#           #doi:10.7868/S0044002715090160
+#           (J,PAN,78,(6),746,2015)
+#           #doi:10.1134/S1063778815060150
+#           English translation of J,YF,78,(9),746,2015.
+#           (R,MSU-INP-2013-1/884,2013) In Russian.
+#           (J,IZV,78,(5),599,2014)
+#           #doi:10.7868/S0367676514050263
+#           (J,BAS,78,(5),412,2014)
+#           #doi:10.3103/S1062873814050207
+#           English translation of IZV,78,(5),599,2014.
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   The joint analysis  of  data  for  total  (g,xn)  and
+#            partial (g,n),  (g,2n) and (g,3n) reactions obtained
+#            in various experiments  was  carried  out.  The  new
+#            approach  to  analysis  of  systematic disagreements
+#            between  data  was  proposed  on  the  base  of  new
+#            criteria  of  systematic  uncertainties  presence  -
+#            specially   proposed    transitional    multiplicity
+#            functions
+#                        Fi-theor = SIG(g,in)/SIG(g,xn).
+#            Using  these functions calculated in  the  frame  of
+#            combined photonuclear  reaction  model  new reliable
+#            and free from problems of   neutron   multiplicity
+#            sorting data for photoneutron   partial  reactions
+#            cross  sections
+#                 SIG-eval(g,in) = Fi-theor x SIG-exp(g,xn)
+#            were  evaluated  using   experimental  neutron yield
+#            reaction cross sections SIG-exp(g,xn).
+#ERR-ANALYS (DATA-ERR) Root-mean-square errors.
+#STATUS     (TABLE,APRVD) Approved by V.Varlamov.
+#HISTORY    (20150813C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#ENDBIB              38
+#NOCOMMON             0          0
+#ENDSUBENT           41
+#SUBENT        M0915002   20150901   20151006   20150922       M080
+#BIB                  3          8
+#REACTION   (76-OS-186(G,X)0-NN-1,UNW,SIG,,,EVAL)
+#ANALYSIS   The total neutron reaction cross section obtained  as
+#            sum: SIG(g,sn) = SIG(g,n) + SIG(g,2n).
+#STATUS     Data plotted in Fig. 7.
+#           (DEP,M0915003)
+#            Evaluated (g,n) reaction cross section.
+#           (DEP,M0915004)
+#            Evaluated (g,2n) reaction cross section.
+#ENDBIB               8

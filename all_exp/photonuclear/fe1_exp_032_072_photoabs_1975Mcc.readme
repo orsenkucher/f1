@@ -1,0 +1,131 @@
+#  fe1_exp_032_072_photoabs_1975Mcc.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0496010
+#  Element = Ge   Z =  32   A =  72
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0496   20130625   20131029   20131017       M068
+#SUBENT        M0496001   20130625   20131029   20131017       M068
+#BIB                 13         77
+#TITLE      Systematic study of the photodisintegration of Ge-70,
+#            Ge-72, Ge-74, and Ge-76.
+#AUTHOR     (J.J.Mccarthy,R.C.Morrison,H.J.Vander Molen)
+#REFERENCE  (J,PR/C,11,772,1975)
+#           #doi:10.1103/PhysRevC.11.772
+#INSTITUTE  (1USAIOW)
+#FACILITY   (SYNCH,1USAIOW)
+#INC-SOURCE (BRST)
+#SAMPLE     Separated isotopes of germanium were obtained in form
+#            of GeO. In order to avoid contamination of the yield
+#            data with the effects of oxygen resonances,  the GeO
+#            samples were  reduced  to  metallic  germanium.  The
+#            targets  were  fabricated  into  wafers  with a beam
+#            interception area of about  1.5  cm**2  and  average
+#            weight of 0.98 g. The isotopic purity of each sample
+#            is shown in table:
+#                     mass   Ge-70  Ge-72  Ge-73  Ge-74  Ge-76
+#           isotope    (g)    (%)    (%)    (%)    (%)    (%)
+#             Ge-70   .9774   98.8    .71    .1     .29    .1
+#             Ge-72   .9766    2.7  90.88   1.27   4.23    .93
+#             Ge-74   .986     1.27  1.61    .64  95.98    .51
+#             Ge-76   .9893    7.69  6.65   1.69  10.08  73.89
+#ANALYSIS   (UNFLD,LEAST) Cross  sections  were obtained from the
+#            reduced yields using the unfolding 'least-structure'
+#            method developed by Cook.  For yield curves obtained
+#            from direct neutron detection  the  multiplicity-bin
+#            analysis  of  the neutron counts for each individual
+#            beam burst allowed the statistical extraction of the
+#            reaction  multiplicities.  The  form of the spectrum
+#            and the reaction rates  were  calculated  using  the
+#            algorithm    for   nonlinear   regression.   Initial
+#            estimates for the  reaction  rates  were  calculated
+#            using  statistical goryachev's method.  The reaction
+#            rates were divided by beam monitor response to  form
+#            uncorrected  yields.  The  final (or reduced) yields
+#            were   calculated   by   the   application   of   an
+#            energy-dependent  correction for the response of the
+#            beam monitor to the bremsstrahlung beam.  For  yield
+#            curves    obtained   from   residual   radioactivity
+#            measurements  raw data were recorded  as a series of
+#            g-ray  spectra  containing peaks from all activities
+#            of interest,  a computer code was devised to  locate
+#            desired  peaks,  obtain  the area of each peak,  and
+#            correct for the response of the  beam  monitor.  The
+#            area  of  each  peak  was  calculated  by  numerical
+#            integration after fitting and substracting  off  the
+#            background spectrum. these areas were divided by the
+#            beam monitor response to form the reduced yields.
+#REL-REF    (N,,B.C.Cook,J,NIM,24,256,1963)
+#            Unfolding 'least-structure' method.
+#           (N,,B.I.Goryachev,J,AE,12,246,1962)
+#           (N,,B.I.Goryachev,J,SJA,12,258,1962)
+#            English translation of 12,246,1962.
+#            Statistical method  for  initial  estimates  for the
+#            reaction rates.
+#ERR-ANALYS (DATA-ERR) Root-mean-squared errors.
+#           The total estimated  uncertainties  in  the  absolute
+#            normalization of cross sections are:
+#           (ERR-1) 15% for activation measurements and
+#           (ERR-2) 20% for  neutron direct  registration.
+#CORRECTION The corrections  were  made  for  the response of the
+#            beam monitor to the bremsstrahlung beam.
+#COMMENT    Cross sections  for  the (g,n),  the (g,2n),  and the
+#            (g,np) reactions for Ge-70, Ge-72, Ge-74, and Ge-76,
+#            and  the (g,p) reaction for Ge-74 have been measured
+#            from  threshold  to  40  MeV  at  the   Iowa   State
+#            University  synchrotron  laboratory.  Cross  section
+#            results were obtained  by  unfolding  bremsstrahlung
+#            yield   curves.   A  'total'  photoabsorption  cross
+#            section was obtained for each isotope by adding  the
+#            partial  cross  sections  together.  Cross  sections
+#            integrated to 40 MeV are given to each reaction.
+#HISTORY    (19910218C)
+#           (20130625A) Corrected   by   V.Varlamov:  ERR-ANALYS,
+#            COMMON, REACTION, SUBENTs  024, 025, 026, 028   were
+#            deleted because  of  duplicatin  of  M0497.006 - 009
+#            correspondingly, dates, lowercase.
+#ENDBIB              77
+#NOCOMMON             0          0
+#ENDSUBENT           80
+#SUBENT        M0496010   20130625   20131029   20131017       M068
+#BIB                  4         12
+#REACTION   (32-GE-72(G,ABS),,SIG,,BRS)
+#            Sum of  cross sections for reactions (g,n),  (g,2n),
+#            (g,np), and (g,p).
+#REL-REF    (R,M0497004,J.J.McCarthy+,J,NP/A,213,371,1973)
+#            The (g,np) reaction data.
+#STATUS     (DEP,M0496004)
+#            The (g,np)reaction cross section.
+#           (DEP,M0496008)
+#           (DEP,M0496009)
+#           (CURVE) Data from Fig. 5.
+#HISTORY    (20130625A) Corrected  by  V.Varlamov:  BRA -> BRS,
+#            STATUS.
+#ENDBIB              12
+# E1 PSF were not given in the data file at E < 10.80 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.000     0.000    0.867E-07    0.173E-07
+# E1 PSF were not given in the data file at E > 28.79 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     30.000     0.000    0.110E-06    0.376E-07
+#     32.000     0.000    0.157E-06    0.325E-07
+#     34.000     0.000    0.166E-06    0.332E-07
+#     36.000     0.000    0.125E-06    0.361E-07
+#     38.000     0.000    0.685E-07    0.730E-07

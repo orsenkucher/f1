@@ -1,0 +1,18 @@
+# f1_exp_027_059_PG_1982NE10.dat                                               
+#                                                                               
+# Z = 27, A = 59                                                                
+# No. of entries:  7                                                            
+# Col 1: photon energy E in MeV                                                 
+# Col 2: bin width dE in MeV                                                    
+# Col 3: strength f1 in MeV^-3                                                  
+# Col 4: uncertainty df1 in MeV^-3                                              
+# Format: 2f10.3, 2e12.3                                                        
+# Author: P. Dimitriou from Nemashkalo et al., Yad.Fiz. 36, 1083 (1982)               
+#    E         dE       f1           df1                                        
+     8.162     0.000   0.260E-07   0.800E-08
+     8.479     0.000   0.260E-07   0.800E-08
+     8.742     0.000   0.320E-07   0.900E-08
+     8.790     0.000   0.340E-07   0.100E-07
+     8.932     0.000   0.320E-07   0.500E-08
+     9.125     0.000   0.340E-07   0.100E-07
+    10.224     0.000   0.420E-07   0.130E-07

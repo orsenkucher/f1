@@ -1,0 +1,33 @@
+# f1_exp_073_181_OM_3He3He.readme
+# 
+# Data will be published in peer-reviewed journal in 2019.
+#
+# Reaction 181Ta(3He,3He')181Ta using 34 MeV 3He beam at the 
+# Oslo cyclotron laboratory of the University of Oslo.
+#
+# The emitted gamma rays from the reaction were measured with 26 NaI(Tl) 
+# detectors positioned spherically around the target chamber. Particle energies
+# where measured using the silicon ring particle telescopes (SiRi) consisting 
+# of 8 segmented thin front Si detectors and 8 thick back Si detectors.
+#
+# The nuclear level density and photon strength function were simultaneously # extracted using the Oslo method, from the particle-gamma coincidence 
+# events, below the neutron separation energy S_n.
+#
+# The nuclear level density is normalised at low energies by counting the 
+# levels from the evaluated nuclear database [Brookhaven National Laboratory. 
+# A database of nuclear levels. http://www.nndc.bnl.gov/chart, retrieved 2015]. 
+# At high energies, the experimental nuclear level density is interpolated to the # total level density at S_n estimated from s-wave average neutron resonance 
+# data (D0).
+# 
+# The photon strength function is normalised from the experimental average 
+# total radiative width (Gg) [J. Kopecky and M. Uhl, Phys. Rev. C 41, 1941 # (1990)]. The D0 and Gg values were averaged between 
+# Refs. [R. Capote et al. Reference input parameter library, ripl-2 and ripl-3] # and [S.F. Mughabghab, Atlas of Neutron Resonances, 5th ed. (Elsevier 
+# Science, Amsterdam, 2006)].
+# 
+# The error bars obtained using the Oslo method only provide statistical 
+# and systematic uncertainties of the unfolding and first generation methods, 
+# and do not account for the possible contribution of the uncertainties of the 
+# D0 and Gg parameters, where dD0 is the uncertainty of D0 and dGg that of Gg. #
+To account for the uncertainties of the photon 
+# strength function, the normalisation parameters D0 and Gg, are now given 
+# by D0 = D0 +/- dD0 and Gg = Gg -/+ dGg for the extreme lower and upper # uncertainties, respectively.

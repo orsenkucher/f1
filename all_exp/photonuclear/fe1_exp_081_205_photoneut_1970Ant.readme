@@ -1,0 +1,50 @@
+#  fe1_exp_081_205_photoneut_1970Ant.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0109003
+#  Element = Tl   Z =  81   A = 205
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0109   20120617   20120921   20120813       L019
+#SUBENT        L0109001   20120617   20120921   20120813       L019
+#BIB                 11         17
+#INSTITUTE  (4RUSFTI)
+#REFERENCE  (J,IZV,34,116,1970)
+#           (J,BAS,34,108,1970) English translation
+#AUTHOR     (G.P.Antropov,I.E.Mitrofanof,A.I.Prokofev,V.S.Russkikh)
+#TITLE      Photoneutron cross sections for 203Tl and 205Tl
+#FACILITY   (BETAT,4RUSFTI)
+#INC-SOURCE (BRST)
+#SAMPLE     Thallium oxide targets enriched in 203Tl to 87 % or in
+#            205Tl to 95.6 % were used. Targets weight of 80g and
+#            94g, respectively.
+#DETECTOR   (BF3)
+#METHOD     Blatt and Weisskoft method was used to extract cross
+#            section from neutron yields
+#PART-DET   (N)
+#HISTORY    (20060321C) DR
+#           (20120126U) SD: Ref. corrected (IZK => IZV).
+#                          Ref. on translation added.
+#ENDBIB              17
+#NOCOMMON             0          0
+#ENDSUBENT           20
+#SUBENT        L0109003   20060321   20060720   20060630       L009
+#BIB                  3          5
+#REACTION   (81-TL-205(G,X)0-NN-1,UNW,SIG,,BRS)
+#            Photoabsorption cross section: sum of
+#            (g,n) + (g,2n)
+#ERR-ANALYS (DATA-ERR) No information
+#STATUS     (CURVE) Data taken from Fig. 2
+#ENDBIB               5

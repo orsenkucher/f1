@@ -1,0 +1,9 @@
+ # Ir -194 2 keV data Kiev
+ # Ig extracted from M. Balodis et al., Nucl.Phys. A 641 (1988) 133
+ # assumed Ig/Eg**5 and converted in Ig/Eg*3 in arbitrary units
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # Normalization  of 10E1 (<Eg> = 5.94 MeV) transitions to <f(E1)> = 11.31E-08 from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.09
+ # RN SYS18 F = 1.07 from systematic equation [INDC(NED)-0772]
+ # 

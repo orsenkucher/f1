@@ -1,0 +1,90 @@
+#  fe1_exp_050_117_photoneut_2009Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2164003
+#  Element = Sn      Z = 50    A =117
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2164   20100816   20100915   20100816       K008                                  
+#  SUBENT        K2164001   20100816   20100915   20100816       K008                                  
+#  BIB                 14         46                                                                   
+#  TITLE      Gamma-ray strength function for 116,117Sn with the                                       
+#             pygmy dipole resonance balanced in the photoneutron                                      
+#             and neutron capture channels                                                             
+#  AUTHOR     (H.Utsunomiya, S.Goriely, M.Kamata, T.Kondo, O.Itoh,                                     
+#             H.Akimune, T.Yamagata, H.Toyokawa, Y.-W.Lui,                                             
+#             S.Hilaire, A.J.Koning)                                                                   
+#  INSTITUTE  (2JPNKON) Department of Physics                                                          
+#             (2BLGBRU) Institut d'Astronomie et d'Astrophysique                                       
+#             (2JPNAIS)                                                                                
+#             (1USATAM) Cyclotron Institute                                                            
+#             (2FR FR) CEA, DAM, DIF, Arpajon                                                          
+#             (2NEDNRG)                                                                                
+#  REFERENCE  (J,PR/C,80,(5),055806,2009)                                                              
+#             Main reference. See also TITLE and AUTHOR.                                               
+#             (S,AIP-1238,234,201006) M.Kamata+, Same data given                                       
+#             (S,AIP-1120,183,200905)                                                                  
+#             H.Utsunomiya+, Conf.Proc. of ASR2008                                                     
+#             (S,AIP-1090,637,200802)                                                                  
+#             H.Utsunomiya+, Preliminary data given                                                    
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS) lambda=532 nm and 1064 nm laser photons                                            
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#  METHOD     (RINGR) To determine average neutron energies. 20 3He                                    
+#                     proportional counters coaxially embedded in                                      
+#                     polyethylene moderator at distance of 3.8, 7.0                                   
+#                     and 10.0 cm from beam axis.                                                      
+#  FACILITY   (ESTRG,2JPNAIS) To store electron beam from 506.3 to                                     
+#                             763.0 MeV at Tsukuba Electron Ring for                                   
+#                             Accelerating and Storage (TERAS)                                         
+#  DETECTOR   (PROPC) To detect neutron                                                                
+#             (HPGE) To measure the energy distribution of the LCS                                     
+#                    gamma-ray                                                                         
+#             (NAICR) To measure the intensity of the LCS gamma-ray                                    
+#  ERR-ANALYS - Total systematic uncertainty: 4.4 - 5.9 %                                              
+#             - Uncertainty of the time variation of the LCS beam                                      
+#               energy distribution (a few percentages)                                                
+#             (ERR-1) Neutron detection efficiency                                                     
+#             (ERR-2) Number of incident gamma rays                                                    
+#             (ERR-S) Statistical uncertainty                                                          
+#  REL-REF    (M,,A.Makinaga+,J,PR/C,79,025801,2009)                                                   
+#             Further details of experimental technique                                                
+#  STATUS     (APRVD) Proofread by Hiroaki Utsunomiya (2010.01.16)                                     
+#  HISTORY    (20091224R) Received by e-mail from H.Utsunomiya                                         
+#             (20091225C) Ayano Makinaga                                                               
+#             (20100721A) REFERENCE: AIP-1120 and -1238 added                                          
+#  ENDBIB              46                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.2        3.                                                                                      
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           53                                                                              
+#  SUBENT        K2164003   20100514   20100610   20100514       K006                                  
+#  BIB                  3         11                                                                   
+#  REACTION  1(50-SN-117(G,N)50-SN-116,,SIG)                                                           
+#             Corrected for energy spread of LCS beam based on the                                     
+#             Taylor expansion method                                                                  
+#            2(50-SN-117(G,N)50-SN-116,,SIG)                                                           
+#             Corrected for energy spread of LCS beam based on the                                     
+#             least square method                                                                      
+#            3(50-SN-117(G,N)50-SN-116,,SIG)                                                           
+#             Average cross sections for two methods                                                   
+#  SAMPLE     Target-thickness is 1992 mg/cm**2.                                                       
+#             (50-SN-117,ENR=0.901)                                                                    
+#  STATUS     (TABLE) Plotted in Fig.3 of J,PR/C,80,055806,2009                                        
+#  ENDBIB              11                                                                              
+#  NOCOMMON             0          0                                                                   

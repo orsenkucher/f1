@@ -1,0 +1,42 @@
+#  fe1_exp_012_025_photoneut_1971Alv.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0022009
+#  Element = Mg   Z =  12   A =  25
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0022     970129              20050926       0000
+#SUBENT        L0022001     970129              20050926       0000
+#BIB                  8         11
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR/C,4,1673,7111)
+#AUTHOR     (R.A.ALVAREZ,B.L.BERMAN,D.R.LASHER,T.W.PHILLIPS,
+#           S.C.FULTZ)
+#TITLE      Photoneutron cross sections for 23Na and 25Mg.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (PROPC) Paraffin moderator with BF3 counters
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950331A) BIB Updated
+#ENDBIB              11
+#NOCOMMON             0          0
+#ENDSUBENT           14
+#SUBENT        L0022009     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (12-MG-25(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (950331C)
+#ENDBIB               3

@@ -1,0 +1,9 @@
+ # W-184 boron data ANL
+ # Ig/(Eg/Eo)**4 data in arbitrary units taken from D.L. Bushnell et al., Phys. Rev. C11 (1975) 1401 converted in Ig/Eg**3
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 1.33 has been applied
+ # Normalization 6 E1 transitions with <Eg= 6.75)> to <f(E1)> = 28.1 E-08 from DRC <f(E1)> table [INDC(NED)-013]
+ # p-wave contribution assumed negligible
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.42
+ # RN SYS18 F = 0.39 from systematic equation [INDC(NED)-0772]  EXP18 36.9E-08MeV-3 disregarded
+ # 

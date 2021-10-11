@@ -1,0 +1,51 @@
+# f1_exp_057_139_NRF.readme
+#
+# Data were published by A. Makinaga et al., Phys. Rev. C 82, 024314 (2010).
+#
+# Reaction 139La(gamma,gamma') using bremsstrahlung produced with 11.5 MeV
+# electrons at the ELBE accelerator of HZDR.
+#
+# Gamma rays were measured with two shielded HPGe detectors at 90 deg to the
+# beam and two at 127 deg to the beam.
+# Spectra were response and efficiency corrected.
+#
+# The photon flux was determined by using known level widths in 11B.
+# Background due to atomic processes in the target was determined in GEANT4 
+# simulations and subtracted from the spectra. Subtracted spectra contain
+# resolved peaks and nuclear quasicontinuum.
+#
+# Spectra were corrected for feeding and branching intensities obtained from 
+# simulations of statistical gamma-ray cascades using a Monte Carlo code.
+# The Wigner distribution is used for the fluctuation of the nearest-neighbor
+# spacings of levels with the same spin.
+#
+# Input for the simulations: 
+# (i)  E1 strength function: Lorentz function fitted to (gamma,n) data.
+#      M1 and E2 strength functions: parametrizations given in RIPL
+#      [http://www-nds.iaea.org/RIPL-2/].
+#      Partial level widths were varied using the Porter-Thomas distribution.
+# (ii) Level density: back-shifted Fermi-gas model with parameters from 
+#      [T. von Egidy and D. Bucurescu, Phys. Rev. C 80, 054310 (2009)].
+#      Parameters were randomly varied within the given uncertainties.
+#
+# The absorption cross sections were obtained from scattering cross sections by
+# using average branching ratios of ground-state transitions obtained from
+# the simulations.
+#
+# Uncertainties of the absorption cross sections include statistical
+# uncertainties, 5% uncertainties each for efficiency, photon flux and atomic
+# background.
+#
+# Partial strengths above the neutron-separation energy:
+#    E         dE       f1           df1
+     8.900     0.100   1.595E-07   2.248E-08 
+     9.000     0.100   7.294E-08   1.052E-08 
+#
+# The present strength function data are results of a reanalysis using the code
+# gDEX for the simulation of gamma-ray cascades. The results differ from the
+# published values obtained with an earlier code. In addition, maximum upper
+# and lower limits are given that result from an application of the error
+# margins of the level-density parameters referred to in (ii) in separate files 
+# (_upper) and (_lower).
+
+

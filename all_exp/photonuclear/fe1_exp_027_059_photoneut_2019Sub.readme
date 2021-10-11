@@ -1,0 +1,46 @@
+#  fe1_exp_027_059_photoneut_2019Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  in press
+#  Element = Co      Z = 27    A = 59
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY         in press                                
+#  SUBENT        in press                                
+#  BIB           in press                                                                   
+#  TITLE         in press                                             
+#  AUTHOR     (Subaru Collaboration)                                                                    
+#  REFERENCE  (in press, 2019)                                                                         
+#  REACTION   ((27-Co-59(G,sn)                                                                        
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E > 27.23 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     27.570     0.000    0.626E-07    0.321E-08
+#     28.050     0.000    0.583E-07    0.269E-08
+#     28.540     0.000    0.539E-07    0.237E-08
+#     29.020     0.000    0.500E-07    0.230E-08
+#     29.580     0.000    0.456E-07    0.226E-08
+#     30.010     0.000    0.429E-07    0.220E-08
+#     30.510     0.000    0.400E-07    0.213E-08
+#     31.010     0.000    0.379E-07    0.210E-08
+#     31.510     0.000    0.367E-07    0.204E-08
+#     32.460     0.000    0.356E-07    0.200E-08
+#     33.300     0.000    0.334E-07    0.193E-08
+#     34.410     0.000    0.311E-07    0.207E-08
+#     36.370     0.000    0.245E-07    0.210E-08
+#     38.270     0.000    0.213E-07    0.184E-08
+#     40.230     0.000    0.178E-07    0.444E-08

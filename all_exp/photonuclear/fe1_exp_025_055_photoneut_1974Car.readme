@@ -1,0 +1,59 @@
+#  fe1_exp_025_055_photoneut_1974Car.readme
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0835002
+#  Element = Mn   Z =  25   A =  55
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0835   20111222   20120427   20120403       M062
+#SUBENT        M0835001   20111222   20120427   20120403       M062
+#BIB                 14         24
+#TITLE      The structure in the giant resonance of 55Mn.
+#AUTHOR     (R.Carchon,J.Devos,R.Van de Vyver,C.Van Deynse,
+#            H.Ferdinande)
+#REFERENCE  (J,NP/A,223,416,1974)
+#           #doi:10.1016/0375-9474(74)90424-2
+#INSTITUTE  (2BLGGHT)
+#FACILITY   (LINAC,2BLGGHT) 35 MeV linac.
+#REL-REF    (I,,R.Van de Vyver+,J,NP/A,198,144,1972)
+#            The experimental set-up.
+#INC-SOURCE (BRST)
+#SAMPLE     Target consisted of natural Mn powder with  a  purity
+#            in excess of 99.8 %.
+#DETECTOR   (BF3) 4PI Halpern-type neutron detector.
+#METHOD     (EXTB,SITA)
+#ANALYSIS   (UNFLD,PLA) Variable-bin  Penfold-Leiss  method   for
+#            unfolding of cross section from experimental yield.
+#CORRECTION Above the two-neutron  reaction  threshold,  19.2 MeV,
+#            the  experimental  reaction  yield  curve  for  total
+#            photoneutron reaction was corrected for  the  neutron
+#            multiplicity assuming  a statistical decay of the GDR
+#            states.
+#ERR-ANALYS (DATA-ERR) No information.
+#HISTORY    (20111222C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#ENDBIB              24
+#NOCOMMON             0          0
+#ENDSUBENT           27
+#SUBENT        M0835002   20111222   20120427   20120403       M062
+#BIB                  2          2
+#REACTION   (25-MN-55(G,X)0-NN-1,UNW,SIG,,BRS)
+#STATUS     (CURVE) Data from the Fig. 1b.
+#ENDBIB               2
+# E1 PSF were not given in the data file at E < 10.29 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.176     0.000    0.119E-08    0.000E+00

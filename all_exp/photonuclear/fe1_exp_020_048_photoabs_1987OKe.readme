@@ -1,0 +1,65 @@
+#  fe1_exp_020_048_photoabs_1987OKe.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0636010
+#  Element = Ca   Z =  20   A =  48
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0636   20050609   20050811   20050926       M037
+#SUBENT        M0636001   20050609   20050811   20050926       M037
+#BIB                 10         32
+#TITLE      The photonuclear cross section of Ca-48.
+#AUTHOR     (G.J.O'KEEFE,M.N.THOMPSON,Y.I.ASSAFIRI,R.E.PYWELL,
+#            K.SHODA)
+#INSTITUTE  (3AULAML,2JPNTOH)
+#REFERENCE  (J,NP/A,469,239,1987)
+#INC-SOURCE (VPH)
+#FACILITY   (LINAC,2JPNTOH)
+#STATUS     (CURVE) Data from Figs. 1 -7 were prepared at the MSU
+#            SINP CDFE by V.V.Varlamov.
+#ERR-ANALYS (DATA-ERR) Statistical errors are given.
+#COMMENT    The sum  of  the  photoneutron  and photoproton cross
+#            sections of 48Ca (48Ca(g,n) +  48Ca(g,p))  has  been
+#            deduced  from an activation yield curve measurements
+#            using bremsstrahlung.  In a separate experiment  the
+#            48Ca(g,p)  and  partial photoproton cross sectins to
+#            the ground and first excited states of 47K have been
+#            deduced  from  measured photoproton spectra recorded
+#            from  the   electrodisintegration   of   48Ca.   The
+#            48Ca(g,n)  cross  section  is  estimated  from these
+#            data.  A statistical decay model is used to estimate
+#            the  48Ca(g,2n) cross section.  These reported cross
+#            sections  are  used  to   determine   the   relative
+#            strengths  and  energy  distributions of the isospin
+#            components  of  the GDR states, and to compare these
+#            with theoretical predictions.
+#HISTORY    (20021024C)
+#           (20030409A) Corrected  by  V.Varlamov: COMMON ADDED to
+#            M0636003.
+#           (20050609A) Corrected by V.Varlamov:
+#            Dates corrected from two to  four  digits  including
+#            those in   REFERENCE   and   HISTORY,   lower  case,
+#            year in REFERENCE corrected from 1980 to 1987.
+#ENDBIB              32
+#NOCOMMON             0          0
+#ENDSUBENT           35
+#SUBENT        M0636010   20050609   20050811   20050926       M037
+#BIB                  3          5
+#REACTION   (20-CA-48(G,ABS),,SIG,,BRS)
+#ANALYSIS   Sum of cross  sections  of the reactions
+#            (g,sn) and (g,p).
+#STATUS     (DEP,M0636003) (g,sn) reaction cross section.
+#           (DEP,M0636007) (g,p) reaction cross section.
+#ENDBIB               5

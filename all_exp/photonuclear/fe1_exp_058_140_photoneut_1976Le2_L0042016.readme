@@ -1,0 +1,113 @@
+#  fe1_exp_058_140_photoneutr_1976Le2_L0042016.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0042016,L0042014
+#  Element = LCe  Z =  58   A = 140
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#ENTRY            L0042     970129              20050926       0000
+#SUBENT        L0042001     970129              20050926       0000
+#BIB                 11         23
+#INSTITUTE  (2FR SAC,2JPNTOH)
+#REFERENCE  (J,NP/A,258,350,76)
+#AUTHOR     (A.LEPRETRE,H.BEIL,R.BERGERE,P.CARLOS,J.FAGOT,
+#           A.DE MINIAC,A.VEYSSIERE,H.MIYASE)
+#TITLE      A study of the giant dipole resonance in doubly even
+#            tellurium and cerium isotopes.
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+#            The quasimonochromatic proton beam energy resolution
+#            (FWHM) varies slowly from about 250 keV at 10 MeV to
+#            roughly 350 keV at 30 MeV.
+#DETECTOR   (STANK) 250 l Gd-loaded liquid scintillator.
+#METHOD     (EXTB,STATD) Statistically determined neutron
+#            multiplicity.
+#ANALYSIS   Since the (gamma,p) contribution of medium and heavy
+#            nuclei can be neglected one has obtains the total
+#            photonuclear absorption cross section: (gamma,abs) =
+#            (gamma,n) + (gamma,np) + (gamma,2n).
+#ERR-ANALYS (DATA-ERR1) Statistical errors only.
+#           (DATA-ERR2) Systematic error due to photon intensity
+#            calibration uncertainty estimated to be about 7%.
+#HISTORY    (891206C)
+#           (950406A) BIB Updated
+#ENDBIB              23
+#COMMON               1          3
+#DATA-ERR2
+#PER-CENT
+#  7.
+#ENDCOMMON            3
+#ENDSUBENT           30
+#SUBENT        L0042016     970129              20050926       0000
+#BIB                  3          4
+#REACTION   (58-CE-140(G,X)0-NN-1,,SIG)
+#            The sum: (G,N)+(G,NP)+2(G,2N)+2(G,2N+P).
+#SAMPLE     100 grams CeO2, 99.4% 140Ce.
+#STATUS     Converted from Berman compilation.
+#ENDBIB               4
+#ENTRY            L0042     970129              20050926       0000
+#SUBENT        L0042001     970129              20050926       0000
+#BIB                 11         23
+#INSTITUTE  (2FR SAC,2JPNTOH)
+#REFERENCE  (J,NP/A,258,350,76)
+#AUTHOR     (A.LEPRETRE,H.BEIL,R.BERGERE,P.CARLOS,J.FAGOT,
+#           A.DE MINIAC,A.VEYSSIERE,H.MIYASE)
+#TITLE      A study of the giant dipole resonance in doubly even
+#            tellurium and cerium isotopes.
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+#            The quasimonochromatic proton beam energy resolution
+#            (FWHM) varies slowly from about 250 keV at 10 MeV to
+#            roughly 350 keV at 30 MeV.
+#DETECTOR   (STANK) 250 l Gd-loaded liquid scintillator.
+#METHOD     (EXTB,STATD) Statistically determined neutron
+#            multiplicity.
+#ANALYSIS   Since the (gamma,p) contribution of medium and heavy
+#            nuclei can be neglected one has obtains the total
+#            photonuclear absorption cross section: (gamma,abs) =
+#            (gamma,n) + (gamma,np) + (gamma,2n).
+#ERR-ANALYS (DATA-ERR1) Statistical errors only.
+#           (DATA-ERR2) Systematic error due to photon intensity
+#            calibration uncertainty estimated to be about 7%.
+#HISTORY    (891206C)
+#           (950406A) BIB Updated
+#ENDBIB              23
+#COMMON               1          3
+#DATA-ERR2
+#PER-CENT
+#  7.
+#ENDCOMMON            3
+#ENDSUBENT           30
+#SUBENT        L0042014     970129              20050926       0000
+#BIB                  3          5
+#REACTION   ((58-CE-140(G,N)58-CE-139,,SIG)+
+#           (58-CE-140(G,N+P)57-LA-138,,SIG))
+#            Threshold of the reaction (gamma,n+p) is 16.9
+#SAMPLE     100 grams CeO2, 99.4% 140Ce.
+#STATUS     Converted from Berman compilation.
+#ENDBIB               5
+# E1 PSF were not given in the data file at E <  9.31 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.840     0.000    0.844E-07    0.416E-07
+#      9.110     0.000    0.348E-06    0.408E-07
+# E1 PSF were not given in the data file at E > 25.53 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.640     0.000    0.166E-06    0.241E-07
+#     26.180     0.000    0.173E-06    0.239E-07
+#     26.460     0.000    0.131E-06    0.238E-07

@@ -1,0 +1,52 @@
+#  fe1_exp_079_197_photoneut_1962Fu2.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0002005
+#  Element = Au   Z =  79   A = 197
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0002   20030109   20030305   20050926       0000
+#SUBENT        L0002001   20030109   20030305   20050926       0000
+#BIB                  9         19
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR,127,1273,1962)
+#AUTHOR     (S.C.FULTZ,R.L.BRAMBLETT,J.T.CALDWELL,N.A.KERR)
+#TITLE      PHOTONEUTRON CROSS-SECTION MEASUREMENTS ON
+#           GOLD USING NEARLY MONOCHROMATIC PHOTONS
+#FACILITY   (LINAC)
+#INC-SOURCE POSITRON ANNIHILATION
+#DETECTOR   (PROPC) PARAFFIN MODERATOR WITH BF3 COUNTERS
+#ERR-ANALYS (DATA-ERR) TOTAL UNCERTAINTY
+#           UNCERTAINTY DUE TO COUNTING STATISTICS 7%.
+#HISTORY    (19780511T) CONVERTED FROM BERMAN COMPILATION
+#           (19891201A) BIB UPDATED
+#           (19950328A) BIB UPDATED
+#           (20030109A) CORRECTED  BY  V.VARLAMOV:
+#            DATES CORRECTED  FROM  TWO  TO FOUR DIGITS INCLUDING
+#            THAT IN REFERENCE AND HISTORY,
+#            REACTION IN L0002002 SUBSTITUTED: (G,SN) TO (G,XN),
+#            L0002005 ADDED AS DIFFERENCE: L000205=L0002002-
+#            L0002004 ((G,SN)=(G,XN)-(G,2N)).
+#ENDBIB              19
+#NOCOMMON             0          0
+#ENDSUBENT           22
+#SUBENT        L0002005   20030109   20030305   20050926       0000
+#BIB                  3          5
+#REACTION   (79-AU-197(G,X)0-NN-1,UNW,SIG)
+#            THE SUM: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (20030109A) DATA ADDEDD: (G,XN) - (G,2N).
+#STATUS     (DEP,L0002002) (G,XN) REACTION.
+#           (DEP,L0002004) (G,2N) REACTION.
+#ENDBIB               5

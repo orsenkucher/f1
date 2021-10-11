@@ -1,0 +1,9 @@
+ # Ge-74 DRC data BNL
+ # Ig/100 captures from R.E. Chrien et al., Phys.Rev. C 9 (1974) 1939
+ # 6 s- resonances = J=4+5+  Ggo = 0.20 eV
+ # Do = 99 eV
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.53
+ # Statistical error assumed to be 25%
+ # Very conflicting results <f(L)>I against Jpi
+ # 4 Jpi 2+ E2 changed in E1 and M1 in Revisions yellow
+ # 

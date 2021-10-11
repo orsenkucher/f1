@@ -1,0 +1,45 @@
+# f1_exp_039_089_NRF.readme
+#
+# Data were published by N. Benouaret et al., Phys. Rev. C 79, 014303 (2009).
+#
+# Reaction 89Y(gamma,gamma') using bremsstrahlung produced with 9.5 and
+# 13.2 and MeV electrons at the ELBE accelerator of HZDR.
+#
+# Gamma rays were measured with two shielded HPGe detectors at 90 deg to the
+# beam and two at 127 deg to the beam.
+# Spectra were response and efficiency corrected.
+#
+# The photon flux was determined by using known level widths in 11B.
+# Background due to atomic processes in the target was determined in GEANT4 
+# simulations and subtracted from the spectra. Subtracted spectra contain
+# resolved peaks and nuclear quasicontinuum.
+#
+# Spectra were corrected for feeding and branching intensities obtained from 
+# simulations of statistical gamma-ray cascades using a Monte Carlo code.
+# The Wigner distribution is used for the fluctuation of the nearest-neighbor
+# spacings of levels with the same spin.
+#
+# Input for the simulations: 
+# (i)  E1 strength function: Lorentz function fitted to (gamma,n) data.
+#      M1 and E2 strength functions: parametrizations given in RIPL
+#      [http://www-nds.iaea.org/RIPL-2/].
+#      Partial level widths were varied using the Porter-Thomas distribution.
+# (ii) Level density: back-shifted Fermi-gas model with parameters from 
+#      [T. von Egidy and D. Bucurescu, Phys. Rev. C 72, 044311 (2005)].
+#      Parameters were randomly varied within the given uncertainties.
+#
+# The absorption cross sections were obtained from scattering cross sections by
+# using average branching ratios of ground-state transitions obtained from
+# the simulations.
+#
+# Uncertainties of the absorption cross sections include statistical
+# uncertainties, 5% uncertainties each for efficiency, photon flux and atomic
+# background.
+#
+# The present strength function data are results of a reanalysis using the code
+# gDEX for the simulation of gamma-ray cascades. The results differ from the
+# published values obtained with an earlier code. In addition, maximum upper
+# and lower limits that result from an application of the error
+# margins of the level-density parameters referred to in (ii) are given 
+# in separate files (_upper) and (_lower).
+

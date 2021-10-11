@@ -1,0 +1,12 @@
+# fe1_exp_004_009_photoneut_2002Sum_K2004003.dat         
+#
+# Z =  4, A =  9
+# No. of entries:    1
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e13.3
+# Author:    (K.Sumiyoshi, H.Utsunomiya, S.Goko, T.Kajino)          (J,NP/A,709,(1-4),467,2002)                                                                  
+#    E         dE       f1           df1
+     2.060     0.000    0.884E-08    0.126E-08

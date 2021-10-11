@@ -1,0 +1,57 @@
+#  fe1_exp_092_238_photoabs_1976Gu1.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0090004
+#  Element = U    Z =  92   A = 238
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0090   20050517   20051214   20051214       M038
+#SUBENT        M0090001   20050517   20051214   20051214       M038
+#BIB                 12         22
+#TITLE      Giant resonance in the total photoabsorption
+#           cross section near of Z=90 nuclei.
+#AUTHOR     (G.M.GUREVICH,L.E.LAZAREVA,V.M.MAZUR,G.V.SOLODUKHOV,
+#           B.A.TULUPOV)
+#INSTITUTE  (4RUSJIA)
+#REFERENCE  (J,NP/A,273,326,1976)
+#FACILITY   (SYNCH,4RUSJIA)
+#INC-SOURCE (BRST)
+#METHOD     (EXTB,SITA)
+#DETECTOR   (SCIN)
+#ERR-ANALYS (ERR-S) Statistical errors only.
+#STATUS     (CURVE)
+#HISTORY    (19831208C)
+#           (19910202A) Corrected by V.Varlamov, V.Mclane
+#           (20050517A) REFERENCE corrected: volume number 273
+#            instead of 275, converted to new date formats,
+#            lower case, REACTION updated.
+#           (20050901A) Corrected by V.Varlamov:  BRA substituted
+#            by BRS in line REACTION of SUBENTS 002 - 005.
+#COMMENT    Total photoabsorption cross sections of Th-232,U-235,
+#           U-238 and Pu-239 have been measured in the giant
+#           resonance region by the absorption method.
+#ENDBIB              22
+#NOCOMMON             0          0
+#ENDSUBENT           25
+#SUBENT        M0090004   20050517   20051214   20051214       M038
+#BIB                  1          1
+#REACTION   (92-U-238(G,ABS),,SIG,,BRS)
+#ENDBIB               1
+# E1 PSF were not given in the data file at E > 23.36 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     23.600     0.000    0.731E-06    0.103E-06
+#     23.900     0.000    0.323E-06    0.944E-07

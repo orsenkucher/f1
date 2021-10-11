@@ -1,0 +1,14 @@
+# f1_exp_022_046_PG_1994ZA.readme (fig 2, 2.78 MeV)
+# 
+# PSF data were published by I.I. Zalyubovskij, B.A. Nemashkalo, C.C. Ratkevitch, V.K. Sirotkin, I.D. Fedorec and K.V. Shebeko, Yadernaya Fizika 57, 777 (1994)
+#
+# Reaction 45Sc(p,g)46Ti with beam energies between 1.2 and 3.1 MeV was measured at ESU # facility in Kharkov. The energy beam spread leads to averaging over resonances with # 40-80 keV. Five spectra (with total averaging 250 keV wide interval) and average # proton energy 2.78 MeV were combined which should reduce fluctuations due to the # Porter-Thomas fluctuations below 12%
+# 
+# Gamma decays were measured with a pair spectrometer consisting of 63cm^3 Ge(Li) and a # ring of surrounding NaI(Tl) detectors.  
+# Cross sections of primary gamma-rays to low-lying discrete states from the Average # Resonance Proton Capture technique were measured. The absolute value of PSF is # obtained from this cross section via analysis within the Hauser-Feshbach theory. # General description of the determination of absolute PSF value can be found in # Szeflinska, Nucl. Phys. A323, 253 (1979) but different PSF model was used in this # work and exact normalization is difficult to track.
+#
+# Experimental PSFs values were obtained from the figure.
+# The errors of experimental intensities are estimated to be about 20%. They consist of # the sum of squares of statistical uncertainties - about 10% - and systematic # uncertainties that are dominated by the detector efficiency (15%), target thickness # (5%) and charge deposited onto the target (5%). It is not clear from the text of the # paper if any uncertainty from the absolute normalization procedure is included.
+#
+# f1_exp_022_046_PG_1994ZA.dat   (fig3, squares, triangles)                            
+# PSF obtained from primary transitions to three low-lying states from different proton # energies between 1.2 and 3.1 MeV. The intensities were probably avaraged over about # 80 keV. 

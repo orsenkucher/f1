@@ -1,0 +1,161 @@
+#  fe1_exp_082_208_photoneut_2013Ish.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0864028
+#  Element = Pb   Z =  82   A = 208
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0864   20150902   20160401   20160311       M081
+#SUBENT        M0864001   20150902   20160401   20160311       M081
+#BIB                 10         72
+#TITLE      Systematic disagreements between partial photoneutron
+#            reactions cross sections:  new approach  to analysis
+#            evaluation.
+#AUTHOR     (B.S.Ishkhanov,V.N.Orlin,N.N.Peskov,M.E.Stepanov,
+#            V.V.Varlamov)
+#REFERENCE  (R,MSU-INP-2013-1/884,2013) In Russian.
+#           (J,IZV,77,(4),433,2013)
+#           #doi:10.7868/S0367676513040297
+#            Cross sections of partial photoneutron reactions for
+#             the  115In  nucleus  and  the  neutron multiplicity
+#             sorting.
+#           (J,BAS,77,(4),388,2013)
+#           #doi:10.3103/S1062873813040291
+#            English translation of IZV,77,(4),433,2013.
+#           (R,MSU-INP-2011-5/869,2011) In Russian.
+#            Analysis of reliability of experimental data on total
+#            and partial photoneutron  reaction  cross  sections.
+#            New evaluated data for 159Tb.
+#           (J,YF,75,(11),1414,2012)
+#            New  approach  to  analyzing  and  evaluating  cross
+#            sections  for partial photoneutron reactions.
+#           (J,PAN,75,(11),1339,2012)
+#           #doi:10.1134/S1063778812110191
+#            English translation of YF,75,(11),1414,2012.
+#           (R,MSU-INP-2012-1/879,2012) In Russian.
+#            Investigation  of   181Ta photodisintegration  using
+#            methods of induced activity and neutron multiplicity
+#            sorting - data reliability and authenticity.
+#           (J,YF,76,(11),1484,2013)
+#           #doi:10.7868/S0044002713110159
+#            New data on partial photoneutron reactions (g,n),
+#             (g,2n) and (g,3n).
+#           (J,PAN,76,(11),1403,2013)
+#           #doi:10.1134/S1063778813110148
+#            English translation of YF,76,(11),1484,2013.
+#           (J,IZV,78,(5),599,2014)
+#           #doi:10.7868/S0367676514050263
+#           (J,BAS,78,(5),412,2014)
+#           #doi:10.3103/S1062873814050207
+#            English translation of IZV,78,(5),599,2014.
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   The  joint  analysis  of   data  for  total (g,xn) and
+#            partial (g,n), (g,2n) and (g,3n)  reactions  obtained
+#            in  various  experiments was  carried  out.  The  new
+#            approach  to  analysis  of  systematic  disagreements
+#            between data was proposed on the base of new criteria
+#            of  systematic  uncertainties  presence  -  specially
+#            proposed transitional multiplicity functions
+#                        Fi-theor = SIG(g,in)/SIG(g,xn).
+#            Using  these functions calculated in  the  frame  of
+#            combined photonuclear  reaction  model  new reliable
+#            and free from problems of   neutron   multiplicity
+#            sorting data for photoneutron   partial  reactions
+#            cross  sections
+#               SIG-eval(g,in)  =  Fi-theor  x  SIG-exp(g,xn)
+#            were  evaluated  using   experimental  neutron yield
+#            reaction cross sections SIG-exp(g,xn).
+#ERR-ANALYS (DATA-ERR) Mean-root-squared errors.
+#COMMENT    New  evaluated   data   are   presented  for  91,94Zr
+#            and  188,189,190,192Os, and 208Pb and  added by data
+#            for 115In, 159Tb, and 181Ta published before.
+#STATUS     (TABLE,APRVD) Approved by V.Varlamov.
+#HISTORY    (20130911C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#           (20140120A) Corrected by V.Varlamov: REFERENCE.
+#           (20150901A) Corrected by V.Varlamov: REFERENCE,
+#            SUBENTs  002-008  deleted   because  of  duplication
+#            of   M0914.002-008,  SUBENTs 017-024 deleted because
+#            of duplication of M0915.004-011.
+#           (20150902A) Corrected by V.Varlamov: SUBENTs 009-016
+#            deleted because duplication of M0916.
+#ENDBIB              72
+#NOCOMMON             0          0
+#ENDSUBENT           75
+#SUBENT        M0864028   20130911   20131029   20131017       M068
+#BIB                  3         10
+#REACTION   (82-PB-208(G,X)0-NN-1,UNW,SIG,,,EVAL)
+#ANALYSIS   The total neutron reaction cross section obtained
+#            as sum: SIG(g,sn) = SIG(g,n) + SIG(g,2n) + SIG(g,3n).
+#STATUS     Data plotted in Fig. 16.
+#           (DEP,M0864025)
+#            Evaluated (g,n) reaction cross section.
+#           (DEP,M0864026)
+#            Evaluated (g,2n) reaction cross section.
+#           (DEP,M0864027)
+#            Evaluated (g,3n) reaction cross section.
+#ENDBIB              10
+# E1 PSF were not given in the data file at E > 23.65 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     23.700     0.000    0.171E-06    0.626E-07
+#     24.000     0.000    0.164E-06    0.614E-07
+#     24.300     0.000    0.162E-06    0.571E-07
+#     24.600     0.000    0.161E-06    0.578E-07
+#     24.900     0.000    0.153E-06    0.592E-07
+#     25.200     0.000    0.115E-06    0.640E-07
+#     25.500     0.000    0.110E-06    0.568E-07
+#     25.800     0.000    0.112E-06    0.686E-07
+#     26.100     0.000    0.904E-07    0.532E-07
+#     26.400     0.000    0.545E-07    0.272E-07
+#     26.700     0.000    0.695E-07    0.255E-07
+#     27.000     0.000    0.781E-07    0.272E-07
+#     27.300     0.000    0.842E-07    0.284E-07
+#     27.600     0.000    0.905E-07    0.336E-07
+#     27.900     0.000    0.811E-07    0.287E-07
+#     28.200     0.000    0.677E-07    0.297E-07
+#     28.500     0.000    0.761E-07    0.278E-07
+#     28.800     0.000    0.864E-07    0.343E-07
+#     29.100     0.000    0.817E-07    0.295E-07
+#     29.400     0.000    0.764E-07    0.322E-07
+#     29.700     0.000    0.806E-07    0.301E-07
+#     30.000     0.000    0.836E-07    0.338E-07
+#     30.300     0.000    0.799E-07    0.315E-07
+#     30.600     0.000    0.762E-07    0.329E-07
+#     30.900     0.000    0.620E-07    0.281E-07
+#     31.200     0.000    0.581E-07    0.295E-07
+#     31.500     0.000    0.570E-07    0.292E-07
+#     31.800     0.000    0.499E-07    0.271E-07
+#     32.100     0.000    0.492E-07    0.273E-07
+#     32.400     0.000    0.485E-07    0.246E-07
+#     32.700     0.000    0.480E-07    0.262E-07
+#     33.000     0.000    0.513E-07    0.253E-07
+#     33.300     0.000    0.583E-07    0.297E-07
+#     33.600     0.000    0.527E-07    0.254E-07
+#     33.900     0.000    0.466E-07    0.264E-07
+#     34.200     0.000    0.436E-07    0.231E-07
+#     34.500     0.000    0.422E-07    0.254E-07
+#     34.800     0.000    0.401E-07    0.220E-07
+#     35.100     0.000    0.383E-07    0.238E-07
+#     35.400     0.000    0.341E-07    0.209E-07
+#     35.700     0.000    0.326E-07    0.219E-07
+#     36.000     0.000    0.345E-07    0.219E-07
+#     36.300     0.000    0.330E-07    0.216E-07
+#     36.600     0.000    0.222E-07    0.178E-07
+#     36.900     0.000    0.156E-07    0.145E-07
+#     37.200     0.000    0.410E-08    0.119E-07
+#     37.500     0.000    0.287E-08    0.918E-08

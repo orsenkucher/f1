@@ -1,0 +1,42 @@
+#  fe1_exp_062_154_photoneut_1974Ca5.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0033021
+#  Element = Sm   Z =  62   A = 154
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0033     970129              20050926       0000
+#SUBENT        L0033001     970129              20050926       0000
+#BIB                  7         11
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,225,171,7406)
+#AUTHOR     (P.CARLOS,H.BEIL,R.BERGERE,A.LEPRETRE,A.DEMINIAC,
+#           A.VEYSSIERE)
+#TITLE      The giant dipole resonance in the transition region of
+#            the samariam isotopes
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950405A) BIB Updated
+#ENDBIB              11
+#NOCOMMON             0          0
+#ENDSUBENT           14
+#SUBENT        L0033021     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (62-SM-154(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (950405C)
+#ENDBIB               3

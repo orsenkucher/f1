@@ -1,0 +1,132 @@
+#  fe1_exp_004_009_photoabs_1975Ahr.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0825004
+#  Element = Be   Z =   4   A =   9
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0825   20111028   20120207   20111216       M060
+#SUBENT        M0825001   20111028   20120207   20111216       M060
+#BIB                 13         24
+#TITLE      Total nuclear photon absorption  cross  sections  for
+#            some light elements.
+#AUTHOR     (J.Ahrens,H.Borchert,K.H.Czock,H.B.Eppler,H.Gimm,
+#           H.Gundrum,M.Kroning,P.Riehn,G.Sita Ram,A.Zieger,
+#           B.Ziegler)
+#REFERENCE  (J,NP/A,251,479,1975)
+#           #doi:10.1016/0375-9474(75)90543-6
+#INSTITUTE  (2GERMNZ)
+#FACILITY   (LINAC,2GERMNZ)
+#INC-SOURCE (BRST)
+#SAMPLE     All samples were of natural isotopic composition.
+#DETECTOR   Two 11-channel magnetic Compton spectrometers.
+#METHOD     (EXTB,SITA)
+#CORRECTION Total nuclear  photon  absorption  cross  section was
+#            obtained as  difference   between   measured   total
+#            attenuation cross     section     and    non-nuclear
+#            (electronic) cross section (calculated).
+#ERR-ANALYS (DATA-ERR) Mean root-square uncertainties.
+#            The  error  of  the  sum  of  all  non-nuclear cross
+#             sections was estimated to be smaller then 0.1 % for
+#             elements and energy ranges considered.
+#STATUS     (CURVE) Data from Figs. 2 - 8.
+#HISTORY    (20111105C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#ENDBIB              24
+#NOCOMMON             0          0
+#ENDSUBENT           27
+#SUBENT        M0825004   20111028   20120207   20111216       M060
+#BIB                  1          1
+#REACTION   (4-BE-9(G,ABS),,SIG)
+#ENDBIB               1
+# E1 PSF were not given in the data file at E > 28.77 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     29.000     0.000    0.147E-07    0.440E-09
+#     29.500     0.000    0.126E-07    0.447E-09
+#     30.000     0.000    0.126E-07    0.520E-09
+#     30.500     0.000    0.123E-07    0.483E-09
+#     31.000     0.000    0.124E-07    0.442E-09
+#     31.500     0.000    0.120E-07    0.507E-09
+#     32.000     0.000    0.124E-07    0.472E-09
+#     32.500     0.000    0.117E-07    0.494E-09
+#     33.000     0.000    0.111E-07    0.507E-09
+#     33.500     0.000    0.103E-07    0.502E-09
+#     34.000     0.000    0.890E-08    0.551E-09
+#     34.500     0.000    0.102E-07    0.618E-09
+#     35.000     0.000    0.895E-08    0.684E-09
+#     35.500     0.000    0.994E-08    0.621E-09
+#     36.000     0.000    0.870E-08    0.747E-09
+#     36.500     0.000    0.846E-08    0.604E-09
+#     37.000     0.000    0.799E-08    0.703E-09
+#     37.500     0.000    0.863E-08    0.597E-09
+#     38.000     0.000    0.760E-08    0.678E-09
+#     38.500     0.000    0.847E-08    0.599E-09
+#     39.000     0.000    0.723E-08    0.667E-09
+#     39.500     0.000    0.646E-08    0.604E-09
+#     40.000     0.000    0.750E-08    0.651E-09
+#     40.500     0.000    0.709E-08    0.653E-09
+#     41.000     0.000    0.666E-08    0.694E-09
+#     41.500     0.000    0.702E-08    0.600E-09
+#     42.000     0.000    0.630E-08    0.661E-09
+#     42.500     0.000    0.612E-08    0.606E-09
+#     43.000     0.000    0.635E-08    0.631E-09
+#     43.500     0.000    0.568E-08    0.618E-09
+#     44.000     0.000    0.562E-08    0.668E-09
+#     44.500     0.000    0.565E-08    0.639E-09
+#     45.000     0.000    0.501E-08    0.675E-09
+#     45.500     0.000    0.515E-08    0.686E-09
+#     46.000     0.000    0.566E-08    0.679E-09
+#     46.500     0.000    0.485E-08    0.759E-09
+#     47.000     0.000    0.460E-08    0.843E-09
+#     47.500     0.000    0.385E-08    0.780E-09
+#     48.000     0.000    0.497E-08    0.770E-09
+#     48.500     0.000    0.245E-08    0.819E-09
+#     49.000     0.000    0.306E-08    0.683E-09
+#     49.500     0.000    0.329E-08    0.806E-09
+#     50.000     0.000    0.304E-08    0.713E-09
+#     50.500     0.000    0.357E-08    0.776E-09
+#     51.000     0.000    0.298E-08    0.782E-09
+#     52.000     0.000    0.407E-08    0.891E-09
+#     52.500     0.000    0.335E-08    0.760E-09
+#     53.000     0.000    0.324E-08    0.831E-09
+#     53.500     0.000    0.279E-08    0.699E-09
+#     54.000     0.000    0.254E-08    0.736E-09
+#     54.500     0.000    0.185E-08    0.573E-09
+#     55.000     0.000    0.213E-08    0.724E-09
+#     56.000     0.000    0.302E-08    0.709E-09
+#     56.500     0.000    0.961E-09    0.807E-09
+#     57.000     0.000    0.282E-08    0.715E-09
+#     57.500     0.000    0.314E-08    0.644E-09
+#     58.500     0.000    0.264E-08    0.540E-09
+#     59.000     0.000    0.201E-08    0.588E-09
+#     59.500     0.000    0.163E-08    0.593E-09
+#     60.000     0.000    0.236E-09    0.659E-09
+#     61.000     0.000    0.183E-08    0.478E-09
+#     61.500     0.000    0.116E-08    0.544E-09
+#     62.000     0.000    0.129E-08    0.644E-09
+#     62.500     0.000    0.172E-08    0.486E-09
+#     64.000     0.000    0.161E-08    0.572E-09
+#     64.500     0.000    0.273E-08    0.479E-09
+#     65.000     0.000    0.163E-08    0.480E-09
+#     65.625     0.000    0.173E-08    0.448E-09
+#     66.500     0.000    0.180E-08    0.600E-09
+#     66.875     0.000    0.105E-08    0.532E-09
+#     68.125     0.000    0.136E-08    0.535E-09
+#     68.750     0.000    0.155E-08    0.428E-09
+#     70.000     0.000    0.139E-08    0.508E-09
+#     70.800     0.000    0.810E-09    0.441E-09
+#     71.600     0.000    0.746E-09    0.468E-09

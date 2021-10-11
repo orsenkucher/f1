@@ -1,0 +1,22 @@
+# fe1_exp_050_122_photoneut_2011Uts.dat                  
+#
+# Z = 50, A =122
+# No. of entries:   11
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e13.3
+# Author:    (H.Utsunomiya, S.Goriely, M.Kamata, H.Akimune, T.Kondo (J,PR/C,84,(5),055805,2011)                                                                  
+#    E         dE       f1           df1
+     8.880     0.000    0.152E-06    0.922E-08
+     9.010     0.000    0.159E-06    0.782E-08
+     9.180     0.000    0.152E-06    0.754E-08
+     9.490     0.000    0.168E-06    0.833E-08
+     9.530     0.000    0.196E-06    0.140E-07
+     9.830     0.000    0.199E-06    0.945E-08
+    10.200     0.000    0.246E-06    0.138E-07
+    10.740     0.000    0.291E-06    0.155E-07
+    11.000     0.000    0.336E-06    0.177E-07
+    11.520     0.000    0.383E-06    0.199E-07
+    11.940     0.000    0.490E-06    0.251E-07

@@ -1,0 +1,82 @@
+#  fe1_exp_082_206_photoneut_1973Sor.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0107002
+#  Element = Pb   Z =  82   A = 206
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0107   20160409   20160902   20160804       L029
+#SUBENT        L0107001   20160409   20160902   20160804       L029
+#BIB                 10         17
+#INSTITUTE  (4RUSMOS)
+#REFERENCE  (J,IZV,37,156,1973)
+#           (J,BAS,37,(1),137,1973) English translation
+#AUTHOR     (Yu.Sorokin,V.A.Khrushchev,B.A.Yurev)
+#TITLE      Photoneutron cross sections of 206Pb and 208Pb
+#FACILITY   (BETAT,4RUSMOS) Betatron of the Scientific Research
+#            Institute of Nuclear Physics  at Moscow State
+#            University
+#SAMPLE     206Pb, enriched to 91 %, 77.15 g
+#           208Pb, enriched to 97 %, 80 g
+#ANALYSIS   Penfold-Leiss method using 1 MeV step
+#DETECTOR   (BF3) Water moderator and BF3 counters
+#PART-DET   (N)
+#HISTORY    (20060317C) DR
+#           (20120126U) SD: Ref. corrected (IZK => IZV).
+#                          Ref. on translation added.
+#           (20160408U) OS. Issue no.in 2nd ref. added.
+#ENDBIB              17
+#NOCOMMON             0          0
+#ENDSUBENT           20
+#SUBENT        L0107002   20060317   20060720   20060630       L009
+#BIB                  4          7
+#REACTION   (82-PB-206(G,X)0-NN-1,UNW,SIG,,BRS)
+#            Photodisintegration cross section: sum of
+#            (g,n) + (g,2n) + (g,np)+...
+#ERR-ANALYS (ERR-S) Statistical uncertainties only
+#ANALYSIS   (UNFLD,PLA) The measured cross section is corrected
+#            for neutron multiplicity, using statistical theory
+#STATUS     (CURVE) Data taken from Fig. 1
+#ENDBIB               7
+# E1 PSF were not given in the data file at E <  8.10 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.530     0.000    0.121E-06    0.000E+00
+#      7.630     0.000    0.189E-06    0.000E+00
+#      7.730     0.000    0.157E-06    0.000E+00
+#      7.840     0.000    0.222E-06    0.000E+00
+#      7.940     0.000    0.210E-06    0.000E+00
+#      8.030     0.000    0.302E-06    0.000E+00
+# E1 PSF were not given in the data file at E > 23.16 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     23.400     0.000    0.166E-06    0.000E+00
+#     23.600     0.000    0.206E-06    0.000E+00
+#     23.800     0.000    0.233E-06    0.000E+00
+#     24.100     0.000    0.234E-06    0.000E+00
+#     24.400     0.000    0.193E-06    0.000E+00
+#     24.600     0.000    0.151E-06    0.000E+00
+#     24.800     0.000    0.122E-06    0.000E+00
+#     25.100     0.000    0.130E-06    0.000E+00
+#     25.300     0.000    0.162E-06    0.000E+00
+#     25.600     0.000    0.181E-06    0.000E+00
+#     25.900     0.000    0.158E-06    0.000E+00
+#     26.100     0.000    0.128E-06    0.000E+00
+#     26.400     0.000    0.112E-06    0.000E+00
+#     26.600     0.000    0.123E-06    0.000E+00
+#     26.700     0.000    0.151E-06    0.000E+00
+#     26.900     0.000    0.184E-06    0.000E+00

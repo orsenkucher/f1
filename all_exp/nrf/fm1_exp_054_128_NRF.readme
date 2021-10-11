@@ -1,0 +1,25 @@
+# fm1_exp_054_128_NRF.readme
+#
+# Data were published by R. Massarczyk et al., Phys. Rev. C 90, 054310 (2014). 
+#
+# Reaction 128Xe(gamma,gamma') using quasi-monoenergetic gamma beams of
+# 6.0 to 9.6 MeV in 0.3 MeV steps at the HIgS facility of TUNL, Duke Univ.
+#
+# Gamma rays were measured with four HPGe detectors at polar angles of
+# 90 degrees and azimuthal angles of 0, 90, 180 and 270 degrees. 
+# Spectra were response and efficiency corrected.
+#
+# The energy distribution of the impinging beam was measured with an HPGe
+# detector placed a short distance behind the target position.
+#
+# The photon-scattering cross sections were determined relative to known ones
+# in Fe isotopes and, alternatively, relative to cross sections in Xe isotopes
+# deduced from the experiments with bremsstrahlung.
+# The absorption cross sections were obtained from scattering cross sections by
+# using average branching ratios of ground-state transitions obtained from
+# intensities of bunches of elastic transitions in the range of incident energy
+# and of inelastic transitions to the low-lying 2+ states.
+#
+# Uncertainties of the absorption cross sections include statistical
+# uncertainties, 5% uncertainties each for efficiency, photon flux and atomic
+# background.

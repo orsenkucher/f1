@@ -1,0 +1,86 @@
+#  fe1_exp_004_009_photoneut_2002Sum_K2004003.readme      
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2004003
+#  Element = Be      Z =  4    A =  9
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2004   20070310   20070320   20070310       K001                                  
+#  SUBENT        K2004001   20070310   20070320   20070310       K001                                  
+#  BIB                 14         33                                                                   
+#  TITLE      Astrophysical reaction rate for alpha (alpha n,                                          
+#             gamma)9Be by photodisintegration                                                         
+#  AUTHOR     (K.Sumiyoshi, H.Utsunomiya, S.Goko, T.Kajino)                                            
+#  INSTITUTE  (2JPNJPN) Numazu College of Technology, Numazu                                           
+#             (2JPNKON) Department of Physics                                                          
+#             (2JPNJPN) National Astronomical Observatory, Mitaka                                      
+#  REFERENCE  (J,NP/A,709,(1-4),467,2002)                                                              
+#             Title and authors are coded under TITLE and AUTHOR.                                      
+#             (W,UTSUNOMIYA,20070113)                                                                  
+#             H.Utsunomiya, Source of uncertainty in resonance                                         
+#             parameters                                                                               
+#  REL-REF    (N,K2003003,H.Utsunomiya,J,PR/C,63,018801,2001)                                          
+#             Complemental data points given                                                           
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS) lambda=1053 nm (1.2 eV) laser photons used                                         
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#             - Target-thickness: 4 cm thick                                                           
+#  FACILITY   (ESTRG,2JPNAIS) To store electron beam at 308 to 587                                     
+#                             MeV at Electron storage ring TERAS                                       
+#  DETECTOR   (BF3) To detect neutrons                                                                 
+#             (BGO) To monitor flux of photon beam                                                     
+#  ADD-RES    (RRATE) Thermal reaction rate for alpha+alpha+n ->                                       
+#                     gamma + 9Be                                                                      
+#  COMMENT    n+8Be and 5He+ alpha channel cannot be distinguished                                     
+#             experimentally. Cross sections presented in the                                          
+#             reference are based on the detection efficiency for                                      
+#             the n+8Be channel. (Authors confirmed that the                                           
+#             difference in detection efficiency between the two                                       
+#             channels is negligible.)                                                                 
+#  STATUS     (APRVD) Proofread by Hiroaki Utsunomiya (2007.01.13)                                     
+#  HISTORY    (20070109R) On. Received by e-mail from A.Makinaga                                       
+#             (20070112C) On                                                                           
+#  ENDBIB              33                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           36                                                                              
+#  SUBENT        K2004003   20070310   20070320   20070310       K001                                  
+#  BIB                  6         13                                                                   
+#  REL-REF    (A,M0438002,M.Fujishiro+,J,CJP,60,1672,1982)                                             
+#             Radioactive isotope measurement                                                          
+#             (A,F0343002,M.Fujishiro+,J,CJP,61,1579,1983)                                             
+#             Radioactive isotope measurement                                                          
+#  REACTION   (4-BE-9(G,N)4-BE-8,,SIG)                                                                 
+#  CORRECTION Flux correction (Not the total but a partial flux is                                     
+#             responsible near neutron threshold of 8Be+n.)                                            
+#  ERR-ANALYS (ERR-S) Statistical uncertainty                                                          
+#  COMMENT    EN: Mean (not peak) energy of spectrum                                                   
+#  STATUS     (TABLE) Data (Fig.3, p474 in reference) received by                                      
+#                     e-mail from A.Makinaga (2007.01.09)                                              
+#             (COREL,K2003002) Same experimental data without flux                                     
+#                              correction                                                              
+#  ENDBIB              13                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  1.97 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      1.740     0.000    0.459E-07    0.150E-08
+#      1.760     0.000    0.370E-07    0.148E-08
+#      1.770     0.000    0.343E-07    0.147E-08
+#      1.810     0.000    0.326E-07    0.144E-08
+#      1.820     0.000    0.334E-07    0.143E-08
+#      1.850     0.000    0.220E-07    0.938E-09
+#      1.860     0.000    0.256E-07    0.140E-08

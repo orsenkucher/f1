@@ -1,0 +1,79 @@
+#  fe1_exp_082_206_photoneut_2012Kon.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2385004
+#  Element = Pb      Z = 82    A =206
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2385   20150519   20150701   20150624       K015                                  
+#  SUBENT        K2385001   20150519   20150701   20150624       K015                                  
+#  BIB                 12         30                                                                   
+#  TITLE      Total and partial photoneutron cross sections for Pb                                     
+#             isotopes                                                                                 
+#  AUTHOR     (T.Kondo, H.Utsunomiya, S.Goriely, I.Daoutidis,                                          
+#              C.Iwamoto, H.Akimune, A.Okamoto, T.Yamagata, M.Kamata,                                  
+#              O.Itoh, H.Toyokawa, Y.-W.Lui, H.Harada, F.Kitatani,                                     
+#              S.Hilaire, A.J.Koning)                                                                  
+#  INSTITUTE  (2JPNKON) Department of Physics                                                          
+#             (2BLGBRU) Institut di Astronomie et di Astrophysique                                     
+#             (2JPNAIS)                                                                                
+#             (1USATAM) Cyclotron Institute                                                            
+#             (2JPNJAE)                                                                                
+#             (2FR BRC)                                                                                
+#             (2NEDNRG)                                                                                
+#  REFERENCE  (J,PR/C,86,014316,2012)                                                                  
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS) Lambda=532 nm photons at 24W and 1064 nm photons                                   
+#                   at 40W.                                                                            
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#  METHOD     (RINGR) The average neutron energy was determined.                                       
+#  FACILITY   (ESTRG,2JPNAIS) Tsukuba Electron Ring for Acceleration                                   
+#                             and Storage (TERAS) storage ring.                                        
+#  DETECTOR   Efficiency: The detection efficiency was 60-74% in the                                   
+#             energy range less than 1 MeV.                                                            
+#  ERR-ANALYS (ERR-1) neutron detection efficiency                                                     
+#             (ERR-2) number of incident gamma rays                                                    
+#  HISTORY    (20120820C) M.O. & A.Makinaga                                                            
+#             (20141025R) Received by e-mail from H. Utsunomiya                                        
+#             (20150519A) MA: HISTORY: information of author's                                         
+#                         contribution added.                                                          
+#  ENDBIB              30                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.2        3.0                                                                                     
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           37                                                                              
+#  SUBENT        K2385004   20130906   20130927   20130906       K013                                  
+#  BIB                  5         16                                                                   
+#  REACTION   (82-PB-206(G,N)82-PB-205,,SIG)                                                           
+#  SAMPLE     Target-thickness is 1.56E+03 mg/cm**2.                                                   
+#             (82-PB-206,ENR=0.993)                                                                    
+#  DETECTOR   (PROPC) A high-efficiency 4pi neutron detector                                           
+#                     composed of triple rings of 20 3He                                               
+#                     proportional counters altogether embedded in a                                   
+#                     polyethylene moderator was used for neutron                                      
+#                     detection.                                                                       
+#             (NAICR) The number of the LCS gamma rays incident on                                     
+#                     the targets was determined from pileup- and                                      
+#                     single-photon spectra measured.                                                  
+#             (HPGE) The LCS gamma-ray beam was measured with a 120%                                   
+#                    high-purity germanium detector (HPGe) at a                                        
+#                    reduced laser power.                                                              
+#  ERR-ANALYS (ERR-S) Statistical uncertainty                                                          
+#  STATUS     (TABLE) Plotted in Fig.8 of PRC, 86, 014316(2012)                                        
+#  ENDBIB              16                                                                              
+#  NOCOMMON             0          0                                                                   

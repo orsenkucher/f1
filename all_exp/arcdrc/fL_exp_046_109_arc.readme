@@ -1,0 +1,9 @@
+ # Pd-109  2 keV data BNL
+ # Ig/Eg**5 taken from R.F. Casten et al., Phys.Rev. C21 (1980) 65 and converted to Ig/Eg**3
+ # Normalization of 3M1 <Eg = 5.9 MeV>) transitions to <f(M1)> =1.29E-08  from DRC <f(M1)>  systematic equation [INDC(NED)-013]
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.55
+ # Evaluater's comment: Low statistics of 24 keV data excluded 24/2 keV ratio for E1/M1 verification
+ #                                               4 E1 transitions questions the ENSDF Jpi = - assignments
+ # RN to SYS18 F=1.18 from systematic M1 equation [INDC(NED)-0772]
+ # 

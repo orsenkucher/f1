@@ -1,0 +1,43 @@
+#  fe1_exp_007_014_photoabs_1969Bez.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0064003
+#  Element = N    Z =   7   A =  14
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0064   20050419   20050707   20050926       L007
+#SUBENT        L0064001   20050419   20050707   20050926       L007
+#BIB                  9         10
+#INSTITUTE  (3SLNIJS)
+#REFERENCE  (J,NP/A,128,426,1969)
+#AUTHOR     (N.Bezic,D.Brajnik,D.Jamnik,G.Kernel)
+#TITLE      Total photonuclear cross sections for 12C, 14N, 16O
+#            and 19F in the region of the giant resonance
+#FACILITY   (BETAT,3SLNIJS) Betatron gamma rays
+#INC-SPECT  Photon source
+#CORRECTION Coulomb correction for pair effect
+#DETECTOR   Compton spectrometer
+#HISTORY    (20050419C) DR
+#ENDBIB              10
+#NOCOMMON             0          0
+#ENDSUBENT           13
+#SUBENT        L0064003   20050419   20050707   20050926       L007
+#BIB                  4          5
+#REACTION   (7-N-14(G,ABS),,SIG)
+#SAMPLE     Chemically pure hydrazine N2H4, density of
+#            1.0086 +/- 0.0010 g/cm3 at 19.5 C
+#ERR-ANALYS (ERR-S) No information.
+#STATUS     (CURVE) Data taken from Fig 2.
+#ENDBIB               5

@@ -1,0 +1,78 @@
+#  fe1_exp_016_032_photoabs_1968Dol.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0824002
+#  Element = S    Z =  16   A =  32
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0824   20140225   20140331   20140226       M071
+#SUBENT        M0824001   20140225   20140331   20140226       M071
+#BIB                 11         20
+#TITLE      Cross section for absorption of gamma-rays by sulphur
+#            nuclei in the region of the giant dipole resonance.
+#AUTHOR     (B.S.Dolbilkin,A.I.Isakov,V.I.Korin,L.E.Lazareva,
+#            F.A.Nikolaev)
+#INSTITUTE  (4RUSLEB)
+#REFERENCE  (J,YF,8,1080,1968)
+#           (J,SNP,8,626,1969)
+#            English translation of YF,8,1080,1968
+#INC-SOURCE (BRST)
+#FACILITY   (SYNCH,4RUSLEB)
+#SAMPLE     Natural sulphur mixture (32S - 95.02 %, 34S - 4.22 %).
+#METHOD     (EXTB,SITA)
+#DETECTOR   (BPAIR) 9-channel magnetic pair spectrometer.
+#CORRECTION Photoabsorption cross   section   was   obtained   by
+#            subtraction of the atomic absorption  cross  section
+#            from  the  experimentally measured sum of atomic and
+#            nuclear absorption cross sections.
+#HISTORY    (20110927C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#           (20140225A) Corrected by V.Varlamov: REFERENCE.
+#ENDBIB              20
+#NOCOMMON             0          0
+#ENDSUBENT           23
+#SUBENT        M0824002   20110927   20120207   20111216       M060
+#BIB                  3          3
+#REACTION   (16-S-32(G,ABS),,SIG)
+#ERR-ANALYS (DATA-ERR) Root-mean-squared uncertainties.
+#STATUS     (CURVE) Data from Fig. 1 of YF,8,1080,1968.
+#ENDBIB               3
+# E1 PSF were not given in the data file at E < 15.05 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      9.600     0.000    0.235E-06    0.361E-07
+#     10.460     0.000    0.216E-06    0.299E-07
+#     11.530     0.000    0.139E-06    0.296E-07
+#     12.500     0.000    0.147E-06    0.278E-07
+#     13.300     0.000    0.587E-07    0.163E-07
+#     14.790     0.000    0.231E-07    0.171E-07
+# E1 PSF were not given in the data file at E > 24.82 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.000     0.000    0.482E-07    0.104E-07
+#     25.310     0.000    0.785E-07    0.111E-07
+#     25.640     0.000    0.599E-07    0.146E-07
+#     26.000     0.000    0.520E-07    0.158E-07
+#     26.310     0.000    0.498E-08    0.110E-07
+#     26.450     0.000    0.518E-07    0.149E-07
+#     26.870     0.000    0.413E-07    0.113E-07
+#     27.460     0.000    0.414E-07    0.150E-07
+#     27.810     0.000    0.312E-09    0.173E-07
+#     28.000     0.000    0.493E-07    0.173E-07
+#     28.300     0.000    0.294E-07    0.153E-07
+#     28.650     0.000    0.727E-07    0.180E-07
+#     29.370     0.000    0.989E-07    0.163E-07

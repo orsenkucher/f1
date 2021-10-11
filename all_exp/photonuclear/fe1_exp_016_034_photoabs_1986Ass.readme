@@ -1,0 +1,65 @@
+#  fe1_exp_016_034_photoabs_1986Ass.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0510006
+#  Element = S       Z = 16    A = 34
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0510   20060125   20060420   20060324       M039                                  
+#  SUBENT        M0510001   20060125   20060420   20060324       M039                                  
+#  BIB                 15         29                                                                   
+#  TITLE      Photoproton cross section of S-34.                                                       
+#  AUTHOR     (Y.I.ASSAFIRI,M.N.THOMPSON)                                                              
+#  INSTITUTE  (3AULAML)                                                                                
+#  REFERENCE  (J,NP/A,460,455,1986)                                                                    
+#  INC-SOURCE (BRST)                                                                                   
+#  FACILITY   (BETAT,3AULAML)                                                                          
+#  SAMPLE     Sample of sulpher 1 g enrichrd to  94.33 % in S-34 was                                   
+#              pressed into  a disc,  2.54 mm in diameter, and 1  mm                                   
+#              thick.                                                                                  
+#  METHOD     (ACTIV) The reaction yield curve measurement using the                                   
+#              residial activity  of  final  nuclei  P-33 (half-life                                   
+#              25.3 d) and P-33 (half-life 14.28 d).                                                   
+#  DETECTOR   (SCIN) Plastic scintillator KL 212.                                                      
+#  ANALYSIS   (PLA)  The variable bin Penfold-Leiss method for cross                                   
+#              section unfolding from the yield curve.                                                 
+#  CORRECTION Corrections  for the detector's efficiency, half-life,                                   
+#              sample's self-absorption, photon monitor response and                                   
+#              other calibratuion factors were used.                                                   
+#  ERR-ANALYS (DATA-ERR) Statistical errors are given.                                                 
+#  STATUS     (CURVE)  Data  were  prepared  in the MSU INP CDFE  by                                   
+#              V.V.Varlamov.                                                                           
+#  COMMENT    Measurements of the  S-34(g,p) and S-34(g,np) reaction                                   
+#              cross sections are reported.  The S-34(g,p)  reaction                                   
+#              cross section  shows  two regions of strength,  at 17                                   
+#              and 22  MeV,  consistent  with  that  seen   in   the                                   
+#              S-34(g,n) reaction cross section.                                                       
+#  HISTORY    (19971015C)                                                                              
+#             (20060125C) REFERENCE and DATES corrected at MSU CDFE,                                   
+#                         lowercase.                                                                   
+#  ENDBIB              29                                                                              
+#  NOCOMMON                                                                                            
+#  ENDSUBENT           32                                                                              
+#  SUBENT        M0510006   20060125   20060420   20060324       M039                                  
+#  BIB                  2          7                                                                   
+#  REACTION   (16-S-34(G,ABS),,SIG,,BRS)                                                               
+#              The sum  of measured (g,p) reaction cross section and                                   
+#              previously measured the sum of the (g,n), (g,np), and                                   
+#              (g,2n) reaction cross sections.                                                         
+#  REL-REF    (R,M0506002,Y.I.ASSAFIRI+,J,NP/A,413,416,1984)                                           
+#              The sum  of  the (g,n),  (g,np),  and (g,2n) reaction                                   
+#              cross sections.                                                                         
+#  ENDBIB               7                                                                              
+#  NOCOMMON                                                                                            

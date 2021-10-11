@@ -1,0 +1,68 @@
+#  fe1_exp_040_094_photoneut_1967Be2.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0011022
+#  Element = Zr   Z =  40   A =  94
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0011     970129              20050926       0000
+#SUBENT        L0011001     970129              20050926       0000
+#BIB                  8         12
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR,162,1098,6710)
+#AUTHOR     (B.L.BERMAN,J.T.CALDWELL,R.R.HARVEY,M.A.KELLY,
+#           R.L.BRAMBLETT,S.C.FULTZ)
+#TITLE      Photoneutron cross sections for Zr90, Zr91, Zr92,
+#            Zr94, and Y89.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (PROPC) Paraffin moderator with BF3 counters
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950403A) BIB Updated
+#ENDBIB              12
+#NOCOMMON             0          0
+#ENDSUBENT           15
+#SUBENT        L0011022     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (40-ZR-94(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P)+(G,3N).
+#HISTORY    (950403C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E <  8.32 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.850     0.000    0.663E-08    0.442E-08
+#      8.160     0.000    0.468E-07    0.531E-08
+# E1 PSF were not given in the data file at E > 25.20 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.280     0.000    0.463E-07    0.189E-07
+#     25.600     0.000    0.373E-07    0.186E-07
+#     25.900     0.000    0.586E-07    0.161E-07
+#     26.220     0.000    0.728E-08    0.165E-07
+#     26.510     0.000    0.229E-07    0.164E-07
+#     26.830     0.000    0.478E-07    0.188E-07
+#     27.130     0.000    0.528E-07    0.166E-07
+#     27.450     0.000    0.354E-07    0.190E-07
+#     27.750     0.000    0.475E-07    0.188E-07
+#     28.150     0.000    0.160E-07    0.136E-07
+#     28.550     0.000    0.814E-07    0.197E-07
+#     28.880     0.000    0.577E-07    0.195E-07
+#     29.150     0.000    0.253E-07    0.193E-07
+#     30.000     0.000    0.223E-07    0.202E-07
+#     31.090     0.000    0.976E-08    0.279E-08

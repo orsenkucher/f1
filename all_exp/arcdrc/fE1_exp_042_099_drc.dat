@@ -1,0 +1,20 @@
+# fE1_exp_042_099_DRC.dat                         
+#                                                 
+# Z = 42, A =  99                                 
+# No. of entries:             9                   
+# Col 1: photon energy E in MeV                   
+# Col 2: bin width dE in MeV                      
+# Col 3: dipole strength f1 in MeV^-3             
+# Col 4: uncertainty df1 in MeV^-3                
+# Format: 2f10.3, 2e12.3                          
+# Author: J. Kopecky                              
+#    E         dE       fE1           dfE1        
+     5.019     0.000   0.271E-07   0.680E-08
+     5.037     0.000   0.571E-07   0.143E-07
+     5.133     0.000   0.716E-07   0.179E-07
+     5.293     0.000   0.261E-07   0.650E-08
+     5.376     0.000   0.664E-07   0.166E-07
+     5.400     0.000   0.411E-07   0.103E-07
+     5.573     0.000   0.861E-07   0.215E-07
+     5.827     0.000   0.307E-07   0.770E-08
+     5.924     0.000   0.159E-06   0.398E-07

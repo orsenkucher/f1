@@ -1,0 +1,45 @@
+# f1_exp_068_167_OM.readme
+# 
+# Data were published by E. Melby et al., Phys. Rev. C 63, 044309 (2001)
+#
+# Reaction 167Er(3he,3he)167Er with beam energy 45.0 MeV
+# at Oslo Cyclotron Laboratory (OCL).
+# 
+# Particle - gamma coincidences were measured in CACTUS/SiRi and the
+# resulting coincidence spectra was unfolded [M. Guttormsen et al. NIM Phys. Res. A 374, 371 (1996)]
+# with the response of CACTUS.
+# The first generation matrix is then found using an iterative
+# method [M. Guttormsen et al., NIM Phys. Res. A 255, 518 (1987)]
+# 
+# The functional shape of the level density and the gamma-ray transition coefficient
+# is extracted from the first generation matrix using a chi-square
+# minimalization method [A. Schiller et al., NIM Phys. Res. A 447, 498 (2000)].
+# 
+# 
+# Absolute value of the level density and transmission coefficient is
+# found by normalization to known values.
+# 
+# The level density is normalized to:
+#	(i) The level density at the neutron separation energy.
+#	(ii) Known discrete levels at low energy.
+# 
+# The transmission coefficients are normalized with the process
+# described in [A. Voinov et al., Phys. Rev. C 63, 044313 (2001)]
+# 
+# 
+# Inputs used for the normalization:
+#	(i) Spin cutoff model of [A. Gilbert and A.G.W. Cameron, Can. J. Phys. 43, 1446 (1965)]
+#	(ii) Level density at the neutron separation energy is found using
+#		 the neutron resonance spacing D0 = 0.043 ± 0.0043 keV
+#		 taken from [A. S. Iljinov et al., Nucl. Phys. A543, 517 (1992)]
+#	(iii) Average radiative width <Gg0> = 92.0 ± 8.0 meV
+#		 taken from ["Handbook for calculations of nuclear reaction data," IAEA, Vienna, Report No. IAEA-TECDOC-1024, 1998]
+#
+# The reaction will populate primarly the quasi-continuum
+# such that most transitions are assumed to be dipole, such
+# that the dipole strength is found by f1(Eg) = T(Eg)/(2*pi*Eg**3).
+#
+#
+#
+# The uncertanties of the resulting level density
+# and photon strength function is statistical errors only.

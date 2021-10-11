@@ -1,0 +1,10 @@
+ # Pu-240  2 keV data from BNL
+ # Conversion to f(L) from DRC data see R.E Chrien et al., Ref. NPA 436 (1985) 205
+ # The Q(JiJf) correction: the RACA code corrections of Q(JiJf), E1(p-waves) in M1
+ # and fission competition applied from Nucl.Phys. A 436 (1985) 205
+ # Normalization of 4 E1 (<Eg = 5.61 MeV )> transitions set to <f(E1)> = 19.9(65) 10-8MeV-3 from DRC [NPA 436 (1985) 205]
+ # M1 corrected for 0.22 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.07
+ # RN EXP18 = 18E-08  F = 0.90
+ # 

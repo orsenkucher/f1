@@ -1,0 +1,23 @@
+# f1_exp_033_073_PG_1995RAZY.dat                                               
+#                                                                               
+# Z = 33, A = 73                                                                
+# No. of entries: 12                                                            
+# Col 1: photon energy E in MeV                                                 
+# Col 2: bin width dE in MeV                                                    
+# Col 3: strength f1 in MeV^-3                                                  
+# Col 4: uncertainty df1 in MeV^-3                                              
+# Format: 2f10.3, 2e12.3                                                        
+# Author: P. Dimitriou from Ratkevich et al., Proc.45th Ann.Conf.Nucl.Spectr.Str.At.Nu
+#    E         dE       f1           df1                                        
+     6.299     0.000   0.110E-07   0.570E-08
+     6.455     0.000   0.550E-08   0.322E-08
+     6.835     0.000   0.116E-07   0.486E-08
+     7.490     0.000   0.115E-07   0.626E-08
+     7.558     0.000   0.338E-07   0.106E-07
+     7.744     0.000   0.360E-07   0.143E-07
+     7.775     0.000   0.964E-08   0.303E-08
+     7.806     0.000   0.190E-07   0.347E-08
+     7.929     0.000   0.145E-07   0.117E-08
+     7.995     0.000   0.175E-07   0.256E-08
+     8.272     0.000   0.203E-07   0.101E-07
+     8.359     0.000   0.270E-07   0.881E-08

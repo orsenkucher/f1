@@ -1,0 +1,68 @@
+#  fe1_exp_079_197_photoneut_2011Kit_K2348005.readme      
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2348005
+#  Element = Au      Z = 79    A =197
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2348   20120518   20120530   20120524       K011                                  
+#  SUBENT        K2348001   20120518   20120530   20120524       K011                                  
+#  BIB                 14         29                                                                   
+#  TITLE      Measurement of 76Se and 78Se(g,n) cross sections                                         
+#  AUTHOR     (F.Kitatani, H.Harada, S.Goko, H.Utsunomiya, H.Akimune,                                  
+#              H.Toyokawa, K.Yamada)                                                                   
+#  INSTITUTE  (2JPNJAE)                                                                                
+#             (2JPNKON) Department of physics                                                          
+#             (2JPNAIS)                                                                                
+#  REFERENCE  (J,NST,48,(7),1017,2011)                                                                 
+#  PART-DET   (G,N)                                                                                    
+#  INC-SOURCE (LCS)                                                                                    
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#  METHOD     (RINGR) To determine average neutron energies. 20 3He                                    
+#                     proportional counters coaxially embedded in                                      
+#                     polyethylene moderator at distance of 3.8, 7.0                                   
+#                     and 10.0 cm from beam axis.                                                      
+#  FACILITY   (ESTRG,2JPNAIS) Tsukuba Electron Ring for Accelerating                                   
+#                             and Storage (TERAS)                                                      
+#  DETECTOR   (PROPC) To detect neutron                                                                
+#             (HPGE,BGO) To measure the energy distribution of the                                     
+#                        LCS gamma-ray. Two 334 cm**3 high-purity Ge                                   
+#                        detectors shielded with an array of 23                                        
+#                        pieces of BGO crystals (HHS)                                                  
+#             (NAICR) To measure the photon flux                                                       
+#  ERR-ANALYS (ERR-1) Systematic error of NaI detector                                                 
+#             (ERR-2) Systematic error of fitting                                                      
+#  ADD-RES    (COMP) Statistical model (TALYS)                                                         
+#  COMMENT    The correction of the monochromatic approximation                                        
+#             cross section was carried out. see text.                                                 
+#  HISTORY    (20110707C) Ayano Makinaga                                                               
+#  ENDBIB              29                                                                              
+#  COMMON               2          3                                                                   
+#  ERR-1      ERR-2                                                                                    
+#  PER-CENT   PER-CENT                                                                                 
+#   3.0        3.0                                                                                     
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           36                                                                              
+#  SUBENT        K2348005   20120518   20120530   20120524       K011                                  
+#  BIB                  3          6                                                                   
+#  REACTION   ((79-AU-197(G,N)79-AU-196,,SIG)+                                                         
+#             (79-AU-197(G,2N)79-AU-195,,SIG))                                                         
+#  SAMPLE     - Target is natural. Chemical purity is 99.99 (%)                                        
+#             - Target-thickness: 4.00 mm in thickness, and 10.0 mm                                    
+#               in diameter                                                                            
+#  STATUS     (TABLE) Table.2 of J,NST,vol.48,p1017,2011                                               
+#  ENDBIB               6                                                                              
+#  NOCOMMON             0          0                                                                   

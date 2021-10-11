@@ -1,0 +1,79 @@
+#  fe1_exp_016_034_photoabs_2003Var.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0656006
+#  Element = S    Z =  16   A =  34
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0656   20120405   20120906   20120709       M063
+#SUBENT        M0656001   20120405   20120906   20120709       M063
+#BIB                 10         35
+#TITLE      New data on photoabsorption reaction cross sections.
+#AUTHOR     (V.V.Varlamov,M.E.Stepanov,V.V.Chesnokov)
+#REFERENCE  (J,IZV,67,656,2003)
+#           (J,BAS,67,724,2003)
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   Total photoabsorption   reaction   sig(g,abs)   cross
+#            section  data for 19 (for 15 new) nuclei from 12C to
+#            208Pb were evaluated using the partial  photonuclear
+#            reaction cross section sums sig(g,abs) = sig(g,sn) +
+#            sig(g,p) = sig (g,1n) + sig(g,np) + sig(g,2n) +  ...
+#            + sig(g,p),  sig(g,sn) = sig(g,xn) - sig(g,2n),  sig
+#            (g,n) = sig(g,1n) + sig(g,np), etc.
+#ERR-ANALYS No data
+#COMMENT    With the   aim   of   new   information   for   total
+#            photoabsorption reaction  sig(g,abs)  = sig (g,1n) +
+#            sig(g,np) + sig(g,2n) + ... + sig(g,p) cross section
+#            obtaining the  published experimental data for total
+#            and partial    photonuclear    (photoneutron     and
+#            photoproton) reaction  cross sections were analyzed.
+#            Using linear combinations of partial reaction  cross
+#            sections, 19   (15   new)  photoabsorption  reaction
+#            (g,abs) cross sections  were  evaluated  for  nuclei
+#            from 12C to 208Pb.
+#STATUS     (APRVD) By V.V.Varlamov.
+#            Data have  been compiled at the Russia MSU SINP CDFE
+#            by V.V.Varlamov.
+#HISTORY    (20040512C)
+#           (20070122A) Corrected  by  V.Varlamov:  data  set  in
+#            SUBENT M0656009 substituted.
+#           (20080616A) Corrected  by  V.Varlamov:  data  set  in
+#            SUBENT M0656004 substituted.
+#           (20101130A) Corrected  by  V.Varlamov: TITLE changed,
+#            data set in SUBENT 009 substituted.
+#           (20120405A) Corrected  by  V.Varlamov: STATUS.
+#ENDBIB              35
+#NOCOMMON             0          0
+#ENDSUBENT           38
+#SUBENT        M0656006   20040514              20050926       0000
+#BIB                  3         16
+#REACTION   (16-S-34(G,ABS),,SIG,,,EVAL)
+#STATUS     (DEP,M0506002) Cross   section   for   the   reaction
+#            34S(g,sn) = 34S(g,n) + 34S(g,np).
+#           Threshold of the reaction (g,n+p)  is  24.6  MeV  and
+#            that for reaction (g,2n) is 30.5 MeV.
+#           (DEP,M0510002) Cross   section   for   the   reaction
+#            34S(g,p) + 34S(g,np).
+#           (DEP,M0510003) Cross   section   for   the   reaction
+#            34S(g,np).
+#REL-REF    (E,M0506002,Y.I.ASSAFIRI+,J,NP/A,413,416,1984)
+#            34S(g,sn) =  34S(g,n)  +  34S(g,np)  reaction  cross
+#            section.
+#           (E,M0510002,Y.I.ASSAFIRI+,J,NC/A,460,455,1986)
+#            34S(g,p) + 34S(g,np) reaction cross section.
+#           (E,M0510003,Y.I.ASSAFIRI+,J,NC/A,460,455,1986)
+#            34S(g,np) reaction cross section.
+#ENDBIB              16

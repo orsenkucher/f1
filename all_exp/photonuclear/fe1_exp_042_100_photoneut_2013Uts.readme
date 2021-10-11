@@ -1,0 +1,84 @@
+#  fe1_exp_042_100_photoneut_2013Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2433007
+#  Element = Mo      Z = 42    A =100
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2433   20140124   20140129   20140124       K014                                  
+#  SUBENT        K2433001   20140124   20140129   20140124       K014                                  
+#  BIB                 14         44                                                                   
+#  TITLE      Photoneutron cross sections for Mo isotopes: A step                                      
+#             towards a unified understanding of (gamma,n) and                                         
+#              (n,gamma) reactions                                                                     
+#  AUTHOR     (H.Utsunomiya, S.Goriely, T.Kondo, C.Iwamoto,                                            
+#              H.Akimune, T.Yamagata, H.Toyokawa, H.Harada,                                            
+#              F.Kitatani, Y.W.Lui, A.C.Larsen, M.Guttormsen,                                          
+#              P.E.Koehler, S.Hilaire, S.Peru, M.Martini,                                              
+#              A.J.Koning)                                                                             
+#  INSTITUTE  (2JPNKON) Department of Physics                                                          
+#             (2BLGBRU)                                                                                
+#             (2JPNAIS)                                                                                
+#             (2JPNJAE)                                                                                
+#             (1USATAM) Cyclotron Institute                                                            
+#             (2NOROSL) Department of Physics                                                          
+#             (2FR BRC)                                                                                
+#             (2NEDNRG)                                                                                
+#  REFERENCE  (J,PR/C,88,015805,2013)                                                                  
+#  PART-DET   (N)                                                                                      
+#  INC-SOURCE (LCS)                                                                                    
+#  SAMPLE     - Chemical-form of target is element.                                                    
+#             - Physical-form of target is solid.                                                      
+#  METHOD     (RINGR)                                                                                  
+#  FACILITY   (ESTRG,2JPNAIS) Ring for Accelerating and Storage                                        
+#                             (TERAS)                                                                  
+#  DETECTOR   (PROPC) To detect neutron                                                                
+#             (HPGE) To measure the energy distribution of the LCS                                     
+#                    gamma-ray with high-energy photon spectrometer                                    
+#                    (HHS)                                                                             
+#             (NAICR) To measure the intensity of the LCS gamma-ray                                    
+#  ERR-ANALYS (ERR-SYS) Total systematic uncertainty                                                   
+#             (ERR-1) A quadratic sum of the 3.2% uncertainty in the                                   
+#                     neutron detection efficiency                                                     
+#             (ERR-2) Uncertainty in the number of incident gamma                                      
+#                     rays.                                                                            
+#  ADD-RES    (COMP) Statistical model HFB+QRPA                                                        
+#  REL-REF    (M,,H.Utsunomiya+,J,PR/C,84,055805,2011)                                                 
+#             Further details of experimental technique                                                
+#             (M,,H.Utsunomiya+,J,PR/C,80,055806,2009)                                                 
+#             Further details of experimental technique                                                
+#             (M,,A.Makinaga+,J,PR/C,79,025801,2009)                                                   
+#             Further details of experimental technique                                                
+#  HISTORY    (20130727C) V.D                                                                          
+#             (20130815R) Received by e-mail from Prof. H.                                             
+#                         Utsunomiya                                                                   
+#  ENDBIB              44                                                                              
+#  COMMON               3          3                                                                   
+#  ERR-SYS    ERR-1      ERR-2                                                                         
+#  PER-CENT   PER-CENT   PER-CENT                                                                      
+#   4.4        3.2        3.                                                                           
+#  ENDCOMMON            3                                                                              
+#  ENDSUBENT           51                                                                              
+#  SUBENT        K2433007   20140124   20140129   20140124       K014                                  
+#  BIB                  4          7                                                                   
+#  REACTION   (42-MO-100(G,N)42-MO-99,,SIG)                                                            
+#  SAMPLE     Target-thickness: 2850 mg metal, 8 mm diameter and 19                                    
+#             mm lengths                                                                               
+#             (42-MO-100,ENR=0.9927)                                                                   
+#  ERR-ANALYS (ERR-S) Statistical uncertainty                                                          
+#  STATUS     (TABLE) Plotted in Fig.3 (f) of J, Phys. Rev. C, 88                                      
+#                     (2013) 015805                                                                    
+#  ENDBIB               7                                                                              
+#  NOCOMMON             0          0                                                                   

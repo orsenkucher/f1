@@ -1,0 +1,100 @@
+#  fe1_exp_040_090_photoneut_1972Ask.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M036000 
+#  Element = Zr   Z =  40   A =  90
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0360   20101109   20110216   20110117       M055
+#SUBENT        M0360001   20101109   20110216   20110117       M055
+#BIB                  9         24
+#TITLE      Isotopic mixing  in  the isobaric  analogue states  of
+#           Zr-90.
+#AUTHOR     (H.J.Askin,J.K.F.Allen,R.Hicks,R.J.Petty,M.N.Thompson)
+#INSTITUTE  (3AULAML)
+#REFERENCE  (C,72SENDAI,359,1972)
+#           (J,NP/A,204,209,1973)
+#           #doi:10.1016/0375-9474(73)90019-5
+#FACILITY   (BETAT,3AULAML)
+#INC-SOURCE (BRST)
+#COMMENT    The measurements of the photoproton energy  spectrum,
+#            the total photoneutron cross section and the neutron
+#            spectrum to the  first  state  Zr-89 were  made. The
+#            correlations  between  the  isotopic  analogue state
+#            detected in the photoproton spectrum  and  structure
+#            observed  in  the  total  photoneutron cross section
+#            were obtained.
+#STATUS     (CURVE)
+#HISTORY    (19890810C) Data  were compiled In  SCJAD of  Saratov
+#            State University.
+#           (20101109A) Corrected  by V.Varlamov,  the Russia MSU
+#            SINP CDFE: REFERENCE, ERR-ANALYS, REACTION in SUBENT
+#            002,  BRS to BRA  in  SUBENT  004, datas, lowercase,
+#            typographical mistakes, EN-MAX deleted and E-EXC ->
+#            EN in SUBENT 002, etc.
+#ENDBIB              24
+#NOCOMMON             0          0
+#ENDSUBENT           27
+#SUBENT        M0360003   20101109   20110216   20110117       M055
+#BIB                  9         19
+#REACTION   (40-ZR-90(G,X)0-NN-1,UNW,SIG,,BRS)
+#SAMPLE     The 67.5 g weight target of Zr-90 oxide was used.
+#PART-DET   (N)
+#DETECTOR   (D4PI,BF3) 4PI    Halpern-type    neutron    detector
+#            consisted  of  sixteen  BF3  detectors  in  paraffin
+#            moderator  were  arranged  in  two  concentric rings
+#            around the  sample  so  that  the  system  detection
+#            efficiency was independent of neutron energy.
+#ANALYSIS   (UNFLD,PLA) Eight  independent  yield   curves   were
+#            obtained  in 100 keV steps from threshold to 28 MeV.
+#            the cross section  was  extracted  from  these  data
+#            using a variable bin Penfold-Leiss technique.
+#ERR-ANALYS (EN-ERR) Root-mean-squared errors.
+#CORRECTION Multiplicity correction  of  total photoneutron cross
+#            section was made.
+#REL-REF    (N,,H.H.Thies+,J,AJP,13,505,1960)
+#            Method for neutron multiplicity sorting correction.
+#COMMENT    The splitting of the giant resonance into  two  peaks
+#            at 16.2 MeV and 17.2 MeV was observed.
+#ENDBIB              19
+# E1 PSF were not given in the data file at E < 12.60 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     12.300     0.000    0.118E-07    0.585E-08
+#     12.400     0.000    0.117E-07    0.581E-08
+#     12.500     0.000    0.289E-07    0.576E-08
+#     12.600     0.000    0.459E-07    0.571E-08
+# E1 PSF were not given in the data file at E > 25.73 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.800     0.000    0.840E-07    0.112E-07
+#     25.900     0.000    0.727E-07    0.112E-07
+#     26.000     0.000    0.390E-07    0.111E-07
+#     26.100     0.000    0.691E-07    0.111E-07
+#     26.200     0.000    0.497E-07    0.110E-07
+#     26.300     0.000    0.633E-07    0.110E-07
+#     26.400     0.000    0.631E-07    0.109E-07
+#     26.500     0.000    0.628E-07    0.109E-07
+#     26.600     0.000    0.652E-07    0.109E-07
+#     26.700     0.000    0.757E-07    0.108E-07
+#     26.800     0.000    0.540E-07    0.108E-07
+#     26.900     0.000    0.700E-07    0.107E-07
+#     27.000     0.000    0.964E-07    0.107E-07
+#     27.100     0.000    0.695E-07    0.107E-07
+#     27.200     0.000    0.104E-06    0.106E-07
+#     27.300     0.000    0.794E-07    0.106E-07
+#     27.400     0.000    0.817E-07    0.105E-07

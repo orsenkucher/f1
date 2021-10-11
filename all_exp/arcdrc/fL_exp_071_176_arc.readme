@@ -1,0 +1,10 @@
+ # Lu-176 2keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from BNL/ECN data base and R.W. Hof et al., Nucl.Phys. A437 (1985) 285
+ # The Q(JiJf) and/or p-wave correction: taken from the RACA code and applied in the Ig/Eg**3 BNL/ECN data base
+ # no Q - recent Jf disregarded
+ # Normalization of 7E1  (<Eg = 5.89 MeV>) transitions to <f(E1)> = 7.4 E-08 from DRC <f(E1)> table [INDC(NED)-013]
+ # p-wawe contribution calculated (RACA) as 0.15 E1 in M1 (applied)and 0.03 M1 (disregarded) in E1 transitions
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.09
+ # RN SYS18 F = 1.4 from systematic equation [INDC(NED)-0772]; EXP18 4.57E-08MeV-3 disregarded
+ # 

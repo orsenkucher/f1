@@ -1,0 +1,21 @@
+# fe1_exp_054_128_NRF.dat                                                       
+#                                                                               
+# Z = 54, A = 128                                                               
+# No. of entries: 10                                                            
+# Col 1: photon energy E in MeV                                                 
+# Col 2: bin width dE in MeV                                                    
+# Col 3: electric dipole strength fe1 in MeV^-3                                 
+# Col 4: uncertainty df1 in MeV^-3                                              
+# Format: 2f10.3, 2e12.3                                                        
+# Author: R. Schwengner HZDR                                                    
+#    E         dE       f1           df1                                        
+     6.000     0.300    0.723E-08    0.867E-09
+     6.300     0.300    0.706E-07    0.785E-08
+     6.600     0.300    0.106E-06    0.116E-07
+     6.900     0.300    0.146E-06    0.225E-07
+     7.200     0.300    0.198E-06    0.153E-07
+     7.500     0.300    0.256E-06    0.190E-07
+     7.800     0.300    0.303E-06    0.447E-07
+     8.100     0.300    0.372E-06    0.787E-07
+     8.400     0.300    0.367E-06    0.122E-06
+     8.700     0.300    0.390E-06    0.319E-07

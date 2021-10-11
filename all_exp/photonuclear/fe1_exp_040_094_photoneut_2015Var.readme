@@ -1,0 +1,97 @@
+#  fe1_exp_040_094_photoneut_2015Var.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M091400 
+#  Element = Zr   Z =  40   A =  94
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0914   20150814   20151006   20150922       M080
+#SUBENT        M0914001   20150814   20151006   20150922       M080
+#BIB                  9         31
+#TITLE      New data on cross  sections  for  partial  and  total
+#            photoneutron reactions on the isotopes 91,94Zr.
+#AUTHOR     (V.V.Varlamov,M.A.Makarov,N.N.Peskov,M.E.Stepanov)
+#REFERENCE  (J,YF,78,(7),678,2015)
+#           #doi:10.7868/S0044002715030198
+#           (J,PAN,78,(5),634,2015)
+#           #doi:10.1134/S106377881505018X
+#           English translation of J,YF,78,(7),678,2015.
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   The joint analysis  of  data  for  total  (g,xn)  and
+#            partial (g,n),  (g,2n) and (g,3n) reactions obtained
+#            in various experiments  was  carried  out.  The  new
+#            approach  to  analysis  of  systematic disagreements
+#            between  data  was  proposed  on  the  base  of  new
+#            criteria  of  systematic  uncertainties  presence  -
+#            specially   proposed    transitional    multiplicity
+#            functions
+#                        Fi-theor = SIG(g,in)/SIG(g,xn).
+#            Using  these functions calculated in  the  frame  of
+#            combined photonuclear  reaction  model  new reliable
+#            and free from problems of   neutron   multiplicity
+#            sorting data  for  photoneutron  partial   reactions
+#            cross sections
+#                 SIG-eval(g,in) = Fi-theor x SIG-exp(g,xn)
+#            were  evaluated  using   experimental  neutron yield
+#            reaction cross sections SIG-exp(g,xn).
+#ERR-ANALYS (DATA-ERR) Root-mean-square errors.
+#STATUS     (TABLE,APRVD) Approved by V.Varlamov.
+#HISTORY    (20150814C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#ENDBIB              31
+#NOCOMMON             0          0
+#ENDSUBENT           34
+#SUBENT        M0914005   20150814   20151006   20150922       M080
+#BIB                  3         10
+#REACTION   (40-ZR-94(G,X)0-NN-1,UNW,SIG,,,EVAL)
+#ANALYSIS   The total neutron reaction cross section obtained  as
+#            sum: SIG(g,sn) = SIG(g,n) + SIG(g,2n).
+#STATUS     Data plotted in Fig. 5.
+#           (DEP,M0914006)
+#            Evaluated (g,n) reaction cross section.
+#           (DEP,M0914007)
+#            Evaluated (g,2n) reaction cross section.
+#           (DEP,M0914008)
+#            Evaluated (g,3n) reaction cross section.
+#ENDBIB              10
+# E1 PSF were not given in the data file at E <  8.32 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.850     0.000    0.221E-09    0.442E-09
+#      8.160     0.000    0.181E-07    0.553E-08
+# E1 PSF were not given in the data file at E > 25.20 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.280     0.000    0.679E-07    0.350E-07
+#     25.600     0.000    0.742E-07    0.332E-07
+#     25.890     0.000    0.811E-07    0.328E-07
+#     26.230     0.000    0.394E-07    0.252E-07
+#     26.530     0.000    0.644E-07    0.288E-07
+#     26.850     0.000    0.478E-07    0.288E-07
+#     27.140     0.000    0.537E-07    0.279E-07
+#     27.450     0.000    0.660E-07    0.322E-07
+#     27.750     0.000    0.522E-07    0.304E-07
+#     28.150     0.000    0.798E-07    0.348E-07
+#     28.540     0.000    0.340E-07    0.256E-07
+#     28.840     0.000    0.373E-07    0.259E-07
+#     29.150     0.000    0.482E-07    0.276E-07
+#     29.550     0.000    0.274E-07    0.232E-07
+#     29.770     0.000    0.312E-07    0.237E-07
+#     30.240     0.000    0.336E-08    0.177E-07
+#     30.750     0.000    0.536E-07    0.272E-07
+#     31.000     0.000    0.498E-07    0.263E-07

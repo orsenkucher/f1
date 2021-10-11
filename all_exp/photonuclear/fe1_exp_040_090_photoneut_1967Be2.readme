@@ -1,0 +1,61 @@
+#  fe1_exp_040_090_photoneut_1967Be2.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0011019
+#  Element = Zr   Z =  40   A =  90
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0011     970129              20050926       0000
+#SUBENT        L0011001     970129              20050926       0000
+#BIB                  8         12
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR,162,1098,6710)
+#AUTHOR     (B.L.BERMAN,J.T.CALDWELL,R.R.HARVEY,M.A.KELLY,
+#           R.L.BRAMBLETT,S.C.FULTZ)
+#TITLE      Photoneutron cross sections for Zr90, Zr91, Zr92,
+#            Zr94, and Y89.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (PROPC) Paraffin moderator with BF3 counters
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950403A) BIB Updated
+#ENDBIB              12
+#NOCOMMON             0          0
+#ENDSUBENT           15
+#SUBENT        L0011019     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (40-ZR-90(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (950403C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E < 12.60 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     12.272     0.000    0.565E-08    0.495E-08
+#     12.427     0.000    0.628E-08    0.489E-08
+#     12.581     0.000    0.372E-07    0.483E-08
+# E1 PSF were not given in the data file at E > 25.73 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     25.744     0.000    0.674E-07    0.152E-07
+#     26.053     0.000    0.732E-07    0.150E-07
+#     26.363     0.000    0.625E-07    0.148E-07
+#     26.673     0.000    0.553E-07    0.111E-07
+#     26.982     0.000    0.611E-07    0.145E-07
+#     27.292     0.000    0.699E-07    0.143E-07
+#     27.602     0.000    0.628E-07    0.141E-07

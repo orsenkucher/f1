@@ -1,0 +1,44 @@
+# f1_exp_034_078_NRF.readme
+#
+# Data were published by G. Schramm et al., Phys. Rev. C 85, 014311 (2012).
+#
+# Reaction 78Se(gamma,gamma') using bremsstrahlung produced with
+# 11.5 MeV electrons at the ELBE accelerator of HZDR.
+#
+# Gamma rays were measured with two shielded HPGe detectors at 90 deg to the
+# beam and two at 127 deg to the beam.
+# Spectra were response and efficiency corrected.
+#
+# The photon flux was determined by using known level widths in 11B.
+# Background due to atomic processes in the target was determined in GEANT4 
+# simulations and subtracted from the spectra. Subtracted spectra contain
+# resolved peaks and nuclear quasicontinuum.
+#
+# Spectra were corrected for feeding and branching intensities obtained from 
+# simulations of statistical gamma-ray cascades using the code gDEX.
+#
+# Input for the simulations: 
+# (i)  E1 strength function: three-Lorentz function (TLO) 
+#      [A.R. Junghans et al., Phys. Lett. B 670, 200 (2008)] with a
+#      quadrupole deformation of 0.27 and a triaxiality of 27 degrees.
+#      M1 strength function: three-Gaussian function (see Table 1 of Appendix A
+#      of the publication).
+#      E2 strength function: parametrizations given in RIPL
+#      [R. Capote et al., Nucl. Data Sheets 110, 3107 (2009)]. 
+#      Partial level widths were varied using the Porter-Thomas distribution.
+# (ii) Level density: constant-temperature model with T = 0.9 MeV deduced from
+#      a fit to 77Se(n,gamma) spectra (see Sec. IVB. of the publication).
+#
+# Simulations were performed iteratively. The strength function obtained from
+# an iteration step was used as the input for the next step. The iteration was
+# stopped when input and output were in agreemant within their uncertainties.
+# 
+# The absorption cross sections were obtained from scattering cross sections by
+# using average branching ratios of ground-state transitions obtained from
+# the simulations.
+#
+# Uncertainties of the absorption cross sections include statistical
+# uncertainties, 5% uncertainties each for efficiency, photon flux and atomic
+# background.
+
+

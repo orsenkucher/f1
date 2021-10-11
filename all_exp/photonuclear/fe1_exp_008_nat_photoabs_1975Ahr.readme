@@ -1,0 +1,102 @@
+#  fe1_exp_008_nat_photoabs_1975Ahr.readme                                                  
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0825008
+#  Element = O    Z =   8   A = nat
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0825   20111028   20120207   20111216       M060
+#SUBENT        M0825001   20111028   20120207   20111216       M060
+#BIB                 13         24
+#TITLE      Total nuclear photon absorption  cross  sections  for
+#            some light elements.
+#AUTHOR     (J.Ahrens,H.Borchert,K.H.Czock,H.B.Eppler,H.Gimm,
+#           H.Gundrum,M.Kroning,P.Riehn,G.Sita Ram,A.Zieger,
+#           B.Ziegler)
+#REFERENCE  (J,NP/A,251,479,1975)
+#           #doi:10.1016/0375-9474(75)90543-6
+#INSTITUTE  (2GERMNZ)
+#FACILITY   (LINAC,2GERMNZ)
+#INC-SOURCE (BRST)
+#SAMPLE     All samples were of natural isotopic composition.
+#DETECTOR   Two 11-channel magnetic Compton spectrometers.
+#METHOD     (EXTB,SITA)
+#CORRECTION Total nuclear  photon  absorption  cross  section was
+#            obtained as  difference   between   measured   total
+#            attenuation cross     section     and    non-nuclear
+#            (electronic) cross section (calculated).
+#ERR-ANALYS (DATA-ERR) Mean root-square uncertainties.
+#            The  error  of  the  sum  of  all  non-nuclear cross
+#             sections was estimated to be smaller then 0.1 % for
+#             elements and energy ranges considered.
+#STATUS     (CURVE) Data from Figs. 2 - 8.
+#HISTORY    (20111105C) Data were compiled at the Russia MSU SINP
+#            CDFE by V.Varlamov.
+#ENDBIB              24
+#NOCOMMON             0          0
+#ENDSUBENT           27
+#SUBENT        M0825008   20111028   20120207   20111216       M060
+#BIB                  1          1
+#REACTION   (8-O-0(G,ABS),,SIG)
+#ENDBIB               1
+# E1 PSF were not given in the data file at E < 15.67 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.100     0.000    0.498E-09    0.859E-08
+#     10.200     0.000    0.139E-07    0.619E-08
+#     10.370     0.000    0.487E-08    0.731E-08
+#     10.650     0.000    0.759E-08    0.953E-08
+#     11.310     0.000    0.496E-08    0.648E-08
+#     11.451     0.000    0.442E-08    0.644E-08
+#     11.590     0.000    0.153E-07    0.573E-08
+#     11.774     0.000    0.236E-07    0.631E-08
+#     11.870     0.000    0.532E-08    0.512E-08
+#     12.058     0.000    0.273E-07    0.629E-08
+#     12.290     0.000    0.687E-08    0.607E-08
+#     12.457     0.000    0.246E-07    0.406E-08
+#     12.700     0.000    0.221E-07    0.521E-08
+#     12.810     0.000    0.271E-07    0.592E-08
+#     12.900     0.000    0.235E-07    0.592E-08
+#     13.087     0.000    0.424E-07    0.506E-08
+#     13.180     0.000    0.498E-07    0.556E-08
+#     13.328     0.000    0.284E-07    0.607E-08
+#     13.460     0.000    0.265E-07    0.619E-08
+#     13.600     0.000    0.279E-07    0.557E-08
+#     13.750     0.000    0.163E-07    0.473E-08
+#     13.950     0.000    0.163E-07    0.536E-08
+#     14.116     0.000    0.358E-08    0.535E-08
+#     14.310     0.000    0.152E-07    0.527E-08
+#     14.400     0.000    0.173E-07    0.561E-08
+#     14.584     0.000    0.208E-07    0.523E-08
+#     14.680     0.000    0.236E-07    0.656E-08
+#     14.860     0.000    0.102E-07    0.665E-08
+#     15.000     0.000    0.299E-07    0.607E-08
+#     15.150     0.000    0.133E-07    0.670E-08
+#     15.330     0.000    0.231E-07    0.679E-08
+#     15.480     0.000    0.130E-07    0.734E-08
+#     15.612     0.000    0.489E-08    0.500E-08
+# E1 PSF were not given in the data file at E > 30.50 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     30.580     0.000    0.234E-07    0.383E-08
+#     30.860     0.000    0.295E-07    0.332E-08
+#     30.950     0.000    0.270E-07    0.214E-08
+#     31.165     0.000    0.250E-07    0.292E-08
+#     31.330     0.000    0.321E-07    0.197E-08
+#     31.430     0.000    0.249E-07    0.323E-08
+#     31.600     0.000    0.242E-07    0.225E-08
+#     31.800     0.000    0.319E-07    0.338E-08

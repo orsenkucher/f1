@@ -1,0 +1,10 @@
+ # Pd-106  Boron data ANL
+ # Ig/Eg**3 taken from L.M. Bollinger et al., Phys.Rev. C2 (1970) 1951
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # x - Q correction disregarded, Jf conflict with ARC data
+ # Normalization of 6E1 <Eg = 7.7 MeV>) transitions to <f(E1)> =4.14E-08  from DRC <f(E1)>  table [INDC(NED)-013]
+ # p-wave contribution estimated from a comparison against DRC data as 0.33 (3p giant resonance)
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.16
+ # RN EXP18 = 3.8710-8MeV-3  F = 0.93
+ # 

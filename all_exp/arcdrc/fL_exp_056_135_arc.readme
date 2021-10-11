@@ -1,0 +1,9 @@
+ # Ba-135 2keV data BNL
+ # Parity for Ex of underlined Eg  derived from the 2/24 keV ratio
+ # Normalization of 5 E1 (<Eg>=5.11 MeV) transitions to  f(E1) = 6.26E-08  from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.48 applied
+ # M1 corrected for 0.23 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.89
+ # RN SYS18 F=1.11 from systematic equation [INDC(NED)-0772]
+ # 

@@ -1,0 +1,10 @@
+ # I-128 2 keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from C. McCullagh thesis
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # Normalization of 6E1 (<Eg>=6.6 MeV) transitions with  f(E1) = 5.47E-08  from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # <f(E1)> from DRC systematic table disregarded
+ # M1 corrected for 0.24 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.15
+ # RN EXP18 = 8.54E-08 F = 1.5
+ # 

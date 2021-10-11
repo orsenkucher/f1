@@ -1,0 +1,10 @@
+ # U-236 2 keV Karlsruhe
+ # Ig extracted from H. Ottmar et al., NG symposium Petten (NH) 1964 converted in Ig/Eg**3
+ # 20% statistical error assumed, D - unresolved doublet
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # Normalization  of 4E1 (<Eg> = 6.02 MeV) transitions to <f(E1)> = 15.6E-08 from DC <f(E1)> systematic equation [INDC(NED)-013]
+ # M1 corrected for 0.23 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.03
+ # RN SYS18 F = 1.04 from systematic equation [INDC(NED)-0772]
+ # 

@@ -1,0 +1,9 @@
+ # Os-189 2 keV data from BNL
+ # Ig/Eg**5  extracted from A.M. Bruce et al.,Nucl.Phys. A 542(1992) 1 converted in Ig/Eg**3 in arbitrary units
+ # Normalization of 6 E1 (<Eg>=5.67 MeV) transitions with  f(E1) = 10.84 E-08  from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.19 applied
+ # M1 corrected for 0.10 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.29
+ # RN SYS18 F = 1.07 from systematic equation [INDC(NED)-0772]
+ # 

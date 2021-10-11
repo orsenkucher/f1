@@ -1,0 +1,12 @@
+# f1_exp_022_046_PG_Fed2008.readme
+# 
+# Data were published by I.D. Fedorets and S.S. Ratkevich, Phys. At. Nuclei 71, 1325 (2008); Yadernaja Fizika 71, 1353 (2008)
+#
+# Reaction 45Sc(p,g)46Ti with beam energy of 1.2-3.1 MeV at ESU facility in Kharkov. # Presented results on PSFs correspond to the mean proton energy 2.63 MeV and come from # averaging of intensities over proton resonances in the 320 keV range.
+# 
+# Gamma decays were measured with a pair spectrometer consisting of 63cm^3 Ge(Li) and # surrounding ring of NaI(Tl) detectors.  
+# Cross sections of primary gamma-rays to low-lying discrete states from the Average # Resonance Proton Capture technique were measured. The absolute value of PSF is # obtained from this cross section via analysis within the Hauser-Feshbach theory. # General description of the determination of absolute PSF value can be found in G. # Szeflinska et al., Nucl. Phys. A323, 253 (1979). Some details on the parameters are # given in the original paper but exact normalization is difficult to track.
+#
+# Experimental PSFs values were obtained from the figure.
+# The errors of experimental intensities are estimated to be about 20%. They consist of # the sum of squares of statistical uncertainties - about 8% - and systematic # uncertainties that are dominated by the detector efficiency (15%), target thickness # (5%) and charge deposited onto the target (5%). No error from absolute normalization # of the cross section to PSF as well as from expected Porter-Thomas fluctuations is # added. The estimated uncertainty from the Porter-Thomas fluctuations does not exceed # 10%.
+

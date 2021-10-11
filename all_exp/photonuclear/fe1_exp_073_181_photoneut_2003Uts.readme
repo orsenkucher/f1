@@ -1,0 +1,86 @@
+#  fe1_exp_073_181_photoneut_2003Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0664002
+#  Element = Ta      Z = 73    A =181
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            M0664   20050221              20050926       0000                                  
+#  SUBENT        M0664001   20050221              20050926       0000                                  
+#  BIB                 14         50                                                                   
+#  TITLE      Cross section  measurements  of  the  181Ta(g,n)180Ta                                    
+#              reaction near    threshold    and    the   p-process                                    
+#              nucleosynthesis.                                                                        
+#  AUTHOR     (H.Utsunomiya,H.Akimune,S.Goko,M.Ohta,H.Ueda,                                            
+#             T.Yamagata,K.Yamasaki,H.Ohgaki,H.Toyokawa,Y.-W.Lui,                                      
+#             T.Hayakawa,T.Shizuma,E.Khan,S.Goriely)                                                   
+#  REFERENCE  (J,PR/C,67,015807,2003)                                                                  
+#             (J,NP/A,738,136,2004)                                                                    
+#  INSTITUTE  (2JPNKON,2JPNKTO,2JPNAIS,2JPNJAE,1USATAM,2FR PAR,                                        
+#             2BLGBRU)                                                                                 
+#  FACILITY   (ESTRG,2JPNAIS) Electron storage ring TERAS at the                                       
+#              National Institute  of Advanced Industrial  Science                                     
+#              and Technology (AIST).                                                                  
+#  INC-SOURCE (QMPH,COMPT) Laser Compton scattering (LCS).                                             
+#  DETECTOR   (BF3)                                                                                    
+#  METHOD     (RINGR) 8  BF3  proportional  counters  embeded  in a                                    
+#              polyethilene moderator cube;  four of those  located                                    
+#              in  a  concentric  ring at 11 cm from the beam axis,                                    
+#              the other four at 13 cm.                                                                
+#  SAMPLE     Tantalum disk 2mm thick and 20 mm in diameter.                                           
+#  ANALYSIS   Direct measurement.                                                                      
+#  ERR-ANALYS Statistical errors.                                                                      
+#  COMMENT    New measurements  of  the  photoneutron  reaction  on                                    
+#              181Ta have been conducted with the  AIST-LCS  (laser                                    
+#              Compton  scattering)  beam  in  the  7.8  - 12.0 MeV                                    
+#              energy range.  The major advantage  of  the  present                                    
+#              g-ray  experiment  is  its  intense  peaking  in the                                    
+#              energy window of astrophysical interest, i.e., close                                    
+#              to  the  neutron threshold.  Details on photon beams                                    
+#              from the laser Compton scattering, neutron counting,                                    
+#              and   experimental   determination   of   the  181Ta                                    
+#              photoneutron cross section are  given.  The  present                                    
+#              experimental  data  are  in  good agreemrnt with the                                    
+#              IAEA evaluation.  Reaction rate calculations at  the                                    
+#              Hauser-Feashbach statistical model are performed and                                    
+#              confronted with  the  experimental  data.  The  data                                    
+#              provide  constraints  on  the low-energy tail of the                                    
+#              dipole strength function.  It was found  that  among                                    
+#              the  three  different  models  for  the  E1-strength                                    
+#              considered,  only  the   microscopic   quasiparticle                                    
+#              random phase  approximation  model can reproduce the                                    
+#              extra  strength  observed  in  the   181Ta(g,n)180Ta                                    
+#              reaction  at  energies  of  about  8.5 MeV.  Such an                                    
+#              experiment helps to improve the determination of the                                    
+#              corresponding  stellar  photodisintegration  rate of                                    
+#              181Ta  which  directly  influences   the   p-process                                    
+#              production of 180Ta.                                                                    
+#  STATUS     (CURVE) The data from Fig.  8 have been digitized  at                                    
+#              the Russia MSU SINP CDFE by V.V.Varlamov.                                               
+#  HISTORY    (20050218C)                                                                              
+#  ENDBIB              50                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           53                                                                              
+#  SUBENT        M0664002   20050221              20050926       0000                                  
+#  BIB                  1          1                                                                   
+#  REACTION   (73-TA-181(G,N)73-TA-180,,SIG)                                                           
+#  ENDBIB               1                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  8.34 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.800     0.000    0.118E-06    0.612E-07
+#      8.200     0.000    0.227E-06    0.709E-07

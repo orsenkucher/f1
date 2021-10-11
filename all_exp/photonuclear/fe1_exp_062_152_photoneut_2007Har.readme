@@ -1,0 +1,73 @@
+#  fe1_exp_062_152_photoneut_2007Har.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  K2062003
+#  Element = Sm      Z = 62    A =152
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY            K2062   20100514   20100610   20100514       K007                                  
+#  SUBENT        K2062001   20100514   20100610   20100514       K007                                  
+#  BIB                 14         31                                                                   
+#  TITLE      Measurement of the 152Sm(g,n) cross section with                                         
+#             laser-Compton scattering gamma rays and the photon                                       
+#             difference method                                                                        
+#  AUTHOR     (K.Y.Hara, H.Harada, F.Kitatani, S.Goko, S.Hohara,                                       
+#             T.Kaihori, A.Makinaga, H.Utsunomiya, H.Toyokawa,                                         
+#             K.Yamada)                                                                                
+#  INSTITUTE  (2JPNJAE) Nuclear Science and Engineering Directorate                                    
+#             (2JPNKON) Department of Physics                                                          
+#             (2JPNAIS)                                                                                
+#  REFERENCE  (J,NST,44,(7),938,2007)                                                                  
+#             Main reference. See also TITLE and AUTHOR.                                               
+#             (S,EUR-22794,65,2007)                                                                    
+#             K.Y.Hara+, Proc. of the 3rd Enlargement Workshop on                                      
+#             Neutron Measurements, Evaluations and Applications                                       
+#              (NEMEA-3)                                                                               
+#  PART-DET   (N)                                                                                      
+#  MISC-COL   (MISC1) Maximum energy of photon spectrum 1                                              
+#             (MISC2) Maximum energy of photon spectrum 2                                              
+#  INC-SOURCE (LCS) lambda=532 nm laser photons used                                                   
+#  SAMPLE     Physical-form of target is solid.                                                        
+#  FACILITY   (ESTRG,2JPNAIS) To strage electron beam from 488 to                                      
+#                             598 MeV at Electron strage ring TERAS                                    
+#  ANALYSIS   (DIFFR) Photon difference method with Delta E ranged                                     
+#                     between 120 and 740 keV                                                          
+#  DETECTOR   (PROPC) 3He proportional counters to detect neutron                                      
+#  ERR-ANALYS (ERR-T) Total uncertainty                                                                
+#             (ERR-1) Uncertainty in detector efficiency                                               
+#  STATUS     (APRVD) Proofread by Kaoru Y. Hara (2007.08.10)                                          
+#  HISTORY    (20070802C) On                                                                           
+#             (20070802R) On. Received by e-mail from K.Y.Hara                                         
+#             (20100223A) Nf. REFERENCE: 2006BOROVE -> EUR-22794                                       
+#  ENDBIB              31                                                                              
+#  NOCOMMON             0          0                                                                   
+#  ENDSUBENT           34                                                                              
+#  SUBENT        K2062003   20080131   20080131   20080131       K004                                  
+#  BIB                  4          7                                                                   
+#  REL-REF    (A,L0033012,P.Carlos+,J,NP/A,225,171,1974)                                               
+#  REACTION   (62-SM-152(G,N)62-SM-151,,SIG)                                                           
+#  SAMPLE     - Target enrichment is 98.7%.                                                            
+#             - Chemical-form of target: Sm2O3                                                         
+#             - Target-thickness is 8.5,11.3 mg/cm**2.                                                 
+#  STATUS     (TABLE) Data (Table 3, p943 in reference) received by                                    
+#                     e-mail from K.Y.Hara (2007.08.02)                                                
+#  ENDBIB               7                                                                              
+#  NOCOMMON             0          0                                                                   
+# E1 PSF were not given in the data file at E <  8.37 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.300     0.025    0.175E-06    0.394E-07
+#      8.320     0.045    0.173E-06    0.408E-07

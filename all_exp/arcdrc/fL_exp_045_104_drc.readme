@@ -1,0 +1,8 @@
+ # Rh-104DRC data BNL
+ # Ig/1000 captures extracted from K. Rimavi et al. Phys.Rev. C 2 (1970) 1793
+ # 7  s - resonances = J = [1-] for 1.527 eV, 46.7 eV, 68.3 eV, 96.6 eV, 125.5 eV and 187 eV
+ # and J = [0-] for 154.3 eV   Ggi from BNL2018
+ # Do = 32 eV
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.53
+ # Statistical error assumed to be 25%
+ # 

@@ -1,0 +1,26 @@
+#  fe1_exp_081_205_photoneut_2019Uts.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  in press
+#  Element = Tl      Z = 81    A =205
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY         in press                                
+#  SUBENT        in press                                
+#  BIB           in press                                                                   
+#  TITLE      γ-ray strength function for thallium isotopes relevant to the 205Pb-205Tl chronometry   
+#  AUTHOR     (H.Utsunomiya, T.Renstrøm, G.M.Tveten, S.Goriely, T.Ari-izumi, D.Filipescu, J.Kaur, Y.-W.Lui, W.Luo, S.Miyamoto, A.C.Larsen, S.Hilaire, S.Péru, A.J.Koning)                                                                    
+#  REFERENCE  (Phys.Rev.C99,054619,2019)                                                               
+#  REACTION   ((81-Tl-205(G,sn)                                                                                                                                     

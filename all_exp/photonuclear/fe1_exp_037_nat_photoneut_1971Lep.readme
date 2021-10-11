@@ -1,0 +1,50 @@
+#  fe1_exp_037_nat_photoneut_1971Lep.readme                                                  
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0027017
+#  Element = Rb   Z =  37   A = nat
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0027     970129              20050926       0000
+#SUBENT        L0027001     970129              20050926       0000
+#BIB                  9         13
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,175,609,7111)
+#AUTHOR     (A.LEPRETRE,H.BEIL,R.BERGERE,P.CARLOS,A.VEYSSIERE,
+#           M.SUGAWARA)
+#TITLE      The giant dipole states in the A = 90 mass region.
+#FACILITY   (LINAC)
+#INC-SOURCE Positron annihilation
+#DETECTOR   (STANK) Gd-loaded liquid scintillator tank
+#ERR-ANALYS (DATA-ERR) Statistical uncertainty
+#           Absolute uncertainty estimated to be +-10 mb.
+#HISTORY    (780511T) Converted from Berman compilation
+#           (891201A) BIB Updated
+#           (950403A) BIB Updated
+#ENDBIB              13
+#NOCOMMON             0          0
+#ENDSUBENT           16
+#SUBENT        L0027017     970129              20050926       0000
+#BIB                  2          3
+#REACTION   (37-RB-0(G,X)0-NN-1,UNW,SIG)
+#            The sum: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (950403C)
+#ENDBIB               3
+# E1 PSF were not given in the data file at E < 10.82 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.676     0.000    0.106E-06    0.162E-07
+#     10.812     0.000    0.160E-07    0.162E-07

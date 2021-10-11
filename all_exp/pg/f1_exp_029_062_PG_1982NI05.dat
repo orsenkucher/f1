@@ -1,0 +1,22 @@
+# f1_exp_029_062_pg_1982NI05.dat
+#
+# Z = 29, A = 62
+# No. of entries: 11
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength f1 in MeV^-3 
+# Col 4: uncertainty df1 in MeV^-3
+# Format: 2f10.3, 2e12.3
+# Author: M. Wiedeking from Nilson, Nucl. Phys. A391, 61 (1982). 
+#    E         dE       f1           df1
+     8.175     0.110    1.500E-08    2.000E-09
+     8.135     0.110    1.700E-08    2.000E-09
+     7.932     0.110    1.400E-08    2.000E-09
+     7.785     0.110    1.060E-08    1.600E-09
+     7.749     0.110    1.220E-08    1.800E-09
+     7.627     0.110    1.100E-08    1.600E-09
+     7.500     0.110    1.080E-08    1.500E-09
+     7.448     0.110    1.050E-08    1.500E-09
+     7.193     0.110    8.400E-09    1.300E-09
+     6.890     0.110    9.000E-09    1.300E-09
+     6.650     0.110    5.000E-09    8.000E-10

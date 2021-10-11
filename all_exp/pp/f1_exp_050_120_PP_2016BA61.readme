@@ -1,0 +1,34 @@
+# f1_exp_050_120_pp.readme
+#
+# Data were published in 1. A. Tamii et al., Phys. Rev. Lett. 107, 062502 (2011)
+# and  2. I. Poltoratska, Phys. Rev. C 85, 041304(R) (2012).
+#
+# Reaction 208Pb(pol p, pol p’) with beam energy 295 MeV at Research Center for 
+# Nuclear Physics (RCNP) at Osaka University, Japan.
+#
+# Scattered proton were measured with the GRAND RAIDEN magnetic spectrometer at
+# laboratory angles 0°, 2.5°, 4°, 6°, 8° and 10°.
+#
+# Polarization transfer observables DLL and DSS were measured at 0° with a 
+# carbon polarimeter.
+#
+# E1 and M1 cross sections were determined with two independent methods, a 
+# multipole decomposition described in 2., and using the spinflip probability 
+# determined from the spin-transfer observables described in 1. The two methods
+# show agreement within error bars.
+#
+# B(E1) strength distribution is derived from the MDA E1 cross sections 
+# integrated in the angular range ?lab = 0° - 0.94° by calculating the virtual 
+# photon spectrum in the approach of semiclassical Coulomb excitation 
+# (C. A. Bertulani and G. Baur, Nucl. Phys. A 442, 739 (1985)). 
+#
+# B(M1) strength distribution is derived from the MDA M1 cross sections with
+# the approach described in J. Birkhan et al., Phys. Rev. C 93, 041302(R) (2016).
+#
+# Conversion to partial and total PSFs of 208Pb is described in S. Bassauer et 
+# al., Phys. Rev. 94, 054313 (2016).
+#
+# Uncertanties of PSFs include statistical and systematic errors (5% absolute 
+# cross sections, MDA error estimated from scattering of ?2 values as described in 2.)  
+ 
+  

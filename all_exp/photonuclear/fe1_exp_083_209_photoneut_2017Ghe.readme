@@ -1,0 +1,36 @@
+#  fe1_exp_083_209_photoneut_2017Ghe.readme               
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS(PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  in press
+#  Element = Bi      Z = 83    A =209
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database.
+#  It was adopted, that CSa(Eg) c to absorption of
+#  electric dipole gamma-rays:
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#  ENTRY         in press                                
+#  SUBENT        in press                                
+#  BIB           in press                                                                   
+#  TITLE      Photoneutron cross-section measurements in the 209Bi (γ, xn) reaction with a new method of direct neutron-multiplicity sorting
+#  AUTHOR     (I.Gheorghe, H.Utsunomiya, S.Katayama, D.Filipescu, S.Belyshev, K.Stopani, V.Orlin, V.Varlamov, T.Shima, S.Amano, S.Miyamoto, Y.-W.Lui, T.Kawano, S.Goriely)                                                                    
+#  REFERENCE  (Phys.Rev. C 96, 044604 (2017))                                                                         
+#  REACTION   (83-BI-209(G,sn)                                                                                 
+# E1 PSF were not given in the data file at E > 26.68 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     28.048     0.000    0.159E-06    0.125E-07
+#     29.887     0.000    0.129E-06    0.979E-08
+#     33.302     0.000    0.847E-07    0.730E-08
+#     36.024     0.000    0.742E-07    0.166E-07
+#     37.415     0.000    0.804E-07    0.187E-07
+#     42.188     0.000    0.479E-07    0.822E-08

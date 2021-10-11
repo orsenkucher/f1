@@ -1,0 +1,175 @@
+#  fe1_exp_014_028_photoabs_2002Ish.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0648016
+#  Element = Si   Z =  12   A =  28
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0648   20040322   20040506   20050926       0000
+#SUBENT        M0648001   20040322   20040506   20050926       0000
+#BIB                 10         31
+#TITLE      Cross sections of photon absorption  by  nuclei  with
+#            nucleon numbers 12 - 65.
+#AUTHOR     (B.S.ISHKHANOV,I.M.KAPITONOV,E.I.LILEEVA,
+#            E.V.SHIROKOV,V.A.EROKHOVA,M.A.ELKIN,A.V.IZOTOVA)
+#REFERENCE  (R,MSU-INP-2002-27/711,2002)
+#INSTITUTE  (4RUSMOS)
+#INC-SOURCE (QMPH,ARAD)
+#ANALYSIS   The total   photoabsorption   cross   sections   were
+#            evaluated using the  partial  photonuclear  reaction
+#            cross  sections  summation:  SIG(g,abs) = SIG(g,p) +
+#            SIG(g,n) + SIG(g,np) + SIG(g,2n).
+#           For photoabsorption cross section high-energy  (30  -
+#            40 MeV)  tail  the  special  normalization was used.
+#            Evaluated cross sections for 26 nuclei were obtained
+#            multiplying one   (nearest)   of  5  standard  cross
+#            sections for 12C,  16O,  27Al, 28Si, 40Ca by special
+#            coefficients  (k = [NZ/A]-evaluated/[NZ/A]-standard)
+#            calculated   using   classical   dipole   sum   rule
+#            (SIG-integrated = 60NZ/A MeV*mb).
+#ERR-ANALYS NO DATA.
+#COMMENT    Total photoabsorption  cross   sections   have   been
+#            evaluated for 31  nuclides  from  12C  to  65Cu  for
+#            energy  range till 40 MeV.  For most nuclides photon
+#            absorptoon cross  sections  have  been  obtained  by
+#            summation  of  partial  photonuclear  reaction cross
+#            sections,  for some of them  (12C,  14N,  16O,  19F,
+#            27Al,  28Si,  and 40Ca experimrntally measured cross
+#            sections have been used).
+#STATUS     (APRVD) BY M.A.Elkin.
+#            Data have been compiled at the Russia MSU SINP CDFE.
+#HISTORY    (20040213C)
+#ENDBIB              31
+#NOCOMMON             0          0
+#ENDSUBENT           34
+#SUBENT        M0648016   20040322   20040506   20050926       0000
+#BIB                  2          4
+#REACTION   (14-SI-28(G,ABS),,SIG,,,EVAL)
+#           28Si(g,abs) reaction experimental cross  section  was
+#            used as evaluated one.
+#REL-REF    (E,,J.AHRENS+,J,NP/A,251,479,1975)
+#ENDBIB               4
+# E1 PSF were not given in the data file at E < 17.18 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     10.000     0.000    0.399E-07    0.000E+00
+#     10.200     0.000    0.196E-07    0.000E+00
+#     10.400     0.000    0.375E-07    0.000E+00
+#     10.600     0.000    0.516E-07    0.000E+00
+#     10.800     0.000    0.394E-07    0.000E+00
+#     11.000     0.000    0.292E-07    0.000E+00
+#     11.200     0.000    0.132E-07    0.000E+00
+#     11.400     0.000    0.350E-07    0.000E+00
+#     11.600     0.000    0.254E-07    0.000E+00
+#     11.800     0.000    0.169E-07    0.000E+00
+#     12.000     0.000    0.137E-07    0.000E+00
+#     12.200     0.000    0.171E-07    0.000E+00
+#     12.400     0.000    0.161E-07    0.000E+00
+#     12.600     0.000    0.385E-07    0.000E+00
+#     12.800     0.000    0.210E-07    0.000E+00
+#     13.000     0.000    0.227E-07    0.000E+00
+#     13.200     0.000    0.223E-07    0.000E+00
+#     13.400     0.000    0.265E-07    0.000E+00
+#     13.600     0.000    0.134E-07    0.000E+00
+#     13.800     0.000    0.163E-07    0.000E+00
+#     14.000     0.000    0.155E-07    0.000E+00
+#     14.200     0.000    0.318E-07    0.000E+00
+#     14.400     0.000    0.385E-07    0.000E+00
+#     14.600     0.000    0.261E-07    0.000E+00
+#     14.800     0.000    0.522E-07    0.000E+00
+#     15.000     0.000    0.538E-07    0.000E+00
+#     15.200     0.000    0.593E-07    0.000E+00
+#     15.400     0.000    0.428E-07    0.000E+00
+#     15.600     0.000    0.489E-07    0.000E+00
+#     15.800     0.000    0.351E-07    0.000E+00
+#     16.000     0.000    0.423E-07    0.000E+00
+#     16.200     0.000    0.177E-07    0.000E+00
+#     16.400     0.000    0.301E-07    0.000E+00
+#     16.600     0.000    0.293E-07    0.000E+00
+#     16.800     0.000    0.336E-07    0.000E+00
+#     17.000     0.000    0.291E-07    0.000E+00
+# E1 PSF were not given in the data file at E > 26.56 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     26.600     0.000    0.747E-07    0.000E+00
+#     26.800     0.000    0.822E-07    0.000E+00
+#     27.000     0.000    0.736E-07    0.000E+00
+#     27.200     0.000    0.670E-07    0.000E+00
+#     27.400     0.000    0.706E-07    0.000E+00
+#     27.600     0.000    0.427E-07    0.000E+00
+#     27.800     0.000    0.608E-07    0.000E+00
+#     28.000     0.000    0.604E-07    0.000E+00
+#     28.200     0.000    0.458E-07    0.000E+00
+#     28.400     0.000    0.550E-07    0.000E+00
+#     28.600     0.000    0.528E-07    0.000E+00
+#     28.800     0.000    0.482E-07    0.000E+00
+#     29.000     0.000    0.428E-07    0.000E+00
+#     29.200     0.000    0.353E-07    0.000E+00
+#     29.400     0.000    0.422E-07    0.000E+00
+#     29.600     0.000    0.399E-07    0.000E+00
+#     29.800     0.000    0.323E-07    0.000E+00
+#     30.000     0.000    0.266E-07    0.000E+00
+#     30.200     0.000    0.135E-07    0.000E+00
+#     30.400     0.000    0.514E-07    0.000E+00
+#     30.600     0.000    0.513E-07    0.000E+00
+#     30.800     0.000    0.462E-07    0.000E+00
+#     31.000     0.000    0.568E-07    0.000E+00
+#     31.200     0.000    0.414E-07    0.000E+00
+#     31.400     0.000    0.340E-07    0.000E+00
+#     31.600     0.000    0.288E-07    0.000E+00
+#     31.800     0.000    0.316E-07    0.000E+00
+#     32.000     0.000    0.336E-07    0.000E+00
+#     32.200     0.000    0.396E-07    0.000E+00
+#     32.400     0.000    0.303E-07    0.000E+00
+#     32.600     0.000    0.380E-07    0.000E+00
+#     32.800     0.000    0.357E-07    0.000E+00
+#     33.000     0.000    0.289E-07    0.000E+00
+#     33.200     0.000    0.149E-07    0.000E+00
+#     33.400     0.000    0.470E-07    0.000E+00
+#     33.600     0.000    0.289E-07    0.000E+00
+#     33.800     0.000    0.290E-07    0.000E+00
+#     34.000     0.000    0.324E-07    0.000E+00
+#     34.200     0.000    0.586E-07    0.000E+00
+#     34.400     0.000    0.265E-07    0.000E+00
+#     34.600     0.000    0.419E-07    0.000E+00
+#     34.800     0.000    0.421E-07    0.000E+00
+#     35.000     0.000    0.235E-07    0.000E+00
+#     35.200     0.000    0.362E-07    0.000E+00
+#     35.400     0.000    0.225E-07    0.000E+00
+#     35.600     0.000    0.538E-07    0.000E+00
+#     35.800     0.000    0.138E-07    0.000E+00
+#     36.000     0.000    0.472E-07    0.000E+00
+#     36.200     0.000    0.288E-07    0.000E+00
+#     36.400     0.000    0.295E-07    0.000E+00
+#     36.600     0.000    0.237E-07    0.000E+00
+#     36.800     0.000    0.283E-07    0.000E+00
+#     37.000     0.000    0.274E-07    0.000E+00
+#     37.200     0.000    0.191E-07    0.000E+00
+#     37.400     0.000    0.123E-07    0.000E+00
+#     37.600     0.000    0.923E-08    0.000E+00
+#     37.800     0.000    0.363E-07    0.000E+00
+#     38.000     0.000    0.283E-07    0.000E+00
+#     38.200     0.000    0.395E-07    0.000E+00
+#     38.400     0.000    0.260E-07    0.000E+00
+#     38.600     0.000    0.166E-07    0.000E+00
+#     38.800     0.000    0.199E-07    0.000E+00
+#     39.000     0.000    0.178E-07    0.000E+00
+#     39.200     0.000    0.173E-07    0.000E+00
+#     39.400     0.000    0.139E-07    0.000E+00
+#     39.600     0.000    0.204E-07    0.000E+00
+#     39.800     0.000    0.150E-07    0.000E+00
+#     40.000     0.000    0.173E-07    0.000E+00

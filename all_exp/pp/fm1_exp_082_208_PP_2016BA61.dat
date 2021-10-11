@@ -1,0 +1,20 @@
+# fm1_exp_082_208_pp.dat
+#
+# Z = 82, A = 208
+# No. of entries: 9
+# Col 1: photon energy E in MeV
+# Col 2: bin width dE in MeV
+# Col 3: dipole strength fm1 in MeV^-3
+# Col 4: uncertainty dfm1 in MeV^-3
+# Format: 2f10.3, 2e12.3
+# Author: P von Neumann-Cosel
+#    E         dE      f           df
+     7.300     0.010   8.893E-08   1.605E-08
+     7.500     0.010   1.082E-07   1.115E-08
+     7.700     0.010   2.681E-08   7.611E-09
+     7.900     0.010   1.775E-08   3.710E-09
+     8.100     0.010   2.643E-08   5.183E-09
+     8.300     0.010   1.003E-08   1.157E-09
+     8.500     0.010   1.370E-08   2.122E-09
+     8.700     0.010   1.736E-08   3.086E-09
+     8.900     0.010   1.273E-08   1.173E-09

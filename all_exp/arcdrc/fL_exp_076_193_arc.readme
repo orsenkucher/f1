@@ -1,0 +1,9 @@
+ # Os-193 2 keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from D.D. Warnet et al.,Nucl.Phys. A316(1979) 13
+ # Calibration of 4E1 (<Eg = 5.47>) to <f(E1)> = 11.31 10-8 MeV -3 from DRC <f(E1)> systematic  equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 1.27 applied
+ # M1 corrected for 0.20 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.51
+ # RN SYS18 F = 1.07 from systematic equation [INDC(NED)-0772]
+ # 

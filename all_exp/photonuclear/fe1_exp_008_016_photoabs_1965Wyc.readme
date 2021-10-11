@@ -1,0 +1,81 @@
+#  fe1_exp_008_016_photoabs_1965Wyc.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0122004
+#  Element = O    Z =   8   A =  16
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0122   20110208   20110621   20110614       L015
+#SUBENT        L0122001   20110208   20110621   20110614       L015
+#BIB                  9         27
+#INSTITUTE  (1USANIS)
+#REFERENCE  (J,PR,137,B576,1965)
+#AUTHOR     (J.M.Wyckoff,B.Ziegler,H.W.Koch,R.Uhlig)
+#TITLE      Total Photonuclear Cross Sections for Low Atomic
+#            Number Elements
+#FACILITY   (LINAC,1USANBS) Proton beam on 7Li
+#INC-SOURCE (BRST) Bremsstrahlung
+#DETECTOR   (SCIN) Two crystal scintillation pair spectrometer
+#SAMPLE     - Mg: 1.737 g/cm3,  0.01 % Al, 0.01 % Fe, 0.01 % Ti
+#           - Al: 2.688 g/cm3,  1.2  % Mg, 0.31 % Fe, 0.1  % Cu,
+#                               0.64 % Si
+#           - Ca: 1.533 g/cm3,  0.44 % Mg, 0.34 % Al
+#           - Co: 8.827 g/cm3,  0.42 % Ni
+#           - Ag: 10.476g/cm3, <0.01 %
+#           - Be: 1.847 g/cm3,  0.01 % O , 0.08 % C
+#           - C:  1.70  g/cm3,  graphite
+#           - O:  0.996 g/cm3,  water
+#           - Ni: 8.876 g/cm3,  0.08 % Co, 0.05 % C , 0.07 % Mg
+#           - Cu: 8.905 g/cm3
+#           - Na: 0.966 g/cm3, <1    % Ca
+#           - S:  1.931 g/cm3, crystalline
+#           - Silicon: 2.329g/cm3, polycrystalline
+#HISTORY    (20060418C) DR
+#           (20081015A) NDS: ref.was corrected.
+#                          PR,B137,576 ==>PR,137,B576
+#           (20110208A) S.H. Deleted phantom data point at 34.9MeV
+#                       in subentry 9
+#ENDBIB              27
+#NOCOMMON             0          0
+#ENDSUBENT           30
+#SUBENT        L0122004   20060418   20060720   20060630       L009
+#BIB                  3          3
+#REACTION   (8-O-16(G,ABS),,SIG,,BRS)
+#ERR-ANALYS (ERR-S) Statistical uncertainty
+#STATUS     (CURVE) Data taken from Fig. 8
+#ENDBIB               3
+# E1 PSF were not given in the data file at E < 15.67 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     11.700     0.000    0.396E-08    0.000E+00
+#     12.700     0.000    0.236E-08    0.000E+00
+#     13.300     0.000    0.179E-07    0.000E+00
+#     13.700     0.000    0.586E-08    0.000E+00
+#     14.600     0.000    0.719E-08    0.000E+00
+#     15.100     0.000    0.695E-08    0.000E+00
+# E1 PSF were not given in the data file at E > 30.50 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     30.600     0.000    0.211E-07    0.000E+00
+#     31.100     0.000    0.188E-07    0.000E+00
+#     31.700     0.000    0.141E-07    0.000E+00
+#     32.100     0.000    0.202E-07    0.000E+00
+#     32.600     0.000    0.157E-07    0.000E+00
+#     33.100     0.000    0.132E-07    0.000E+00
+#     33.500     0.000    0.105E-07    0.000E+00
+#     34.100     0.000    0.135E-07    0.000E+00
+#     34.700     0.000    0.118E-07    0.000E+00

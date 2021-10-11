@@ -1,0 +1,9 @@
+ # Tm-170 2keV data BNL
+ # Ig /Eg**5 extracted from R.W. Hof et al., Phys. Rev. C54 (1996) 78 and converted in Ig/Eg**3
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 1.33 has been applied
+ # Normalization  of 17E1  (<Eg = 6.06 MeV>) to  < f(E1)> = 9.12-08 from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # M1 corrected for 0.17 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.13
+ # RN SYS18 F = 1.08 from systematic equation [INDC(NED)-0772]
+ # 

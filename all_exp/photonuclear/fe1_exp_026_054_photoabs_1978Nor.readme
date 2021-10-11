@@ -1,0 +1,61 @@
+#  fe1_exp_026_054_photoabs_1978Nor.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0507004
+#  Element = Fe   Z =  26   A =  54
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0507   20060125   20060420   20060324       M039
+#SUBENT        M0507001   20060125   20060420   20060324       M039
+#BIB                 16         31
+#TITLE      photoneutron cross section of Fe-54.
+#AUTHOR     (J.W.NORBURY,M.N.THOMPSON,K.SHODA,H.TSUBOTA)
+#INSTITUTE  (3AULAML,2JPNTOH)
+#REFERENCE  (J,AUJ,31,471,1978)
+#INC-SOURCE (BRST)
+#FACILITY   (BETAT,3AULAML)
+#           (LINAC,2JPNTOH)
+#SAMPLE     Natural iron target of 99.5 % purity.
+#METHOD     (ACTIV,COINC)  The  reaction  yield curve  measurement
+#            using the 8.5  min  b+  residual  activity  of  Fe-53
+#            detection  in coincidence with 0.38 MeV de-excitation
+#            g-rays from the first state of Mn-53 populated by  38
+#            % of the b+ decay.
+#DETECTOR   (BPAIR)  Positron annihilation photons counting.
+#ANALYSIS   (PLA)  The variable bin penfold-leiss method for cross
+#            section unfolding from the yield curve.
+#MONITOR    (26-FE-54(G,N)26-FE-53,,INT,,BRA)
+#MONIT-REF  (,J.H.CARVER+,J,AJP,10,312,1957)  Reaction integrated
+#            cross section has been used for normalization.
+#ERR-ANALYS (DATA-ERR) Statistical errors are given.
+#STATUS     (CURVE)  Data  were  prepared  in the MSU INP CDFE  by
+#            V.V.Varlamov.
+#COMMENT    A high resolution measurement of the  Fe-54(g,n) cross
+#            section is reported.  this and a previously  measured
+#            Fe-54(g,p) cross  section  are  discussed in terms of
+#            the isospin  splitting  of  ther  e1   giant   dipole
+#            resonance.
+#HISTORY    (19971015C)
+#           (19980128A) Data correction in subentry 2
+#           (20060125A) REFERENCE and DATES corrected at SINP CDFE,
+#                       lowercase.
+#ENDBIB              31
+#NOCOMMON             0          0
+#ENDSUBENT           34
+#SUBENT        M0507004   20060125   20060420   20060324       M039
+#BIB                  1          2
+#REACTION   (26-FE-54(G,ABS),,SIG,,BRS)
+#            The sum of (g,n) and (g,p) cross sections
+#ENDBIB               2

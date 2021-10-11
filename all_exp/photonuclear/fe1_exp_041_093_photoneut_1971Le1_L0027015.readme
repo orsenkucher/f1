@@ -1,0 +1,93 @@
+#  fe1_exp_041_093_photoneutr_1971Le1_L0027015.readme             
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0027015,L0027016
+#  Element = Nb   Z =  41   A =  93
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#ENTRY            L0027   20171203   20180205   20180202       L033
+#SUBENT        L0027001   20171203   20180205   20180202       L033
+#BIB                  9         16
+#INSTITUTE  (2FR SAC,2JPNTOH)
+#REFERENCE  (J,NP/A,175,609,1971)
+#AUTHOR     (A.Lepretre,H.Beil,R.Bergere,P.Carlos,A.Veyssiere,
+#           M.Sugawara)
+#TITLE      The giant dipole states in the A = 90 mass region.
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE (ARAD) Positron annihilation
+#DETECTOR   (STANK) Gd-loaded liquid scintillator tank
+#ERR-ANALYS The absolute uncertainty at the peak of the giant
+#           dipole resonance is estimated to be +-10 mb.
+#           (ERR-S) Statistical uncertainty
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB Updated
+#           (19950403A) BIB Updated
+#           (20171129A) OS. ERR-ANALYS, INSTITUTE, FACILITY,
+#            INC-SOURCE updated, STATUS added.
+#ENDBIB              16
+#NOCOMMON             0          0
+#ENDSUBENT           19
+#SUBENT        L0027015   20171203   20180205   20180202       L033
+#BIB                  3          8
+#REACTION   ((41-NB-93(G,N)41-NB-92,,SIG)+
+#           (41-NB-93(G,N+P)40-ZR-91,,SIG))
+#            Threshold of (gamma,n+p) reaction is 14.7 MeV.
+#STATUS     Data correspond to Fig.5 of Nucl.Phys.A175,609,1971
+#HISTORY    (19891202C)
+#           (19950403A) REACTION corrected.
+#           (20171129A) Heading DATA-ERR replaced by ERR-S,
+#            STATUS added
+#ENDBIB               8
+#ENTRY            L0027   20171203   20180205   20180202       L033
+#SUBENT        L0027001   20171203   20180205   20180202       L033
+#BIB                  9         16
+#INSTITUTE  (2FR SAC,2JPNTOH)
+#REFERENCE  (J,NP/A,175,609,1971)
+#AUTHOR     (A.Lepretre,H.Beil,R.Bergere,P.Carlos,A.Veyssiere,
+#           M.Sugawara)
+#TITLE      The giant dipole states in the A = 90 mass region.
+#FACILITY   (LINAC,2FR SAC)
+#INC-SOURCE (ARAD) Positron annihilation
+#DETECTOR   (STANK) Gd-loaded liquid scintillator tank
+#ERR-ANALYS The absolute uncertainty at the peak of the giant
+#           dipole resonance is estimated to be +-10 mb.
+#           (ERR-S) Statistical uncertainty
+#HISTORY    (19780511T) Converted from Berman compilation
+#           (19891201A) BIB Updated
+#           (19950403A) BIB Updated
+#           (20171129A) OS. ERR-ANALYS, INSTITUTE, FACILITY,
+#            INC-SOURCE updated, STATUS added.
+#ENDBIB              16
+#NOCOMMON             0          0
+#ENDSUBENT           19
+#SUBENT        L0027016   20171203   20180205   20180202       L033
+#BIB                  3          8
+#REACTION   ((41-NB-93(G,2N)41-NB-91,,SIG)+
+#           (41-NB-93(G,2N+P)40-ZR-90,,SIG))
+#           Threshold of (gamma,2np) reaction is 21.8 MeV.
+#STATUS     Data correspond to Fig.5 of Nucl.Phys.A175,609,1971
+#HISTORY    (19891202C)
+#           (19950403A) REACTION corrected.
+#           (20171129A) Heading DATA-ERR replaced by ERR-S,
+#            STATUS added
+#ENDBIB               8
+# E1 PSF were not given in the data file at E <  9.16 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.224     0.000    0.105E-07    0.211E-07
+#      8.361     0.000    0.104E-07    0.210E-07
+#      8.905     0.000    0.195E-07    0.204E-07
+#      9.042     0.000    0.480E-07    0.201E-07

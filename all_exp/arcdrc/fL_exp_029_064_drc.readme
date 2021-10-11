@@ -1,0 +1,7 @@
+ # Cu-64 DRC data Harwell (UK)
+ # Ig/100 captures from W. Stein et al., Phys.Rev. C1 (1969)
+ # 3 s- resonances =   0.577 keV (s) J =2- , 2.06 keV (s) J = 1-  and  2.66 keV (s) J=2-  Ggi from BNL2018
+ # Do = 700 eV
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.82
+ # Statistical error assumed to be 25%
+ # 

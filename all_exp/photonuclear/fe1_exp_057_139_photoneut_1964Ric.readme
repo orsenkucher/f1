@@ -1,0 +1,71 @@
+#  fe1_exp_057_139_photoneut_1964Ric.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0928003
+#  Element = La   Z =  57   A = 139
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0928   20170302   20170504   20170503       M087
+#SUBENT        M0928001   20170302   20170504   20170503       M087
+#BIB                  9         14
+#TITLE      Neutron photoproduction cross sections  of  lanthanum
+#            and praseodymium.
+#AUTHOR     (L.B.Rice,L.N.Bolen,W.D.Whitehead)
+#REFERENCE  (J,PR,134,B557,1964)
+#INSTITUTE  (1USAVIR)
+#FACILITY   (SYNCH,1USAVIR) 70-MeV  synchrotron at the University
+#            of Virginia.
+#INC-SOURCE (BRST)
+#DETECTOR   (BF3) Halpern-type paraffin neutron house with  eight
+#            BF3 tubes  mounted  concentrically  13.5 cm from the
+#            sample.
+#METHOD     (EXTB,SITA)
+#HISTORY    (20170302C)  Data  were  compiled at the Russia MSU SIN
+#            CDFE by V.Varlamov.
+#ENDBIB              14
+#NOCOMMON             0          0
+#ENDSUBENT           17
+#SUBENT        M0928003   20170302   20170504   20170503       M087
+#BIB                  6         14
+#REACTION   (57-LA-139(G,X)0-NN-1,UNW,SIG,,BRS)
+#           The total   photoneutron   reaction   -  the  sum  of
+#            reactions (g,1n) + (g,2n) + (g,3n).
+#SAMPLE     The lanthanum target was cylinder 4.3 cm in  diameter
+#            and  5.22  cm in length and contained less than 0.5%
+#            total impurities.
+#ANALYSIS   Correction of  (g,xn)  reaction  cross   section   in
+#            accordance with statistical theory.
+#ERR-ANALYS No information.
+#COMMENT    Data obtained from  the smoothed neutron yield  cross
+#            section.
+#STATUS     (DEP,M0928002) Neutron  yield  reaction  (g,xn) cross
+#            section.
+#           (CURVE) Data from Fig. 3.
+#ENDBIB              14
+# E1 PSF were not given in the data file at E <  8.99 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      8.500     0.000    0.126E-07    0.000E+00
+# E1 PSF were not given in the data file at E > 26.69 MeV;
+# where gamma-QD disintegration is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#     27.000     0.000    0.713E-07    0.000E+00
+#     27.500     0.000    0.716E-07    0.000E+00
+#     28.000     0.000    0.728E-07    0.000E+00
+#     28.500     0.000    0.752E-07    0.000E+00
+#     29.000     0.000    0.775E-07    0.000E+00
+#     29.500     0.000    0.800E-07    0.000E+00

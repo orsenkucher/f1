@@ -1,0 +1,11 @@
+# f1_exp_029_065_PG_1983NE03.readme
+# 
+# Data were published by B.A. Nemashkalo, Y.P. Melnik, V.E. Storizhko and K.V. Shebeko, # Yadernaja Fizika 37, 3 (1983)
+#
+# Reaction 64Ni(p,g)65Cu with beam energies between 1.5 and 3.0 MeV was measured at ESU # facility in Kharkov. PSFs were deduced for mean proton energies of 2.29 and 2.34 MeV # with the energy averaging of resonances over 210 and 105 keV, respectively.
+# 
+# Gamma decays were measured with a pair spectrometer consisting of 70cm^3 Ge(Li) and # surrounding NaI(Tl) detectors.  
+# Cross sections of primary gamma-rays to low-lying discrete states from the Average # Resonance Proton Capture technique were extracted from measured intensities. The # absolute value of PSF is obtained from this cross section via analysis within the # Hauser-Feshbach theory. General description of the determination of absolute PSF # value # can be found in G. Szeflinska et al., Nucl. Phys. A323, 253 (1979). Some details on # the # parameters are given in the original paper but exact normalization is difficult to # track.
+#
+# Experimental PSFs values were obtained from the figure.
+# The errors are not discussed in the paper. However, the statistical as well as # systematic uncertainties due to the detector efficiency and target thickness were # included in errors in other papers of the authors. No error from absolute # normalization # of the cross section to PSF as well as from expected Porter-Thomas fluctuations was # considered. Typical presented uncertainty reached about 20% (only statistical error # was typically about 10%).

@@ -1,0 +1,46 @@
+# f1_exp_026_056_OM_p.readme
+# 
+# Data were published by A. C. Larsen et al., Phys. Rev. Lett. 242504 (2013)
+#
+# Reaction 56Fe(p,p)56Fe with beam energy 16.0 MeV
+# at Oslo Cyclotron Laboratory (OCL).
+# 
+# Particle - gamma coincidences were measured in CACTUS/SiRi and the
+# resulting coincidence spectra was unfolded [M. Guttormsen et al. NIM Phys. Res. A 374, 371 (1996)]
+# with the response of CACTUS.
+# The first generation matrix is then found using an iterative
+# method [M. Guttormsen et al., NIM Phys. Res. A 255, 518 (1987)]
+# 
+# The functional shape of the level density and the gamma-ray transition coefficient
+# is extracted from the first generation matrix using a chi-square
+# minimalization method [A. Schiller et al., NIM Phys. Res. A 447, 498 (2000)].
+# 
+# No NLD are avalible for this data set.
+# 
+# Absolute value of the level density and transmission coefficient is
+# found by normalization to known values.
+# 
+# The level density is normalized to:
+#	(i) The level density at the neutron separation energy.
+#	(ii) Known discrete levels at low energy.
+# 
+# The transmission coefficients are normalized with the process
+# described in [A. Voinov et al., Phys. Rev. C 63, 044313 (2001)]
+# 
+# 
+# Inputs used for the normalization:
+#	(i) Spin cutoff model of [T. von Egidy and D. Bucurescu, Phys. Rev. C 80, 054310 (2009)]
+#	(ii) Level density at the neutron separation energy
+#		 the neutron resonance spacing D0 = 2.5 ± 1.25 keV
+#		 estimated from systematics (see publication for more details).
+#	(iii) Average radiative width <Gg0> = 1500.0 ± 750.0 meV
+#		 estimated from systematics (see publication for more details).
+#
+# The reaction will populate primarly the quasi-continuum
+# such that most transitions are assumed to be dipole, such
+# that the dipole strength is found by f1(Eg) = T(Eg)/(2*pi*Eg**3).
+#
+# 
+#
+# The uncertanties of the resulting level density
+# and photon strength function is statistical errors only.

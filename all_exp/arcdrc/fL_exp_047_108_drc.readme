@@ -1,0 +1,10 @@
+ # Ag-108 DRC data Geel
+ # only binned data available
+ # from L. Zanini et al., Phys.Rev. C68 (2003) 014320
+ # 9 s-resonances = En= <800 eV (J=1-)  Gg = 140 meV
+ # D(1) = 36.8 eV
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=2
+ # 
+ # Eg      <E1>    <M1>    dE1     dM1
+ # 
+ #     6700    2.19    0.32    0.35    0.05

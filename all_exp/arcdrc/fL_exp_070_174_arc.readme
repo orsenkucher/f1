@@ -1,0 +1,11 @@
+ # Yb-174 2keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from C. Granja et al., Nucl.Phys. A757 (2005) 287
+ # Data with Eg >  5. MeV accepted only for unique J = 1,4 and 2,3 groups
+ # The Q(JiJf) correction: the simplified Q(JiJf) = 2 has been applied
+ # no Q - recent Jf disregarded
+ # Normalization 11 E1 (<Eg = 6.56 MeV>) transitions <f(E1)> = 19.4 E-08 normalization from DRC <f(E1)> table [INDC(NED)-013]
+ # M1 corrected for 0.16 E1 p-waves contribution from empirical estimate
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.13
+ # RN SYS18 F = 0.52 from systematic equation [INDC(NED)-0772] EXP18 37.8E-08MeV-3 disregarded
+ # 

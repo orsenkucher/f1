@@ -1,0 +1,112 @@
+#  fe1_exp_083_209_photoneut_1972You.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0059005
+#  Element = Bi   Z =  83   A = 209
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0059     970129              20050926       0000
+#SUBENT        L0059001     970129              20050926       0000
+#BIB                 13         71
+#INSTITUTE  (1USAUI )
+#REFERENCE  (T,YOUNG,72)
+#AUTHOR     (L.M.YOUNG)
+#TITLE      Photoneutron cross-sections and spectra from
+#            monoenergetic photons on yttrium, praseodymium,
+#            lead, and bismuth in the giant-resonance.
+#FACILITY   (BETAT,1USAUI ) 22 MeV Betatron.
+#INC-SOURCE (QMPH,TAGD) Gamma-ray energy known to within 3-4%.
+#           Monochromatic gamma rays were tagged by momentum
+#            analyzing the post Bremsstrahlung electron associated
+#            with the gamma ray.
+#DETECTOR   (SCIN) LIQUID SCINTILLATOR DETECTOR.
+#METHOD     (TOF,PSD) The energy of neutrons was obtained by
+#            measuring the neutrons time-of-flight.
+#           Pulse shape discrimination was used to differentiate
+#            between events caused by gamma rays and by neutrons
+#            in the liquid scintillator.
+#ANALYSIS   Photoneutron cross sections were calculated from the
+#            experimental neutron energy spectra.
+#           The neutron spectra can be represented by:
+#            Number-N(E(n)) = B(T(n)) +
+#                function(dsigma(T(n),E(gamma))/D(T(n)*D(omega),
+#            where B(T(n)) = number of accidental events for T(n)
+#                  T(n) = time of flight of neutrons of energy E(n)
+#           The data were analysed by parameterizing the background
+#            and the differential cross section in equation
+#            mentioned above.
+#           The background was parameterized as a constant, while
+#            the differential cross section was parameterized using
+#            the method of Kuchnir, see Phys.Rev.,161,1236 (1967).
+#CORRECTION Two corrections were made to the total cross sections
+#            to compensate for neutron scattering:
+#           1) Corrected for neutron scattering by the collimator
+#             leading to counts in the detector, using a Monte
+#             Carlo technique to find an ideal line shape of the
+#             time-of-flight spectrum from monoenergetic isotropic
+#             neutron source at the center of the target.
+#           2) Corrected for neutron scattering in the target.
+#            This changed the initial isotropic neutron
+#            distribution to an anisotropic distribution favoring
+#            normal emission to the front face of the target.
+#           The corrections for neutron scattering in the targets
+#            of Y, Pr, Pb, and Bi were 17, 20, 14, and 29%,
+#            respectively.
+#ERR-ANALYS (DATA-ERR2) Systematic errors due to uncertainties in
+#            gamma ray intensity, neutron detector efficiency, and
+#            the monte carlo calculations are estimated to be of
+#            the order of 10%.
+#COMMENT    All photoneutron cross sections measured can be
+#            described very well with a Lorenzian line shape; in
+#            some cases there is a small intermediate structure
+#            modifying the otherwise smooth cross sections and
+#            making them somewhat 'bumpy'.
+#           Measurements in all four elements show evidence for
+#            intermediate structure.  In some cases, the structure
+#            is quite well defined.  On the other hand, there is
+#            definitely no large scale intermediate structure
+#            similar to that was reported previously for cross
+#            sections which were derived by unfolding the yield
+#            curves obtained from electron Bremsstrahlung gamma
+#            rays with small increments in the end-point energy.
+#           The integrated cross section of the giant resonance for
+#            nuclei studied, in units of the classical dipole sum,
+#            increases linearly with A.  This value is unity for A
+#            near 140 and about 1.25 for A near 200.  The accuracy
+#            of this dependence on A and the absolute values,
+#            depends on the corrections for neutron scattering in
+#            the target, the efficiency of the neutron detector,
+#            and the photon flux.
+#HISTORY    (891201C)
+#           (950407A) BIB Updated
+#ENDBIB              71
+#COMMON               1          3
+#DATA-ERR2
+#PER-CENT
+# 10.
+#ENDCOMMON            3
+#ENDSUBENT           78
+#SUBENT        L0059005     970129              20050926       0000
+#BIB                  4          9
+#REACTION   ((83-BI-209(G,N)83-BI-208,,SIG)+
+#           (83-BI-209(G,N+P)82-PB-207,,SIG))
+#           Threshold of the reaction (gamma,n+p) is about 11.2 MeV
+#SAMPLE     Target consisted of 3821 grams of natural metallic
+#            bismuth.
+#ERR-ANALYS (DATA-ERR1) Statistical uncertainties only, derived
+#            from the calculation of the cross sections and includ
+#            the errors in the parameters used in this calculation
+#STATUS     Converted from Berman compilation.
+#ENDBIB               9

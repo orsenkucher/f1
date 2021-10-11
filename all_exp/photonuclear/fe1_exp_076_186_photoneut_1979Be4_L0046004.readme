@@ -1,0 +1,212 @@
+#  fe1_exp_076_186_photoneutr_1979Be4_L0046004.readm       
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0046004,L0046002
+#  Element = Os   Z =  76   A = 186
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+#ENTRY            L0046     970129              20050926       0000
+#SUBENT        L0046001     970129              20050926       0000
+#BIB                 14         81
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR/C,19,1205,7904)
+#AUTHOR     (B.L.BERMAN,D.D.FAUL,R.A.ALVAREZ,P.MEYER,D.L.OLSON)
+#TITLE      Giant resonance in transitional nuclei: photoneutron
+#            cross sections for osmium isotopes.
+#FACILITY   (LINAC,1USALRL)
+#INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+#           Photon energy resolution varied from less than 250 keV
+#            at energies below 15 MeV to about 300 keV at 30 MeV.
+#DETECTOR   (BF3) Paraffin and BF3 tube 4pi detector.
+#METHOD     (EXTB,RINGR) Direct photoneutron detection.
+#            Ring-ratio neutron multiplicity measurement.
+#CORRECTION After the recorded neutron events were corrected for
+#            pileup in the detector, the neutron backgrounds
+#            (annihilation target removed) were substracted for
+#            both the positron and electron measurements.
+#           Because the energy spectrum of the annihilation-plus-
+#            Bremsstrahlung radiation differs from that of purely
+#            Bremsstrahlung photons, a measured correction was
+#            applied to the ion-chamber (beam monitor) response to
+#            normalize the electron data to the positron data.
+#           The normalized electron data then were substracted
+#            from the positron data, leaving the neutron counts
+#            which result only from the annihilation radiation.
+#           The measured sample-blank data, normalized to equal
+#            photon flux, were substracted from the target data to
+#            give the net target results.
+#           After a small correction for the neutron multiplicity
+#            in each ring, the data were corrected for the energy-
+#            dependent efficiency of the neutron detector using the
+#            ring-ratio result for each energy.
+#ANALYSIS   The data were converted to photoneutron cross sections
+#            by applying the measured ion-chamber response per
+#            photon, the known number of target nuclei in the beam
+#            and a small correction for the photon attenuation in
+#            the sample.
+#           Since the (gamma,p) contribution for medium and heavy
+#            nuclei can be neglected the total photoneutron
+#            absorption cross section, (gamma,abs) = (gamma,n) +
+#            (gamma,n+p) + (gamma,2n) can be obtained.
+#           Used the ring-ratio technique, whereby the average
+#            energy for the photoejected neutrons determined for
+#            each data point, has been extended to include triple-
+#            photoneutron events as well as single- and double-
+#            photoneutron events. These energies serve to determine
+#            the neutron detector efficiencies necessary to compute
+#            the (gamma,1n), (gamma,2n), and (gamma,3n) cross
+#            sections individually.
+#ERR-ANALYS (DATA-ERR) Statistical errors only.
+#           Systematic uncertainties due to isotope impurities in
+#            the targets were estimated to be about 7% for all
+#            targets with the exception of 186Os which is about 10%
+#           Although the fractional uncertainties involved in the
+#            various partial cross sections might become
+#            appreciable in those energy regions where those cross
+#            sections themselves are small (such as for (gamma,1n),
+#            cross sections a few MeV above the (gamma,2n)
+#            thresholds) owing to the statistical nature of ring-
+#            ratio data, the overall uncertainty in the total
+#            photoneutron cross section (gamma,n-i) is not much
+#            worsened by the imperfect knowledge of the detector
+#            efficiency.
+#           Thus, while the absolute cross sections have been
+#            determined with an accuracy of about 7%, the relative
+#            precision of the cross section measurements between
+#            different osmium isotopes is far better (2 - 3%).
+#ADD-RES    Information extracted from the data includes
+#            parameters of the giant dipole and quadrupole
+#            resonances, integrated cross sections and their
+#            moments, nuclear symmetry energies, and nuclear
+#            deformation parameters and intrinsic quadrupole
+#            moments.
+#COMMENT    No fewer than eight kinds of evidence point to a sudden
+#            change of behavior between 189Os and 190Os, which
+#            could be interpreted as a phase transition from a
+#            statically deformed prolate nucleus to a gamma-
+#            unstable one, in general (but not detailed) agreement
+#            with the prediction of a dynamic-collective-model
+#            calculation.
+#HISTORY    (891207C)
+#           (950406A) BIB Updated
+#ENDBIB              81
+#NOCOMMON             0          0
+#ENDSUBENT           84
+#SUBENT        L0046004     970129              20050926       0000
+#BIB                  3          6
+#REACTION   (76-OS-186(G,X)0-NN-1,,SIG)
+#            The sum: (G,N)+(G,N+P)+2(G,2N).
+#SAMPLE     3.28 gram powdered metal sample, 78.2% 186Os.
+#           Principle impurities: 188Os (5.1%), 189Os (4.1%),
+#                                 190Os (5.2%), 192Os (5.7%),
+#STATUS     Converted from Berman compilation.
+#ENDBIB               6
+#ENTRY            L0046     970129              20050926       0000
+#SUBENT        L0046001     970129              20050926       0000
+#BIB                 14         81
+#INSTITUTE  (1USALRL)
+#REFERENCE  (J,PR/C,19,1205,7904)
+#AUTHOR     (B.L.BERMAN,D.D.FAUL,R.A.ALVAREZ,P.MEYER,D.L.OLSON)
+#TITLE      Giant resonance in transitional nuclei: photoneutron
+#            cross sections for osmium isotopes.
+#FACILITY   (LINAC,1USALRL)
+#INC-SOURCE (QMPH,ARAD) Positron annihilation in flight.
+#           Photon energy resolution varied from less than 250 keV
+#            at energies below 15 MeV to about 300 keV at 30 MeV.
+#DETECTOR   (BF3) Paraffin and BF3 tube 4pi detector.
+#METHOD     (EXTB,RINGR) Direct photoneutron detection.
+#            Ring-ratio neutron multiplicity measurement.
+#CORRECTION After the recorded neutron events were corrected for
+#            pileup in the detector, the neutron backgrounds
+#            (annihilation target removed) were substracted for
+#            both the positron and electron measurements.
+#           Because the energy spectrum of the annihilation-plus-
+#            Bremsstrahlung radiation differs from that of purely
+#            Bremsstrahlung photons, a measured correction was
+#            applied to the ion-chamber (beam monitor) response to
+#            normalize the electron data to the positron data.
+#           The normalized electron data then were substracted
+#            from the positron data, leaving the neutron counts
+#            which result only from the annihilation radiation.
+#           The measured sample-blank data, normalized to equal
+#            photon flux, were substracted from the target data to
+#            give the net target results.
+#           After a small correction for the neutron multiplicity
+#            in each ring, the data were corrected for the energy-
+#            dependent efficiency of the neutron detector using the
+#            ring-ratio result for each energy.
+#ANALYSIS   The data were converted to photoneutron cross sections
+#            by applying the measured ion-chamber response per
+#            photon, the known number of target nuclei in the beam
+#            and a small correction for the photon attenuation in
+#            the sample.
+#           Since the (gamma,p) contribution for medium and heavy
+#            nuclei can be neglected the total photoneutron
+#            absorption cross section, (gamma,abs) = (gamma,n) +
+#            (gamma,n+p) + (gamma,2n) can be obtained.
+#           Used the ring-ratio technique, whereby the average
+#            energy for the photoejected neutrons determined for
+#            each data point, has been extended to include triple-
+#            photoneutron events as well as single- and double-
+#            photoneutron events. These energies serve to determine
+#            the neutron detector efficiencies necessary to compute
+#            the (gamma,1n), (gamma,2n), and (gamma,3n) cross
+#            sections individually.
+#ERR-ANALYS (DATA-ERR) Statistical errors only.
+#           Systematic uncertainties due to isotope impurities in
+#            the targets were estimated to be about 7% for all
+#            targets with the exception of 186Os which is about 10%
+#           Although the fractional uncertainties involved in the
+#            various partial cross sections might become
+#            appreciable in those energy regions where those cross
+#            sections themselves are small (such as for (gamma,1n),
+#            cross sections a few MeV above the (gamma,2n)
+#            thresholds) owing to the statistical nature of ring-
+#            ratio data, the overall uncertainty in the total
+#            photoneutron cross section (gamma,n-i) is not much
+#            worsened by the imperfect knowledge of the detector
+#            efficiency.
+#           Thus, while the absolute cross sections have been
+#            determined with an accuracy of about 7%, the relative
+#            precision of the cross section measurements between
+#            different osmium isotopes is far better (2 - 3%).
+#ADD-RES    Information extracted from the data includes
+#            parameters of the giant dipole and quadrupole
+#            resonances, integrated cross sections and their
+#            moments, nuclear symmetry energies, and nuclear
+#            deformation parameters and intrinsic quadrupole
+#            moments.
+#COMMENT    No fewer than eight kinds of evidence point to a sudden
+#            change of behavior between 189Os and 190Os, which
+#            could be interpreted as a phase transition from a
+#            statically deformed prolate nucleus to a gamma-
+#            unstable one, in general (but not detailed) agreement
+#            with the prediction of a dynamic-collective-model
+#            calculation.
+#HISTORY    (891207C)
+#           (950406A) BIB Updated
+#ENDBIB              81
+#NOCOMMON             0          0
+#ENDSUBENT           84
+#SUBENT        L0046002     970129              20050926       0000
+#BIB                  3          7
+#REACTION   ((76-OS-186(G,N)76-OS-185,,SIG)+
+#           (76-OS-186(G,N+P)75-RE-184,,SIG))
+#           Threshold of the reaction (gamma,n+p) is 14.3 MeV.
+#SAMPLE     3.28 gram powdered metal sample, 78.2% 186Os.
+#           Principle impurities: 188Os (5.1%), 189Os (4.1%),
+#                                 190Os (5.2%), 192Os (5.7%),
+#STATUS     Converted from Berman compilation.
+#ENDBIB               7

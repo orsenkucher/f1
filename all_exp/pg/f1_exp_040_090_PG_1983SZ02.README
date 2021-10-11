@@ -1,0 +1,11 @@
+# f1_exp_040_090_PG_1983SZ02.readme
+# 
+# Data published by Szeflinska et al, Phys. Lett. 126B, 159 (1983).
+#
+# Reaction 89Y(p,g)90Zr with beam energy between 2.2-11.5 MeV was measured at the # Warsaw Van de Graaf and the Heidelberg EN Tandem. Primary transitions from different # initial proton energies in steps of 15-18 keV and are averaged over resonances to the # ground and excited states were measured.  
+# 
+# Gamma decays were measured with a a Ge(Li) detector.
+# Cross sections of primary gamma-rays to low-lying discrete states from the Average # Resonance Proton Capture technique were extracted from measured intensities. The # absolute value of PSF is obtained from this cross section via analysis within the # Hauser-Feshbach theory. General description of the determination of absolute PSF # value can be found in G. Szeflinska et al., Nucl. Phys. A323, 253 (1979). 
+#
+# Data are extracted from Figure 2 and 1.761 MeV subtracted from the energies.
+# Contributions to the uncertainties are not discussed in detail.

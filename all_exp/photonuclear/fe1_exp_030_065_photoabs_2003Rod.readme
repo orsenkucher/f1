@@ -1,0 +1,69 @@
+#  fe1_exp_030_065_photoabs_2003Rod.readme            
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0652007
+#  Element = Zn   Z =  30   A =  65
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0652   20040514              20050926       0000
+#SUBENT        M0652001   20040514              20050926       0000
+#BIB                 13         39
+#TITLE      Statistical and direct  aspects  of  64Zn  (g,n)  and
+#            (g,np)  decay channels in the giant dipole resonance
+#            and quasideuteron energy regions.
+#AUTHOR     (T.E.RODRIGUES,J.D.T.ARRUDA-NETO,Z.CARVALHEIRO,J.MESA,
+#            A.DEPPMAN,V.P.LIKHACHEV,M.N.MARTINS)
+#REFERENCE  (J,PR/C,68,014618,2003)
+#INSTITUTE  (3BZLUSP)
+#FACILITY   (LINAC,3BZLUSP) University  of  De Sao Paulo (Brazil)
+#            60-MeV LINAC.
+#INC-SOURCE Electron beam.
+#METHOD     (ACTIV) Measuring  the beta+ activity of the residual
+#            products induced  in  64Zn  by electrodisintegration
+#            counting the 511-keV  annihilation  g-rays:  63Zn  -
+#            T1/2 =  38.47  min,  62Cu - T1/2 = 9.74 min,  62Zn -
+#            T1/2 = 9.186 h, 65Zn - T1/2 = 243.7 d.
+#SAMPLE     Two nat-Zn foils (8.87(56) and 7.33(47) mg/cm**2.
+#DETECTOR   (HPGE)
+#ANALYSIS   Electrodisintegration reaction  cross  sections  were
+#            measured and   converted   into  photodosintegration
+#            reaction cross   sections   using   virtual   photon
+#            formalism.
+#COMMENT    The investigation of statistical and  direct  aspects
+#            related to  the  (g,n)  and (g,np) decay channels of
+#            64Zn in  the  giant  dipole  resonance   (GDR)   and
+#            quasideuteron (QD) energy regions was performed by a
+#            trial function fitting to the respective  (e,n)  and
+#            (e,np) electrodisintegration   yields   measured  by
+#            residual activity.  Absolute cross section  for  the
+#            reaction  64Zn(g,n)  from  threshold  to  60 MeV was
+#            obtained for the first time.  Statistical and direct
+#            contributions to  the  (g,np)  process,  later being
+#            remarkably well  described  by  the  QD  model  were
+#            separated in  the  interval 40 - 60 MeV.  A possible
+#            direct contribution for the (g,n) decay in  GDR  was
+#            also addressed.   The  total  photoabsorption  cross
+#            section of 64Zn was reevaluated up to 21 MeV.
+#STATUS     (APRVD) Tht data in form of tables were received
+#            from the authors (M.N.Martins).
+#HISTORY    (20040428C)
+#ENDBIB              39
+#NOCOMMON             0          0
+#ENDSUBENT           42
+#SUBENT        M0652007   20040514              20050926       0000
+#BIB                  2          2
+#REACTION   (30-ZN-65(G,ABS),,SIG)
+#ERR-ANALYS  No data
+#ENDBIB               2

@@ -1,0 +1,65 @@
+#  fe1_exp_083_209_photoneut_1995Bel.readme           
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  M0702004
+#  Element = Bi   Z =  83   A = 209
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            M0702   20061124   20070306   20070214       M041
+#SUBENT        M0702001   20061124   20070306   20070214       M041
+#BIB                 16         29
+#TITLE      Cross section for the reaction (g,n) on heavy  nuclei
+#            in the energy region of the Giant Dipole Resonance.
+#AUTHOR     (S.N.BELYAEV,O.V.VASILIEV,V.V.VORONOV,A.A.NECHKIN,
+#            V.YU.PONOMAREV,V.A.SEMENOV)
+#INSTITUTE  (4RUSSGU,4ZZZDUB)
+#REFERENCE  (J,YF,58,1940,1995)
+#           (J,PAN,58,1883,1995)
+#FACILITY   (BETAT,4RUSSGU) Saratov   State  University  betatron
+#            with maximum energy 25 MeV.
+#INC-SOURCE (BRST)
+#DETECTOR   (PROPC)
+#METHOD     (EXTB,SITA)
+#ANALYSIS   (UNFLD,REGUL) Statistical  regularization  method for
+#            cross  section  unfolding  from  experimental  yield
+#            cirves.
+#ERR-ANALYS (ERR-S) Statistical errors.
+#MONITOR    (8-O-16(G,N)8-O-15,,SIG)
+#MONIT-REF  (,E.G.FULLER,J,PL/C,127,185,1985)
+#CORRECTION Cross sections   obtained   were  corrected  for  the
+#            photoneutron multiplicity  using   the   statistical
+#            theory.
+#COMMENT    The data  on  208Pb  and  209Bi photoneutron reaction
+#            cross  sections  obtained  from  experimental  yield
+#            curves are  analyzed to obtain information about the
+#            structure and parameters  of  the  giant  quadrupole
+#            resonance.
+#STATUS     (APRVD) by S.N.Belyaev.
+#HISTORY    (20061124C) Data were compiled at the Russia MSU SIMP
+#           CDFE by V.Varlamov.
+#ENDBIB              29
+#NOCOMMON             0          0
+#ENDSUBENT           32
+#SUBENT        M0702004   20061124   20070306   20070214       M041
+#BIB                  1          1
+#REACTION   (83-BI-209(G,X)0-NN-1,UNW,SIG,,BRS)
+#ENDBIB               1
+# E1 PSF were not given in the data file at E <  7.53 MeV;
+# where gamma-gamma scattering is over 10 % 
+# the following PSF values omitted in the data file
+#      E         dE       f1           df1
+#      7.308     0.000    0.783E-07    0.166E-07
+#      7.408     0.000    0.225E-06    0.211E-07
+#      7.508     0.000    0.340E-06    0.231E-07

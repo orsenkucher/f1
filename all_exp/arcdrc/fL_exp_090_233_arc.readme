@@ -1,0 +1,10 @@
+ # Th-233 2 keV data BNL
+ # Ig/Eg**3 data in arbitrary units taken from BNL/ECN data base and F. Jeuch et al., Nucl.Phys. A317 (1979) 363
+ # The p-wave correction: taken from the RACA code and applied in the Ig/Eg**3 BNL/ECN data base
+ # Normalization with 5 E1 (<Eg = 4.16 MeV>) transitions  to <f(E1)> = 14.4 E-08 from DRC <f(E1)> systematic equation [INDC(NED)-013]
+ # Correction (<Eg>/6.2)**2 = 2.29 applied
+ # p-wawe contribution calculated (RACA) as 0.39 E1 in M1 (applied)
+ # Uncertainty of PSF: The experimental statistical error is quoted
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=1.19
+ # RN SYS18 F = 1.05  from systematic equation [INDC(NED)-0772]
+ # 

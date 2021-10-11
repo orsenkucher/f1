@@ -1,0 +1,45 @@
+#  fe1_exp_056_nat_photoneut_1971Be4.readme                                                  
+#
+#  EXPERIMENTAL PHOTON STRENGTH FUNCTIONS (PSF) FOR GAMMA-ABSORPTION
+#
+#  EXFOR Subent =  L0024015
+#  Element = Ba   Z =  56   A = nat
+#
+#
+#
+#  PSF for gamma-absorption (f1(E)) were extracted from the
+#  photoabsorption/photo-neutron cross sections (CSa(E)) at
+#  different gamma-ray energies (E) from EXFOR database. 
+#  It was adopted, that CSa(Eg) corresponds to absorption of
+#  electric dipole gamma-rays: 
+#  f1(E)= CSa(E)/(3*E*(pi*hbar*c)^2).
+#
+#
+#  Subent information from EXFOR database
+#
+##ENTRY            L0024   20021110   20030305   20050926       0000
+#SUBENT        L0024001   20021110   20030305   20050926       0000
+#BIB                  7         14
+#INSTITUTE  (2FR SAC)
+#REFERENCE  (J,NP/A,172,426,197109)
+#AUTHOR     (H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE,A.VEYSSIERE)
+#TITLE      GIANT DIPOLE RESONANCE IN N = 82 NUCLEI.
+#FACILITY   (LINAC)
+#INC-SOURCE POSITRON ANNIHILATION
+#HISTORY    (19780511T) CONVERTED FROM BERMAN COMPILATION
+#           (19891201A) BIB UPDATED
+#           (19950331A) BIB UPDATED
+#           (20021110A) CORRECTED BY V.VARLAMOV:
+#            DATES ARE  CORRECTED  FROM  TWO   TO   FOUR   DIGITS
+#            INCLUDING THAT IN REFERENCE AND HISTORY,
+#            DATA UNITS  ARE  CHANGED  FROM MEV TO MB IN L0024014
+#            AND L0024015.
+#ENDBIB              14
+#NOCOMMON             0          0
+#ENDSUBENT           17
+#SUBENT        L0024015   20021110   20030305   20050926       0000
+#BIB                  2          3
+#REACTION   (56-BA-0(G,X)0-NN-1,UNW,SIG)
+#            THE SUM: (G,N)+(G,N+P)+(G,2N).
+#HISTORY    (19950331C)
+#ENDBIB               3

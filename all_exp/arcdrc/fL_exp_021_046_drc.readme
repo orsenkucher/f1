@@ -1,0 +1,9 @@
+ # Sc-46 DRC data BNL
+ # only binned data available
+ # from H.I. Liou and R.E Chrien, Proceedings of the 3rd International Symposium on Neutron
+ # Capture ?-ray Spectroscopy and Related Topics, (Plenum, New York, 1979) p.67
+ # 2 s-resonances = En= 3.29 keV (J=3+) and 4.33 keV (J = 4+)
+ # Do = 1030 eV
+ # Porter-Thomas dispersion estimate: 1+dPT=sqrt(2)/v=2
+ # 
+ 
