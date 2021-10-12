@@ -15,7 +15,11 @@ func main() {
 }
 
 func run() error {
-	traverser := domain.NewTraverser()
-	traverser.Traverse()
+	traverser := domain.NewTraverser("all_exp")
+	groups, err := traverser.Traverse(domain.GroupFn(domain.Kek))
+	if err != nil {
+		return err
+	}
+	log.Println(groups)
 	return nil
 }
