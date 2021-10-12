@@ -16,10 +16,16 @@ func main() {
 
 func run() error {
 	traverser := domain.NewTraverser("all_exp")
-	groups, err := traverser.Traverse(domain.GroupFn(domain.Kek))
-	if err != nil {
-		return err
-	}
-	log.Println(groups)
+	traverser.Traverse(func(group domain.Resource, items domain.Items) {
+		log.Println(group, len(items))
+		for _, i := range items {
+			name, err := domain.NewName(i.Res.Name)
+			if err != nil {
+				log.Println(err)
+				continue
+			}
+			log.Println(name)
+		}
+	})
 	return nil
 }

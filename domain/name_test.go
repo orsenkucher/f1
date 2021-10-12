@@ -29,7 +29,7 @@ func TestRegex(t *testing.T) {
 }
 
 func TestName(t *testing.T) {
-	name := domain.NewName("fe1_exp_012_024_photoabs_1966Dol.dat")
+	name := domain.NewNameMust("fe1_exp_012_024_photoabs_1966Dol.dat")
 	assert.Equal(t, name, domain.Name{
 		PSF:    "e1",
 		Data:   "exp",
@@ -43,7 +43,7 @@ func TestName(t *testing.T) {
 
 func TestNameString(t *testing.T) {
 	name := "fe1_exp_012_024_photoabs_1966Dol.dat"
-	assert.Equal(t, name, domain.NewName(name).String())
+	assert.Equal(t, name, domain.NewNameMust(name).String())
 	name = "fe1_exp_012_024_photoabs.dat"
-	assert.Equal(t, name, domain.NewName(name).String())
+	assert.Equal(t, name, domain.NewNameMust(name).String())
 }

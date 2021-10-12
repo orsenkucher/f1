@@ -29,19 +29,33 @@ type Name struct {
 
 const Regex = `^f(?P<PSF>.+)_(?P<Data>exp|the)_(?P<Z>\d{3})_(?P<A>\d{3})_(?P<Method>.+?)(_(?P<NSR>.+))*$`
 
-func NewName(name string) Name {
+func NewNameMust(name string) Name {
+	res, err := NewName(name)
+	if err != nil {
+		panic(err)
+	}
+	return res
+}
+
+func NewName(name string) (Name, error) {
 	ext := filepath.Ext(name)
 	name = strings.TrimSuffix(name, ext)
 	re := regexp.MustCompile(Regex)
+	if ok := re.MatchString(name); !ok {
+		return Name{}, fmt.Errorf("can't parse name: %s", name)
+	}
+
 	group := ReGroup(re, name)
 	number, err := strconv.Atoi(group["Z"])
 	if err != nil {
 		log.Fatalln("can't parse atomic number", err)
 	}
+
 	mass, err := strconv.Atoi(group["A"])
 	if err != nil {
 		log.Fatalln("can't parse mass number", err)
 	}
+
 	return Name{
 		PSF:    group["PSF"],
 		Data:   group["Data"],
@@ -50,7 +64,7 @@ func NewName(name string) Name {
 		Method: group["Method"],
 		NSR:    group["NSR"],
 		Ext:    ext,
-	}
+	}, nil
 }
 
 func ReGroup(re *regexp.Regexp, s string) map[string]string {

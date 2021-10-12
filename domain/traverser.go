@@ -1,6 +1,7 @@
 package domain
 
 import (
+	"io/fs"
 	"io/ioutil"
 	"path/filepath"
 )
@@ -13,64 +14,98 @@ func NewTraverser(root string) *Traverser {
 	return &Traverser{Root: root}
 }
 
-type Grouper interface {
-	Group(name string, items []string) Group
+type TraverseFn func(group Resource, items Items)
+
+// Traverser will provide group name, dat files name
+// and their contents to callback.
+func (t *Traverser) Traverse(f TraverseFn) error {
+	var files files
+	files, err := ioutil.ReadDir(t.Root)
+	if err != nil {
+		return err
+	}
+
+	res := files.filterDirs().asRes(t.Root)
+
+	for _, r := range res {
+		items, err := r.items()
+		if err != nil {
+			return err
+		}
+		f(r, items)
+	}
+	return nil
 }
 
-func (t *Traverser) Traverse(g Grouper) (Groups, error) {
-	files, err := ioutil.ReadDir(t.Root)
+type files []fs.FileInfo
+
+type Resources []Resource
+type Resource struct {
+	Name string
+	Path string
+}
+
+func (ff files) filterDirs() files {
+	var res files
+	for _, f := range ff {
+		if f.IsDir() {
+			res = append(res, f)
+		}
+	}
+	return res
+}
+
+func (ff files) filterDats() files {
+	var res files
+	for _, f := range ff {
+		if filepath.Ext(f.Name()) == ".dat" {
+			res = append(res, f)
+		}
+	}
+	return res
+}
+
+func (ff files) asRes(root string) Resources {
+	var res Resources
+	for _, f := range ff {
+		name := f.Name()
+		res = append(res, Resource{
+			Name: name,
+			Path: filepath.Join(root, name),
+		})
+	}
+	return res
+}
+
+type Items []Item
+type Item struct {
+	Res Resource
+	Val string
+}
+
+func (i Item) String() string {
+	return i.Res.Path
+}
+
+func (r Resource) items() (Items, error) {
+	var files files
+	files, err := ioutil.ReadDir(r.Path)
 	if err != nil {
 		return nil, err
 	}
 
-	var res Groups
-	for _, f := range files {
-		if !f.IsDir() {
-			continue
-		}
+	res := files.filterDats().asRes(r.Path)
 
-		name := f.Name()
-		items, err := t.items(name)
+	var items Items
+	for _, r := range res {
+		bytes, err := ioutil.ReadFile(r.Path)
 		if err != nil {
 			return nil, err
 		}
-
-		res = append(res, g.Group(name, items))
+		items = append(items, Item{
+			Res: r,
+			Val: string(bytes),
+		})
 	}
-
-	return res, nil
-}
-
-func (t *Traverser) items(dir string) ([]string, error) {
-	files, err := ioutil.ReadDir(filepath.Join(t.Root, dir))
-	if err != nil {
-		return nil, err
-	}
-
-	var res []string
-	for _, f := range files {
-		if f.IsDir() {
-			continue
-		}
-
-		name := f.Name()
-		if filepath.Ext(name) != ".dat" {
-			continue
-		}
-
-		res = append(res, name)
-	}
-
-	return res, nil
-}
-
-type GroupFn func(string, []string) Group
-
-func (f GroupFn) Group(name string, items []string) Group {
-	return f(name, items)
-}
-
-// TODO: kek
-func Kek(name string, items []string) Group {
-	return Group{}
+	return items, nil
 }
