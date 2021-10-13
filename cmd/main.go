@@ -16,16 +16,7 @@ func main() {
 
 func run() error {
 	traverser := domain.NewTraverser("all_exp")
-	traverser.Traverse(func(group domain.Resource, items domain.Items) {
-		log.Println(group, len(items))
-		for _, i := range items {
-			name, err := domain.NewName(i.Res.Name)
-			if err != nil {
-				log.Println(err)
-				continue
-			}
-			log.Println(name)
-		}
-	})
+	collecor := domain.NewCollector()
+	traverser.Traverse(collecor.Collect)
 	return nil
 }
