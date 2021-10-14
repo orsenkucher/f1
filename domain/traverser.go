@@ -79,12 +79,12 @@ func (ff files) asRes(root string) Resources {
 
 type Items []Item
 type Item struct {
-	Res Resource
-	Val string
+	Resource Resource
+	Content  string
 }
 
 func (i Item) String() string {
-	return i.Res.Path
+	return i.Resource.Path
 }
 
 func (r Resource) items() (Items, error) {
@@ -103,8 +103,8 @@ func (r Resource) items() (Items, error) {
 			return nil, err
 		}
 		items = append(items, Item{
-			Res: r,
-			Val: string(bytes),
+			Resource: r,
+			Content:  string(bytes),
 		})
 	}
 	return items, nil

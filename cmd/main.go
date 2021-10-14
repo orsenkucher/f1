@@ -16,7 +16,12 @@ func main() {
 
 func run() error {
 	traverser := domain.NewTraverser("all_exp")
-	collecor := domain.NewCollector()
-	traverser.Traverse(collecor.Collect)
+	collector := domain.NewCollector()
+	traverser.Traverse(collector.Collect)
+	drain := domain.NewDrain("groups")
+	err := drain.Drain(collector)
+	if err != nil {
+		return err
+	}
 	return nil
 }
