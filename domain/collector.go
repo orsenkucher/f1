@@ -7,7 +7,11 @@ type Collector struct {
 }
 
 func NewCollector() *Collector {
-	return &Collector{}
+	return &Collector{
+		Table: Table{
+			Groups: make(map[string]Group),
+		},
+	}
 }
 
 func (c *Collector) Collect(group Resource, items Items) {
@@ -19,5 +23,6 @@ func (c *Collector) Collect(group Resource, items Items) {
 			continue
 		}
 		log.Println(name)
+		c.Table.Groups
 	}
 }
