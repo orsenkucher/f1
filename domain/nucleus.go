@@ -1,18 +1,17 @@
 package domain
 
+import "fmt"
+
 type Nucleus struct {
 	Number int
 	Mass   int
 }
 
-type Table struct {
-	Groups map[string]Group
+type Result struct {
+	Name    Name
+	Content string
 }
 
-type Group struct {
-	nucl Nucleus
-	data Data
-}
-
-type Data struct {
+func (n Nucleus) String() string {
+	return fmt.Sprintf("group_n%03d_a%03d", n.Number, n.Mass)
 }
