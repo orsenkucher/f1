@@ -20,7 +20,7 @@ func (c *Collector) Collect(group Resource, items Items) {
 			log.Println(err)
 			continue
 		}
-		log.Println(name)
+		// log.Println(name)
 		nuc := Nucleus{Number: name.Number, Mass: name.Mass}
 		c.Experiments[nuc] = append(c.Experiments[nuc], Result{
 			Name:    name,

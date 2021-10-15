@@ -68,6 +68,7 @@ func (d *Drain) Drain(collector *Collector) error {
 		}
 	}
 
+	log.Println("drained")
 	return nil
 }
 
@@ -77,10 +78,11 @@ type Data struct {
 }
 
 type Record struct {
-	E  string
-	DE string
-	F  string
-	DF string
+	E       string
+	DE      string
+	F       string
+	DFMinus string
+	DFPlus  string
 }
 
 func drainData(data *[]Data, r Result) error {
@@ -98,18 +100,29 @@ func drainData(data *[]Data, r Result) error {
 		}
 
 		fields := strings.Fields(l)
-		if len(fields) != 4 {
-			// asymmetric uncertainty
-			log.Println("malformed dat file:", r.Name.String())
+		if len(fields) != 4 && len(fields) != 5 {
 			// panic(r.Name.String())
+			log.Println("malformed dat file:", r.Name.String())
 		}
 
-		records = append(records, Record{
-			E:  fields[0],
-			DE: fields[1],
-			F:  fields[2],
-			DF: fields[3],
-		})
+		record := Record{
+			E:       fields[0],
+			DE:      fields[1],
+			F:       fields[2],
+			DFMinus: fields[3],
+		}
+
+		// symmetric uncertainty
+		if len(fields) == 4 {
+			record.DFPlus = fields[3]
+		}
+
+		// asymmetric uncertainty
+		if len(fields) == 5 {
+			record.DFPlus = fields[4]
+		}
+
+		records = append(records, record)
 	}
 
 	*data = append(*data, Data{
