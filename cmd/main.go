@@ -23,5 +23,10 @@ func run() error {
 	if err != nil {
 		return err
 	}
+	plotter := domain.NewPlotter()
+	err = plotter.Plot(drain.GroupFiles)
+	if err != nil {
+		return err
+	}
 	return nil
 }

@@ -12,8 +12,9 @@ import (
 )
 
 type Drain struct {
-	Root      string
-	GroupName string
+	Root       string
+	GroupName  string
+	GroupFiles []string
 }
 
 func NewDrain(root, groupName string) *Drain {
@@ -66,6 +67,7 @@ func (d *Drain) Drain(collector *Collector) error {
 		if err != nil {
 			return err
 		}
+		d.GroupFiles = append(d.GroupFiles, groupName)
 	}
 
 	log.Println("drained")
