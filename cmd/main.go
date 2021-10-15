@@ -18,7 +18,7 @@ func run() error {
 	traverser := domain.NewTraverser("all_exp")
 	collector := domain.NewCollector()
 	traverser.Traverse(collector.Collect)
-	drain := domain.NewDrain("groups")
+	drain := domain.NewDrain("groups", "group.json")
 	err := drain.Drain(collector)
 	if err != nil {
 		return err
