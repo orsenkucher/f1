@@ -54,7 +54,10 @@ func (d *Drain) Drain(collector *Collector) error {
 			if err != nil {
 				return err
 			}
-			drainData(&data, e)
+			err = drainData(&data, e)
+			if err != nil {
+				return err
+			}
 		}
 
 		js, err := json.Marshal(data)
