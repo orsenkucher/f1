@@ -91,7 +91,11 @@ type Record struct {
 }
 
 func drainData(data *[]Data, r Result) error {
-	name := fmt.Sprintf("%s %s", r.Name.Method, r.Name.NSR)
+	name := fmt.Sprintf("f%s %s %s",
+		r.Name.PSF,
+		r.Name.Method,
+		strings.TrimSpace(r.Name.NSR),
+	)
 	lines, err := lines(r.Content)
 	if err != nil {
 		return err
