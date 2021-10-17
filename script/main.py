@@ -1,3 +1,4 @@
+import os
 import sys
 import json
 import numpy as np
@@ -6,6 +7,7 @@ import matplotlib.pyplot as plt
 
 print(sys.argv[1:])
 file = sys.argv[1]
+plot_dir = sys.argv[2]
 
 def main():
     with open(file) as f:
@@ -28,6 +30,7 @@ def main():
 
     # plt.show()
     plt.savefig(file + '.png', dpi=280)
+    plt.savefig(os.path.join(plot_dir, file.replace('/','-').replace('\\','-') + '.png'), dpi=280)
 
 if __name__ == '__main__': 
     main()

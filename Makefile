@@ -8,4 +8,5 @@ run:
 .PHONY: plot
 plot:
 	@echo Test plotting
-	@python script/main.py test/group.json
+	@mkdir -p plot
+	@python script/main.py test/group.json plot

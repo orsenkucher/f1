@@ -3,18 +3,27 @@ package domain
 import (
 	"fmt"
 	"log"
+	"os"
 	"os/exec"
 	"sync"
 )
 
 type Plotter struct {
+	Dir string
 }
 
-func NewPlotter() *Plotter {
-	return &Plotter{}
+func NewPlotter(dir string) *Plotter {
+	return &Plotter{
+		Dir: dir,
+	}
 }
 
 func (p *Plotter) Plot(groups []string) error {
+	err := p.dir()
+	if err != nil {
+		return err
+	}
+
 	var wg sync.WaitGroup
 	wg.Add(len(groups))
 	work := make(chan string)
@@ -22,7 +31,7 @@ func (p *Plotter) Plot(groups []string) error {
 		go func() {
 			for {
 				w := <-work
-				err := plot(w)
+				err := p.plot(w)
 				if err != nil {
 					log.Println(err)
 				}
@@ -38,10 +47,20 @@ func (p *Plotter) Plot(groups []string) error {
 	return nil
 }
 
-func plot(g string) error {
+func (p *Plotter) plot(g string) error {
 	fmt.Println("plotting group:", g)
-	cmd := exec.Command("python", "script/main.py", g)
+	cmd := exec.Command("python", "script/main.py", g, p.Dir)
 	out, err := cmd.Output()
 	fmt.Println(string(out))
 	return err
+}
+
+func (p *Plotter) dir() error {
+	if _, err := os.Stat(p.Dir); os.IsNotExist(err) {
+		err := os.Mkdir(p.Dir, os.ModePerm)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
 }

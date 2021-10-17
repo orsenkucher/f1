@@ -17,13 +17,16 @@ func main() {
 func run() error {
 	traverser := domain.NewTraverser("all_exp")
 	collector := domain.NewCollector()
-	traverser.Traverse(collector.Collect)
-	drain := domain.NewDrain("groups", "group.json")
-	err := drain.Drain(collector)
+	err := traverser.Traverse(collector.Collect)
 	if err != nil {
 		return err
 	}
-	plotter := domain.NewPlotter()
+	drain := domain.NewDrain("groups", "group.json")
+	err = drain.Drain(collector)
+	if err != nil {
+		return err
+	}
+	plotter := domain.NewPlotter("plot")
 	err = plotter.Plot(drain.GroupFiles)
 	if err != nil {
 		return err
