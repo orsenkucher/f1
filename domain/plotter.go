@@ -56,6 +56,12 @@ func (p *Plotter) plot(g string) error {
 }
 
 func (p *Plotter) dir() error {
+	if _, err := os.Stat(p.Dir); !os.IsNotExist(err) {
+		err := os.RemoveAll(p.Dir)
+		if err != nil {
+			return err
+		}
+	}
 	if _, err := os.Stat(p.Dir); os.IsNotExist(err) {
 		err := os.Mkdir(p.Dir, os.ModePerm)
 		if err != nil {
