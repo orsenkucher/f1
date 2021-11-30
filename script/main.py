@@ -25,12 +25,12 @@ def main():
 
     plt.title(file)
     plt.legend([g['Name'] for g in data])
-    plt.xlabel('$E, MeV$')
+    plt.xlabel('$E_\gamma, MeV$')
     plt.ylabel('$F, MeV^-3$')
 
     # plt.show()
-    plt.savefig(file + '.png', dpi=280)
-    plt.savefig(os.path.join(plot_dir, file.replace('/','-').replace('\\','-') + '.png'), dpi=280)
+    plt.savefig(file + '.png', dpi=300)
+    plt.savefig(os.path.join(plot_dir, file.replace('/','-').replace('\\','-') + '.png'), dpi=300)
 
 if __name__ == '__main__': 
     main()

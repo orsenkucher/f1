@@ -13,5 +13,5 @@ type Result struct {
 }
 
 func (n Nucleus) String() string {
-	return fmt.Sprintf("group_n%03d_a%03d", n.Number, n.Mass)
+	return fmt.Sprintf("group_z%03d_a%03d", n.Number, n.Mass)
 }
