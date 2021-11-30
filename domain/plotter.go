@@ -27,7 +27,7 @@ func (p *Plotter) Plot(groups []string) error {
 	var wg sync.WaitGroup
 	wg.Add(len(groups))
 	work := make(chan string)
-	for i := 0; i < 8; i++ {
+	for i := 0; i < 10; i++ {
 		go func() {
 			for {
 				w := <-work
