@@ -8,6 +8,8 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"sort"
+	"strconv"
 	"strings"
 )
 
@@ -134,11 +136,27 @@ func drainData(data *[]Data, r Result) error {
 		records = append(records, record)
 	}
 
+	sortRecords(records)
 	*data = append(*data, Data{
 		Name:    name,
 		Records: records,
 	})
 	return nil
+}
+
+func sortRecords(records []Record) {
+	sort.Slice(records, func(i, j int) bool {
+		ri, rj := records[i], records[j]
+		ei, err := strconv.ParseFloat(ri.E, 64)
+		if err != nil {
+			panic(err)
+		}
+		ej, err := strconv.ParseFloat(rj.E, 64)
+		if err != nil {
+			panic(err)
+		}
+		return ei < ej
+	})
 }
 
 func lines(s string) (lines []string, err error) {
