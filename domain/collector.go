@@ -3,11 +3,13 @@ package domain
 import "log"
 
 type Collector struct {
+	allowList   AllowList
 	Experiments map[Nucleus][]Result
 }
 
-func NewCollector() *Collector {
+func NewCollector(allowList AllowList) *Collector {
 	return &Collector{
+		allowList:   allowList,
 		Experiments: make(map[Nucleus][]Result),
 	}
 }
@@ -18,6 +20,10 @@ func (c *Collector) Collect(group Resource, items Items) {
 		name, err := NewName(i.Resource.Name)
 		if err != nil {
 			log.Println(err)
+			continue
+		}
+		if !c.allowList.Has(name) {
+			log.Printf("skipping: %v %v\n", name.Number, name.Mass)
 			continue
 		}
 		// log.Println(name)

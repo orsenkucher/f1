@@ -16,9 +16,12 @@ func main() {
 
 func run() error {
 	traverser := domain.NewTraverser("all_exp")
-	collector := domain.NewCollector()
-	err := traverser.Traverse(collector.Collect)
+	allowList, err := domain.ParseAllowList("allowlist.txt")
 	if err != nil {
+		return err
+	}
+	collector := domain.NewCollector(allowList)
+	if err := traverser.Traverse(collector.Collect); err != nil {
 		return err
 	}
 	drain := domain.NewDrain("groups", "group.json")
