@@ -7,11 +7,7 @@ import (
 	"strings"
 )
 
-type AllowList []Allow
-type Allow struct {
-	Number int // Z
-	Mass   int // A
-}
+type AllowList []ID
 
 func ParseAllowList(path string) (AllowList, error) {
 	var res AllowList
@@ -29,7 +25,7 @@ func ParseAllowList(path string) (AllowList, error) {
 		if err != nil {
 			return err
 		}
-		res = append(res, Allow{
+		res = append(res, ID{
 			Number: number,
 			Mass:   mass,
 		})
@@ -68,4 +64,8 @@ func (al AllowList) Has(name Name) bool {
 		}
 	}
 	return false
+}
+
+func (al AllowList) IsEmpty() bool {
+	return len(al) == 0
 }

@@ -22,7 +22,7 @@ func (c *Collector) Collect(group Resource, items Items) {
 			log.Println(err)
 			continue
 		}
-		if !c.allowList.Has(name) {
+		if !c.include(name) {
 			log.Printf("skipping: %v %v\n", name.Number, name.Mass)
 			continue
 		}
@@ -33,4 +33,8 @@ func (c *Collector) Collect(group Resource, items Items) {
 			Content: i.Content,
 		})
 	}
+}
+
+func (c *Collector) include(name Name) bool {
+	return c.allowList.IsEmpty() || c.allowList.Has(name)
 }

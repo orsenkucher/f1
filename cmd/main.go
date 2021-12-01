@@ -24,7 +24,11 @@ func run() error {
 	if err := traverser.Traverse(collector.Collect); err != nil {
 		return err
 	}
-	drain := domain.NewDrain("groups", "group.json")
+	meta, err := domain.ParseMeta("meta.txt")
+	if err != nil {
+		return err
+	}
+	drain := domain.NewDrain("groups", "group.json", meta)
 	err = drain.Drain(collector)
 	if err != nil {
 		return err

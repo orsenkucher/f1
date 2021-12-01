@@ -17,12 +17,14 @@ type Drain struct {
 	Root       string
 	GroupName  string
 	GroupFiles []string
+	meta       Meta
 }
 
-func NewDrain(root, groupName string) *Drain {
+func NewDrain(root, groupName string, meta Meta) *Drain {
 	return &Drain{
 		Root:      root,
 		GroupName: groupName,
+		meta:      meta,
 	}
 }
 
@@ -56,7 +58,7 @@ func (d *Drain) Drain(collector *Collector) error {
 			if err != nil {
 				return err
 			}
-			err = drainData(&data, e)
+			err = d.drainData(&data, e)
 			if err != nil {
 				return err
 			}
@@ -80,8 +82,16 @@ func (d *Drain) Drain(collector *Collector) error {
 }
 
 type Data struct {
-	Name    string
-	Records []Record
+	Name          string
+	Records       []Record
+	NeutronEnergy string
+	Element       Element
+}
+
+type Element struct {
+	Symbol string
+	Number int
+	Mass   int
 }
 
 type Record struct {
@@ -92,7 +102,7 @@ type Record struct {
 	DFPlus  string
 }
 
-func drainData(data *[]Data, r Result) error {
+func (d *Drain) drainData(data *[]Data, r Result) error {
 	name := fmt.Sprintf("F%s %s %s",
 		r.Name.PSF,
 		r.Name.Method,
@@ -138,10 +148,25 @@ func drainData(data *[]Data, r Result) error {
 
 	sortRecords(records)
 	*data = append(*data, Data{
-		Name:    name,
-		Records: records,
+		Name:          name,
+		Records:       records,
+		NeutronEnergy: d.FindMeta(r.Name).NeutronEnergy,
+		Element: Element{
+			Symbol: d.FindMeta(r.Name).Element,
+			Number: r.Name.Number,
+			Mass:   r.Name.Mass,
+		},
 	})
 	return nil
+}
+
+func (d *Drain) FindMeta(name Name) MetaItem {
+	id := ID{Number: name.Number, Mass: name.Mass}
+	meta, ok := d.meta[id]
+	if !ok {
+		log.Printf("meta not found for %v %v\n", id.Number, id.Mass)
+	}
+	return meta
 }
 
 func sortRecords(records []Record) {
