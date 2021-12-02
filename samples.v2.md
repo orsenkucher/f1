@@ -1,4 +1,4 @@
-## Fine
+## Group A
 $$\ce{^{29}_{14}Si}$$![[plot/groups-group_z014_a029-group.json.png]]
 $$\ce{^{59}_{27}Co}$$![[plot/groups-group_z027_a059-group.json.png]]
 $$\ce{^{74}_{32}Ge}$$![[plot/groups-group_z032_a074-group.json.png]]
@@ -28,7 +28,7 @@ $$\ce{^{197}_{79}Au}$$![[plot/groups-group_z079_a197-group.json.png]]
 $$\ce{^{207}_{82}Pb}$$![[plot/groups-group_z082_a207-group.json.png]]
 $$\ce{^{208}_{82}Pb}$$![[plot/groups-group_z082_a208-group.json.png]]
 $$\ce{^{209}_{83}Bi}$$![[plot/groups-group_z083_a209-group.json.png]]
-## Strange
+## Group B
 $$\ce{^{13}_{6}C}$$![[plot/groups-group_z006_a013-group.json.png]]
 $$\ce{^{14}_{7}N}$$![[plot/groups-group_z007_a014-group.json.png]]
 $$\ce{^{16}_{8}O}$$![[plot/groups-group_z008_a016-group.json.png]]
