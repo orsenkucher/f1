@@ -58,7 +58,7 @@ def energy_line(data):
         plt.text(energy+.1, y,
             "{:.2f}, MeV".format(energy), 
             rotation=90,
-            # verticalalignment='top',
+            verticalalignment='top',
             alpha=.7, c='r',
         )
 
