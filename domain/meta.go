@@ -23,12 +23,18 @@ func ParseMeta(path string) (Meta, error) {
 		if err != nil {
 			return err
 		}
-		number, err := strconv.Atoi(fields[1])
+		number, err := strconv.Atoi(fields[2])
 		if err != nil {
 			return err
 		}
-		element := fields[2]
+		element := fields[1]
 		energy := fields[3]
+		if strings.Contains(energy, "#") {
+			return nil
+		}
+		if strings.Contains(energy, "*") {
+			return nil
+		}
 		id := ID{Number: number, Mass: mass}
 		res[id] = MetaItem{
 			Element:       element,

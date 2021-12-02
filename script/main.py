@@ -54,12 +54,23 @@ def energy_line(data):
         plt.axvline(x=energy, 
             c='r', alpha=.7, dashes=(3,2),
         )
-        plt.text(energy+.1, 0,
+        y = get_max_y(data)
+        plt.text(energy+.1, y,
             "{:.2f}, MeV".format(energy), 
-            # rotation=90,
-            verticalalignment='top',
+            rotation=90,
+            # verticalalignment='top',
             alpha=.7, c='r',
         )
+
+def get_max_y(data):
+    m = .0
+    for g in data:
+        records = g['Records']
+        if not records: return m
+        ys = [float(r['F']) for r in records]
+        max_y = max(ys)
+        m = max(m, max_y)
+    return m
     
 def scatter(data):
     for g in data:

@@ -17,6 +17,7 @@ type Drain struct {
 	Root       string
 	GroupName  string
 	GroupFiles []string
+	Nucleus    map[string]Nucleus
 	meta       Meta
 }
 
@@ -25,6 +26,7 @@ func NewDrain(root, groupName string, meta Meta) *Drain {
 		Root:      root,
 		GroupName: groupName,
 		meta:      meta,
+		Nucleus:   map[string]Nucleus{},
 	}
 }
 
@@ -75,6 +77,7 @@ func (d *Drain) Drain(collector *Collector) error {
 			return err
 		}
 		d.GroupFiles = append(d.GroupFiles, groupName)
+		d.Nucleus[groupName] = k
 	}
 
 	log.Println("drained")

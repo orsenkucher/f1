@@ -33,6 +33,11 @@ func run() error {
 	if err != nil {
 		return err
 	}
+	md := domain.NewMarkdown("samples.md", meta)
+	err = md.Write(drain.GroupFiles, drain.Nucleus)
+	if err != nil {
+		return err
+	}
 	plotter := domain.NewPlotter("plot")
 	err = plotter.Plot(drain.GroupFiles)
 	if err != nil {
