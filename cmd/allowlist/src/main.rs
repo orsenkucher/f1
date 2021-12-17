@@ -28,14 +28,12 @@ fn groups(paths: Vec<PathBuf>) -> Option<Vec<Group>> {
 }
 
 fn write_list(groups: Vec<Group>) -> std::io::Result<()> {
-    let text = groups
-        .into_iter()
-        .fold(String::from("# Z   A\n"), |mut acc, g| {
-            acc.push_str(&g.to_string());
-            acc
-        });
-    fs::write("./allowlist.txt", text)?;
-    Ok(())
+    let header = "# Z   A\n";
+    let mut text = String::from(header);
+    for group in groups {
+        text.push_str(&group.to_string());
+    }
+    fs::write("./allowlist.txt", text)
 }
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
