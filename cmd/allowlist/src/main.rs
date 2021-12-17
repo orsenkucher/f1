@@ -1,33 +1,40 @@
 use core::fmt;
-use std::fs;
+use std::{fs, path::PathBuf};
 
 use regex::Regex;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let dir = "./groups";
-    let parser = GroupParser::new();
-    let paths = fs::read_dir(dir)?
-        .map(|res| res.map(|e| e.path()))
-        .collect::<Result<Vec<_>, _>>()?;
-    let mut groups = paths
-        .iter()
-        .filter(|path| path.is_dir())
-        .map(|path| {
-            let name = path.file_stem()?;
-            let group = parser.parse(name.to_str()?);
-            Some(group)
-        })
-        .collect::<Option<Vec<_>>>()
-        .ok_or("can't collect groups")?;
+    let paths = paths("./groups")?;
+    let mut groups = groups(paths).ok_or("can't collect groups")?;
     groups.sort();
     println!("collected {} groups", groups.len());
-    let allowlist = groups
+    write_list(groups)?;
+    Ok(())
+}
+
+fn paths(dir: &str) -> std::io::Result<Vec<PathBuf>> {
+    fs::read_dir(dir)?
+        .map(|res| res.map(|e| e.path()))
+        .collect::<Result<Vec<_>, _>>()
+}
+
+fn groups(paths: Vec<PathBuf>) -> Option<Vec<Group>> {
+    let parser = GroupParser::new();
+    paths
+        .into_iter()
+        .filter(|p| p.is_dir())
+        .map(|p| Some(parser.parse(p.file_stem()?.to_str()?)))
+        .collect::<Option<Vec<_>>>()
+}
+
+fn write_list(groups: Vec<Group>) -> std::io::Result<()> {
+    let text = groups
         .into_iter()
         .fold(String::from("# Z   A\n"), |mut acc, g| {
             acc.push_str(&g.to_string());
             acc
         });
-    fs::write("./allowlist.txt", allowlist)?;
+    fs::write("./allowlist.txt", text)?;
     Ok(())
 }
 
@@ -50,24 +57,17 @@ struct GroupParser {
 
 impl GroupParser {
     fn new() -> Self {
-        let re = Regex::new(r"^.*?(?P<z>\d+).*?(?P<a>\d+)$").unwrap();
+        let re = Regex::new(r"^.*?(?P<z>\d+).*?(?P<a>\d+)$").expect("regex to comile");
         Self { re }
     }
 
     fn parse(&self, name: &str) -> Group {
-        let caps = self.re.captures(name).unwrap();
-        let z: i64 = caps["z"].parse().unwrap();
-        let a: i64 = caps["a"].parse().unwrap();
+        let caps = self
+            .re
+            .captures(name)
+            .expect("group to have atomic number and mass");
+        let z: i64 = caps["z"].parse().expect("to parse Z value as i64");
+        let a: i64 = caps["a"].parse().expect("to parse A value as i64");
         Group { z, a }
     }
 }
-
-// for entry in fs::read_dir(dir)? {
-//     let entry = entry?;
-//     let path = entry.path();
-//     if path.is_dir() {
-//         let name = path.file_stem().ok_or("bad path")?;
-//         let group = parser.parse(name.to_str().ok_or("bad str")?);
-//         println!("Group: {:?}", group)
-//     }
-// }
