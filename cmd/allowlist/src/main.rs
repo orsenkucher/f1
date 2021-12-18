@@ -30,9 +30,7 @@ fn groups(paths: Vec<PathBuf>) -> Option<Vec<Group>> {
 fn write_list(groups: Vec<Group>) -> std::io::Result<()> {
     let header = "# Z   A\n";
     let mut text = String::from(header);
-    for group in groups {
-        text.push_str(&group.to_string());
-    }
+    groups.iter().for_each(|g| text.push_str(&g.to_string()));
     fs::write("./allowlist.txt", text)
 }
 
