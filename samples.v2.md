@@ -1,4 +1,4 @@
-## Group A
+## $Group A_s$
 $$\ce{^{29}_{14}Si}$$![[plot/groups-group_z014_a029-group.json.png]]
 $$\ce{^{59}_{27}Co}$$![[plot/groups-group_z027_a059-group.json.png]]
 $$\ce{^{74}_{32}Ge}$$![[plot/groups-group_z032_a074-group.json.png]]
@@ -20,15 +20,17 @@ $$\ce{^{139}_{57}La}$$![[plot/groups-group_z057_a139-group.json.png]]
 $$\ce{^{144}_{60}Nd}$$![[plot/groups-group_z060_a144-group.json.png]]
 $$\ce{^{146}_{60}Nd}$$![[plot/groups-group_z060_a146-group.json.png]]
 $$\ce{^{148}_{62}Sm}$$![[plot/groups-group_z062_a148-group.json.png]]
-$$\ce{^{181}_{73}Ta}$$![[plot/groups-group_z073_a181-group.json.png]]
-$$\ce{^{184}_{74}W}$$![[plot/groups-group_z074_a184-group.json.png]]
+
 $$\ce{^{193}_{77}Ir}$$![[plot/groups-group_z077_a193-group.json.png]]
 $$\ce{^{196}_{78}Pt}$$![[plot/groups-group_z078_a196-group.json.png]]
 $$\ce{^{197}_{79}Au}$$![[plot/groups-group_z079_a197-group.json.png]]
 $$\ce{^{207}_{82}Pb}$$![[plot/groups-group_z082_a207-group.json.png]]
 $$\ce{^{208}_{82}Pb}$$![[plot/groups-group_z082_a208-group.json.png]]
 $$\ce{^{209}_{83}Bi}$$![[plot/groups-group_z083_a209-group.json.png]]
-## Group B
+## $Group A_d$
+$$\ce{^{181}_{73}Ta}$$![[plot/groups-group_z073_a181-group.json.png]]
+$$\ce{^{184}_{74}W}$$![[plot/groups-group_z074_a184-group.json.png]]
+## $Group B_s$
 $$\ce{^{13}_{6}C}$$![[plot/groups-group_z006_a013-group.json.png]]
 $$\ce{^{14}_{7}N}$$![[plot/groups-group_z007_a014-group.json.png]]
 $$\ce{^{16}_{8}O}$$![[plot/groups-group_z008_a016-group.json.png]]
@@ -36,13 +38,17 @@ $$\ce{^{17}_{8}O}$$![[plot/groups-group_z008_a017-group.json.png]]
 $$\ce{^{25}_{12}Mg}$$![[plot/groups-group_z012_a025-group.json.png]]
 $$\ce{^{28}_{14}Si}$$![[plot/groups-group_z014_a028-group.json.png]]
 $$\ce{^{76}_{32}Ge}$$![[plot/groups-group_z032_a076-group.json.png]]
-$$\ce{^{108}_{46}Pd}$$![[plot/groups-group_z046_a108-group.json.png]]
+
 $$\ce{^{116}_{50}Sn}$$![[plot/groups-group_z050_a116-group.json.png]]
 $$\ce{^{122}_{50}Sn}$$![[plot/groups-group_z050_a122-group.json.png]]
 $$\ce{^{143}_{60}Nd}$$![[plot/groups-group_z060_a143-group.json.png]]
+
+$$\ce{^{206}_{82}Pb}$$![[plot/groups-group_z082_a206-group.json.png]]
+
+## $Group B_d$
+$$\ce{^{108}_{46}Pd}$$![[plot/groups-group_z046_a108-group.json.png]]
 $$\ce{^{178}_{72}Hf}$$![[plot/groups-group_z072_a178-group.json.png]]
 $$\ce{^{180}_{72}Hf}$$![[plot/groups-group_z072_a180-group.json.png]]
-$$\ce{^{206}_{82}Pb}$$![[plot/groups-group_z082_a206-group.json.png]]
 $$\ce{^{232}_{90}Th}$$![[plot/groups-group_z090_a232-group.json.png]]
 $$\ce{^{235}_{92}U}$$![[plot/groups-group_z092_a235-group.json.png]]
 $$\ce{^{238}_{92}U}$$![[plot/groups-group_z092_a238-group.json.png]]
