@@ -24,7 +24,7 @@ func (md *Markdown) Write(groups []string, nucs map[string]Nucleus) error {
 	var s string
 	for _, group := range groups {
 		n := nucs[group]
-		id := ID{Number: n.Number, Mass: n.Mass}
+		id := ID(n)
 		s += fmt.Sprintf(`$$\ce{^{%v}_{%v}%s}$$`, n.Mass, n.Number, md.meta[id].Element)
 		group = strings.ReplaceAll(group, "\\", "-")
 		s += fmt.Sprintf("![[plot/%s.png]]\n", group)

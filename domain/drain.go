@@ -19,15 +19,21 @@ type Drain struct {
 	GroupFiles []string
 	Nucleus    map[string]Nucleus
 	meta       Meta
+	drainers   []Drainer
 }
 
-func NewDrain(root, groupName string, meta Meta) *Drain {
+func NewDrain(root, groupName string, meta Meta, drainers ...Drainer) *Drain {
 	return &Drain{
 		Root:      root,
 		GroupName: groupName,
 		meta:      meta,
 		Nucleus:   map[string]Nucleus{},
+		drainers:  drainers,
 	}
+}
+
+type Drainer interface {
+	Drain(groupName string, data []Data) error
 }
 
 func (d *Drain) Drain(collector *Collector) error {
@@ -66,16 +72,17 @@ func (d *Drain) Drain(collector *Collector) error {
 			}
 		}
 
-		js, err := json.Marshal(data)
-		if err != nil {
-			return err
+		groupName := filepath.Join(path, d.GroupName)
+
+		for _, drainer := range d.drainers {
+			err := drainer.Drain(groupName, data)
+			if err != nil {
+				return err
+			}
 		}
 
-		groupName := filepath.Join(path, d.GroupName)
-		err = ioutil.WriteFile(groupName, js, 0644)
-		if err != nil {
-			return err
-		}
+		// TODO: maybe ref
+		groupName += ".json"
 		d.GroupFiles = append(d.GroupFiles, groupName)
 		d.Nucleus[groupName] = k
 	}
@@ -194,4 +201,40 @@ func lines(s string) (lines []string, err error) {
 	}
 	err = scanner.Err()
 	return
+}
+
+type JsonDrainer struct{}
+
+func NewJsonDrainer() *JsonDrainer {
+	return &JsonDrainer{}
+}
+
+type DatDrainer struct{}
+
+func NewDatDrainer() *DatDrainer {
+	return &DatDrainer{}
+}
+
+func (d *JsonDrainer) Drain(groupName string, data []Data) error {
+	groupName += ".json"
+	js, err := json.Marshal(data)
+	if err != nil {
+		return err
+	}
+	err = ioutil.WriteFile(groupName, js, 0644)
+	return err
+}
+
+func (d *DatDrainer) Drain(groupName string, data []Data) error {
+	groupName += ".dat"
+	dat := ""
+	for _, group := range data {
+		for _, rec := range group.Records {
+			line := fmt.Sprintf("%v %v %v", rec.E, rec.F, rec.DFPlus)
+			dat += line + "\n"
+		}
+	}
+	bytes := []byte(dat)
+	err := ioutil.WriteFile(groupName, bytes, 0644)
+	return err
 }

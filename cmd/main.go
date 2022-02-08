@@ -28,7 +28,9 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	drain := domain.NewDrain("groups", "group.json", meta)
+	drain := domain.NewDrain("groups", "group", meta,
+		domain.NewJsonDrainer(), domain.NewDatDrainer(),
+	)
 	err = drain.Drain(collector)
 	if err != nil {
 		return err
