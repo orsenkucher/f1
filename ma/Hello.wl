@@ -1,0 +1,3 @@
+(* ::Package:: *)
+
+Print["Hello World"]
