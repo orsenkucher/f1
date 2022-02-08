@@ -82,7 +82,7 @@ func (d *Drain) Drain(collector *Collector) error {
 		}
 
 		// TODO: maybe ref
-		groupName += ".json"
+		// groupName += ".json"
 		d.GroupFiles = append(d.GroupFiles, groupName)
 		d.Nucleus[groupName] = k
 	}

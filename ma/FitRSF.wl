@@ -381,7 +381,7 @@ Which[KEYjoin ==
 
 OUTData ={{Par1},{Par2},{Par3},{Par4},{Par5},{Par6},{Par7}}; 
 
-Export["output.dat", OUTData , "Table"];
+Export["math_output.dat", OUTData , "Table"];
 
 Quit[] 
 

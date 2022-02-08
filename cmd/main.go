@@ -45,5 +45,10 @@ func run() error {
 	if err != nil {
 		return err
 	}
+	mather := domain.NewMather("<todo>")
+	err = mather.Math(drain.GroupFiles)
+	if err != nil {
+		return err
+	}
 	return nil
 }

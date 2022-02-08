@@ -40,8 +40,9 @@ func (p *Plotter) Plot(groups []string) error {
 		}()
 	}
 
+	// NOTE: Use .json file as data source
 	for _, g := range groups {
-		work <- g
+		work <- g + ".json"
 	}
 	wg.Wait()
 	return nil
@@ -56,14 +57,18 @@ func (p *Plotter) plot(g string) error {
 }
 
 func (p *Plotter) dir() error {
-	if _, err := os.Stat(p.Dir); !os.IsNotExist(err) {
-		err := os.RemoveAll(p.Dir)
+	return dir(p.Dir)
+}
+
+func dir(name string) error {
+	if _, err := os.Stat(name); !os.IsNotExist(err) {
+		err := os.RemoveAll(name)
 		if err != nil {
 			return err
 		}
 	}
-	if _, err := os.Stat(p.Dir); os.IsNotExist(err) {
-		err := os.Mkdir(p.Dir, os.ModePerm)
+	if _, err := os.Stat(name); os.IsNotExist(err) {
+		err := os.Mkdir(name, os.ModePerm)
 		if err != nil {
 			return err
 		}
