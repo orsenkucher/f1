@@ -2,17 +2,26 @@ package domain
 
 import (
 	"fmt"
+	"io/ioutil"
 	"os/exec"
 	"path/filepath"
 )
 
 type Mather struct {
-	Dir string
+	Dir      string
+	paramMap GDRMap
+	nucleus  map[string]Nucleus
 }
 
-func NewMather(dir string) *Mather {
+func NewMather(
+	dir string,
+	paramMap GDRMap,
+	nucleus map[string]Nucleus,
+) *Mather {
 	return &Mather{
-		Dir: dir,
+		Dir:      dir,
+		paramMap: paramMap,
+		nucleus:  nucleus,
 	}
 }
 
@@ -49,11 +58,26 @@ func (m *Mather) math(g string) error {
 		return err
 	}
 
+	// group := strings.TrimSuffix(g, filepath.Ext(g))
+	group := g + "\\group"
+	nuc := m.nucleus[group]
+	if p, ok := m.paramMap[nuc]; ok {
+		fmt.Println("found params for", group)
+		bytes := []byte(fmt.Sprintf("%v\n%v\n%v\n%v\n%v\n%v\n%v", p.E1, p.Z1, p.G1, p.E2, p.Z2, p.G2, 1.0))
+		err = ioutil.WriteFile("ma/Inputpar_ma.dat", bytes, 0644)
+		if err != nil {
+			return err
+		}
+	} else {
+		fmt.Println("no params for", group)
+	}
+
 	// wolframscript -script FitRSF.wl
 	cmd = exec.Command("wolframscript", "-script ../../ma/FitRSF.wl")
 	cmd.Dir = g
 	out, err = cmd.Output()
-	fmt.Println(string(out))
+	// fmt.Println(string(out))
+	fmt.Println("calculated", g, len(out))
 	return err
 }
 

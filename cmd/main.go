@@ -45,7 +45,11 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	mather := domain.NewMather("<todo>")
+	gdrs, err := domain.CreateGDRMap("gdr-params/gdr-params-smlo.dat")
+	if err != nil {
+		return err
+	}
+	mather := domain.NewMather("<todo>", gdrs, drain.Nucleus)
 	err = mather.Math(drain.GroupFiles)
 	if err != nil {
 		return err
