@@ -1,6 +1,6 @@
 MainDirecroty = Directory[];
 (* MainDirecroty = NotebookDirectory[]; *)
-Filename = "exp.dat";
+Filename = "group.dat";
 DataEXP = ReadList[FileNameJoin[{MainDirecroty, Filename}], Number];
 Ncolumbs = 3;
 NmaxpointsEXP = Length[DataEXP]/Ncolumbs - 1;
@@ -196,5 +196,5 @@ Which[KEYjoin ==
    Par5 = Z20 /. FITtemp["BestFitParameters"], 
    Par6 = Gamma2p /. FITtemp["BestFitParameters"], Par7 = 0}];
 OUTData ={{Par1},{Par2},{Par3},{Par4},{Par5},{Par6},{Par7}}; 
-Export["outputMathem.dat", OUTData , "Table"];
+Export["math_output.dat", OUTData , "Table"];
 Quit[] 
