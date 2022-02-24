@@ -1,0 +1,73 @@
+Directory:
+File:      pdr_exp-draft.readme (April 04, 2016)
+****************************************************************
+
+                       pdr_exp.dat
+
+
+               PYGMY DIPOLE RESONANCE PARAMETERS:
+            EXPERIMENTAL VALUES WITH UNCERTAINTIES
+
+                 V.A. Plujko *),  R. Capote &),
+          O.M. Gorbachenko *),  K.M. Solodovnyk *)
+
+  *) Nuclear Physics Department, Taras Shevchenko National University,
+                             Kiev, Ukraine
+
+  &) NAPC--Nuclear Data Section, International Atomic Energy Agency,
+                             Vienna, Austria
+
+
+
+Contents
+--------
+Low-lying E1 strength (Pygmy of PDR) parameters and their uncertainties
+ are tabulated representing results from the below mentioned references.
+The parameters are given for 67 isotopes from Ca-40 to Pb-208
+atomic nuclei (100 entries).
+ Note that in different articles the parametes are
+extracted by different methods(espesially by fitting
+curves of different shapes; see Refs. for details).
+
+Format data files
+-----------------
+
+The data for each nuclide at given experimental data used are listed in two lines and  this record  includes:
+
+Z         : atomic number;
+A         : mass number; 0 indicates a natural isotopic composition;
+El        : symbol of element;
+Er1       : energy of the PDR, MeV (the first line of the entry);
+dEr1      : uncertainty (one-sigma standard deviation, MeV) of the energy in the nearest
+            upper line (the second line of the entry);
+Wr1       : width of the PDR, MeV (the first line of the entry);
+dWr1      : uncertainty (one-sigma standard deviation, MeV) of the width in the nearest
+            upper line (the second line of the entry);
+Cs	  : peak cross section , mb(the first line of the entry)
+RatioTRK  : ratio od the PDR strength to the value of the Thomas-Reiche-Kuhn
+           (TRK) sum rule
+dRatioTRK : uncertainty (one-sigma standard deviation) of the ratio in the nearest
+            upper line (the second line of the entry);
+Ref.      : short references on the experimental data used,
+            the list of full references is given below.
+
+
+References in the data files
+----------------------------
+[Igashira1986]
+Igashira, M., et al. "Systematics of the pygmy resonance in keV neutron capture ?-ray spectra of nuclei with N? 82u126." Nuclear Physics A 457.2 (1986): 301-316.
+[Savran2013]
+Savran, D., T. Aumann, and A. Zilges. "Experimental studies of the pygmy dipole resonance." Progress in Particle and Nuclear Physics 70 (2013): 210-245.
+[Adrich2005]
+Adrich, P., et al. "Evidence for Pygmy and Giant Dipole Resonances in Sn 130 and Sn 132." Physical review letters 95.13 (2005): 132501.
+[Fransen1998]
+Fransen, C., et al. "Systematics of low-lying electric dipole excitations in the A? 130u200 mass region." Physical Review C 57.1 (1998): 129.
+[Lanza2011]
+Lanza, E. G., et al. "Excitations of pygmy dipole resonances in exotic and stable nuclei via Coulomb and nuclear fields." Physical Review C 84.6 (2011): 064602.
+[Toft2011]
+Toft, H. K., et al. "Evolution of the pygmy dipole resonance in Sn isotopes."Physical Review C 83.4 (2011): 044320.
+[Volz2006]
+Volz, S., et al. "The photoresponse of stable N= 82 nuclei below 10 MeV." Nuclear Physics A 779 (2006): 1-20.
+
+
+

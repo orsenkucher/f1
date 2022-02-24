@@ -8,20 +8,23 @@ import (
 )
 
 type Mather struct {
-	Dir      string
-	paramMap GDRMap
-	nucleus  map[string]Nucleus
+	Dir     string
+	gdrMap  GDRMap
+	pdrMap  PDRMap
+	nucleus map[string]Nucleus
 }
 
 func NewMather(
 	dir string,
-	paramMap GDRMap,
+	gdrMap GDRMap,
+	pdrMap PDRMap,
 	nucleus map[string]Nucleus,
 ) *Mather {
 	return &Mather{
-		Dir:      dir,
-		paramMap: paramMap,
-		nucleus:  nucleus,
+		Dir:     dir,
+		gdrMap:  gdrMap,
+		pdrMap:  pdrMap,
+		nucleus: nucleus,
 	}
 }
 
@@ -61,9 +64,16 @@ func (m *Mather) math(g string) error {
 	// group := strings.TrimSuffix(g, filepath.Ext(g))
 	group := g + "\\group"
 	nuc := m.nucleus[group]
-	if p, ok := m.paramMap[nuc]; ok {
-		fmt.Println("found params for", group)
-		bytes := []byte(fmt.Sprintf("%v\n%v\n%v\n%v\n%v\n%v\n%v", p.E1, p.Z1, p.G1, p.E2, p.Z2, p.G2, 1.0))
+	if gp, ok := m.gdrMap[nuc]; ok {
+		var bytes []byte
+		if pp, ok := m.pdrMap[nuc]; ok {
+			fmt.Println("found pdr and gdr params for", group)
+			fmt.Println(gp, pp)
+			bytes = []byte(fmt.Sprintf("%v\n%v\n%v\n%v\n%v\n%v\n%v", gp.E, gp.Z, gp.G, pp.E, pp.Z, pp.G, 1.0))
+		} else {
+			fmt.Println("found only gdr for", group)
+			bytes = []byte(fmt.Sprintf("%v\n%v\n%v\n%v\n%v\n%v\n%v", gp.E, gp.Z, gp.G, 1.0, 1.0, 1.0, 1.0))
+		}
 		err = ioutil.WriteFile("ma/Inputpar_ma.dat", bytes, 0644)
 		if err != nil {
 			return err

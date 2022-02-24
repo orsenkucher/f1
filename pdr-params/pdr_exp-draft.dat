@@ -1,0 +1,154 @@
+#  Experimental values and uncertainties of PDR parameters.
+#  Second line for each isotope -  uncertainties of
+#  quantities in the nearest upper line.
+#  Note that in different articles the parametes are
+#  extracted by different methods(espesially by fitting
+#  curves of different shapes; see Refs. for details).
+#
+#  Z   A   El      Er1       Wr1       Cs1       RatioTrk           Ref.
+#                  dEr1      dWr1      dSr1     dRatioTRK
+#                 [MeV]      [MeV]     [mb]
+#---------------------------------------------------------------------------------------------------
+  20  40   Ca                                     0.02          Savran2013
+  20  44   Ca                                     0.37          Savran2013
+  20  48   Ca                                     0.31          Savran2013
+  28  68   Ni                                     5.04          Savran2013
+                                                  1.51
+  34  78   Se                                     1.97          Savran2013
+  38  88   Sr                                     0.7           Savran2013
+  38  88   Sr                                     2.40          Savran2013
+                                                  0.6
+  40  90   Zr                                     0.54          Savran2013
+  40  90   Zr                                     2.22          Savran2013
+                                                  0.38
+  40  90   Zr                                     2.11          Savran2013
+                                                  0.21
+  40  90   Zr                                     0.93          Savran2013
+                                                  0.09
+  50  112  Sn                                     0.27          Savran2013
+  50  116  Sn                                     0.35          Savran2013
+  50  116  Sn        8.0    1.4      1.7                        Toft2011
+                     0.1    0.1
+  50  116  Sn                                     1.78          Savran2013
+                                                  0.42
+  50  117  Sn                                     1.78          Savran2013
+                                                  0.81
+  50  117  Sn       8.0    1.4       1.7                        Toft2011
+                    0.1    0.1
+  50  118  Sn                                     1.86          Savran2013
+                                                  0.81
+  50  118  Sn       8.2    1.4     1.8                          Toft2011
+                    0.1    0.1
+  50  119  Sn                                     1.78          Savran2013
+                                                  0.81
+  50  119  Sn       8.2    1.4     1.7                          Toft2011
+                    0.1    0.1
+  50  120  Sn                                     0.25          Savran2013
+
+  50  121  Sn                                     1.86          Savran2013
+                                                  0.81
+  50  121  Sn       8.4    1.4                                  Toft2011
+                    0.1    0.1
+  50  122  Sn                                     1.86          Savran2013
+                                                  0.81
+  50  122  Sn       8.6    1.4                                  Toft2011
+                    0.1    0.1
+  50  124  Sn                                     0.64          Savran2013
+  50  129  Sn                                     2.49          Savran2013
+                                                  0.76
+  50  130  Sn                                     5.10          Savran2013
+                                                  1.76
+  50  130  Sn      10.1   <3.4                    7.0           Adrich2005
+                    0.7                           3.0
+  50  131  Sn                                     4.97          Savran2013
+                                                  1.76
+  50  132  Sn                                     2.78          Savran2013
+                                                  1.76
+  50  132  Sn       9.8    <2.5                   4.0           Adrich2005
+                    0.7                           3.0
+  50  133  Sn                                     5.80          Savran2013
+                                                  1.76
+  50  134  Sn                                     2.59          Savran2013
+  53  128  I                                      5.2           Igashira1986
+  54  136  Xe                                     0.85          Savran2013
+  55  134  Cs       5.6    1.97                   1.20          Igashira1986
+                                                  0.60
+  56  134  Ba       2.824                                       Fransen1998
+  56  136  Ba       3.436                                       Fransen1998
+  56  138  Ba                                     0.85          Savran2013
+  56  138  Ba                                     1.31          Savran2013
+                                                  0.25
+  56  138  Ba       4.026                                       Fransen1998
+  56  138  Ba       6.49                          0.89          Volz2006
+                                                  0.16
+  57  139  La                                     2.20          Savran2013
+                                                  0.41
+  58  140  Ce                                     0.35          Savran2013
+  58  140  Ce       3.643                                       Fransen1998
+  58  140  Ce       6.28                          0.38          Volz2006
+                                                  0.07
+  58  142  Ce       2.187                                       Fransen1998
+  59  142  Pr       1.5    0.84           0.04    0.02          Igashira1986
+                                                  0.01
+  60  142  Nd                                     0.21          Savran2013
+  60  142  Nd       3.425                                       Fransen1998
+  60  142  Nd       6.07                          0.22          Volz2006
+                                                  0.04
+  60  144  Nd       2.185                                       Fransen1998
+  60  146  Nd       1.377                                       Fransen1998
+  60  148  Nd       1.023                                       Fransen1998
+  60  150  Nd       0.853                                       Fransen1998
+  62  144  Sm                                     0.21          Savran2013
+  62  144  Sm       3.226                                       Fransen1998
+  62  144  Sm       5.69                          0.23          Volz2006
+                                                  0.04
+  62  148  Sm       1.465                                       Fransen1998
+  62  150  Sm       1.166                                       Fransen1998
+  62  152  Sm       0.963                                       Fransen1998
+  62  154  Sm       0.921                                       Fransen1998
+  64  156  Gd       1.243                                       Fransen1998
+  64  156  Gd       1.367                                       Fransen1998
+  64  158  Gd       1.264                                       Fransen1998
+  64  160  Gd       1.224                                       Fransen1998
+  64  160  Gd       1.966                                       Fransen1998
+  65  160  Tb       2.7    1.0            0.3     0.09          Igashira1986
+  66  160  Dy       1.489                         0.045         Fransen1998
+  66  162  Dy       1.276                                       Fransen1998
+  66  162  Dy       1.983                                       Fransen1998
+  66  164  Dy       1.675                                       Fransen1998
+  67  166  Ho       3.1   1.0             0.2     0.08          Igashira1986
+                                                  0.04
+  68  164  Er       1.387                                       Fransen1998
+  68  166  Er       1.663                                       Fransen1998
+  68  168  Er       1.786                                       Fransen1998
+  68  170  Er       1.825                                       Fransen1998
+  69  170  Tm       3.5   1.0                                   Igashira1986
+  70  172  Yb       1.599                                       Fransen1998
+  70  172  Yb       2.21                                        Fransen1998
+  70  174  Yb       1.711                                       Fransen1998
+  70  176  Yb       2.027                                       Fransen1998
+  70  176  Yb       2.163                                       Fransen1998
+  71  176  Lu       3.5    1.7            0.44    0.19          Igashira1986
+                                                  0.10
+  72  178  Hf       2.248                                       Fransen1998
+  72  178  Hf       2.334                                       Fransen1998
+  72  180  Hf       2.582                                       Fransen1998
+  72  180  Hf       2.712                                       Fransen1998
+  73  182  Ta       4.7    1.0            0.8     0.26          Igashira1986
+                                                  0.13
+  74  184  W        2.056                                       Fransen1998
+  76  190  Os       2.297                                       Fransen1998
+  76  192  Os       2.478                                       Fransen1998
+  79  198  Au       5.6    1.7           30.0     1.22          Igashira1986
+                                                  0.61
+  80  201  Hg       5.5                                         Igashira1986
+  81  205  Tl       5.4                                         Igashira1986
+  82  207  Pb       5.2                                         Igashira1986
+  82  208  Pb                                     2.01          Savran2013
+                                                  0.08
+  82  208  Pb       7.9                           1.2           Lanza2011
+
+
+
+
+

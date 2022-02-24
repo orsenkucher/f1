@@ -40,16 +40,20 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	plotter := domain.NewPlotter("plot")
-	err = plotter.Plot(drain.GroupFiles)
-	if err != nil {
-		return err
-	}
+	// plotter := domain.NewPlotter("plot")
+	// err = plotter.Plot(drain.GroupFiles)
+	// if err != nil {
+	// 	return err
+	// }
 	gdrs, err := domain.CreateGDRMap("gdr-params/gdr-params-smlo.dat")
 	if err != nil {
 		return err
 	}
-	mather := domain.NewMather("<todo>", gdrs, drain.Nucleus)
+	pdrs, err := domain.CreatePDRMap("pdr-params/pdr_exp-draft.dat")
+	if err != nil {
+		return err
+	}
+	mather := domain.NewMather("<todo>", gdrs, pdrs, drain.Nucleus)
 	err = mather.Math(drain.GroupFiles)
 	if err != nil {
 		return err
