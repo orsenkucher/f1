@@ -2,7 +2,6 @@ import os
 import sys
 import json
 import numpy as np
-import matplotlib
 import matplotlib.pyplot as plt
 
 print(sys.argv[1:])
@@ -24,9 +23,9 @@ def main():
     suptitle(data, file)
     plt.tight_layout()
     # plt.show()
-    plt.savefig(file + '.png', dpi=300)
+    plt.savefig(file + '.png', dpi=128)
     plt.savefig(os.path.join(plot_dir, file.replace(
-        '/', '-').replace('\\', '-') + '.png'), dpi=300)
+        '/', '-').replace('\\', '-') + '.png'), dpi=128)
 
 
 def suptitle(data, file):
@@ -35,9 +34,10 @@ def suptitle(data, file):
     a = el['Mass']
     z = el['Number']
     deform = get_deform(data)
+    energy = get_neutron_energy(data)
     if s:
         plt.suptitle(
-            f'$^{{{a}}}_{{{z}}}{s},$ $\\beta_{{2ef}}: {{{deform}}}$\n'+file)
+            f'$^{{{a}}}_{{{z}}}{s},\ \\beta_{{2ef}}: {{{deform}}},\ separation\ energy: {{{energy:.2f}}}, MeV$\n'+file)
     else:
         plt.suptitle(file)
 
