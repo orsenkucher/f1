@@ -28,8 +28,17 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	drain := domain.NewDrain("groups", "group", meta,
-		domain.NewJsonDrainer(), domain.NewDatDrainer(),
+	deform, err := domain.CreateDeformMap("ma/DEFLIB_new_old.DAT")
+	if err != nil {
+		return err
+	}
+	drain := domain.NewDrain(
+		"groups",
+		"group",
+		meta,
+		deform,
+		domain.NewJsonDrainer(),
+		domain.NewDatDrainer(),
 	)
 	err = drain.Drain(collector)
 	if err != nil {
@@ -40,11 +49,11 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	// plotter := domain.NewPlotter("plot")
-	// err = plotter.Plot(drain.GroupFiles)
-	// if err != nil {
-	// 	return err
-	// }
+	plotter := domain.NewPlotter("plot")
+	err = plotter.Plot(drain.GroupFiles)
+	if err != nil {
+		return err
+	}
 	gdrs, err := domain.CreateGDRMap("gdr-params/gdr-params-smlo.dat")
 	if err != nil {
 		return err

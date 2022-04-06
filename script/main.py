@@ -9,6 +9,7 @@ print(sys.argv[1:])
 file = sys.argv[1]
 plot_dir = sys.argv[2]
 
+
 def main():
     with open(file) as f:
         data = json.load(f)
@@ -24,22 +25,28 @@ def main():
     plt.tight_layout()
     # plt.show()
     plt.savefig(file + '.png', dpi=300)
-    plt.savefig(os.path.join(plot_dir, file.replace('/','-').replace('\\','-') + '.png'), dpi=300)
+    plt.savefig(os.path.join(plot_dir, file.replace(
+        '/', '-').replace('\\', '-') + '.png'), dpi=300)
+
 
 def suptitle(data, file):
     el = get_element(data)
     s = el['Symbol']
     a = el['Mass']
     z = el['Number']
+    deform = get_deform(data)
     if s:
-        plt.suptitle(f'$^{{{a}}}_{{{z}}}{s}$\n'+file)
+        plt.suptitle(
+            f'$^{{{a}}}_{{{z}}}{s},$ $\\beta_{{2ef}}: {{{deform}}}$\n'+file)
     else:
         plt.suptitle(file)
-    
+
+
 def get_element(data):
     for g in data:
         val = g['Element']
         return val
+
 
 def get_neutron_energy(data):
     for g in data:
@@ -47,35 +54,48 @@ def get_neutron_energy(data):
         if not val:
             return None
         return float(val)/1000
-    
+
+
+def get_deform(data):
+    for g in data:
+        val = g['Deform']
+        if not val:
+            return None
+        return float(val)
+
+
 def energy_line(data):
     energy = get_neutron_energy(data)
     if energy:
-        plt.axvline(x=energy, 
-            c='r', alpha=.7, dashes=(3,2),
-        )
+        plt.axvline(x=energy,
+                    c='r', alpha=.7, dashes=(3, 2),
+                    )
         y = get_max_y(data)
         plt.text(energy+.1, y,
-            "{:.2f}, MeV".format(energy), 
-            rotation=90,
-            verticalalignment='top',
-            alpha=.7, c='r',
-        )
+                 "{:.2f}, MeV".format(energy),
+                 rotation=90,
+                 verticalalignment='top',
+                 alpha=.7, c='r',
+                 )
+
 
 def get_max_y(data):
     m = .0
     for g in data:
         records = g['Records']
-        if not records: return m
+        if not records:
+            return m
         ys = [float(r['F']) for r in records]
         max_y = max(ys)
         m = max(m, max_y)
     return m
-    
+
+
 def scatter(data):
     for g in data:
         records = g['Records']
-        if not records: return
+        if not records:
+            return
         xs = [float(r['E']) for r in records]
         ys = [float(r['F']) for r in records]
         plt.scatter(xs, ys, s=2)
@@ -84,11 +104,13 @@ def scatter(data):
     plt.legend([g['Name'] for g in data], loc="upper right")
     plt.xlabel('$E_\gamma, MeV$')
     plt.ylabel('$F, MeV^-3$')
-    
+
+
 def errorbars(data):
     for g in data:
         records = g['Records']
-        if not records: return
+        if not records:
+            return
         xs = [float(r['E']) for r in records]
         ys = [float(r['F']) for r in records]
 
@@ -99,7 +121,8 @@ def errorbars(data):
             'y': ys,
             'yerr': np.array(list(zip(lower_err, upper_err))).T
         }
-        plt.errorbar(**obj, alpha=.75, fmt=':', capsize=3, capthick=1, elinewidth=1)
+        plt.errorbar(**obj, alpha=.75, fmt=':',
+                     capsize=3, capthick=1, elinewidth=1)
         obj = {
             'x': obj['x'],
             'y1': [y - e for y, e in zip(obj['y'], obj['yerr'][0])],
@@ -110,6 +133,7 @@ def errorbars(data):
     plt.legend([g['Name'] for g in data], loc="upper right")
     plt.xlabel('$E_\gamma, MeV$')
     plt.ylabel('$F, MeV^-3$')
-    
-if __name__ == '__main__': 
+
+
+if __name__ == '__main__':
     main()

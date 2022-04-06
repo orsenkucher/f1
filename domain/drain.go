@@ -19,14 +19,20 @@ type Drain struct {
 	GroupFiles []string
 	Nucleus    map[string]Nucleus
 	meta       Meta
+	deform     DeformMap
 	drainers   []Drainer
 }
 
-func NewDrain(root, groupName string, meta Meta, drainers ...Drainer) *Drain {
+func NewDrain(
+	root, groupName string,
+	meta Meta,
+	deform DeformMap,
+	drainers ...Drainer) *Drain {
 	return &Drain{
 		Root:      root,
 		GroupName: groupName,
 		meta:      meta,
+		deform:    deform,
 		Nucleus:   map[string]Nucleus{},
 		drainers:  drainers,
 	}
@@ -95,6 +101,7 @@ type Data struct {
 	Name          string
 	Records       []Record
 	NeutronEnergy string
+	Deform        string
 	Element       Element
 }
 
@@ -161,6 +168,7 @@ func (d *Drain) drainData(data *[]Data, r Result) error {
 		Name:          name,
 		Records:       records,
 		NeutronEnergy: d.FindMeta(r.Name).NeutronEnergy,
+		Deform:        fmt.Sprintf("%f", d.FindDeform(r.Name).Beta2ef),
 		Element: Element{
 			Symbol: d.FindMeta(r.Name).Element,
 			Number: r.Name.Number,
@@ -177,6 +185,15 @@ func (d *Drain) FindMeta(name Name) MetaItem {
 		log.Printf("meta not found for %v %v\n", id.Number, id.Mass)
 	}
 	return meta
+}
+
+func (d *Drain) FindDeform(name Name) Deform {
+	nuc := Nucleus{Number: name.Number, Mass: name.Mass}
+	deform, ok := d.deform[nuc]
+	if !ok {
+		log.Printf("deform not found for %v %v\n", nuc.Number, nuc.Mass)
+	}
+	return deform
 }
 
 func sortRecords(records []Record) {
