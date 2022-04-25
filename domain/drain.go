@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"math"
 	"os"
 	"path/filepath"
 	"sort"
@@ -159,6 +160,24 @@ func (d *Drain) drainData(data *[]Data, r Result) error {
 		if len(fields) == 5 {
 			record.DFPlus = fields[4]
 		}
+
+		// filter zero values
+		e, err := strconv.ParseFloat(record.E, 64)
+		if err != nil {
+			return err
+		}
+		f, err := strconv.ParseFloat(record.F, 64)
+		if err != nil {
+			return err
+		}
+		if math.Min(e, f) == 0 {
+			log.Println("skipping zero values:", r.Name.String())
+			continue
+		}
+
+		// set errors to const value
+		record.DFPlus = "0.5E-07"
+		record.DFMinus = record.DFPlus
 
 		records = append(records, record)
 	}
